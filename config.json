@@ -1,0 +1,30 @@
+{
+  "timezone": "Africa/Johannesburg",
+  "max_api_calls": 95,
+  "min_seconds_between_calls": 6.5,
+
+  "rules": {
+    "gate_last_n": 5,
+    "gate_min_goals": 8,
+    "common_last_n": 10,
+    "h2h_last_n": 3,
+    "h2h_min_wins": 2,
+    "h2h_min_meetings": 2,
+    "form_last_n": 5,
+    "form_min_wins": 3,
+    "form_max_losses": 1
+  },
+
+  "exclude_league_name_patterns": [
+    "wom[ae]n", "femen", "f[ée]minin", "frauen", "damallsvenskan", "toppserien", "nwsl", "\\bwsl\\b", "liga f\\b", "\\(w\\)",
+    "\\bu-?1[5-9]\\b", "\\bu-?2[0-3]\\b", "under[ -]?\\d\\d", "youth", "junior", "juvenil", "primavera", "reserve",
+    "premier league 2", "development", "\\bamateur", "friendl"
+  ],
+
+  "exclude_team_name_patterns": [
+    "\\sW$", "\\sII$", "\\sB$", "^Jong\\s", "\\sU-?1[5-9]$", "\\sU-?2[0-3]$", "\\sReserves?$", "\\sYouth$", "\\sWomen$", "\\sFem\\.?$"
+  ],
+
+  "exclude_league_ids": [],
+  "include_only_league_ids": []
+}

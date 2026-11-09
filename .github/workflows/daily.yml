@@ -1,0 +1,42 @@
+name: Daily shortlist
+
+on:
+  schedule:
+    - cron: "0 5 * * *"   # 05:00 UTC = 07:00 SA time
+  workflow_dispatch:       # "Run workflow" button for a manual run
+    inputs:
+      run_date:
+        description: "Date to check (YYYY-MM-DD). Leave blank for today."
+        required: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-shortlist
+  cancel-in-progress: false
+
+jobs:
+  shortlist:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Apply the rules
+        env:
+          API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          RUN_DATE: ${{ github.event.inputs.run_date }}
+        run: python run.py
+      - name: Save results and publish page
+        run: |
+          git config user.name "shortlist-bot"
+          git config user.email "shortlist-bot@users.noreply.github.com"
+          git add docs data
+          git diff --cached --quiet || git commit -m "Shortlist $(date -u +%F)"
+          git pull --rebase --autostash
+          git push
