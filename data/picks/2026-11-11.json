@@ -1,0 +1,12 @@
+{
+ "day": "2026-11-11",
+ "picks": [],
+ "cuts": [],
+ "notes": [
+  "The data provider refused the request: {\"plan\": \"Free plans do not have access to this season, try from 2022 to 2024.\"}. The free plan may not cover this; see README."
+ ],
+ "log": [
+  "196 fixtures today, 120 not started, 35 in men's pro leagues",
+  "API calls used: 2, provider says 99 left today"
+ ]
+}
