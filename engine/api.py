@@ -49,11 +49,15 @@ class Api:
                 with urllib.request.urlopen(req, timeout=40) as r:
                     body = json.load(r)
                     rem = r.headers.get("x-ratelimit-requests-remaining")
+                    per_min = r.headers.get("x-ratelimit-limit")
             except urllib.error.HTTPError as e:
                 raise ApiError(f"HTTP {e.code} on {path}") from e
             self.calls += 1
             if rem is not None and rem.isdigit():
-                self.remaining = int(rem)
+                self.remaining = int(rem) - 5  # keep a small reserve
+            if per_min and per_min.isdigit() and int(per_min) > 0:
+                # adapt to the plan: free = 10/min, Pro = 300/min
+                self.min_interval = min(self.min_interval, 66 / int(per_min)) if int(per_min) > 10 else max(self.min_interval, 6.5)
             errs = body.get("errors")
             if errs:
                 text = json.dumps(errs)

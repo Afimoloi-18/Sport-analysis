@@ -1,6 +1,6 @@
 {
   "timezone": "Africa/Johannesburg",
-  "max_api_calls": 95,
+  "max_api_calls": 2500,
   "min_seconds_between_calls": 6.5,
 
   "rules": {
