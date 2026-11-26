@@ -58,7 +58,17 @@
     "second nl",
     "\\bdivision 2\\b",
     "\\b[2-9]\\. division\\b",
-    "national [23]\\b"
+    "national [23]\\b",
+    " - [2-9]$",
+    "paulista - a[3-9]",
+    "paulista s[ée]rie b",
+    "carioca (a2|b\\d?|c)\\b",
+    "\\b(paraense|paulista) (a3|b1)\\b",
+    "\\b(capixaba|brasiliense) b\\b",
+    "\\b(paraibano|matogrossense) 2\\b",
+    "\\bprimera [cd]\\b",
+    "torneo federal",
+    "primera b metropolitana"
   ],
   "exclude_team_name_patterns": [
     "\\sW$",
