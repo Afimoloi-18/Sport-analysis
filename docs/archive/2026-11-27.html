@@ -1,0 +1,560 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Daily Shortlist</title>
+<style>
+:root{--bg:#f6f5f1;--card:#fff;--ink:#1b1d1f;--muted:#6b7075;--line:#e3e1da;--ok:#1d7a46;--okbg:#e5f4ea;--no:#a23b2c;--nobg:#f8e6e2;--accent:#0f5c8c;--v1:#1d7a46;--v1x:#0f5c8c;--vx2:#8a5a00}
+@media (prefers-color-scheme:dark){:root{--bg:#121416;--card:#1b1e21;--ink:#ecebe6;--muted:#9aa0a6;--line:#2c3034;--ok:#5fcf8c;--okbg:#173225;--no:#f08a78;--nobg:#3a1f1a;--accent:#6cb6e8;--v1:#5fcf8c;--v1x:#6cb6e8;--vx2:#e5b65a}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}
+main{max-width:760px;margin:0 auto;padding:20px 16px 48px}
+header h1{margin:0;font-size:26px;letter-spacing:-.01em}header p{margin:4px 0 0;color:var(--muted)}
+.summary{display:flex;gap:8px;flex-wrap:wrap;margin:14px 0 6px}.summary span{background:var(--card);border:1px solid var(--line);border-radius:999px;padding:3px 10px;font-size:13px;color:var(--muted)}
+h2{font-size:17px;margin:28px 0 10px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px;margin-bottom:12px}
+.top{display:flex;align-items:center;gap:8px;flex-wrap:wrap}.rank{font-weight:700;color:var(--muted)}
+.badge{font-weight:800;border-radius:6px;padding:1px 8px;color:#fff;font-size:14px}.v1{background:var(--v1)}.v1X{background:var(--v1x)}.vX2{background:var(--vx2)}
+@media (prefers-color-scheme:dark){.badge{color:#111}}
+.meta{color:var(--muted);font-size:13px}
+.card h3{margin:8px 0 2px;font-size:18px}.vs{color:var(--muted);font-weight:400}.backed{text-decoration:underline;text-decoration-thickness:2px;text-underline-offset:3px}
+.call{margin:0 0 8px;color:var(--muted);font-size:14px}
+.chips{display:flex;flex-wrap:wrap;gap:6px}.chip{font-size:12.5px;border-radius:6px;padding:2px 8px}.chip.ok{background:var(--okbg);color:var(--ok)}.chip.no{background:var(--nobg);color:var(--no)}.cd{opacity:.85}
+details{margin-top:10px}summary{cursor:pointer;color:var(--accent);font-size:14px}
+.lbl{margin:12px 0 4px;font-size:12px;text-transform:uppercase;letter-spacing:.04em;color:var(--muted)}
+.form{margin:2px 0;display:flex;align-items:center;gap:3px}.form span{min-width:0;flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:14px}
+.form i{font-style:normal;font-weight:700;font-size:12px;width:20px;text-align:center;border-radius:4px;padding:1px 0}.fW{background:var(--okbg);color:var(--ok)}.fL{background:var(--nobg);color:var(--no)}.fD{background:var(--line);color:var(--muted)}
+table{width:100%;border-collapse:collapse;font-size:13.5px}th,td{text-align:left;padding:5px 6px;border-bottom:1px solid var(--line);vertical-align:top}th{color:var(--muted);font-weight:600}
+tr.home td:nth-child(2),tr.away td:nth-child(3){font-weight:700}
+.h2h{margin:0;padding-left:18px;font-size:14px}.muted{color:var(--muted)}
+.sub{display:block;color:var(--muted);font-size:12px}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}.stat{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:10px}.stat b{display:block;font-size:20px}.stat span{font-size:12px;color:var(--muted)}
+.rwon{color:var(--ok);font-weight:700}.rlost{color:var(--no);font-weight:700}.rpending,.rvoid{color:var(--muted)}
+.note{background:var(--nobg);color:var(--no);border-radius:8px;padding:8px 12px;font-size:14px}
+.empty{background:var(--card);border:1px dashed var(--line);border-radius:12px;padding:18px;color:var(--muted)}
+.tablewrap{overflow-x:auto;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:4px 8px}
+footer{margin-top:32px;color:var(--muted);font-size:12px}
+</style></head><body><main>
+<header><h1>Daily Shortlist</h1><p>Friday 27 November 2026 · kick-off times SA time</p></header>
+<div class="summary"><span>19 picks</span><span>254 matches checked</span><span>80 excluded (women, youth, cups, reserves)</span></div>
+
+<h2>Picks, best first</h2>
+
+<article class="card">
+  <div class="top">
+    <span class="rank">1</span>
+    <span class="badge v1">1</span>
+    <span class="meta">16:20 · Saudi-Arabia · Pro League</span>
+  </div>
+  <h3><span class="backed">Al-Qadisiyah FC</span> <span class="vs">v</span> <span class="">Al-Fayha</span></h3>
+  <p class="call">Home win · backing the home side · 3/3 rules</p>
+  <div class="chips">
+    <span class="chip ok">✓ Goals<span class="cd"> 16 in last 5</span></span>
+    <span class="chip ok">✓ Common opp.<span class="cd"> +4 / -0</span></span>
+    <span class="chip ok">✓ H2H<span class="cd"> 2 of 2</span></span>
+    <span class="chip ok">✓ Form<span class="cd"> WLWWW</span></span>
+  </div>
+  <details>
+    <summary>Show the evidence</summary>
+    <div class="ev">
+      <p class="lbl">Form, last 5 league games (newest first)</p>
+      <p class="form"><span>Al-Qadisiyah FC</span><i class="fW">W</i><i class="fL">L</i><i class="fW">W</i><i class="fW">W</i><i class="fW">W</i></p>
+      <p class="form"><span>Al-Fayha</span><i class="fW">W</i><i class="fD">D</i><i class="fL">L</i><i class="fL">L</i><i class="fD">D</i></p>
+      <p class="lbl">Common opponents, last 10 league games</p>
+      <table><thead><tr><th>Opponent</th><th>Al-Qadisiyah FC</th><th>Al-Fayha</th></tr></thead><tbody><tr class="level"><td>Abha</td><td>W 2-1</td><td>W 3-2</td></tr><tr class="home"><td>Al Kholood</td><td>W 5-0</td><td>D 2-2</td></tr><tr class="home"><td>Al Riyadh</td><td>W 6-0</td><td>D 1-1</td></tr><tr class="home"><td>Al Taawon</td><td>W 1-0</td><td>D 0-0</td></tr><tr class="home"><td>Al-Ahli Jeddah</td><td>W 3-2</td><td>L 2-3</td></tr><tr class="level"><td>Al-Faisaly FC</td><td>W 3-1</td><td>W 4-1</td></tr></tbody></table>
+      <p class="lbl">Head to head, this and last season</p>
+      <ul class="h2h"><li>2026-05-09 · Al-Fayha <b>1-2</b> Al-Qadisiyah FC</li><li>2026-01-14 · Al-Qadisiyah FC <b>5-0</b> Al-Fayha</li></ul>
+    </div>
+  </details>
+</article>
+<article class="card">
+  <div class="top">
+    <span class="rank">2</span>
+    <span class="badge v1X">1X</span>
+    <span class="meta">13:30 · Bangladesh · Premier League</span>
+  </div>
+  <h3><span class="backed">Bashundhara Kings</span> <span class="vs">v</span> <span class="">Fortis</span></h3>
+  <p class="call">Home or draw · backing the home side · 2/3 rules</p>
+  <div class="chips">
+    <span class="chip ok">✓ Goals<span class="cd"> 19 in last 5</span></span>
+    <span class="chip no">✗ Common opp.<span class="cd"> +2 / -2</span></span>
+    <span class="chip ok">✓ H2H<span class="cd"> 2 of 2</span></span>
+    <span class="chip ok">✓ Form<span class="cd"> WWWDW</span></span>
+  </div>
+  <details>
+    <summary>Show the evidence</summary>
+    <div class="ev">
+      <p class="lbl">Form, last 5 league games (newest first)</p>
+      <p class="form"><span>Bashundhara Kings</span><i class="fW">W</i><i class="fW">W</i><i class="fW">W</i><i class="fD">D</i><i class="fW">W</i></p>
+      <p class="form"><span>Fortis</span><i class="fW">W</i><i class="fD">D</i><i class="fW">W</i><i class="fD">D</i><i class="fW">W</i></p>
+      <p class="lbl">Common opponents, last 10 league games</p>
+      <table><thead><tr><th>Opponent</th><th>Bashundhara Kings</th><th>Fortis</th></tr></thead><tbody><tr class="home"><td>Abahani</td><td>W 2-0</td><td>L 0-1</td></tr><tr class="level"><td>Arambagh</td><td>D 1-1</td><td>D 0-0</td></tr><tr class="away"><td>Bangladesh Police</td><td>D 1-1</td><td>W 2-0</td></tr><tr class="level"><td>Brothers Union</td><td>W 1-0</td><td>W 6-0</td></tr><tr class="level"><td>Chattogram</td><td>W 4-2</td><td>W 6-0</td></tr><tr class="home"><td>City Club</td><td>W 3-0</td><td>D 3-3</td></tr><tr class="level"><td>Fakirerpool</td><td>W 4-1</td><td>W 7-1</td></tr><tr class="away"><td>Rahmatgonj MFS</td><td>D 1-1</td><td>W 3-2</td></tr></tbody></table>
+      <p class="lbl">Head to head, this and last season</p>
+      <ul class="h2h"><li>2026-03-14 · Fortis <b>2-3</b> Bashundhara Kings</li><li>2025-10-20 · Bashundhara Kings <b>2-1</b> Fortis</li></ul>
+    </div>
+  </details>
+</article>
+<article class="card">
+  <div class="top">
+    <span class="rank">3</span>
+    <span class="badge v1X">1X</span>
+    <span class="meta">20:30 · Germany · Oberliga - Hamburg</span>
+  </div>
+  <h3><span class="backed">ETSV Hamburg</span> <span class="vs">v</span> <span class="">Tus Dassendorf</span></h3>
+  <p class="call">Home or draw · backing the home side · 2/3 rules</p>
+  <div class="chips">
+    <span class="chip ok">✓ Goals<span class="cd"> 17 in last 5</span></span>
+    <span class="chip no">✗ Common opp.<span class="cd"> +2 / -2</span></span>
+    <span class="chip ok">✓ H2H<span class="cd"> 2 of 3</span></span>
+    <span class="chip ok">✓ Form<span class="cd"> WWWLD</span></span>
+  </div>
+  <details>
+    <summary>Show the evidence</summary>
+    <div class="ev">
+      <p class="lbl">Form, last 5 league games (newest first)</p>
+      <p class="form"><span>ETSV Hamburg</span><i class="fW">W</i><i class="fW">W</i><i class="fW">W</i><i class="fL">L</i><i class="fD">D</i></p>
+      <p class="form"><span>Tus Dassendorf</span><i class="fW">W</i><i class="fW">W</i><i class="fW">W</i><i class="fL">L</i><i class="fL">L</i></p>
+      <p class="lbl">Common opponents, last 10 league games</p>
+      <table><thead><tr><th>Opponent</th><th>ETSV Hamburg</th><th>Tus Dassendorf</th></tr></thead><tbody><tr class="level"><td>HT16</td><td>D 2-2</td><td>D 3-3</td></tr><tr class="away"><td>Niendorfer TSV</td><td>L 4-6</td><td>W 4-2</td></tr><tr class="level"><td>Nikola Tesla</td><td>W 2-1</td><td>W 1-0</td></tr><tr class="home"><td>Paloma</td><td>W 4-1</td><td>L 1-2</td></tr><tr class="level"><td>Sasel</td><td>W 4-1</td><td>W 3-1</td></tr><tr class="home"><td>Victoria Hamburg</td><td>W 3-2</td><td>L 1-2</td></tr><tr class="away"><td>Vorwärts-Wacker 04</td><td>L 4-5</td><td>W 4-2</td></tr></tbody></table>
+      <p class="lbl">Head to head, this and last season</p>
+      <ul class="h2h"><li>2026-07-25 · Tus Dassendorf <b>1-1</b> ETSV Hamburg</li><li>2026-04-02 · Tus Dassendorf <b>0-1</b> ETSV Hamburg</li><li>2025-07-25 · ETSV Hamburg <b>2-0</b> Tus Dassendorf</li></ul>
+    </div>
+  </details>
+</article>
+<article class="card">
+  <div class="top">
+    <span class="rank">4</span>
+    <span class="badge v1X">1X</span>
+    <span class="meta">01:00 · Suriname · Eerste Divisie</span>
+  </div>
+  <h3><span class="backed">Robin Hood</span> <span class="vs">v</span> <span class="">Flora</span></h3>
+  <p class="call">Home or draw · backing the home side · 2/3 rules</p>
+  <div class="chips">
+    <span class="chip ok">✓ Goals<span class="cd"> 16 in last 5</span></span>
+    <span class="chip ok">✓ Common opp.<span class="cd"> +3 / -0</span></span>
+    <span class="chip ok">✓ H2H<span class="cd"> 3 of 3</span></span>
+    <span class="chip no">✗ Form<span class="cd"> WWDDL</span></span>
+  </div>
+  <details>
+    <summary>Show the evidence</summary>
+    <div class="ev">
+      <p class="lbl">Form, last 5 league games (newest first)</p>
+      <p class="form"><span>Robin Hood</span><i class="fW">W</i><i class="fW">W</i><i class="fD">D</i><i class="fD">D</i><i class="fL">L</i></p>
+      <p class="form"><span>Flora</span><i class="fW">W</i><i class="fL">L</i><i class="fL">L</i><i class="fD">D</i><i class="fL">L</i></p>
+      <p class="lbl">Common opponents, last 10 league games</p>
+      <table><thead><tr><th>Opponent</th><th>Robin Hood</th><th>Flora</th></tr></thead><tbody><tr class="home"><td>Broki</td><td>W 3-0</td><td>D 0-0</td></tr><tr class="level"><td>FC Inter Wanica</td><td>W 5-1</td><td>W 8-0</td></tr><tr class="home"><td>Inter Moengotapoe</td><td>D 3-3</td><td>L 1-5</td></tr><tr class="level"><td>Leo Victor</td><td>L 0-2</td><td>L 1-2</td></tr><tr class="home"><td>Notch</td><td>D 2-2</td><td>L 1-2</td></tr></tbody></table>
+      <p class="lbl">Head to head, this and last season</p>
+      <ul class="h2h"><li>2026-03-15 · Robin Hood <b>4-0</b> Flora</li><li>2026-01-04 · Flora <b>0-3</b> Robin Hood</li><li>2025-10-26 · Robin Hood <b>1-0</b> Flora</li></ul>
+    </div>
+  </details>
+</article>
+<article class="card">
+  <div class="top">
+    <span class="rank">5</span>
+    <span class="badge v1X">1X</span>
+    <span class="meta">21:45 · England · Non League Premier - Northern</span>
+  </div>
+  <h3><span class="backed">Rylands</span> <span class="vs">v</span> <span class="">Lancaster City</span></h3>
+  <p class="call">Home or draw · backing the home side · 2/3 rules</p>
+  <div class="chips">
+    <span class="chip ok">✓ Goals<span class="cd"> 15 in last 5</span></span>
+    <span class="chip ok">✓ Common opp.<span class="cd"> +3 / -0</span></span>
+    <span class="chip no">✗ H2H<span class="cd"> 1 of 3</span></span>
+    <span class="chip ok">✓ Form<span class="cd"> DWWDW</span></span>
+  </div>
+  <details>
+    <summary>Show the evidence</summary>
+    <div class="ev">
+      <p class="lbl">Form, last 5 league games (newest first)</p>
+      <p class="form"><span>Rylands</span><i class="fD">D</i><i class="fW">W</i><i class="fW">W</i><i class="fD">D</i><i class="fW">W</i></p>
+      <p class="form"><span>Lancaster City</span><i class="fL">L</i><i class="fW">W</i><i class="fL">L</i><i class="fD">D</i><i class="fL">L</i></p>
+      <p class="lbl">Common opponents, last 10 league games</p>
+      <table><thead><tr><th>Opponent</th><th>Rylands</th><th>Lancaster City</th></tr></thead><tbody><tr class="home"><td>AFC Emley</td><td>W 4-1</td><td>L 0-1</td></tr><tr class="home"><td>Ashton United</td><td>W 2-1</td><td>L 1-3</td></tr><tr class="level"><td>Cleethorpes Town</td><td>L 0-3</td><td>L 0-2</td></tr><tr class="level"><td>Gainsborough Trinity</td><td>W 3-1</td><td>W 3-1</td></tr><tr class="home"><td>Leek Town</td><td>D 3-3</td><td>L 1-2</td></tr><tr class="level"><td>United of Manchester</td><td>D 3-3</td><td>D 0-0</td></tr></tbody></table>
+      <p class="lbl">Head to head, this and last season</p>
+      <ul class="h2h"><li>2026-08-11 · Lancaster City <b>1-0</b> Rylands</li><li>2025-12-13 · Rylands <b>2-0</b> Lancaster City</li><li>2025-09-09 · Lancaster City <b>2-0</b> Rylands</li></ul>
+    </div>
+  </details>
+</article>
+<article class="card">
+  <div class="top">
+    <span class="rank">6</span>
+    <span class="badge v1X">1X</span>
+    <span class="meta">13:00 · Vietnam · V.League 1</span>
+  </div>
+  <h3><span class="backed">Nam Dinh</span> <span class="vs">v</span> <span class="">Công An Nhân Dân</span></h3>
+  <p class="call">Home or draw · backing the home side · 2/3 rules</p>
+  <div class="chips">
+    <span class="chip ok">✓ Goals<span class="cd"> 13 in last 5</span></span>
+    <span class="chip ok">✓ Common opp.<span class="cd"> +2 / -0</span></span>
+    <span class="chip no">✗ H2H<span class="cd"> 0 of 2</span></span>
+    <span class="chip ok">✓ Form<span class="cd"> WWWWW</span></span>
+  </div>
+  <details>
+    <summary>Show the evidence</summary>
+    <div class="ev">
+      <p class="lbl">Form, last 5 league games (newest first)</p>
+      <p class="form"><span>Nam Dinh</span><i class="fW">W</i><i class="fW">W</i><i class="fW">W</i><i class="fW">W</i><i class="fW">W</i></p>
+      <p class="form"><span>Công An Nhân Dân</span><i class="fW">W</i><i class="fD">D</i><i class="fD">D</i><i class="fL">L</i><i class="fW">W</i></p>
+      <p class="lbl">Common opponents, last 10 league games</p>
+      <table><thead><tr><th>Opponent</th><th>Nam Dinh</th><th>Công An Nhân Dân</th></tr></thead><tbody><tr class="level"><td>Bình Phước</td><td>W 4-0</td><td>W 3-0</td></tr><tr class="level"><td>Hồng Lĩnh Hà Tĩnh</td><td>W 2-1</td><td>W 2-0</td></tr><tr class="home"><td>Song Lam Nghe An</td><td>W 3-0</td><td>D 1-1</td></tr><tr class="home"><td>Thanh Hóa</td><td>W 2-0</td><td>D 1-1</td></tr><tr class="level"><td>Viettel</td><td>W 3-1</td><td>W 1-0</td></tr></tbody></table>
+      <p class="lbl">Head to head, this and last season</p>
+      <ul class="h2h"><li>2026-05-10 · Công An Nhân Dân <b>3-2</b> Nam Dinh</li><li>2025-09-28 · Nam Dinh <b>0-2</b> Công An Nhân Dân</li></ul>
+    </div>
+  </details>
+</article>
+<article class="card">
+  <div class="top">
+    <span class="rank">7</span>
+    <span class="badge v1X">1X</span>
+    <span class="meta">14:00 · Romania · Liga III - Serie 8</span>
+  </div>
+  <h3><span class="backed">Sănătatea Cluj</span> <span class="vs">v</span> <span class="">Crişul Sântandrei</span></h3>
+  <p class="call">Home or draw · backing the home side · 2/3 rules</p>
+  <div class="chips">
+    <span class="chip ok">✓ Goals<span class="cd"> 12 in last 5</span></span>
+    <span class="chip no">✗ Common opp.<span class="cd"> +3 / -1</span></span>
+    <span class="chip ok">✓ H2H<span class="cd"> 3 of 3</span></span>
+    <span class="chip ok">✓ Form<span class="cd"> WWWWW</span></span>
+  </div>
+  <details>
+    <summary>Show the evidence</summary>
+    <div class="ev">
+      <p class="lbl">Form, last 5 league games (newest first)</p>
+      <p class="form"><span>Sănătatea Cluj</span><i class="fW">W</i><i class="fW">W</i><i class="fW">W</i><i class="fW">W</i><i class="fW">W</i></p>
+      <p class="form"><span>Crişul Sântandrei</span><i class="fL">L</i><i class="fW">W</i><i class="fD">D</i><i class="fD">D</i><i class="fW">W</i></p>
+      <p class="lbl">Common opponents, last 10 league games</p>
+      <table><thead><tr><th>Opponent</th><th>Sănătatea Cluj</th><th>Crişul Sântandrei</th></tr></thead><tbody><tr class="home"><td>Academica Recea</td><td>W 3-1</td><td>L 0-2</td></tr><tr class="level"><td>Bihorul Beiuş</td><td>W 3-1</td><td>W 2-1</td></tr><tr class="level"><td>Minaur Baia Mare</td><td>L 0-2</td><td>L 0-1</td></tr><tr class="away"><td>SCM Zalău</td><td>D 1-1</td><td>W 2-1</td></tr><tr class="level"><td>Sighetu Marmaţiei</td><td>W 2-0</td><td>W 3-0</td></tr><tr class="level"><td>Sânmartin</td><td>D 1-1</td><td>D 2-2</td></tr><tr class="home"><td>Transilvania Sport Academy</td><td>W 1-0</td><td>D 2-2</td></tr><tr class="level"><td>Unirea Dej</td><td>W 1-0</td><td>W 2-1</td></tr><tr class="home"><td>Unirea Tășnad</td><td>W 5-0</td><td>D 1-1</td></tr><tr class="level"><td>Viitorul Cluj</td><td>W 3-2</td><td>W 3-1</td></tr></tbody></table>
+      <p class="lbl">Head to head, this and last season</p>
+      <ul class="h2h"><li>2026-09-19 · Crişul Sântandrei <b>0-2</b> Sănătatea Cluj</li><li>2026-03-21 · Crişul Sântandrei <b>0-2</b> Sănătatea Cluj</li><li>2025-10-24 · Sănătatea Cluj <b>1-0</b> Crişul Sântandrei</li></ul>
+    </div>
+  </details>
+</article>
+<article class="card">
+  <div class="top">
+    <span class="rank">8</span>
+    <span class="badge v1X">1X</span>
+    <span class="meta">21:30 · Spain · Tercera División RFEF - Group 3</span>
+  </div>
+  <h3><span class="backed">Revilla</span> <span class="vs">v</span> <span class="">Velarde</span></h3>
+  <p class="call">Home or draw · backing the home side · 2/3 rules</p>
+  <div class="chips">
+    <span class="chip ok">✓ Goals<span class="cd"> 12 in last 5</span></span>
+    <span class="chip ok">✓ Common opp.<span class="cd"> +4 / -0</span></span>
+    <span class="chip no">✗ H2H<span class="cd"> 0 of 0</span></span>
+    <span class="chip ok">✓ Form<span class="cd"> WWWDW</span></span>
+  </div>
+  <details>
+    <summary>Show the evidence</summary>
+    <div class="ev">
+      <p class="lbl">Form, last 5 league games (newest first)</p>
+      <p class="form"><span>Revilla</span><i class="fW">W</i><i class="fW">W</i><i class="fW">W</i><i class="fD">D</i><i class="fW">W</i></p>
+      <p class="form"><span>Velarde</span><i class="fW">W</i><i class="fD">D</i><i class="fD">D</i><i class="fL">L</i><i class="fD">D</i></p>
+      <p class="lbl">Common opponents, last 10 league games</p>
+      <table><thead><tr><th>Opponent</th><th>Revilla</th><th>Velarde</th></tr></thead><tbody><tr class="home"><td>Cayón</td><td>W 3-1</td><td>L 0-1</td></tr><tr class="home"><td>Guarnizo</td><td>W 3-0</td><td>L 1-3</td></tr><tr class="home"><td>Sámano</td><td>W 2-0</td><td>L 0-2</td></tr><tr class="home"><td>Vimenor</td><td>D 1-1</td><td>L 1-4</td></tr></tbody></table>
+      <p class="lbl">Head to head, this and last season</p>
+      <ul class="h2h"><li class="muted">No league meetings this or last season</li></ul>
+    </div>
+  </details>
+</article>
+<article class="card">
+  <div class="top">
+    <span class="rank">9</span>
+    <span class="badge v1X">1X</span>
+    <span class="meta">21:45 · Northern-Ireland · Premiership</span>
+  </div>
+  <h3><span class="backed">Coleraine FC</span> <span class="vs">v</span> <span class="">Dungannon Swifts</span></h3>
+  <p class="call">Home or draw · backing the home side · 2/3 rules</p>
+  <div class="chips">
+    <span class="chip ok">✓ Goals<span class="cd"> 12 in last 5</span></span>
+    <span class="chip no">✗ Common opp.<span class="cd"> +5 / -1</span></span>
+    <span class="chip ok">✓ H2H<span class="cd"> 2 of 3</span></span>
+    <span class="chip ok">✓ Form<span class="cd"> WWLDW</span></span>
+  </div>
+  <details>
+    <summary>Show the evidence</summary>
+    <div class="ev">
+      <p class="lbl">Form, last 5 league games (newest first)</p>
+      <p class="form"><span>Coleraine FC</span><i class="fW">W</i><i class="fW">W</i><i class="fL">L</i><i class="fD">D</i><i class="fW">W</i></p>
+      <p class="form"><span>Dungannon Swifts</span><i class="fW">W</i><i class="fL">L</i><i class="fW">W</i><i class="fD">D</i><i class="fL">L</i></p>
+      <p class="lbl">Common opponents, last 10 league games</p>
+      <table><thead><tr><th>Opponent</th><th>Coleraine FC</th><th>Dungannon Swifts</th></tr></thead><tbody><tr class="home"><td>Bangor</td><td>W 3-2</td><td>D 0-0</td></tr><tr class="home"><td>Carrick Rangers</td><td>W 3-1</td><td>L 2-4</td></tr><tr class="home"><td>Cliftonville FC</td><td>W 1-0</td><td>L 1-3</td></tr><tr class="level"><td>Crusaders FC</td><td>W 5-0</td><td>W 3-1</td></tr><tr class="home"><td>Glentoran</td><td>D 1-1</td><td>L 0-2</td></tr><tr class="home"><td>Larne</td><td>W 3-2</td><td>L 0-3</td></tr><tr class="level"><td>Limavady United</td><td>W 1-0</td><td>W 3-2</td></tr><tr class="away"><td>Linfield</td><td>L 0-3</td><td>D 1-1</td></tr></tbody></table>
+      <p class="lbl">Head to head, this and last season</p>
+      <ul class="h2h"><li>2026-08-08 · Dungannon Swifts <b>1-3</b> Coleraine FC</li><li>2026-03-28 · Dungannon Swifts <b>1-2</b> Coleraine FC</li><li>2026-02-28 · Dungannon Swifts <b>3-1</b> Coleraine FC</li></ul>
+    </div>
+  </details>
+</article>
+<article class="card">
+  <div class="top">
+    <span class="rank">10</span>
+    <span class="badge v1X">1X</span>
+    <span class="meta">17:00 · Azerbaijan · Premyer Liqa</span>
+  </div>
+  <h3><span class="backed">Neftchi Baku</span> <span class="vs">v</span> <span class="">Zira</span></h3>
+  <p class="call">Home or draw · backing the home side · 2/3 rules</p>
+  <div class="chips">
+    <span class="chip ok">✓ Goals<span class="cd"> 11 in last 5</span></span>
+    <span class="chip ok">✓ Common opp.<span class="cd"> +6 / -0</span></span>
+    <span class="chip no">✗ H2H<span class="cd"> 0 of 3</span></span>
+    <span class="chip ok">✓ Form<span class="cd"> WWWDD</span></span>
+  </div>
+  <details>
+    <summary>Show the evidence</summary>
+    <div class="ev">
+      <p class="lbl">Form, last 5 league games (newest first)</p>
+      <p class="form"><span>Neftchi Baku</span><i class="fW">W</i><i class="fW">W</i><i class="fW">W</i><i class="fD">D</i><i class="fD">D</i></p>
+      <p class="form"><span>Zira</span><i class="fD">D</i><i class="fW">W</i><i class="fD">D</i><i class="fW">W</i><i class="fD">D</i></p>
+      <p class="lbl">Common opponents, last 10 league games</p>
+      <table><thead><tr><th>Opponent</th><th>Neftchi Baku</th><th>Zira</th></tr></thead><tbody><tr class="home"><td>Araz</td><td>W 3-1</td><td>D 2-2</td></tr><tr class="home"><td>Imisli FK</td><td>W 3-2</td><td>D 2-2</td></tr><tr class="home"><td>Kapaz</td><td>W 1-0</td><td>D 1-1</td></tr><tr class="level"><td>Qabala</td><td>W 3-0</td><td>W 2-1</td></tr><tr class="level"><td>Qarabag</td><td>D 3-3</td><td>D 1-1</td></tr><tr class="home"><td>Sabah FA</td><td>D 0-0</td><td>L 0-5</td></tr><tr class="home"><td>Turan</td><td>D 1-1</td><td>L 0-1</td></tr><tr class="home"><td>Şamaxı FK</td><td>W 3-2</td><td>D 1-1</td></tr></tbody></table>
+      <p class="lbl">Head to head, this and last season</p>
+      <ul class="h2h"><li>2026-08-30 · Zira <b>1-0</b> Neftchi Baku</li><li>2026-04-17 · Zira <b>1-1</b> Neftchi Baku</li><li>2026-01-23 · Neftchi Baku <b>0-0</b> Zira</li></ul>
+    </div>
+  </details>
+</article>
+<article class="card">
+  <div class="top">
+    <span class="rank">11</span>
+    <span class="badge v1X">1X</span>
+    <span class="meta">21:00 · Netherlands · Eerste Divisie</span>
+  </div>
+  <h3><span class="backed">NAC Breda</span> <span class="vs">v</span> <span class="">Den Bosch</span></h3>
+  <p class="call">Home or draw · backing the home side · 2/3 rules</p>
+  <div class="chips">
+    <span class="chip ok">✓ Goals<span class="cd"> 11 in last 5</span></span>
+    <span class="chip ok">✓ Common opp.<span class="cd"> +3 / -0</span></span>
+    <span class="chip no">✗ H2H<span class="cd"> 0 of 0</span></span>
+    <span class="chip ok">✓ Form<span class="cd"> WWDDW</span></span>
+  </div>
+  <details>
+    <summary>Show the evidence</summary>
+    <div class="ev">
+      <p class="lbl">Form, last 5 league games (newest first)</p>
+      <p class="form"><span>NAC Breda</span><i class="fW">W</i><i class="fW">W</i><i class="fD">D</i><i class="fD">D</i><i class="fW">W</i></p>
+      <p class="form"><span>Den Bosch</span><i class="fW">W</i><i class="fL">L</i><i class="fW">W</i><i class="fD">D</i><i class="fW">W</i></p>
+      <p class="lbl">Common opponents, last 10 league games</p>
+      <table><thead><tr><th>Opponent</th><th>NAC Breda</th><th>Den Bosch</th></tr></thead><tbody><tr class="home"><td>De Graafschap</td><td>W 2-1</td><td>L 0-1</td></tr><tr class="level"><td>Dordrecht</td><td>D 0-0</td><td>D 1-1</td></tr><tr class="level"><td>Emmen</td><td>W 4-2</td><td>W 5-0</td></tr><tr class="level"><td>Helmond Sport</td><td>W 2-0</td><td>W 2-1</td></tr><tr class="home"><td>MVV</td><td>W 1-0</td><td>D 2-2</td></tr><tr class="home"><td>Vitesse</td><td>D 2-2</td><td>L 1-4</td></tr><tr class="level"><td>Waalwijk</td><td>L 2-4</td><td>L 0-4</td></tr></tbody></table>
+      <p class="lbl">Head to head, this and last season</p>
+      <ul class="h2h"><li class="muted">No league meetings this or last season</li></ul>
+    </div>
+  </details>
+</article>
+<article class="card">
+  <div class="top">
+    <span class="rank">12</span>
+    <span class="badge v1X">1X</span>
+    <span class="meta">14:00 · Syria · Premier League</span>
+  </div>
+  <h3><span class="backed">Horriya</span> <span class="vs">v</span> <span class="">Foutoua</span></h3>
+  <p class="call">Home or draw · backing the home side · 2/3 rules</p>
+  <div class="chips">
+    <span class="chip ok">✓ Goals<span class="cd"> 10 in last 5</span></span>
+    <span class="chip ok">✓ Common opp.<span class="cd"> +2 / -0</span></span>
+    <span class="chip no">✗ H2H<span class="cd"> 1 of 2</span></span>
+    <span class="chip ok">✓ Form<span class="cd"> LWWWD</span></span>
+  </div>
+  <details>
+    <summary>Show the evidence</summary>
+    <div class="ev">
+      <p class="lbl">Form, last 5 league games (newest first)</p>
+      <p class="form"><span>Horriya</span><i class="fL">L</i><i class="fW">W</i><i class="fW">W</i><i class="fW">W</i><i class="fD">D</i></p>
+      <p class="form"><span>Foutoua</span><i class="fL">L</i><i class="fL">L</i><i class="fD">D</i><i class="fL">L</i><i class="fL">L</i></p>
+      <p class="lbl">Common opponents, last 10 league games</p>
+      <table><thead><tr><th>Opponent</th><th>Horriya</th><th>Foutoua</th></tr></thead><tbody><tr class="home"><td>Damascus Al-Ahli</td><td>W 2-1</td><td>L 0-2</td></tr><tr class="home"><td>Shorta</td><td>W 3-1</td><td>L 1-3</td></tr><tr class="level"><td>Wathba</td><td>L 2-3</td><td>L 0-1</td></tr></tbody></table>
+      <p class="lbl">Head to head, this and last season</p>
+      <ul class="h2h"><li>2026-05-15 · Foutoua <b>1-0</b> Horriya</li><li>2026-02-07 · Horriya <b>1-0</b> Foutoua</li></ul>
+    </div>
+  </details>
+</article>
+<article class="card">
+  <div class="top">
+    <span class="rank">13</span>
+    <span class="badge v1X">1X</span>
+    <span class="meta">14:15 · Malaysia · Super League</span>
+  </div>
+  <h3><span class="backed">DPMM FC Brunei</span> <span class="vs">v</span> <span class="">Kelantan Red Warrior FC</span></h3>
+  <p class="call">Home or draw · backing the home side · 2/3 rules</p>
+  <div class="chips">
+    <span class="chip ok">✓ Goals<span class="cd"> 10 in last 5</span></span>
+    <span class="chip ok">✓ Common opp.<span class="cd"> +2 / -0</span></span>
+    <span class="chip no">✗ H2H<span class="cd"> 0 of 0</span></span>
+    <span class="chip ok">✓ Form<span class="cd"> WWWWL</span></span>
+  </div>
+  <details>
+    <summary>Show the evidence</summary>
+    <div class="ev">
+      <p class="lbl">Form, last 5 league games (newest first)</p>
+      <p class="form"><span>DPMM FC Brunei</span><i class="fW">W</i><i class="fW">W</i><i class="fW">W</i><i class="fW">W</i><i class="fL">L</i></p>
+      <p class="form"><span>Kelantan Red Warrior FC</span><i class="fW">W</i><i class="fL">L</i><i class="fL">L</i><i class="fL">L</i><i class="fL">L</i></p>
+      <p class="lbl">Common opponents, last 10 league games</p>
+      <table><thead><tr><th>Opponent</th><th>DPMM FC Brunei</th><th>Kelantan Red Warrior FC</th></tr></thead><tbody><tr class="level"><td>Imigresen</td><td>L 1-3</td><td>L 2-5</td></tr><tr class="level"><td>Johor Darul Takzim FC</td><td>L 0-3</td><td>L 0-9</td></tr><tr class="level"><td>Kuala Lumpur FA</td><td>L 0-1</td><td>L 1-3</td></tr><tr class="home"><td>Kuching FA</td><td>W 3-2</td><td>L 0-5</td></tr><tr class="home"><td>Penang</td><td>W 1-0</td><td>L 2-3</td></tr><tr class="level"><td>Sabah FA</td><td>W 2-1</td><td>W 2-1</td></tr></tbody></table>
+      <p class="lbl">Head to head, this and last season</p>
+      <ul class="h2h"><li class="muted">No league meetings this or last season</li></ul>
+    </div>
+  </details>
+</article>
+<article class="card">
+  <div class="top">
+    <span class="rank">14</span>
+    <span class="badge v1X">1X</span>
+    <span class="meta">13:50 · Saudi-Arabia · Division 2</span>
+  </div>
+  <h3><span class="backed">Al Sahel</span> <span class="vs">v</span> <span class="">Hetten FC</span></h3>
+  <p class="call">Home or draw · backing the home side · 2/3 rules</p>
+  <div class="chips">
+    <span class="chip ok">✓ Goals<span class="cd"> 9 in last 5</span></span>
+    <span class="chip ok">✓ Common opp.<span class="cd"> +2 / -0</span></span>
+    <span class="chip no">✗ H2H<span class="cd"> 0 of 0</span></span>
+    <span class="chip ok">✓ Form<span class="cd"> WLWWW</span></span>
+  </div>
+  <details>
+    <summary>Show the evidence</summary>
+    <div class="ev">
+      <p class="lbl">Form, last 5 league games (newest first)</p>
+      <p class="form"><span>Al Sahel</span><i class="fW">W</i><i class="fL">L</i><i class="fW">W</i><i class="fW">W</i><i class="fW">W</i></p>
+      <p class="form"><span>Hetten FC</span><i class="fL">L</i><i class="fL">L</i><i class="fL">L</i><i class="fD">D</i><i class="fW">W</i></p>
+      <p class="lbl">Common opponents, last 10 league games</p>
+      <table><thead><tr><th>Opponent</th><th>Al Sahel</th><th>Hetten FC</th></tr></thead><tbody><tr class="home"><td>Al Gottah</td><td>W 2-0</td><td>L 1-4</td></tr><tr class="level"><td>Al Nairyah</td><td>L 0-1</td><td>L 0-1</td></tr><tr class="home"><td>Al Rayan</td><td>W 1-0</td><td>L 1-3</td></tr><tr class="level"><td>Al-Wajj</td><td>D 2-2</td><td>D 0-0</td></tr></tbody></table>
+      <p class="lbl">Head to head, this and last season</p>
+      <ul class="h2h"><li class="muted">No league meetings this or last season</li></ul>
+    </div>
+  </details>
+</article>
+<article class="card">
+  <div class="top">
+    <span class="rank">15</span>
+    <span class="badge v1X">1X</span>
+    <span class="meta">14:00 · Kosovo · Superliga</span>
+  </div>
+  <h3><span class="backed">Malisheva</span> <span class="vs">v</span> <span class="">Llapi</span></h3>
+  <p class="call">Home or draw · backing the home side · 2/3 rules</p>
+  <div class="chips">
+    <span class="chip ok">✓ Goals<span class="cd"> 8 in last 5</span></span>
+    <span class="chip no">✗ Common opp.<span class="cd"> +4 / -1</span></span>
+    <span class="chip ok">✓ H2H<span class="cd"> 2 of 3</span></span>
+    <span class="chip ok">✓ Form<span class="cd"> WLDWW</span></span>
+  </div>
+  <details>
+    <summary>Show the evidence</summary>
+    <div class="ev">
+      <p class="lbl">Form, last 5 league games (newest first)</p>
+      <p class="form"><span>Malisheva</span><i class="fW">W</i><i class="fL">L</i><i class="fD">D</i><i class="fW">W</i><i class="fW">W</i></p>
+      <p class="form"><span>Llapi</span><i class="fW">W</i><i class="fW">W</i><i class="fL">L</i><i class="fD">D</i><i class="fL">L</i></p>
+      <p class="lbl">Common opponents, last 10 league games</p>
+      <table><thead><tr><th>Opponent</th><th>Malisheva</th><th>Llapi</th></tr></thead><tbody><tr class="home"><td>Ballkani</td><td>W 2-1</td><td>L 0-1</td></tr><tr class="home"><td>Drenica Skënderaj</td><td>W 2-0</td><td>L 0-4</td></tr><tr class="home"><td>Drita</td><td>W 1-0</td><td>L 1-2</td></tr><tr class="level"><td>Dukagjini</td><td>W 2-1</td><td>W 1-0</td></tr><tr class="level"><td>Feronikeli</td><td>D 0-0</td><td>D 0-0</td></tr><tr class="away"><td>Gjilani</td><td>L 2-3</td><td>D 1-1</td></tr><tr class="home"><td>Prishtina</td><td>D 1-1</td><td>L 0-1</td></tr><tr class="level"><td>Vushtrria</td><td>W 2-1</td><td>W 4-1</td></tr></tbody></table>
+      <p class="lbl">Head to head, this and last season</p>
+      <ul class="h2h"><li>2026-09-14 · Llapi <b>0-4</b> Malisheva</li><li>2026-05-24 · Llapi <b>3-2</b> Malisheva</li><li>2026-03-22 · Malisheva <b>2-0</b> Llapi</li></ul>
+    </div>
+  </details>
+</article>
+<article class="card">
+  <div class="top">
+    <span class="rank">16</span>
+    <span class="badge v1X">1X</span>
+    <span class="meta">19:00 · Libya · Premier League</span>
+  </div>
+  <h3><span class="backed">Al-Madina</span> <span class="vs">v</span> <span class="">Al Shomooa SC</span></h3>
+  <p class="call">Home or draw · backing the home side · 2/3 rules</p>
+  <div class="chips">
+    <span class="chip ok">✓ Goals<span class="cd"> 8 in last 5</span></span>
+    <span class="chip ok">✓ Common opp.<span class="cd"> +1 / -0</span></span>
+    <span class="chip no">✗ H2H<span class="cd"> 0 of 0</span></span>
+    <span class="chip ok">✓ Form<span class="cd"> DWWWD</span></span>
+  </div>
+  <details>
+    <summary>Show the evidence</summary>
+    <div class="ev">
+      <p class="lbl">Form, last 5 league games (newest first)</p>
+      <p class="form"><span>Al-Madina</span><i class="fD">D</i><i class="fW">W</i><i class="fW">W</i><i class="fW">W</i><i class="fD">D</i></p>
+      <p class="form"><span>Al Shomooa SC</span><i class="fL">L</i><i class="fL">L</i><i class="fL">L</i><i class="fW">W</i><i class="fW">W</i></p>
+      <p class="lbl">Common opponents, last 10 league games</p>
+      <table><thead><tr><th>Opponent</th><th>Al-Madina</th><th>Al Shomooa SC</th></tr></thead><tbody><tr class="level"><td>Al Ahli Tripoli</td><td>L 0-1</td><td>L 0-3</td></tr><tr class="home"><td>Al-Ittihad</td><td>D 1-1</td><td>L 0-1</td></tr><tr class="level"><td>Al-Magd</td><td>W 1-0</td><td>W 2-0</td></tr><tr class="level"><td>Alittihad Misurata</td><td>W 3-2</td><td>W 1-0</td></tr></tbody></table>
+      <p class="lbl">Head to head, this and last season</p>
+      <ul class="h2h"><li class="muted">No league meetings this or last season</li></ul>
+    </div>
+  </details>
+</article>
+<article class="card">
+  <div class="top">
+    <span class="rank">17</span>
+    <span class="badge v1X">1X</span>
+    <span class="meta">21:00 · Germany · Oberliga - Rheinland-Pfalz / Saar</span>
+  </div>
+  <h3><span class="backed">Gonsenheim</span> <span class="vs">v</span> <span class="">Gau-Odernheim</span></h3>
+  <p class="call">Home or draw · backing the home side · 2/3 rules</p>
+  <div class="chips">
+    <span class="chip ok">✓ Goals<span class="cd"> 8 in last 5</span></span>
+    <span class="chip ok">✓ Common opp.<span class="cd"> +5 / -0</span></span>
+    <span class="chip no">✗ H2H<span class="cd"> 1 of 3</span></span>
+    <span class="chip ok">✓ Form<span class="cd"> WWWLW</span></span>
+  </div>
+  <details>
+    <summary>Show the evidence</summary>
+    <div class="ev">
+      <p class="lbl">Form, last 5 league games (newest first)</p>
+      <p class="form"><span>Gonsenheim</span><i class="fW">W</i><i class="fW">W</i><i class="fW">W</i><i class="fL">L</i><i class="fW">W</i></p>
+      <p class="form"><span>Gau-Odernheim</span><i class="fD">D</i><i class="fL">L</i><i class="fL">L</i><i class="fL">L</i><i class="fW">W</i></p>
+      <p class="lbl">Common opponents, last 10 league games</p>
+      <table><thead><tr><th>Opponent</th><th>Gonsenheim</th><th>Gau-Odernheim</th></tr></thead><tbody><tr class="home"><td>Auersmacher</td><td>W 1-0</td><td>D 1-1</td></tr><tr class="level"><td>Cosmos Koblenz</td><td>W 2-1</td><td>W 4-0</td></tr><tr class="level"><td>Eisbachtal</td><td>W 3-0</td><td>W 2-0</td></tr><tr class="home"><td>FC Emmelshausen-Karbach</td><td>W 2-0</td><td>L 0-2</td></tr><tr class="home"><td>FV Engers 07</td><td>W 6-1</td><td>L 0-5</td></tr><tr class="level"><td>Pirmasens</td><td>L 1-4</td><td>L 1-2</td></tr><tr class="home"><td>RW Wittlich</td><td>W 3-2</td><td>L 0-1</td></tr><tr class="level"><td>Schott Mainz</td><td>D 0-0</td><td>D 1-1</td></tr><tr class="home"><td>TuS RW Koblenz</td><td>W 2-0</td><td>L 1-2</td></tr></tbody></table>
+      <p class="lbl">Head to head, this and last season</p>
+      <ul class="h2h"><li>2026-08-09 · Gau-Odernheim <b>0-1</b> Gonsenheim</li><li>2025-12-03 · Gonsenheim <b>1-2</b> Gau-Odernheim</li><li>2025-08-01 · Gau-Odernheim <b>1-0</b> Gonsenheim</li></ul>
+    </div>
+  </details>
+</article>
+<article class="card">
+  <div class="top">
+    <span class="rank">18</span>
+    <span class="badge vX2">X2</span>
+    <span class="meta">21:45 · Wales · Premier League</span>
+  </div>
+  <h3><span class="">Flint Town United</span> <span class="vs">v</span> <span class="backed">The New Saints</span></h3>
+  <p class="call">Away or draw · backing the away side · 3/3 rules</p>
+  <div class="chips">
+    <span class="chip ok">✓ Goals<span class="cd"> 19 in last 5</span></span>
+    <span class="chip ok">✓ Common opp.<span class="cd"> +3 / -0</span></span>
+    <span class="chip ok">✓ H2H<span class="cd"> 3 of 3</span></span>
+    <span class="chip ok">✓ Form<span class="cd"> WWDWW</span></span>
+  </div>
+  <details>
+    <summary>Show the evidence</summary>
+    <div class="ev">
+      <p class="lbl">Form, last 5 league games (newest first)</p>
+      <p class="form"><span>Flint Town United</span><i class="fL">L</i><i class="fL">L</i><i class="fW">W</i><i class="fW">W</i><i class="fL">L</i></p>
+      <p class="form"><span>The New Saints</span><i class="fW">W</i><i class="fW">W</i><i class="fD">D</i><i class="fW">W</i><i class="fW">W</i></p>
+      <p class="lbl">Common opponents, last 10 league games</p>
+      <table><thead><tr><th>Opponent</th><th>Flint Town United</th><th>The New Saints</th></tr></thead><tbody><tr class="away"><td>Airbus UK</td><td>L 1-4</td><td>W 2-0</td></tr><tr class="level"><td>Ammanford AFC</td><td>W 3-0</td><td>W 9-0</td></tr><tr class="away"><td>Cambrian &amp; Clydach</td><td>L 0-2</td><td>W 9-0</td></tr><tr class="away"><td>GAP Connah S Quay FC</td><td>L 0-2</td><td>D 0-0</td></tr><tr class="level"><td>Holywell</td><td>W 5-0</td><td>W 6-1</td></tr><tr class="level"><td>Trefelin</td><td>W 2-0</td><td>W 3-0</td></tr></tbody></table>
+      <p class="lbl">Head to head, this and last season</p>
+      <ul class="h2h"><li>2026-09-15 · The New Saints <b>5-0</b> Flint Town United</li><li>2025-11-14 · Flint Town United <b>0-3</b> The New Saints</li><li>2025-09-23 · The New Saints <b>4-2</b> Flint Town United</li></ul>
+    </div>
+  </details>
+</article>
+<article class="card">
+  <div class="top">
+    <span class="rank">19</span>
+    <span class="badge vX2">X2</span>
+    <span class="meta">14:00 · Romania · Liga III - Serie 8</span>
+  </div>
+  <h3><span class="">Unirea Dej</span> <span class="vs">v</span> <span class="backed">Minaur Baia Mare</span></h3>
+  <p class="call">Away or draw · backing the away side · 3/3 rules</p>
+  <div class="chips">
+    <span class="chip ok">✓ Goals<span class="cd"> 16 in last 5</span></span>
+    <span class="chip ok">✓ Common opp.<span class="cd"> +8 / -0</span></span>
+    <span class="chip ok">✓ H2H<span class="cd"> 3 of 3</span></span>
+    <span class="chip ok">✓ Form<span class="cd"> WWWWW</span></span>
+  </div>
+  <details>
+    <summary>Show the evidence</summary>
+    <div class="ev">
+      <p class="lbl">Form, last 5 league games (newest first)</p>
+      <p class="form"><span>Unirea Dej</span><i class="fW">W</i><i class="fL">L</i><i class="fL">L</i><i class="fW">W</i><i class="fL">L</i></p>
+      <p class="form"><span>Minaur Baia Mare</span><i class="fW">W</i><i class="fW">W</i><i class="fW">W</i><i class="fW">W</i><i class="fW">W</i></p>
+      <p class="lbl">Common opponents, last 10 league games</p>
+      <table><thead><tr><th>Opponent</th><th>Unirea Dej</th><th>Minaur Baia Mare</th></tr></thead><tbody><tr class="level"><td>Academica Recea</td><td>W 3-0</td><td>W 5-0</td></tr><tr class="away"><td>Bihorul Beiuş</td><td>L 0-1</td><td>D 0-0</td></tr><tr class="away"><td>Crişul Sântandrei</td><td>L 1-2</td><td>W 1-0</td></tr><tr class="away"><td>SCM Zalău</td><td>L 0-4</td><td>W 3-2</td></tr><tr class="away"><td>Sighetu Marmaţiei</td><td>L 0-3</td><td>W 4-0</td></tr><tr class="level"><td>Sânmartin</td><td>W 2-0</td><td>W 4-0</td></tr><tr class="away"><td>Sănătatea Cluj</td><td>L 0-1</td><td>W 2-0</td></tr><tr class="away"><td>Transilvania Sport Academy</td><td>D 0-0</td><td>W 6-0</td></tr><tr class="away"><td>Unirea Tășnad</td><td>D 0-0</td><td>W 3-1</td></tr><tr class="away"><td>Viitorul Cluj</td><td>L 0-2</td><td>D 2-2</td></tr></tbody></table>
+      <p class="lbl">Head to head, this and last season</p>
+      <ul class="h2h"><li>2026-09-19 · Minaur Baia Mare <b>5-1</b> Unirea Dej</li><li>2026-03-28 · Minaur Baia Mare <b>3-0</b> Unirea Dej</li><li>2025-10-31 · Unirea Dej <b>1-2</b> Minaur Baia Mare</li></ul>
+    </div>
+  </details>
+</article>
+<h2>Track record</h2>
+<div class="stats"><div class="stat"><b>–</b><span>All picks</span></div><div class="stat"><b>–</b><span>Home picks</span></div><div class="stat"><b>–</b><span>Away picks</span></div><div class="stat"><b>–</b><span>Straight 1</span></div><div class="stat"><b>–</b><span>1X</span></div><div class="stat"><b>–</b><span>X2</span></div></div>
+<h2>Recent picks</h2>
+<div class="tablewrap"><table><thead><tr><th>Date</th><th>Match</th><th>Bet</th><th>Score</th><th>Result</th></tr></thead><tbody><tr><td>11-27</td><td>Rylands v Lancaster City</td><td>1X</td><td>–</td><td class="rpending">pending</td></tr><tr><td>11-27</td><td>Coleraine FC v Dungannon Swifts</td><td>1X</td><td>–</td><td class="rpending">pending</td></tr><tr><td>11-27</td><td>Flint Town United v The New Saints</td><td>X2</td><td>–</td><td class="rpending">pending</td></tr><tr><td>11-27</td><td>Revilla v Velarde</td><td>1X</td><td>–</td><td class="rpending">pending</td></tr><tr><td>11-27</td><td>NAC Breda v Den Bosch</td><td>1X</td><td>–</td><td class="rpending">pending</td></tr><tr><td>11-27</td><td>Gonsenheim v Gau-Odernheim</td><td>1X</td><td>–</td><td class="rpending">pending</td></tr><tr><td>11-27</td><td>ETSV Hamburg v Tus Dassendorf</td><td>1X</td><td>–</td><td class="rpending">pending</td></tr><tr><td>11-27</td><td>Al-Madina v Al Shomooa SC</td><td>1X</td><td>–</td><td class="rpending">pending</td></tr><tr><td>11-27</td><td>Neftchi Baku v Zira</td><td>1X</td><td>–</td><td class="rpending">pending</td></tr><tr><td>11-27</td><td>Al-Qadisiyah FC v Al-Fayha</td><td>1</td><td>–</td><td class="rpending">pending</td></tr><tr><td>11-27</td><td>DPMM FC Brunei v Kelantan Red Warrior FC</td><td>1X</td><td>–</td><td class="rpending">pending</td></tr><tr><td>11-27</td><td>Sănătatea Cluj v Crişul Sântandrei</td><td>1X</td><td>–</td><td class="rpending">pending</td></tr><tr><td>11-27</td><td>Horriya v Foutoua</td><td>1X</td><td>–</td><td class="rpending">pending</td></tr><tr><td>11-27</td><td>Malisheva v Llapi</td><td>1X</td><td>–</td><td class="rpending">pending</td></tr><tr><td>11-27</td><td>Unirea Dej v Minaur Baia Mare</td><td>X2</td><td>–</td><td class="rpending">pending</td></tr><tr><td>11-27</td><td>Al Sahel v Hetten FC</td><td>1X</td><td>–</td><td class="rpending">pending</td></tr><tr><td>11-27</td><td>Bashundhara Kings v Fortis</td><td>1X</td><td>–</td><td class="rpending">pending</td></tr><tr><td>11-27</td><td>Nam Dinh v Công An Nhân Dân</td><td>1X</td><td>–</td><td class="rpending">pending</td></tr><tr><td>11-27</td><td>Robin Hood v Flora</td><td>1X</td><td>–</td><td class="rpending">pending</td></tr></tbody></table></div>
+<details><summary>Matches cut today (235)</summary>
+<div class="tablewrap"><table><thead><tr><th>KO</th><th>Match</th><th>Why cut</th></tr></thead><tbody><tr><td>00:00</td><td>Santiago Wanderers v Recoleta<span class="sub">Chile · Primera B</span></td><td>Home: 0/3 rules; Away: gate fail (7 goals in last 5)</td></tr><tr><td>00:00</td><td>Jalapa v San Marcos<span class="sub">Nicaragua · Primera Division</span></td><td>Home: 0/3 rules; Away: gate fail (6 goals in last 5)</td></tr><tr><td>01:00</td><td>Sao Paulo v Remo<span class="sub">Brazil · Serie A</span></td><td>Home: gate fail (4 goals in last 5); Away: gate fail (7 goals in last 5)</td></tr><tr><td>02:00</td><td>Diriangén v Matagalpa<span class="sub">Nicaragua · Primera Division</span></td><td>Home: gate fail (7 goals in last 5); Away: gate fail (2 goals in last 5)</td></tr><tr><td>03:00</td><td>CF Pachuca v Guadalajara Chivas<span class="sub">Mexico · Liga MX</span></td><td>Away 2/3 (downgraded to cut)</td></tr><tr><td>05:10</td><td>Leon v Cruz Azul<span class="sub">Mexico · Liga MX</span></td><td>Away 2/3 (downgraded to cut)</td></tr><tr><td>10:30</td><td>Bóng đá Huế v Long An<span class="sub">Vietnam · V.League 2</span></td><td>Home: gate fail (5 goals in last 5); Away: gate fail (5 goals in last 5)</td></tr><tr><td>10:30</td><td>Bangladesh Police v Abahani<span class="sub">Bangladesh · Premier League</span></td><td>Away 2/3 (downgraded to cut)</td></tr><tr><td>10:30</td><td>Dhaka Wanderers v Arambagh<span class="sub">Bangladesh · Premier League</span></td><td>Home: under 5 league games on record; Away: gate fail (4 goals in last 5)</td></tr><tr><td>10:30</td><td>Rahmatgonj MFS v Mohammedan Dhaka<span class="sub">Bangladesh · Premier League</span></td><td>Away 2/3 (downgraded to cut)</td></tr><tr><td>10:40</td><td>Macarthur v Melbourne City<span class="sub">Australia · A-League</span></td><td>Home: gate fail (6 goals in last 5); Away: gate fail (7 goals in last 5)</td></tr><tr><td>11:00</td><td>Khujand v Barki Tajik<span class="sub">Tajikistan · Vysshaya Liga</span></td><td>Home: gate fail (4 goals in last 5); Away: gate fail (3 goals in last 5)</td></tr><tr><td>11:30</td><td>Didube 2014 v Irao<span class="sub">Georgia · Liga 3</span></td><td>Home: gate fail (6 goals in last 5); Away: gate fail (5 goals in last 5)</td></tr><tr><td>11:30</td><td>Iberia 2010 v Lokomotivi Tbilisi<span class="sub">Georgia · Liga 3</span></td><td>Home: 0/3 rules; Away: 1/3 rules</td></tr><tr><td>11:30</td><td>Margveti 2006 v Gonio<span class="sub">Georgia · Liga 3</span></td><td>Away 2/3 (downgraded to cut)</td></tr><tr><td>11:30</td><td>Merani Tbilisi v WIT Georgia<span class="sub">Georgia · Liga 3</span></td><td>Home: gate fail (7 goals in last 5); Away: 0/3 rules</td></tr><tr><td>12:00</td><td>Ironi Baka El Garbiya v Beitar Nahariya<span class="sub">Israel · Liga Alef</span></td><td>Home: 0/3 rules; Away: gate fail (6 goals in last 5)</td></tr><tr><td>12:00</td><td>Hapoel Azor v Hapoel Hadera<span class="sub">Israel · Liga Alef</span></td><td>Home: 0/3 rules; Away: gate fail (5 goals in last 5)</td></tr><tr><td>12:00</td><td>Nordia Jerusalem v Hapoel Ramat HaSharon<span class="sub">Israel · Liga Alef</span></td><td>Home: gate fail (2 goals in last 5); Away: gate fail (5 goals in last 5)</td></tr><tr><td>12:00</td><td>Dimona v Ironi Beit Shemesh<span class="sub">Israel · Liga Alef</span></td><td>Home: 1/3 rules; Away: 1/3 rules</td></tr><tr><td>12:15</td><td>Hapoel Herzliya v FC Jerusalem<span class="sub">Israel · Liga Alef</span></td><td>Home: gate fail (5 goals in last 5); Away: gate fail (6 goals in last 5)</td></tr><tr><td>12:30</td><td>Imisli FK v Safa Baku<span class="sub">Azerbaijan · Premyer Liqa</span></td><td>Home: gate fail (5 goals in last 5); Away: gate fail (6 goals in last 5)</td></tr><tr><td>12:30</td><td>Ironi Nesher v Hapoel Bnei Musmus<span class="sub">Israel · Liga Alef</span></td><td>Home: 1/3 rules; Away: gate fail (6 goals in last 5)</td></tr><tr><td>12:30</td><td>Maccabi Yavne v Maccabi Ashdod<span class="sub">Israel · Liga Alef</span></td><td>Home: gate fail (6 goals in last 5); Away: 0/3 rules</td></tr><tr><td>12:30</td><td>Zaqatala v Xankəndi FK<span class="sub">Azerbaijan · Birinci Dasta</span></td><td>Home: gate fail (3 goals in last 5); Away: gate fail (3 goals in last 5)</td></tr><tr><td>12:35</td><td>Hapoel Sderot v Holon Yermiyahu<span class="sub">Israel · Liga Alef</span></td><td>Away 2/3 (downgraded to cut)</td></tr><tr><td>12:40</td><td>Hapoel Beit Shean v Maccabi Nujeidat Ahmed<span class="sub">Israel · Liga Alef</span></td><td>Home: gate fail (4 goals in last 5); Away: gate fail (7 goals in last 5)</td></tr><tr><td>13:00</td><td>Iveria Khashuri v Guria<span class="sub">Georgia · Liga 3</span></td><td>Home: 1/3 rules; Away: 1/3 rules</td></tr><tr><td>13:00</td><td>Shkëndija Haraçinë v Bregalnica Štip<span class="sub">Macedonia · First League</span></td><td>Home: gate fail (3 goals in last 5); Away: gate fail (7 goals in last 5)</td></tr><tr><td>13:00</td><td>Livyi Bereh v Kolos Kovalivka<span class="sub">Ukraine · Premier League</span></td><td>Home: gate fail (3 goals in last 5); Away: 1/3 rules</td></tr><tr><td>13:00</td><td>Făleşti v FC Stăuceni<span class="sub">Moldova · Liga 1</span></td><td>Away 2/3 (downgraded to cut)</td></tr><tr><td>13:00</td><td>FCM Ungheni v Iskra<span class="sub">Moldova · Liga 1</span></td><td>Home: 0/3 rules; Away: gate fail (4 goals in last 5)</td></tr><tr><td>13:00</td><td>Spartanii Selemet v Univer Comrat<span class="sub">Moldova · Liga 1</span></td><td>Home: 0/3 rules; Away: 1/3 rules</td></tr><tr><td>13:00</td><td>Victoria Bardar v FC National Ialoveni<span class="sub">Moldova · Liga 1</span></td><td>Away 2/3 (downgraded to cut)</td></tr><tr><td>13:00</td><td>Syunik v Van<span class="sub">Armenia · Premier League</span></td><td>Home: 0/3 rules; Away: gate fail (7 goals in last 5)</td></tr><tr><td>13:00</td><td>Hapoel Tirat HaCarmel v Hapoel Ironi Arraba<span class="sub">Israel · Liga Alef</span></td><td>Home: gate fail (1 goals in last 5); Away: gate fail (4 goals in last 5)</td></tr><tr><td>13:00</td><td>Tzeirey Tamra v Tira<span class="sub">Israel · Liga Alef</span></td><td>Home: gate fail (5 goals in last 5); Away: gate fail (6 goals in last 5)</td></tr><tr><td>13:00</td><td>Maccabi Kiryat Malachi v Shimshon Tel Aviv<span class="sub">Israel · Liga Alef</span></td><td>Away 2/3 (downgraded to cut)</td></tr><tr><td>13:00</td><td>Progresul Pecica v Timişul Şag<span class="sub">Romania · Liga III - Serie 7</span></td><td>Away 2/3 (downgraded to cut)</td></tr><tr><td>13:00</td><td>Song Lam Nghe An v Phu Dong<span class="sub">Vietnam · V.League 1</span></td><td>Home: gate fail (7 goals in last 5); Away: 1/3 rules</td></tr><tr><td>13:00</td><td>Pho Hien v Văn Hiến<span class="sub">Vietnam · V.League 2</span></td><td>Home: gate fail (7 goals in last 5); Away: gate fail (7 goals in last 5)</td></tr><tr><td>13:00</td><td>Thai Nguyen v Hung Yen<span class="sub">Vietnam · V.League 2</span></td><td>Home: 0/3 rules; Away: 1/3 rules</td></tr><tr><td>13:00</td><td>Xuan Thien Phu Tho v Lam Dong<span class="sub">Vietnam · V.League 2</span></td><td>Home: gate fail (7 goals in last 5); Away: gate fail (2 goals in last 5)</td></tr><tr><td>13:00</td><td>Don Bosco v CS Manika<span class="sub">Congo-DR · Ligue 1</span></td><td>Home: gate fail (3 goals in last 5); Away: 1/3 rules</td></tr><tr><td>13:30</td><td>Geylang International v Tanjong Pagar<span class="sub">Singapore · Premier League</span></td><td>Home: gate fail (6 goals in last 5); Away: gate fail (7 goals in last 5)</td></tr><tr><td>13:30</td><td>Tzeirey Tira v Kfar Saba 1928<span class="sub">Israel · Liga Alef</span></td><td>Home: gate fail (1 goals in last 5); Away: gate fail (1 goals in last 5)</td></tr><tr><td>13:30</td><td>Paykan v Foolad FC<span class="sub">Iran · Persian Gulf Pro League</span></td><td>Home: gate fail (5 goals in last 5); Away: gate fail (5 goals in last 5)</td></tr><tr><td>13:30</td><td>Shams Azar Qazvin v Kheybar Khorramabad<span class="sub">Iran · Persian Gulf Pro League</span></td><td>Home: gate fail (1 goals in last 5); Away: gate fail (4 goals in last 5)</td></tr><tr><td>13:50</td><td>Al Safa v Mudhar Club<span class="sub">Saudi-Arabia · Division 2</span></td><td>Home: gate fail (6 goals in last 5); Away: gate fail (5 goals in last 5)</td></tr><tr><td>13:55</td><td>Al Nairyah v Al-Ain<span class="sub">Saudi-Arabia · Division 2</span></td><td>Home: 0/3 rules; Away: gate fail (7 goals in last 5)</td></tr><tr><td>14:00</td><td>Buxoro v Mash&#x27;al<span class="sub">Uzbekistan · Super League</span></td><td>Home: gate fail (3 goals in last 5); Away: gate fail (1 goals in last 5)</td></tr><tr><td>14:00</td><td>Kokand-1912 v Xorazm<span class="sub">Uzbekistan · Super League</span></td><td>Home: gate fail (4 goals in last 5); Away: gate fail (3 goals in last 5)</td></tr><tr><td>14:00</td><td>Ravshan v Khatlon<span class="sub">Tajikistan · Vysshaya Liga</span></td><td>Home: gate fail (7 goals in last 5); Away: gate fail (6 goals in last 5)</td></tr><tr><td>14:00</td><td>Bashkimi Kumanovo v Skopje<span class="sub">Macedonia · First League</span></td><td>Home: gate fail (5 goals in last 5); Away: gate fail (3 goals in last 5)</td></tr><tr><td>14:00</td><td>Maccabi Petah Tikva v Hapoel Tel Aviv<span class="sub">Israel · Ligat Ha&#x27;al</span></td><td>Home: 0/3 rules; Away: 1/3 rules</td></tr><tr><td>14:00</td><td>Lovćen v Mladost Lješkopolje<span class="sub">Montenegro · Second League</span></td><td>Away 2/3 (downgraded to cut)</td></tr><tr><td>14:00</td><td>Carina Gubin v Warta Gorzów<span class="sub">Poland · III Liga - Group 3</span></td><td>Home: gate fail (5 goals in last 5); Away: gate fail (0 goals in last 5)</td></tr><tr><td>14:00</td><td>Goczałkowice Zdrój v Zaglebie Sosnowiec<span class="sub">Poland · III Liga - Group 3</span></td><td>Home: 1/3 rules; Away: 1/3 rules</td></tr><tr><td>14:00</td><td>Uthai Thani v Sisaket United<span class="sub">Thailand · Thai League 1</span></td><td>Home: gate fail (6 goals in last 5); Away: 0/3 rules</td></tr><tr><td>14:00</td><td>Hapoel Umm al-Fahm v Hapoel Ihud Bnei Jatt<span class="sub">Israel · Liga Alef</span></td><td>Home: 1/3 rules; Away: gate fail (6 goals in last 5)</td></tr><tr><td>14:00</td><td>Səbail v Şimal<span class="sub">Azerbaijan · Birinci Dasta</span></td><td>Home: gate fail (6 goals in last 5); Away: 1/3 rules</td></tr><tr><td>14:00</td><td>Odorheiu Secuiesc v Ceahlăul Piatra Neamţ<span class="sub">Romania · Liga III - Serie 1</span></td><td>Home: gate fail (6 goals in last 5); Away: gate fail (3 goals in last 5)</td></tr><tr><td>14:00</td><td>ARO Muscelul Câmpulung v ACS Mediaş 2022<span class="sub">Romania · Liga III - Serie 2</span></td><td>Home: gate fail (7 goals in last 5); Away: 0/3 rules</td></tr><tr><td>14:00</td><td>Râmnicu Sărat v Blejoi<span class="sub">Romania · Liga III - Serie 3</span></td><td>Home: gate fail (7 goals in last 5); Away: 1/3 rules</td></tr><tr><td>14:00</td><td>Urban Titu v Tunari<span class="sub">Romania · Liga III - Serie 3</span></td><td>Away 2/3 (downgraded to cut)</td></tr><tr><td>14:00</td><td>Dunarea Calarasi v Gloria Băneasa<span class="sub">Romania · Liga III - Serie 4</span></td><td>Home: gate fail (4 goals in last 5); Away: gate fail (4 goals in last 5)</td></tr><tr><td>14:00</td><td>Înainte Modelu v Sporting Lieşti<span class="sub">Romania · Liga III - Serie 4</span></td><td>Home: 1/3 rules; Away: 1/3 rules</td></tr><tr><td>14:00</td><td>Axi Adunații-Copăceni v LPS HD Clinceni<span class="sub">Romania · Liga III - Serie 5</span></td><td>Away 2/3 (downgraded to cut)</td></tr><tr><td>14:00</td><td>Academica Balș v Unirea Bascov<span class="sub">Romania · Liga III - Serie 6</span></td><td>Home: 0/3 rules; Away: gate fail (5 goals in last 5)</td></tr><tr><td>14:00</td><td>CS Drobeta-Turnu Severin v CSM Targu Jiu<span class="sub">Romania · Liga III - Serie 6</span></td><td>Home: 1/3 rules; Away: 1/3 rules</td></tr><tr><td>14:00</td><td>Filiaşi v Oltul Curtişoara<span class="sub">Romania · Liga III - Serie 6</span></td><td>Away 2/3 (downgraded to cut)</td></tr><tr><td>14:00</td><td>Cetate Deva v Universitatea Alba Iulia<span class="sub">Romania · Liga III - Serie 7</span></td><td>Home: 1/3 rules; Away: 0/3 rules</td></tr><tr><td>14:00</td><td>Poli Timisoara 2 v Unirea Sântana<span class="sub">Romania · Liga III - Serie 7</span></td><td>Home: gate fail (6 goals in last 5); Away: gate fail (4 goals in last 5)</td></tr><tr><td>14:00</td><td>Academica Recea v Viitorul Cluj<span class="sub">Romania · Liga III - Serie 8</span></td><td>Home: 0/3 rules; Away: 0/3 rules</td></tr><tr><td>14:00</td><td>Sânmartin v Sighetu Marmaţiei<span class="sub">Romania · Liga III - Serie 8</span></td><td>Home: 0/3 rules; Away: 0/3 rules</td></tr><tr><td>14:00</td><td>Jaish v Hottin<span class="sub">Syria · Premier League</span></td><td>Home: gate fail (3 goals in last 5); Away: 1/3 rules</td></tr><tr><td>14:00</td><td>Al Karama v Al Ittihad<span class="sub">Syria · Premier League</span></td><td>Away 2/3 (downgraded to cut)</td></tr><tr><td>14:00</td><td>Al Nawaeir v Shorta<span class="sub">Syria · Premier League</span></td><td>Home: gate fail (2 goals in last 5); Away: gate fail (6 goals in last 5)</td></tr><tr><td>14:00</td><td>Qamishli v Damascus Al-Ahli<span class="sub">Syria · Premier League</span></td><td>Home: gate fail (3 goals in last 5); Away: gate fail (3 goals in last 5)</td></tr><tr><td>14:15</td><td>Al Kholood v Al Khaleej Saihat<span class="sub">Saudi-Arabia · Pro League</span></td><td>Home: gate fail (5 goals in last 5); Away: 1/3 rules</td></tr><tr><td>14:15</td><td>Al Gottah v Al Qwarah<span class="sub">Saudi-Arabia · Division 2</span></td><td>Away 2/3 (downgraded to cut)</td></tr><tr><td>14:15</td><td>Arar v Afif<span class="sub">Saudi-Arabia · Division 2</span></td><td>Home: gate fail (7 goals in last 5); Away: gate fail (2 goals in last 5)</td></tr><tr><td>14:15</td><td>Tadamon Sour v Al Ahed<span class="sub">Lebanon · Premier League</span></td><td>Home: 0/3 rules; Away: gate fail (3 goals in last 5)</td></tr><tr><td>14:20</td><td>Al Qalah v Al Taraji<span class="sub">Saudi-Arabia · Division 2</span></td><td>Home: gate fail (7 goals in last 5); Away: gate fail (7 goals in last 5)</td></tr><tr><td>14:20</td><td>Al Rayan v Al Baten<span class="sub">Saudi-Arabia · Division 2</span></td><td>Home: gate fail (5 goals in last 5); Away: gate fail (2 goals in last 5)</td></tr><tr><td>14:30</td><td>Tirana v Skenderbeu Korce<span class="sub">Albania · Superliga</span></td><td>Home: gate fail (3 goals in last 5); Away: gate fail (7 goals in last 5)</td></tr><tr><td>14:30</td><td>Mladost Ždralovi v Bsk Bijelo Brdo<span class="sub">Croatia · First NL</span></td><td>Home: gate fail (7 goals in last 5); Away: gate fail (7 goals in last 5)</td></tr><tr><td>14:30</td><td>Sesvete v Vukovar<span class="sub">Croatia · First NL</span></td><td>Home: 0/3 rules; Away: 0/3 rules</td></tr><tr><td>14:30</td><td>Ismaily SC v Baladiyyat Al Mehalla<span class="sub">Egypt · Second League</span></td><td>Home: gate fail (4 goals in last 5); Away: gate fail (3 goals in last 5)</td></tr><tr><td>14:30</td><td>Haras El Hodood v Pharco<span class="sub">Egypt · Second League</span></td><td>Home: gate fail (5 goals in last 5); Away: 0/3 rules</td></tr><tr><td>14:30</td><td>Masar v Maleyet Kafr El Zayiat<span class="sub">Egypt · Second League</span></td><td>Home: 0/3 rules; Away: gate fail (4 goals in last 5)</td></tr><tr><td>14:30</td><td>Tanta SC v El Mansura<span class="sub">Egypt · Second League</span></td><td>Home: gate fail (4 goals in last 5); Away: 1/3 rules</td></tr><tr><td>14:30</td><td>Itesalat v Team<span class="sub">Egypt · Second League</span></td><td>Home: gate fail (7 goals in last 5); Away: gate fail (4 goals in last 5)</td></tr><tr><td>14:30</td><td>Uljanik v Koprivnica<span class="sub">Croatia · Second NL</span></td><td>Home: gate fail (5 goals in last 5); Away: gate fail (0 goals in last 5)</td></tr><tr><td>14:30</td><td>Pogradeci v Iliria Fushë-Krujë<span class="sub">Albania · 1st Division</span></td><td>Home: gate fail (6 goals in last 5); Away: 1/3 rules</td></tr><tr><td>14:30</td><td>Baish v Al-Wajj<span class="sub">Saudi-Arabia · Division 2</span></td><td>Home: 1/3 rules; Away: gate fail (6 goals in last 5)</td></tr><tr><td>14:30</td><td>Ethiopia Bunna v Halaba Ketema<span class="sub">Ethiopia · Premier League</span></td><td>Home: gate fail (4 goals in last 5); Away: gate fail (4 goals in last 5)</td></tr><tr><td>14:45</td><td>Dubai City v Al Fujairah SC<span class="sub">United-Arab-Emirates · Division 1</span></td><td>Home: gate fail (2 goals in last 5); Away: 1/3 rules</td></tr><tr><td>14:45</td><td>Gulf United v Palm City<span class="sub">United-Arab-Emirates · Division 1</span></td><td>Home: gate fail (6 goals in last 5); Away: 0/3 rules</td></tr><tr><td>14:45</td><td>Aluminium Arak v Persepolis FC<span class="sub">Iran · Persian Gulf Pro League</span></td><td>Home: gate fail (2 goals in last 5); Away: 1/3 rules</td></tr><tr><td>15:00</td><td>Hapoel Acre v Maccabi Herzliya<span class="sub">Israel · Liga Leumit</span></td><td>Home: gate fail (4 goals in last 5); Away: gate fail (2 goals in last 5)</td></tr><tr><td>15:00</td><td>Hapoel Kfar Shalem v Hapoel Kfar Saba<span class="sub">Israel · Liga Leumit</span></td><td>Home: 1/3 rules; Away: 1/3 rules</td></tr><tr><td>15:00</td><td>Maccabi Bnei Raina v Maccabi Kiryat Gat<span class="sub">Israel · Liga Leumit</span></td><td>Home: 0/3 rules; Away: gate fail (6 goals in last 5)</td></tr><tr><td>15:00</td><td>Maccabi Kabilio Jaffa v Kafr Qasim<span class="sub">Israel · Liga Leumit</span></td><td>Home: gate fail (2 goals in last 5); Away: gate fail (4 goals in last 5)</td></tr><tr><td>15:00</td><td>Maccabi Ahi Nazareth v Kiryat Yam SC<span class="sub">Israel · Liga Leumit</span></td><td>Home: 0/3 rules; Away: 1/3 rules</td></tr><tr><td>15:00</td><td>Al-Sailiya v Al-Gharafa<span class="sub">Qatar · Stars League</span></td><td>Home: gate fail (7 goals in last 5); Away: 0/3 rules</td></tr><tr><td>15:00</td><td>Pamba Jiji v Namungo<span class="sub">Tanzania · Ligi kuu Bara</span></td><td>Home: gate fail (5 goals in last 5); Away: gate fail (6 goals in last 5)</td></tr><tr><td>15:00</td><td>Vital&#x27;O v Flambeau du Centre<span class="sub">Burundi · Ligue A</span></td><td>Home: gate fail (5 goals in last 5); Away: gate fail (7 goals in last 5)</td></tr><tr><td>15:00</td><td>Etoile de Kivu v Céleste<span class="sub">Congo-DR · Ligue 1</span></td><td>Home: gate fail (7 goals in last 5); Away: gate fail (6 goals in last 5)</td></tr><tr><td>15:00</td><td>Esteghlal Khuzestan v Malavan<span class="sub">Iran · Persian Gulf Pro League</span></td><td>Home: gate fail (6 goals in last 5); Away: gate fail (4 goals in last 5)</td></tr><tr><td>15:00</td><td>Nouvelle Génération v Kondzo<span class="sub">Congo · Ligue 1</span></td><td>Home: under 5 league games on record; Away: under 5 league games on record</td></tr><tr><td>15:00</td><td>Amawele v Rangers FC<span class="sub">Eswatini · Premier League</span></td><td>Home: gate fail (4 goals in last 5); Away: gate fail (4 goals in last 5)</td></tr><tr><td>15:30</td><td>Gomora United FC v Midlands Wanderers<span class="sub">South-Africa · 1st Division</span></td><td>Home: gate fail (6 goals in last 5); Away: gate fail (3 goals in last 5)</td></tr><tr><td>15:30</td><td>Casric Stars v University of Pretoria<span class="sub">South-Africa · 1st Division</span></td><td>Home: gate fail (7 goals in last 5); Away: gate fail (5 goals in last 5)</td></tr><tr><td>15:30</td><td>Orbit College v NWU FC<span class="sub">South-Africa · 1st Division</span></td><td>Away 2/3 (downgraded to cut)</td></tr><tr><td>15:30</td><td>Zakho v Karbala<span class="sub">Iraq · Iraqi League</span></td><td>Home: gate fail (4 goals in last 5); Away: gate fail (7 goals in last 5)</td></tr><tr><td>15:30</td><td>Al Hilal v Al Batnan<span class="sub">Libya · Premier League</span></td><td>Home: gate fail (4 goals in last 5); Away: under 5 league games on record</td></tr><tr><td>16:00</td><td>Betlemi v Varketili<span class="sub">Georgia · Liga 3</span></td><td>Away 2/3 (downgraded to cut)</td></tr><tr><td>16:00</td><td>Al Hilal Omdurman v Amagaju<span class="sub">Rwanda · National Soccer League</span></td><td>Home: gate fail (7 goals in last 5); Away: gate fail (7 goals in last 5)</td></tr><tr><td>16:00</td><td>Inter Kashi v Churchill Brothers<span class="sub">India · Indian Super League</span></td><td>Home: gate fail (2 goals in last 5); Away: under 5 league games on record</td></tr><tr><td>16:00</td><td>Shabab Al Ordon v Al Salt<span class="sub">Jordan · League</span></td><td>Home: gate fail (2 goals in last 5); Away: gate fail (3 goals in last 5)</td></tr><tr><td>16:00</td><td>Al Bashaer Club v Al Watan<span class="sub">Libya · Premier League</span></td><td>Home: under 5 league games on record; Away: gate fail (7 goals in last 5)</td></tr><tr><td>17:00</td><td>Vysočina Jihlava v Třinec<span class="sub">Czech-Republic · FNL</span></td><td>Home: 1/3 rules; Away: gate fail (7 goals in last 5)</td></tr><tr><td>17:00</td><td>Flamurtari v Besa Kavajë<span class="sub">Albania · 1st Division</span></td><td>Home: gate fail (6 goals in last 5); Away: 1/3 rules</td></tr><tr><td>17:00</td><td>East Riffa v Al Ittifaq Maqaba<span class="sub">Bahrain · Premier League</span></td><td>Away 2/3 (downgraded to cut)</td></tr><tr><td>17:00</td><td>Malkiya v Manama<span class="sub">Bahrain · Premier League</span></td><td>Home: gate fail (2 goals in last 5); Away: gate fail (5 goals in last 5)</td></tr><tr><td>17:00</td><td>Vegas v JS Talangaï<span class="sub">Congo · Ligue 1</span></td><td>Home: under 5 league games on record; Away: under 5 league games on record</td></tr><tr><td>17:30</td><td>Universitatea Cluj v Sepsi OSK Sfantu Gheorghe<span class="sub">Romania · Liga I</span></td><td>Home: 1/3 rules; Away: gate fail (5 goals in last 5)</td></tr><tr><td>17:30</td><td>Lusail City v Al-Arabi SC<span class="sub">Qatar · Stars League</span></td><td>Home: 0/3 rules; Away: 0/3 rules</td></tr><tr><td>17:30</td><td>Ghaz Al Shamal v Al-Karma<span class="sub">Iraq · Iraqi League</span></td><td>Home: gate fail (6 goals in last 5); Away: 0/3 rules</td></tr><tr><td>17:30</td><td>USFA v CFFEB<span class="sub">Burkina-Faso · Ligue 1</span></td><td>Home: gate fail (3 goals in last 5); Away: gate fail (6 goals in last 5)</td></tr><tr><td>18:00</td><td>Dinamo Batumi v Dila<span class="sub">Georgia · Erovnuli Liga</span></td><td>Home: 1/3 rules; Away: gate fail (5 goals in last 5)</td></tr><tr><td>18:00</td><td>IMT Novi Beograd v Macva<span class="sub">Serbia · Super Liga</span></td><td>Home: gate fail (5 goals in last 5); Away: gate fail (6 goals in last 5)</td></tr><tr><td>18:00</td><td>Kagera Sugar v Dodoma Jiji<span class="sub">Tanzania · Ligi kuu Bara</span></td><td>Home: gate fail (2 goals in last 5); Away: gate fail (4 goals in last 5)</td></tr><tr><td>18:00</td><td>Gharraf v Mosul<span class="sub">Iraq · Iraqi League</span></td><td>Home: gate fail (7 goals in last 5); Away: gate fail (6 goals in last 5)</td></tr><tr><td>18:00</td><td>Inter Sibiu v Baicoi<span class="sub">Romania · Liga III - Serie 2</span></td><td>Home: 1/3 rules; Away: 1/3 rules</td></tr><tr><td>18:00</td><td>Bakaridjan v Diarra<span class="sub">Mali · Première Division</span></td><td>Home: gate fail (7 goals in last 5); Away: gate fail (1 goals in last 5)</td></tr><tr><td>18:30</td><td>Lokomotiv Sofia v Slavia Sofia<span class="sub">Bulgaria · First League</span></td><td>Home: gate fail (5 goals in last 5); Away: gate fail (1 goals in last 5)</td></tr><tr><td>18:30</td><td>Torpedo Moskva v Ska-khabarovsk<span class="sub">Russia · First League</span></td><td>Home: gate fail (4 goals in last 5); Away: 1/3 rules</td></tr><tr><td>18:30</td><td>Al Wihdat v Doqarah<span class="sub">Jordan · League</span></td><td>Home: gate fail (4 goals in last 5); Away: gate fail (4 goals in last 5)</td></tr><tr><td>19:00</td><td>Istra 1961 v NK Varazdin<span class="sub">Croatia · HNL</span></td><td>Home: 0/3 rules; Away: gate fail (5 goals in last 5)</td></tr><tr><td>19:00</td><td>Raków Częstochowa v Piast Gliwice<span class="sub">Poland · Ekstraklasa</span></td><td>Home: 1/3 rules; Away: 0/3 rules</td></tr><tr><td>19:00</td><td>Radomlje v Nafta<span class="sub">Slovenia · 1. SNL</span></td><td>Home: gate fail (4 goals in last 5); Away: gate fail (2 goals in last 5)</td></tr><tr><td>19:00</td><td>Warta Poznań v Pogoń Siedlce<span class="sub">Poland · I Liga</span></td><td>Home: gate fail (4 goals in last 5); Away: gate fail (7 goals in last 5)</td></tr><tr><td>19:00</td><td>Dukla Praha v Táborsko<span class="sub">Czech-Republic · FNL</span></td><td>Home: gate fail (5 goals in last 5); Away: gate fail (4 goals in last 5)</td></tr><tr><td>19:00</td><td>Ústí nad Labem v Hanácká<span class="sub">Czech-Republic · FNL</span></td><td>Home: gate fail (3 goals in last 5); Away: gate fail (6 goals in last 5)</td></tr><tr><td>19:00</td><td>Artis v Slovácko<span class="sub">Czech-Republic · Czech Liga</span></td><td>Home: gate fail (7 goals in last 5); Away: 1/3 rules</td></tr><tr><td>19:00</td><td>Tychy 71 v Chojniczanka Chojnice<span class="sub">Poland · II Liga - East</span></td><td>Home: 1/3 rules; Away: gate fail (6 goals in last 5)</td></tr><tr><td>19:00</td><td>Alanyaspor v Konyaspor<span class="sub">Turkey · Süper Lig</span></td><td>Home: gate fail (2 goals in last 5); Away: gate fail (4 goals in last 5)</td></tr><tr><td>19:00</td><td>Rizespor v Kasımpaşa<span class="sub">Turkey · Süper Lig</span></td><td>Home: 0/3 rules; Away: 1/3 rules</td></tr><tr><td>19:00</td><td>Sarıyer v İstanbulspor<span class="sub">Turkey · 1. Lig</span></td><td>Home: gate fail (3 goals in last 5); Away: gate fail (3 goals in last 5)</td></tr><tr><td>19:00</td><td>Ümraniyespor v Manisa F.K.<span class="sub">Turkey · 1. Lig</span></td><td>Home: 1/3 rules; Away: 0/3 rules</td></tr><tr><td>19:00</td><td>AEK Larnaca v Apollon Limassol<span class="sub">Cyprus · 1. Division</span></td><td>Home: 1/3 rules; Away: 1/3 rules</td></tr><tr><td>19:00</td><td>AEL v Olympiakos<span class="sub">Cyprus · 1. Division</span></td><td>Home: 0/3 rules; Away: gate fail (4 goals in last 5)</td></tr><tr><td>19:00</td><td>Shooting Stars v Rivers United<span class="sub">Nigeria · NPFL</span></td><td>Home: 0/3 rules; Away: 0/3 rules</td></tr><tr><td>19:00</td><td>Kiyovu Sports v Rayon Sports<span class="sub">Rwanda · National Soccer League</span></td><td>Away 2/3 (downgraded to cut)</td></tr><tr><td>19:00</td><td>Čelik v BSK Banja Luka<span class="sub">Bosnia · Premijer Liga</span></td><td>Home: gate fail (5 goals in last 5); Away: 0/3 rules</td></tr><tr><td>19:00</td><td>Al-Tahaddi v Darnes<span class="sub">Libya · Premier League</span></td><td>Home: 1/3 rules; Away: gate fail (2 goals in last 5)</td></tr><tr><td>19:30</td><td>SKU Amstetten v SKN ST. Polten<span class="sub">Austria · 2. Liga</span></td><td>Home: gate fail (7 goals in last 5); Away: gate fail (6 goals in last 5)</td></tr><tr><td>19:30</td><td>VfL Bochum v SV Darmstadt 98<span class="sub">Germany · 2. Bundesliga</span></td><td>Home: gate fail (6 goals in last 5); Away: gate fail (4 goals in last 5)</td></tr><tr><td>19:30</td><td>1. FC Heidenheim v 1. FC Nürnberg<span class="sub">Germany · 2. Bundesliga</span></td><td>Home: gate fail (6 goals in last 5); Away: gate fail (7 goals in last 5)</td></tr><tr><td>19:30</td><td>Dinamo Tirana v Partizani<span class="sub">Albania · Superliga</span></td><td>Home: gate fail (5 goals in last 5); Away: gate fail (3 goals in last 5)</td></tr><tr><td>19:30</td><td>Stellenbosch v TS Galaxy<span class="sub">South-Africa · Premier Soccer League</span></td><td>Home: gate fail (3 goals in last 5); Away: gate fail (0 goals in last 5)</td></tr><tr><td>19:30</td><td>Al-Ittihad FC v NEOM<span class="sub">Saudi-Arabia · Pro League</span></td><td>Home: 1/3 rules; Away: gate fail (5 goals in last 5)</td></tr><tr><td>20:00</td><td>Sonderjyske v Brondby<span class="sub">Denmark · Superliga</span></td><td>Home: 0/3 rules; Away: gate fail (6 goals in last 5)</td></tr><tr><td>20:00</td><td>AB Copenhagen v Vejle<span class="sub">Denmark · 1. Division</span></td><td>Home: 1/3 rules; Away: gate fail (4 goals in last 5)</td></tr><tr><td>20:00</td><td>Hvidovre v Kolding IF<span class="sub">Denmark · 1. Division</span></td><td>Home: 1/3 rules; Away: gate fail (7 goals in last 5)</td></tr><tr><td>20:00</td><td>Concordia v Teutonia Ottensen<span class="sub">Germany · Oberliga - Hamburg</span></td><td>Home: 0/3 rules; Away: 0/3 rules</td></tr><tr><td>20:00</td><td>DJK Bamberg v Fortuna Regensburg<span class="sub">Germany · Oberliga - Bayern Nord</span></td><td>Home: gate fail (7 goals in last 5); Away: 1/3 rules</td></tr><tr><td>20:00</td><td>Feirense v Portimonense<span class="sub">Portugal · Segunda Liga</span></td><td>Home: gate fail (4 goals in last 5); Away: gate fail (2 goals in last 5)</td></tr><tr><td>20:00</td><td>Hansa Rostock v Havelse<span class="sub">Germany · 3. Liga</span></td><td>Home: gate fail (5 goals in last 5); Away: gate fail (6 goals in last 5)</td></tr><tr><td>20:00</td><td>TSV 1860 München v FC Schweinfurt 05<span class="sub">Germany · Regionalliga - Bayern</span></td><td>Home: 1/3 rules; Away: gate fail (6 goals in last 5)</td></tr><tr><td>20:00</td><td>SV Babelsberg 03 v BSG Chemie Leipzig<span class="sub">Germany · Regionalliga - Nordost</span></td><td>Home: gate fail (3 goals in last 5); Away: gate fail (4 goals in last 5)</td></tr><tr><td>20:00</td><td>BFC Dynamo v FC Rot-Weiß Erfurt<span class="sub">Germany · Regionalliga - Nordost</span></td><td>Away 2/3 (downgraded to cut)</td></tr><tr><td>20:00</td><td>Omonia 29is Maiou v Omonia Aradippou<span class="sub">Cyprus · 1. Division</span></td><td>Home: gate fail (5 goals in last 5); Away: gate fail (4 goals in last 5)</td></tr><tr><td>20:00</td><td>Amal Tiznit v Moghreb Tetouan<span class="sub">Morocco · Botola Pro</span></td><td>Home: gate fail (6 goals in last 5); Away: gate fail (1 goals in last 5)</td></tr><tr><td>20:30</td><td>SC Kriens v FC Aarau<span class="sub">Switzerland · Challenge League</span></td><td>Home: gate fail (7 goals in last 5); Away: gate fail (6 goals in last 5)</td></tr><tr><td>20:30</td><td>Gyori ETO FC v Debreceni VSC<span class="sub">Hungary · NB I</span></td><td>Home: 1/3 rules; Away: 1/3 rules</td></tr><tr><td>20:30</td><td>Grazer AK v SCR Altach<span class="sub">Austria · Bundesliga</span></td><td>Home: gate fail (3 goals in last 5); Away: gate fail (4 goals in last 5)</td></tr><tr><td>20:30</td><td>Petrolul Ploiesti v Arges Pitesti<span class="sub">Romania · Liga I</span></td><td>Home: gate fail (7 goals in last 5); Away: gate fail (4 goals in last 5)</td></tr><tr><td>20:30</td><td>Harksheide v Pinneberg<span class="sub">Germany · Oberliga - Hamburg</span></td><td>Home: gate fail (5 goals in last 5); Away: 0/3 rules</td></tr><tr><td>20:30</td><td>Sportfreunde Schwaig v TuS Geretsried<span class="sub">Germany · Oberliga - Bayern Süd</span></td><td>Home: 0/3 rules; Away: gate fail (7 goals in last 5)</td></tr><tr><td>20:30</td><td>Bersenbrück v Wilhelmshaven<span class="sub">Germany · Oberliga - Niedersachsen</span></td><td>Away 2/3 (downgraded to cut)</td></tr><tr><td>20:30</td><td>Spelle-Venhaus v BW Lohne<span class="sub">Germany · Oberliga - Niedersachsen</span></td><td>Home: 1/3 rules; Away: 1/3 rules</td></tr><tr><td>20:30</td><td>Germania Ratingen v Viktoria Jüchen-Garz.<span class="sub">Germany · Oberliga - Niederrhein</span></td><td>Home: 1/3 rules; Away: 0/3 rules</td></tr><tr><td>20:30</td><td>Wuppertaler SV v Solingen-Wald<span class="sub">Germany · Oberliga - Niederrhein</span></td><td>Home: 1/3 rules; Away: 0/3 rules</td></tr><tr><td>20:30</td><td>Auersmacher v TuS Koblenz<span class="sub">Germany · Oberliga - Rheinland-Pfalz / Saar</span></td><td>Home: gate fail (2 goals in last 5); Away: gate fail (3 goals in last 5)</td></tr><tr><td>20:30</td><td>Ontinyent 1931 v Torrent<span class="sub">Spain · Tercera División RFEF - Group 6</span></td><td>Home: gate fail (7 goals in last 5); Away: gate fail (7 goals in last 5)</td></tr><tr><td>20:30</td><td>Binga v ASKO<span class="sub">Mali · Première Division</span></td><td>Home: gate fail (5 goals in last 5); Away: gate fail (3 goals in last 5)</td></tr><tr><td>21:00</td><td>Dordrecht v Vitesse<span class="sub">Netherlands · Eerste Divisie</span></td><td>Home: gate fail (4 goals in last 5); Away: gate fail (2 goals in last 5)</td></tr><tr><td>21:00</td><td>VVV Venlo v Waalwijk<span class="sub">Netherlands · Eerste Divisie</span></td><td>Home: 0/3 rules; Away: 0/3 rules</td></tr><tr><td>21:00</td><td>Francs Borains v AS Eupen<span class="sub">Belgium · Challenger Pro League</span></td><td>Home: gate fail (5 goals in last 5); Away: 0/3 rules</td></tr><tr><td>21:00</td><td>Delfin SC v Orense SC<span class="sub">Ecuador · Liga Pro</span></td><td>Home: 1/3 rules; Away: 0/3 rules</td></tr><tr><td>21:00</td><td>ABB v Real Tomayapo<span class="sub">Bolivia · Primera División</span></td><td>Home: gate fail (7 goals in last 5); Away: gate fail (5 goals in last 5)</td></tr><tr><td>21:00</td><td>Birkirkara v Mosta<span class="sub">Malta · Premier League</span></td><td>Home: 0/3 rules; Away: gate fail (5 goals in last 5)</td></tr><tr><td>21:15</td><td>Étoile Carouge v Stade Lausanne-Ouchy<span class="sub">Switzerland · Challenge League</span></td><td>Away 2/3 (downgraded to cut)</td></tr><tr><td>21:15</td><td>FC Winterthur v Rapperswil<span class="sub">Switzerland · Challenge League</span></td><td>Home: 0/3 rules; Away: gate fail (5 goals in last 5)</td></tr><tr><td>21:30</td><td>Gornik Zabrze v Wisla Plock<span class="sub">Poland · Ekstraklasa</span></td><td>Home: gate fail (4 goals in last 5); Away: gate fail (5 goals in last 5)</td></tr><tr><td>21:30</td><td>Chrobry Głogów v Unia Skierniewice<span class="sub">Poland · I Liga</span></td><td>Home: gate fail (4 goals in last 5); Away: 0/3 rules</td></tr><tr><td>21:30</td><td>Wacker Innsbruck v First Vienna<span class="sub">Austria · 2. Liga</span></td><td>Home: gate fail (7 goals in last 5); Away: gate fail (7 goals in last 5)</td></tr><tr><td>21:30</td><td>Leganes v Sabadell<span class="sub">Spain · Segunda División</span></td><td>Home: 0/3 rules; Away: gate fail (3 goals in last 5)</td></tr><tr><td>21:30</td><td>Werder Bremen v Borussia Mönchengladbach<span class="sub">Germany · Bundesliga</span></td><td>Home: 1/3 rules; Away: gate fail (5 goals in last 5)</td></tr><tr><td>21:30</td><td>Bangor City 1876 FC v Mold Alexandra<span class="sub">Wales · FAW Championship</span></td><td>Home: 0/3 rules; Away: 1/3 rules</td></tr><tr><td>21:30</td><td>Afan Lido v Caerau (Ely)<span class="sub">Wales · FAW Championship</span></td><td>Home: 0/3 rules; Away: gate fail (5 goals in last 5)</td></tr><tr><td>21:30</td><td>Carmarthen Town v Swansea University<span class="sub">Wales · FAW Championship</span></td><td>Home: gate fail (5 goals in last 5); Away: 0/3 rules</td></tr><tr><td>21:30</td><td>llanelli AFC v Cardiff Draconians<span class="sub">Wales · FAW Championship</span></td><td>Home: gate fail (5 goals in last 5); Away: gate fail (6 goals in last 5)</td></tr><tr><td>21:30</td><td>Newport City v Pontardawe Town<span class="sub">Wales · FAW Championship</span></td><td>Home: 0/3 rules; Away: 1/3 rules</td></tr><tr><td>21:30</td><td>Cavese v Scafatese<span class="sub">Italy · Serie C - Girone C</span></td><td>Away 2/3 (downgraded to cut)</td></tr><tr><td>21:30</td><td>Foggia v Casertana<span class="sub">Italy · Serie C - Girone C</span></td><td>Home: gate fail (6 goals in last 5); Away: gate fail (5 goals in last 5)</td></tr><tr><td>21:45</td><td>Venezia v Bologna<span class="sub">Italy · Serie A</span></td><td>Home: gate fail (2 goals in last 5); Away: 1/3 rules</td></tr><tr><td>21:45</td><td>Stade Brestois 29 v Paris FC<span class="sub">France · Ligue 1</span></td><td>Away 2/3 (downgraded to cut)</td></tr><tr><td>21:45</td><td>OH Leuven v Kortrijk<span class="sub">Belgium · Jupiler Pro League</span></td><td>Home: gate fail (7 goals in last 5); Away: gate fail (2 goals in last 5)</td></tr><tr><td>21:45</td><td>Glentoran v Larne<span class="sub">Northern-Ireland · Premiership</span></td><td>Home: gate fail (6 goals in last 5); Away: 1/3 rules</td></tr><tr><td>21:45</td><td>Institute v Ards<span class="sub">Northern-Ireland · Championship</span></td><td>Home: 1/3 rules; Away: gate fail (3 goals in last 5)</td></tr><tr><td>21:45</td><td>Moyola Park v Annagh United<span class="sub">Northern-Ireland · Championship</span></td><td>Away 2/3 (downgraded to cut)</td></tr><tr><td>21:45</td><td>Newry City AFC v Ballinamallard United<span class="sub">Northern-Ireland · Championship</span></td><td>Home: gate fail (7 goals in last 5); Away: gate fail (2 goals in last 5)</td></tr><tr><td>21:45</td><td>Warrenpoint Town v H&amp;W Welders<span class="sub">Northern-Ireland · Championship</span></td><td>Home: gate fail (5 goals in last 5); Away: gate fail (6 goals in last 5)</td></tr><tr><td>21:45</td><td>Briton Ferry v Penybont<span class="sub">Wales · Premier League</span></td><td>Away 2/3 (downgraded to cut)</td></tr><tr><td>21:45</td><td>Cambrian &amp; Clydach v Trefelin<span class="sub">Wales · Premier League</span></td><td>Home: gate fail (7 goals in last 5); Away: gate fail (4 goals in last 5)</td></tr><tr><td>21:45</td><td>Cardiff MET v Airbus UK<span class="sub">Wales · Premier League</span></td><td>Home: 0/3 rules; Away: 1/3 rules</td></tr><tr><td>21:45</td><td>Colwyn Bay v Ammanford AFC<span class="sub">Wales · Premier League</span></td><td>Home: 1/3 rules; Away: gate fail (6 goals in last 5)</td></tr><tr><td>21:45</td><td>Haverfordwest County AFC v GAP Connah S Quay FC<span class="sub">Wales · Premier League</span></td><td>Home: gate fail (5 goals in last 5); Away: gate fail (6 goals in last 5)</td></tr><tr><td>21:45</td><td>Bala Town v Caersws<span class="sub">Wales · FAW Championship</span></td><td>Home: 0/3 rules; Away: 0/3 rules</td></tr><tr><td>21:45</td><td>Denbigh Town v Brickfield Rangers<span class="sub">Wales · FAW Championship</span></td><td>Home: 1/3 rules; Away: gate fail (5 goals in last 5)</td></tr><tr><td>21:45</td><td>Caerphilly Athletic v Baglan Dragons<span class="sub">Wales · FAW Championship</span></td><td>Home: 0/3 rules; Away: gate fail (5 goals in last 5)</td></tr><tr><td>21:45</td><td>Scunthorpe v Wealdstone<span class="sub">England · National League</span></td><td>Home: gate fail (4 goals in last 5); Away: 0/3 rules</td></tr><tr><td>22:00</td><td>Nottingham Forest v Chelsea<span class="sub">England · Premier League</span></td><td>Home: gate fail (4 goals in last 5); Away: gate fail (5 goals in last 5)</td></tr><tr><td>22:00</td><td>Southampton v Middlesbrough<span class="sub">England · Championship</span></td><td>Home: 0/3 rules; Away: gate fail (7 goals in last 5)</td></tr><tr><td>22:00</td><td>Levante v Racing Santander<span class="sub">Spain · La Liga</span></td><td>Home: gate fail (5 goals in last 5); Away: gate fail (7 goals in last 5)</td></tr><tr><td>22:00</td><td>Hound Dogs v Lions Gibraltar<span class="sub">Gibraltar · Premier Division</span></td><td>Home: gate fail (2 goals in last 5); Away: gate fail (5 goals in last 5)</td></tr><tr><td>22:15</td><td>Hércules v Antequera<span class="sub">Spain · Primera División RFEF - Group 2</span></td><td>Home: gate fail (6 goals in last 5); Away: gate fail (7 goals in last 5)</td></tr><tr><td>22:15</td><td>Maritimo v Nacional<span class="sub">Portugal · Primeira Liga</span></td><td>Home: gate fail (3 goals in last 5); Away: gate fail (4 goals in last 5)</td></tr><tr><td>22:30</td><td>Nacional Asuncion v Rubio NU<span class="sub">Paraguay · Division Profesional - Clausura</span></td><td>Home: gate fail (5 goals in last 5); Away: gate fail (7 goals in last 5)</td></tr><tr><td>23:00</td><td>Real Unión de Tenerife v Anaza<span class="sub">Spain · Tercera División RFEF - Group 12</span></td><td>Home: gate fail (7 goals in last 5); Away: gate fail (6 goals in last 5)</td></tr><tr><td>23:30</td><td>Deportivo Cuenca v Manta FC<span class="sub">Ecuador · Liga Pro</span></td><td>Home: gate fail (7 goals in last 5); Away: 1/3 rules</td></tr></tbody></table></div></details>
+<footer>Rules: men's pro league games only · gate 8+ goals in last 5 · common opponents · H2H 2 of last 3 (this + last season) · form 3W and at most 1L in last 5 · home 3/3 = 1, home 2/3 = 1X, away 3/3 = X2. Data: API-Football.</footer>
+</main></body></html>
