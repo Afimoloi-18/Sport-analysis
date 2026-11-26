@@ -68,7 +68,19 @@
     "\\b(paraibano|matogrossense) 2\\b",
     "\\bprimera [cd]\\b",
     "torneo federal",
-    "primera b metropolitana"
+    "primera b metropolitana",
+    "lowland league",
+    "highland league",
+    "gamma ethniki",
+    "third league",
+    "tweede divisie",
+    "derde divisie",
+    "campeonato de portugal",
+    "\\b3\\. lig\\b",
+    "liga premier",
+    "segunda divisi[oó]n rfef",
+    "^campionato$",
+    "1a divisi"
   ],
   "exclude_team_name_patterns": [
     "\\sW$",

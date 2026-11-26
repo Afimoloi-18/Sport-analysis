@@ -85,6 +85,7 @@ def main():
                                 log(f"Team {tid} history failed: {ex}")
                                 extras[tid] = []
 
+                day_picks = []
                 for f in ready:
                     merged = {g["id"]: g for g in league_games[f["league_id"]]}
                     for tid in (f["home_id"], f["away_id"]):
@@ -92,7 +93,12 @@ def main():
                             merged[g["id"]] = g
                     ev = rules.evaluate(f, list(merged.values()), cfg["rules"])
                     checked += 1
-                    (picks if ev["verdict"] else cuts).append({"fixture": f, "eval": ev})
+                    item = {"fixture": f, "eval": ev, "day_index": i}
+                    (day_picks if ev["verdict"] else cuts).append(item)
+                day_picks.sort(key=rules.rank_key)
+                if i > 0:  # top-up day: only the best, just enough to reach the target
+                    day_picks = day_picks[: max(cfg.get("min_picks", 12) - len(picks), 0)]
+                picks += day_picks
 
             if skipped:
                 notes.append(f"{skipped} matches not checked: daily data allowance reached. Biggest leagues were checked first.")
@@ -104,7 +110,7 @@ def main():
             notes.append(f"Data error: {ex}")
         log(f"API calls used: {api.calls}" + (f", provider says {api.remaining} left today" if api.remaining is not None else ""))
 
-    picks.sort(key=rules.rank_key)
+    picks.sort(key=lambda p: (p.get("day_index", 0), rules.rank_key(p)))
     cuts.sort(key=lambda c: c["fixture"]["date"])
     rows = ledger.add_picks(rows, picks, day)
     ledger.write(rows)
