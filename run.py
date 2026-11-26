@@ -2,7 +2,7 @@
 import json
 import os
 import sys
-from datetime import datetime
+from datetime import date, datetime, timedelta
 from html import escape
 from zoneinfo import ZoneInfo
 
@@ -35,56 +35,64 @@ def main():
             league_types = load_league_types(api, log)
             filt = Filter(cfg, league_types)
 
-            todays = [norm(x) for x in api.get("/fixtures", date=day, timezone=tz)]
-            upcoming = [f for f in todays if f["status"] == "NS"]
-            eligible = [f for f in upcoming if filt.game_ok(f)]
-            excluded = len(upcoming) - len(eligible)
-            log(f"{len(todays)} fixtures today, {len(upcoming)} not started, {len(eligible)} in men's pro leagues")
+            league_games, extras, skipped = {}, {}, 0
+            days = [day]
+            if cfg.get("top_up_days", 1) > 0:
+                d0 = date.fromisoformat(day)
+                days += [(d0 + timedelta(days=i)).isoformat() for i in range(1, cfg.get("top_up_days", 1) + 1)]
+            for i, d in enumerate(days):
+                if i > 0 and len(picks) >= cfg.get("min_picks", 12):
+                    break
+                if i > 0:
+                    log(f"Only {len(picks)} picks, topping up with {d}")
+                fixtures = [norm(x) for x in api.get("/fixtures", date=d, timezone=tz)]
+                upcoming = [f for f in fixtures if f["status"] == "NS"]
+                eligible = [f for f in upcoming if filt.game_ok(f)]
+                excluded += len(upcoming) - len(eligible)
+                log(f"{d}: {len(fixtures)} fixtures, {len(upcoming)} not started, {len(eligible)} in men's pro leagues")
 
-            groups = {}
-            for f in eligible:
-                groups.setdefault((f["league_id"], f["season"]), []).append(f)
-            order = sorted(groups.items(), key=lambda kv: -len(kv[1]))  # most fixtures per call first
-
-            league_games, skipped = {}, 0
-            for (lid, season), fx in order:
-                if api.left() < 2:
-                    skipped += len(fx)
-                    continue
-                try:
-                    games = finished(fetch_league_seasons(api, lid, season))
-                    league_games[lid] = [g for g in games if filt.teams_ok(g["home"], g["away"])]
-                except PlanError:
-                    raise
-                except ApiError as ex:
-                    log(f"League {lid} failed: {ex}")
-                    skipped += len(fx)
-
-            # Promoted/relegated teams: top up last season's games from their old league.
-            extras = {}
-            ready = [f for f in eligible if f["league_id"] in league_games]
-            for f in ready:
-                pool = league_games[f["league_id"]]
-                for tid in (f["home_id"], f["away_id"]):
-                    if tid in extras or api.left() < 1:
+                groups = {}
+                for f in eligible:
+                    groups.setdefault((f["league_id"], f["season"]), []).append(f)
+                for (lid, season), fx in sorted(groups.items(), key=lambda kv: -len(kv[1])):
+                    if lid in league_games:
                         continue
-                    if len(rules.last_games(pool, tid, f["date"], cfg["rules"]["common_last_n"])) < cfg["rules"]["common_last_n"]:
-                        try:
-                            extras[tid] = [g for g in finished(fetch_team_previous(api, tid, f["season"])) if filt.game_ok(g)]
-                        except PlanError:
-                            raise
-                        except ApiError as ex:
-                            log(f"Team {tid} history failed: {ex}")
-                            extras[tid] = []
+                    if api.left() < 2:
+                        skipped += len(fx)
+                        continue
+                    try:
+                        games = finished(fetch_league_seasons(api, lid, season))
+                        league_games[lid] = [g for g in games if filt.teams_ok(g["home"], g["away"])]
+                    except PlanError:
+                        raise
+                    except ApiError as ex:
+                        log(f"League {lid} failed: {ex}")
+                        skipped += len(fx)
 
-            for f in ready:
-                merged = {g["id"]: g for g in league_games[f["league_id"]]}
-                for tid in (f["home_id"], f["away_id"]):
-                    for g in extras.get(tid, []):
-                        merged[g["id"]] = g
-                ev = rules.evaluate(f, list(merged.values()), cfg["rules"])
-                checked += 1
-                (picks if ev["verdict"] else cuts).append({"fixture": f, "eval": ev})
+                # Promoted/relegated teams: top up last season's games from their old league.
+                ready = [f for f in eligible if f["league_id"] in league_games]
+                for f in ready:
+                    pool = league_games[f["league_id"]]
+                    for tid in (f["home_id"], f["away_id"]):
+                        if tid in extras or api.left() < 1:
+                            continue
+                        if len(rules.last_games(pool, tid, f["date"], cfg["rules"]["common_last_n"])) < cfg["rules"]["common_last_n"]:
+                            try:
+                                extras[tid] = [g for g in finished(fetch_team_previous(api, tid, f["season"])) if filt.game_ok(g)]
+                            except PlanError:
+                                raise
+                            except ApiError as ex:
+                                log(f"Team {tid} history failed: {ex}")
+                                extras[tid] = []
+
+                for f in ready:
+                    merged = {g["id"]: g for g in league_games[f["league_id"]]}
+                    for tid in (f["home_id"], f["away_id"]):
+                        for g in extras.get(tid, []):
+                            merged[g["id"]] = g
+                    ev = rules.evaluate(f, list(merged.values()), cfg["rules"])
+                    checked += 1
+                    (picks if ev["verdict"] else cuts).append({"fixture": f, "eval": ev})
 
             if skipped:
                 notes.append(f"{skipped} matches not checked: daily data allowance reached. Biggest leagues were checked first.")
@@ -106,7 +114,7 @@ def main():
     with open(f"data/picks/{day}.json", "w") as fh:
         json.dump({"day": day, "picks": picks, "cuts": cuts, "notes": notes, "log": lines}, fh, indent=1, default=str)
 
-    summary = [f"{len(picks)} picks", f"{checked} matches checked", f"{excluded} excluded (women, youth, cups, reserves)"]
+    summary = [f"{len(picks)} picks", f"{checked} matches checked", f"{excluded} excluded (women, youth, amateur, cups)"]
     recent = sorted(rows, key=lambda r: r["kickoff"], reverse=True)[:30]
     html = report.render(day, tz, picks, cuts, st, recent, notes, summary)
     os.makedirs("docs/archive", exist_ok=True)
@@ -133,7 +141,7 @@ def telegram_text(day, tz, picks, st, notes, checked):
     if picks:
         for i, p in enumerate(picks, 1):
             f, ev = p["fixture"], p["eval"]
-            ko = datetime.fromisoformat(f["date"]).astimezone(ZoneInfo(tz)).strftime("%H:%M")
+            ko = datetime.fromisoformat(f["date"]).astimezone(ZoneInfo(tz)).strftime("%a %H:%M")
             h, a = escape(f["home"]), escape(f["away"])
             if ev["backed"] == "home":
                 h = f"<b>{h}</b>"

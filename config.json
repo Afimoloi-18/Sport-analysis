@@ -2,7 +2,6 @@
   "timezone": "Africa/Johannesburg",
   "max_api_calls": 2500,
   "min_seconds_between_calls": 6.5,
-
   "rules": {
     "gate_last_n": 5,
     "gate_min_goals": 8,
@@ -14,17 +13,67 @@
     "form_min_wins": 3,
     "form_max_losses": 1
   },
-
   "exclude_league_name_patterns": [
-    "wom[ae]n", "femen", "f[ée]minin", "frauen", "damallsvenskan", "toppserien", "nwsl", "\\bwsl\\b", "liga f\\b", "\\(w\\)",
-    "\\bu-?1[5-9]\\b", "\\bu-?2[0-3]\\b", "under[ -]?\\d\\d", "youth", "junior", "juvenil", "primavera", "reserve",
-    "premier league 2", "development", "\\bamateur", "friendl"
+    "wom[ae]n",
+    "femen",
+    "f[ée]minin",
+    "frauen",
+    "damallsvenskan",
+    "toppserien",
+    "nwsl",
+    "\\bwsl\\b",
+    "liga f\\b",
+    "\\(w\\)",
+    "\\bu-?1[5-9]\\b",
+    "\\bu-?2[0-3]\\b",
+    "under[ -]?\\d\\d",
+    "youth",
+    "junior",
+    "juvenil",
+    "primavera",
+    "reserve",
+    "premier league 2",
+    "development",
+    "\\bamateur",
+    "friendl",
+    "oberliga",
+    "regionalliga",
+    "landesliga",
+    "verbandsliga",
+    "non league",
+    "national league - ",
+    "isthmian",
+    "southern league",
+    "northern premier",
+    "tercera",
+    "segunda federaci",
+    "liga iii",
+    "\\bii liga",
+    "\\biii liga",
+    "liga alef",
+    "liga bet",
+    "\\bliga 3\\b",
+    "faw championship",
+    "serie d\\b",
+    "second nl",
+    "\\bdivision 2\\b",
+    "\\b[2-9]\\. division\\b",
+    "national [23]\\b"
   ],
-
   "exclude_team_name_patterns": [
-    "\\sW$", "\\sII$", "\\sB$", "^Jong\\s", "\\sU-?1[5-9]$", "\\sU-?2[0-3]$", "\\sReserves?$", "\\sYouth$", "\\sWomen$", "\\sFem\\.?$"
+    "\\sW$",
+    "\\sII$",
+    "\\sB$",
+    "^Jong\\s",
+    "\\sU-?1[5-9]$",
+    "\\sU-?2[0-3]$",
+    "\\sReserves?$",
+    "\\sYouth$",
+    "\\sWomen$",
+    "\\sFem\\.?$"
   ],
-
   "exclude_league_ids": [],
-  "include_only_league_ids": []
+  "include_only_league_ids": [],
+  "min_picks": 12,
+  "top_up_days": 1
 }

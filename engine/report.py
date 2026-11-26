@@ -7,7 +7,7 @@ VERDICT_LABEL = {"1": "Home win", "1X": "Home or draw", "X2": "Away or draw"}
 
 
 def _local(iso, tz):
-    return datetime.fromisoformat(iso).astimezone(ZoneInfo(tz)).strftime("%H:%M")
+    return datetime.fromisoformat(iso).astimezone(ZoneInfo(tz)).strftime("%a %H:%M")
 
 
 def _chip(ok, label, detail=""):
