@@ -72,12 +72,8 @@
   ],
   "exclude_team_name_patterns": [
     "\\sW$",
-    "\\sII$",
-    "\\sB$",
-    "^Jong\\s",
     "\\sU-?1[5-9]$",
     "\\sU-?2[0-3]$",
-    "\\sReserves?$",
     "\\sYouth$",
     "\\sWomen$",
     "\\sFem\\.?$"
