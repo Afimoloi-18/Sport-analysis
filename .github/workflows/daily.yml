@@ -8,6 +8,14 @@ on:
       run_date:
         description: "Date to check (YYYY-MM-DD). Leave blank for today."
         required: false
+      mode:
+        description: "daily = normal shortlist, backtest = test the rules on past matches"
+        required: false
+        default: daily
+      backtest_days:
+        description: "Backtest: how many past days"
+        required: false
+        default: "14"
 
 permissions:
   contents: write
@@ -31,7 +39,9 @@ jobs:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           RUN_DATE: ${{ github.event.inputs.run_date }}
-        run: python run.py
+          BACKTEST_DAYS: ${{ github.event.inputs.backtest_days }}
+        run: |
+          if [ "${{ github.event.inputs.mode }}" = "backtest" ]; then python backtest.py; else python run.py; fi
       - name: Save results and publish page
         run: |
           git config user.name "shortlist-bot"

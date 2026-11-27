@@ -3,7 +3,7 @@ import csv
 import os
 
 from .api import ApiError, BudgetExceeded
-from .data import norm
+from .data import norm, red_cards
 
 LOG = os.path.join("data", "results_log.csv")
 FIELDS = ["date", "fixture_id", "kickoff", "country", "league", "home", "away",
@@ -27,7 +27,9 @@ def write(rows):
 
 
 def add_picks(rows, picks, day):
-    have = {r["fixture_id"] for r in rows}
+    # a rerun for the same day replaces that day's unsettled list
+    rows = [r for r in rows if not (r["date"] == day and r["result"] == "pending")]
+    have = {str(r["fixture_id"]) for r in rows}
     for p in picks:
         f, ev = p["fixture"], p["eval"]
         if str(f["id"]) in have:
@@ -60,13 +62,17 @@ def settle(api, rows, log):
         except (ApiError, BudgetExceeded) as e:
             log(f"Settling stopped: {e}")
             break
-        for g in map(norm, resp):
+        for raw in resp:
+            g = norm(raw)
             r = by_id.get(str(g["id"]))
             if not r:
                 continue
             if g["status"] in ("FT", "AET", "PEN") and g["hg"] is not None:
                 r["score"] = f'{g["hg"]}-{g["ag"]}'
-                r["result"] = "won" if won(r["verdict"], g["hg"], g["ag"]) else "lost"
+                if red_cards(raw):  # a red card distorts the match: not counted for or against the model
+                    r["result"] = "void (red card)"
+                else:
+                    r["result"] = "won" if won(r["verdict"], g["hg"], g["ag"]) else "lost"
             elif g["status"] in VOID:
                 r["result"] = "void"
     return rows
@@ -86,4 +92,5 @@ def stats(rows):
         "1X": rate([r for r in rows if r["verdict"] == "1X"]),
         "X2": rate([r for r in rows if r["verdict"] == "X2"]),
         "pending": sum(1 for r in rows if r["result"] == "pending"),
+        "red_void": sum(1 for r in rows if r["result"] == "void (red card)"),
     }

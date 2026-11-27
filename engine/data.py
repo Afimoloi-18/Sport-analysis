@@ -36,6 +36,26 @@ def norm(item):
     }
 
 
+def red_cards(item):
+    """Team ids shown a red card (straight or second yellow) in a raw /fixtures?ids= item."""
+    out = []
+    for ev in item.get("events") or []:
+        detail = (ev.get("detail") or "").lower()
+        if ev.get("type") == "Card" and ("red" in detail or "second yellow" in detail):
+            out.append((ev.get("team") or {}).get("id"))
+    return out
+
+
+def fetch_red_cards(api, ids):
+    """{fixture_id: [team ids with a red]} for finished fixtures, 20 per call."""
+    out = {}
+    ids = list(ids)
+    for i in range(0, len(ids), 20):
+        for x in api.get("/fixtures", ids="-".join(str(k) for k in ids[i:i + 20])):
+            out[x["fixture"]["id"]] = red_cards(x)
+    return out
+
+
 def finished(games):
     return [g for g in games if g["status"] in FINISHED and g["hg"] is not None and g["ag"] is not None]
 

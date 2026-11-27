@@ -1,23 +1,8 @@
 date,fixture_id,kickoff,country,league,home,away,backed,verdict,rules,score,result
-2026-11-27,1603088,2026-11-27T14:20:00+00:00,Saudi-Arabia,Pro League,Al-Qadisiyah FC,Al-Fayha,home,1,3,,pending
-2026-11-27,1640128,2026-11-27T11:30:00+00:00,Bangladesh,Premier League,Bashundhara Kings,Fortis,home,1X,2,2-1,won
-2026-11-27,1566434,2026-11-27T18:30:00+00:00,Germany,Oberliga - Hamburg,ETSV Hamburg,Tus Dassendorf,home,1X,2,,pending
-2026-11-27,1645280,2026-11-26T23:00:00+00:00,Suriname,Eerste Divisie,Robin Hood,Flora,home,1X,2,2-0,won
-2026-11-27,1596572,2026-11-27T19:45:00+00:00,England,Non League Premier - Northern,Rylands,Lancaster City,home,1X,2,,pending
-2026-11-27,1633942,2026-11-27T11:00:00+00:00,Vietnam,V.League 1,Nam Dinh,Công An Nhân Dân,home,1X,2,0-0,won
-2026-11-27,1633833,2026-11-27T12:00:00+00:00,Romania,Liga III - Serie 8,Sănătatea Cluj,Crişul Sântandrei,home,1X,2,,pending
-2026-11-27,1613428,2026-11-27T19:30:00+00:00,Spain,Tercera División RFEF - Group 3,Revilla,Velarde,home,1X,2,,pending
 2026-11-27,1562130,2026-11-27T19:45:00+00:00,Northern-Ireland,Premiership,Coleraine FC,Dungannon Swifts,home,1X,2,,pending
 2026-11-27,1601940,2026-11-27T15:00:00+00:00,Azerbaijan,Premyer Liqa,Neftchi Baku,Zira,home,1X,2,,pending
-2026-11-27,1551902,2026-11-27T19:00:00+00:00,Netherlands,Eerste Divisie,NAC Breda,Den Bosch,home,1X,2,,pending
-2026-11-27,1645709,2026-11-27T12:00:00+00:00,Syria,Premier League,Horriya,Foutoua,home,1X,2,0-0,won
-2026-11-27,1601158,2026-11-27T12:15:00+00:00,Malaysia,Super League,DPMM FC Brunei,Kelantan Red Warrior FC,home,1X,2,5-0,won
-2026-11-27,1634435,2026-11-27T11:50:00+00:00,Saudi-Arabia,Division 2,Al Sahel,Hetten FC,home,1X,2,0-0,won
-2026-11-27,1650508,2026-11-27T12:00:00+00:00,Kosovo,Superliga,Malisheva,Llapi,home,1X,2,2-3,lost
 2026-11-27,1649281,2026-11-27T17:00:00+00:00,Libya,Premier League,Al-Madina,Al Shomooa SC,home,1X,2,,pending
-2026-11-27,1598996,2026-11-27T19:00:00+00:00,Germany,Oberliga - Rheinland-Pfalz / Saar,Gonsenheim,Gau-Odernheim,home,1X,2,,pending
 2026-11-27,1576025,2026-11-27T19:45:00+00:00,Wales,Premier League,Flint Town United,The New Saints,away,X2,3,,pending
-2026-11-27,1633835,2026-11-27T12:00:00+00:00,Romania,Liga III - Serie 8,Unirea Dej,Minaur Baia Mare,away,X2,3,,pending
 2026-11-27,1641943,2026-11-28T08:00:00+00:00,Laos,Lao League,Ezra,Namtha United,home,1,3,,pending
 2026-11-27,1552240,2026-11-28T17:45:00+00:00,Netherlands,Eredivisie,PSV Eindhoven,GO Ahead Eagles,home,1,3,,pending
 2026-11-27,1649500,2026-11-28T01:00:00+00:00,USA,Major League Soccer,Columbus Crew,Inter Miami,home,1,3,,pending
@@ -26,76 +11,4 @@ date,fixture_id,kickoff,country,league,home,away,backed,verdict,rules,score,resu
 2026-11-27,1603081,2026-11-28T17:30:00+00:00,Saudi-Arabia,Pro League,Al-Ahli Jeddah,Al Taawon,home,1,3,,pending
 2026-11-27,1570470,2026-11-28T20:00:00+00:00,Spain,La Liga,Real Madrid,Alaves,home,1,3,,pending
 2026-11-27,1634866,2026-11-28T09:00:00+00:00,Myanmar,National League,Shan United,Sagaing United,home,1,3,,pending
-2026-11-27,1648116,2026-11-28T14:00:00+00:00,San-Marino,Campionato,Cosmos,San Giovanni,home,1,3,,pending
-2026-11-27,1550211,2026-11-28T19:45:00+00:00,Italy,Serie A,Inter,Genoa,home,1,3,,pending
-2026-11-27,1578788,2026-11-28T15:00:00+00:00,Scotland,Football League - Lowland League,Tranent Juniors,Broxburn Athletic,home,1,3,,pending
-2026-11-27,1651854,2026-11-28T18:30:00+00:00,Mali,Première Division,Djoliba,USFAS Bamako,home,1,3,,pending
-2026-11-27,1567968,2026-11-28T16:30:00+00:00,Austria,2. Liga,FC BW Linz,Sturm Graz II,home,1X,2,,pending
-2026-11-27,1603891,2026-11-28T12:00:00+00:00,Bulgaria,Third League - Southwest,FK Minyor Pernik,Pirin Razlog,home,1X,2,,pending
-2026-11-27,1552234,2026-11-28T20:00:00+00:00,Netherlands,Eredivisie,Cambuur,Sparta Rotterdam,home,1X,2,,pending
-2026-11-27,1602565,2026-11-28T09:00:00+00:00,Romania,Liga II,Concordia,Ştefăneşti,home,1X,2,,pending
-2026-11-27,1620552,2026-11-28T13:00:00+00:00,Greece,Gamma Ethniki - Group 6,Panachaiki FC,Tilikratis,home,1X,2,,pending
-2026-11-27,1494816,2026-11-28T17:00:00+00:00,Norway,Eliteserien,Rosenborg,Molde,home,1X,2,,pending
-2026-11-27,1649499,2026-11-28T17:30:00+00:00,USA,Major League Soccer,Charlotte,Chicago Fire,home,1X,2,,pending
-2026-11-27,1600833,2026-11-28T13:00:00+00:00,Tanzania,Ligi kuu Bara,Simba,Polisi Tanzania,home,1X,2,,pending
-2026-11-27,1622846,2026-11-28T08:30:00+00:00,Indonesia,Liga 1,Bali United,Bhayangkara FC,home,1X,2,,pending
-2026-11-27,1591412,2026-11-28T10:00:00+00:00,Turkey,2. Lig,Şanlıurfaspor,Somaspor,home,1X,2,,pending
-2026-11-27,1620321,2026-11-28T13:00:00+00:00,Greece,Gamma Ethniki - Group 4,Trikala,Ermis Exochi,home,1X,2,,pending
-2026-11-27,1620554,2026-11-28T13:00:00+00:00,Greece,Gamma Ethniki - Group 6,Panegialios,Plataria,home,1X,2,,pending
-2026-11-27,1556716,2026-11-28T15:00:00+00:00,Scotland,Premiership,Rangers,Falkirk,home,1X,2,,pending
-2026-11-27,1573366,2026-11-28T17:00:00+00:00,Spain,Segunda División RFEF - Group 5,Numancia,Albacete II,home,1X,2,,pending
-2026-11-27,1607346,2026-11-28T07:00:00+00:00,Hong-Kong,Premier League,North District,Southern District,home,1X,2,,pending
-2026-11-27,1640130,2026-11-28T08:30:00+00:00,Bangladesh,Premier League,City Club,PWD Sports Club,home,1X,2,,pending
-2026-11-27,1602755,2026-11-28T11:30:00+00:00,Thailand,Thai League 2,Khon Kaen United,Kasetsart FC,home,1X,2,,pending
-2026-11-27,1637727,2026-11-28T12:00:00+00:00,Indonesia,Liga 2,PSPS,Persikad Depok FC,home,1X,2,,pending
-2026-11-27,1590795,2026-11-28T12:30:00+00:00,Turkey,3. Lig - Group 2,Balıkesirspor,Söke 1970,home,1X,2,,pending
-2026-11-27,1649600,2026-11-28T14:00:00+00:00,Iran,Persian Gulf Pro League,Sepahan FC,Nassaji Mazandaran,home,1X,2,,pending
-2026-11-27,1643049,2026-11-28T14:15:00+00:00,United-Arab-Emirates,Pro League,Al-Wasl FC,Al-Dhafra,home,1X,2,,pending
-2026-11-27,1563296,2026-11-28T15:00:00+00:00,England,Championship,West Brom,Bristol City,home,1X,2,,pending
-2026-11-27,1585371,2026-11-28T15:00:00+00:00,England,National League,Carlisle,Sutton Utd,home,1X,2,,pending
-2026-11-27,1605616,2026-11-28T15:00:00+00:00,Portugal,Campeonato de Portugal Prio - Group B,Ovarense,Guarda,home,1X,2,,pending
-2026-11-27,1623170,2026-11-28T19:30:00+00:00,Andorra,1a Divisió,Esperança d'Andorra,Ranger's,home,1X,2,,pending
-2026-11-27,1650553,2026-11-27T23:00:00+00:00,Chile,Primera B,Antofagasta,Deportes Copiapo,home,1X,2,,pending
-2026-11-27,1630662,2026-11-28T13:00:00+00:00,Zambia,Super League,ZESCO United,Kabwe Warriors,home,1X,2,,pending
-2026-11-27,1648118,2026-11-28T14:00:00+00:00,San-Marino,Campionato,Folgore,Fiorentino,home,1X,2,,pending
-2026-11-27,1494812,2026-11-28T15:00:00+00:00,Norway,Eliteserien,Bodo/Glimt,KFUM Oslo,home,1X,2,,pending
-2026-11-27,1578796,2026-11-28T15:00:00+00:00,Scotland,Football League - Lowland League,Caledonian Braves,Cumbernauld Colts,home,1X,2,,pending
-2026-11-27,1591101,2026-11-28T10:00:00+00:00,Turkey,3. Lig - Group 3,Kırıkkale Büyük Anadolu,Karaman FK,home,1X,2,,pending
-2026-11-27,1565537,2026-11-28T11:00:00+00:00,Ukraine,Premier League,Dynamo Kyiv,Chornomorets,home,1X,2,,pending
-2026-11-27,1576246,2026-11-28T12:00:00+00:00,Germany,2. Bundesliga,Hertha BSC,Karlsruher SC,home,1X,2,,pending
-2026-11-27,1622850,2026-11-28T12:00:00+00:00,Indonesia,Liga 1,Persija,Garudayaksa,home,1X,2,,pending
-2026-11-27,1585366,2026-11-28T12:30:00+00:00,England,National League,AFC Fylde,Aldershot Town,home,1X,2,,pending
-2026-11-27,1579544,2026-11-28T13:30:00+00:00,Netherlands,Tweede Divisie,GVVV Veenendaal,Barendrecht,home,1X,2,,pending
-2026-11-27,1618495,2026-11-28T13:30:00+00:00,Netherlands,Derde Divisie,Noordwijk,UDI '19,home,1X,2,,pending
-2026-11-27,1579547,2026-11-28T14:00:00+00:00,Netherlands,Tweede Divisie,Ijsselmeervogels,Sparta Rotterdam II,home,1X,2,,pending
-2026-11-27,1563287,2026-11-28T15:00:00+00:00,England,Championship,Birmingham,Bolton,home,1X,2,,pending
-2026-11-27,1563883,2026-11-28T15:00:00+00:00,England,League Two,Salford City,Gillingham,home,1X,2,,pending
-2026-11-27,1605799,2026-11-28T15:00:00+00:00,Portugal,Campeonato de Portugal Prio - Group C,Os Marialvas,Naval 1893,home,1X,2,,pending
-2026-11-27,1505573,2026-11-28T21:00:00+00:00,Chile,Primera División,Coquimbo Unido,Deportes Limache,home,1X,2,,pending
-2026-11-27,1651508,2026-11-28T21:00:00+00:00,Mexico,Liga MX,Cruz Azul,Leon,home,1X,2,,pending
-2026-11-27,1642530,2026-11-28T11:30:00+00:00,Greece,Gamma Ethniki - Group 8,Vyrona,Afantou,home,1X,2,,pending
-2026-11-27,1551499,2026-11-28T12:00:00+00:00,Macedonia,First League,Tikveš,Shkendija,home,1X,2,,pending
-2026-11-27,1652053,2026-11-28T12:00:00+00:00,Kenya,Super League,Equity Bank,MOFA,home,1X,2,,pending
-2026-11-27,1606242,2026-11-28T12:30:00+00:00,Bulgaria,Third League - Southeast,Maritsa Milevo,Levski Karlovo,home,1X,2,,pending
-2026-11-27,1642771,2026-11-28T13:00:00+00:00,Greece,Gamma Ethniki - Group 10,Atsalenios,Giouchtas,home,1X,2,,pending
-2026-11-27,1608766,2026-11-28T13:30:00+00:00,Italy,Serie C - Girone B,Pescara,Pianese,home,1X,2,,pending
-2026-11-27,1651846,2026-11-28T13:45:00+00:00,Eswatini,Premier League,Young Buffaloes,Tabankulu,home,1X,2,,pending
-2026-11-27,1564436,2026-11-28T15:00:00+00:00,England,League One,Stockport County,Leyton Orient,home,1X,2,,pending
-2026-11-27,1551609,2026-11-28T17:00:00+00:00,Slovakia,Super Liga,Slovan Bratislava,FK Košice,home,1X,2,,pending
-2026-11-27,1576547,2026-11-28T18:00:00+00:00,Portugal,Segunda Liga,Sporting CP B,Amarante,home,1X,2,,pending
-2026-11-27,1639810,2026-11-28T19:00:00+00:00,Ecuador,Liga Pro,Macara,LDU de Quito,home,1X,2,,pending
-2026-11-27,1631834,2026-11-28T21:30:00+00:00,Mexico,Liga Premier Serie A,Delfines Coatzacoalcos,Ciervos,home,1X,2,,pending
-2026-11-27,1649283,2026-11-28T15:30:00+00:00,Libya,Premier League,Asswehly,Al-Magd,home,1X,2,,pending
-2026-11-27,1645281,2026-11-28T19:00:00+00:00,Suriname,Eerste Divisie,Broki,Notch,home,1X,2,,pending
-2026-11-27,1651509,2026-11-28T21:00:00+00:00,Mexico,Liga MX,Guadalajara Chivas,CF Pachuca,home,1X,2,,pending
-2026-11-27,1526039,2026-11-28T10:00:00+00:00,Belarus,Premier League,Bate Borisov,FC Isloch Minsk R.,away,X2,3,,pending
-2026-11-27,1562131,2026-11-28T14:00:00+00:00,Northern-Ireland,Premiership,Crusaders FC,Linfield,away,X2,3,,pending
-2026-11-27,1551606,2026-11-28T14:30:00+00:00,Slovakia,Super Liga,Komárno,Žilina,away,X2,3,,pending
-2026-11-27,1551607,2026-11-28T14:30:00+00:00,Slovakia,Super Liga,Podbrezová,Dunajska Streda,away,X2,3,,pending
-2026-11-27,1555554,2026-11-28T18:00:00+00:00,Israel,Ligat Ha'al,Maccabi Netanya,Hapoel Beer Sheva,away,X2,3,,pending
-2026-11-27,1651857,2026-11-28T11:00:00+00:00,Lesotho,Premier League,Machokha,Bantu,away,X2,3,,pending
-2026-11-27,1603085,2026-11-28T12:15:00+00:00,Saudi-Arabia,Pro League,Al-Hazm,Al-Nassr,away,X2,3,,pending
-2026-11-27,1551153,2026-11-28T13:15:00+00:00,Bulgaria,First League,Botev Vratsa,Ludogorets,away,X2,3,,pending
-2026-11-27,1526042,2026-11-28T10:00:00+00:00,Belarus,Premier League,Naftan,Dinamo Minsk,away,X2,3,,pending
-2026-11-27,1649284,2026-11-28T13:30:00+00:00,Libya,Premier League,Olympic Azzaweya,Al-Ittihad,away,X2,3,,pending
-2026-11-26,1577598,2026-11-26T16:00:00+00:00,Russia,First League,Nizhny Novgorod,Tekstilshchik,home,1X,2,1-2,lost
+2026-11-26,1577598,2026-11-26T16:00:00+00:00,Russia,First League,Nizhny Novgorod,Tekstilshchik,home,1X,2,,pending
