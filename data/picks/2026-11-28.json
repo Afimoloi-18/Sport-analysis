@@ -1968,179 +1968,6 @@
   },
   {
    "fixture": {
-    "id": 1607346,
-    "date": "2026-11-28T07:00:00+00:00",
-    "status": "NS",
-    "season": 2026,
-    "league_id": 380,
-    "league": "Premier League",
-    "country": "Hong-Kong",
-    "home_id": 6401,
-    "away_id": 4456,
-    "home": "North District",
-    "away": "Southern District",
-    "hg": null,
-    "ag": null
-   },
-   "eval": {
-    "verdict": "1X",
-    "backed": "home",
-    "reason": "",
-    "home": {
-     "gate": {
-      "pass": true,
-      "goals": 12,
-      "games": 5
-     },
-     "form": {
-      "pass": true,
-      "string": "LWWWW",
-      "w": 4,
-      "d": 0,
-      "l": 1
-     },
-     "r1": true,
-     "r2": false,
-     "r3": true,
-     "score": 2
-    },
-    "away": {
-     "gate": {
-      "pass": false,
-      "goals": 7,
-      "games": 5
-     },
-     "form": {
-      "pass": false,
-      "string": "DLLWL",
-      "w": 1,
-      "d": 1,
-      "l": 3
-     },
-     "r1": false,
-     "r2": false,
-     "r3": false,
-     "score": 0
-    },
-    "common": {
-     "home_pass": true,
-     "away_pass": false,
-     "home_better": 3,
-     "away_better": 0,
-     "rows": [
-      {
-       "opponent": "BC Rangers",
-       "home": {
-        "name": "BC Rangers",
-        "res": "W",
-        "score": "1-0",
-        "date": "2026-10-18"
-       },
-       "away": {
-        "name": "BC Rangers",
-        "res": "D",
-        "score": "1-1",
-        "date": "2026-11-21"
-       },
-       "edge": "home"
-      },
-      {
-       "opponent": "Kitchee",
-       "home": {
-        "name": "Kitchee",
-        "res": "D",
-        "score": "0-0",
-        "date": "2026-08-29"
-       },
-       "away": {
-        "name": "Kitchee",
-        "res": "L",
-        "score": "1-3",
-        "date": "2026-09-12"
-       },
-       "edge": "home"
-      },
-      {
-       "opponent": "Kowloon City",
-       "home": {
-        "name": "Kowloon City",
-        "res": "W",
-        "score": "2-1",
-        "date": "2026-11-08"
-       },
-       "away": {
-        "name": "Kowloon City",
-        "res": "W",
-        "score": "2-1",
-        "date": "2026-08-29"
-       },
-       "edge": "level"
-      },
-      {
-       "opponent": "Warriors",
-       "home": {
-        "name": "Warriors",
-        "res": "L",
-        "score": "1-3",
-        "date": "2026-11-20"
-       },
-       "away": {
-        "name": "Warriors",
-        "res": "L",
-        "score": "0-1",
-        "date": "2026-11-07"
-       },
-       "edge": "level"
-      },
-      {
-       "opponent": "Wofoo Tai Po",
-       "home": {
-        "name": "Wofoo Tai Po",
-        "res": "W",
-        "score": "2-0",
-        "date": "2026-08-23"
-       },
-       "away": {
-        "name": "Wofoo Tai Po",
-        "res": "L",
-        "score": "2-4",
-        "date": "2026-10-19"
-       },
-       "edge": "home"
-      }
-     ]
-    },
-    "h2h": {
-     "home_pass": false,
-     "away_pass": false,
-     "meetings": [
-      {
-       "date": "2026-03-22",
-       "home": "Southern District",
-       "away": "North District",
-       "score": "2-2"
-      },
-      {
-       "date": "2025-11-02",
-       "home": "North District",
-       "away": "Southern District",
-       "score": "2-1"
-      }
-     ],
-     "home_wins": 1,
-     "away_wins": 0
-    },
-    "history": {
-     "home_games": 10,
-     "away_games": 10
-    }
-   },
-   "day_index": 0,
-   "odds": 1.18,
-   "bookmaker": "William Hill"
-  },
-  {
-   "fixture": {
     "id": 1640130,
     "date": "2026-11-28T08:30:00+00:00",
     "status": "NS",
@@ -2477,323 +2304,6 @@
    "day_index": 0,
    "odds": 1.22,
    "bookmaker": "Bet365"
-  },
-  {
-   "fixture": {
-    "id": 1563296,
-    "date": "2026-11-28T15:00:00+00:00",
-    "status": "NS",
-    "season": 2026,
-    "league_id": 40,
-    "league": "Championship",
-    "country": "England",
-    "home_id": 60,
-    "away_id": 56,
-    "home": "West Brom",
-    "away": "Bristol City",
-    "hg": null,
-    "ag": null
-   },
-   "eval": {
-    "verdict": "1X",
-    "backed": "home",
-    "reason": "",
-    "home": {
-     "gate": {
-      "pass": true,
-      "goals": 12,
-      "games": 5
-     },
-     "form": {
-      "pass": true,
-      "string": "WDWDW",
-      "w": 3,
-      "d": 2,
-      "l": 0
-     },
-     "r1": true,
-     "r2": false,
-     "r3": true,
-     "score": 2
-    },
-    "away": {
-     "gate": {
-      "pass": false,
-      "goals": 5,
-      "games": 5
-     },
-     "form": {
-      "pass": false,
-      "string": "DLLLW",
-      "w": 1,
-      "d": 1,
-      "l": 3
-     },
-     "r1": false,
-     "r2": false,
-     "r3": false,
-     "score": 0
-    },
-    "common": {
-     "home_pass": true,
-     "away_pass": false,
-     "home_better": 2,
-     "away_better": 0,
-     "rows": [
-      {
-       "opponent": "Blackburn",
-       "home": {
-        "name": "Blackburn",
-        "res": "W",
-        "score": "3-2",
-        "date": "2026-10-17"
-       },
-       "away": {
-        "name": "Blackburn",
-        "res": "L",
-        "score": "0-1",
-        "date": "2026-10-13"
-       },
-       "edge": "home"
-      },
-      {
-       "opponent": "Bolton",
-       "home": {
-        "name": "Bolton",
-        "res": "W",
-        "score": "3-1",
-        "date": "2026-11-25"
-       },
-       "away": {
-        "name": "Bolton",
-        "res": "W",
-        "score": "3-2",
-        "date": "2026-10-31"
-       },
-       "edge": "level"
-      },
-      {
-       "opponent": "Wolves",
-       "home": {
-        "name": "Wolves",
-        "res": "L",
-        "score": "0-1",
-        "date": "2026-09-20"
-       },
-       "away": {
-        "name": "Wolves",
-        "res": "L",
-        "score": "1-2",
-        "date": "2026-11-04"
-       },
-       "edge": "level"
-      },
-      {
-       "opponent": "Wrexham",
-       "home": {
-        "name": "Wrexham",
-        "res": "W",
-        "score": "2-1",
-        "date": "2026-10-13"
-       },
-       "away": {
-        "name": "Wrexham",
-        "res": "D",
-        "score": "1-1",
-        "date": "2026-11-24"
-       },
-       "edge": "home"
-      }
-     ]
-    },
-    "h2h": {
-     "home_pass": false,
-     "away_pass": false,
-     "meetings": [
-      {
-       "date": "2026-03-21",
-       "home": "Bristol City",
-       "away": "West Brom",
-       "score": "0-1"
-      },
-      {
-       "date": "2025-12-26",
-       "home": "West Brom",
-       "away": "Bristol City",
-       "score": "1-2"
-      }
-     ],
-     "home_wins": 1,
-     "away_wins": 1
-    },
-    "history": {
-     "home_games": 10,
-     "away_games": 10
-    }
-   },
-   "day_index": 0,
-   "odds": 1.17,
-   "bookmaker": "William Hill"
-  },
-  {
-   "fixture": {
-    "id": 1585366,
-    "date": "2026-11-28T12:30:00+00:00",
-    "status": "NS",
-    "season": 2026,
-    "league_id": 43,
-    "league": "National League",
-    "country": "England",
-    "home_id": 1839,
-    "away_id": 1818,
-    "home": "AFC Fylde",
-    "away": "Aldershot Town",
-    "hg": null,
-    "ag": null
-   },
-   "eval": {
-    "verdict": "1X",
-    "backed": "home",
-    "reason": "",
-    "home": {
-     "gate": {
-      "pass": true,
-      "goals": 10,
-      "games": 5
-     },
-     "form": {
-      "pass": true,
-      "string": "LDWWW",
-      "w": 3,
-      "d": 1,
-      "l": 1
-     },
-     "r1": true,
-     "r2": false,
-     "r3": true,
-     "score": 2
-    },
-    "away": {
-     "gate": {
-      "pass": false,
-      "goals": 5,
-      "games": 5
-     },
-     "form": {
-      "pass": false,
-      "string": "LWLWL",
-      "w": 2,
-      "d": 0,
-      "l": 3
-     },
-     "r1": false,
-     "r2": false,
-     "r3": false,
-     "score": 0
-    },
-    "common": {
-     "home_pass": true,
-     "away_pass": false,
-     "home_better": 1,
-     "away_better": 0,
-     "rows": [
-      {
-       "opponent": "AFC Hornchurch",
-       "home": {
-        "name": "AFC Hornchurch",
-        "res": "W",
-        "score": "3-1",
-        "date": "2026-10-30"
-       },
-       "away": {
-        "name": "AFC Hornchurch",
-        "res": "L",
-        "score": "1-2",
-        "date": "2026-09-29"
-       },
-       "edge": "home"
-      },
-      {
-       "opponent": "Boreham Wood",
-       "home": {
-        "name": "Boreham Wood",
-        "res": "L",
-        "score": "0-4",
-        "date": "2026-10-24"
-       },
-       "away": {
-        "name": "Boreham Wood",
-        "res": "L",
-        "score": "1-4",
-        "date": "2026-11-25"
-       },
-       "edge": "level"
-      },
-      {
-       "opponent": "Carlisle",
-       "home": {
-        "name": "Carlisle",
-        "res": "L",
-        "score": "0-2",
-        "date": "2026-09-29"
-       },
-       "away": {
-        "name": "Carlisle",
-        "res": "L",
-        "score": "1-3",
-        "date": "2026-10-03"
-       },
-       "edge": "level"
-      },
-      {
-       "opponent": "Scunthorpe",
-       "home": {
-        "name": "Scunthorpe",
-        "res": "W",
-        "score": "2-0",
-        "date": "2026-10-10"
-       },
-       "away": {
-        "name": "Scunthorpe",
-        "res": "W",
-        "score": "2-0",
-        "date": "2026-11-21"
-       },
-       "edge": "level"
-      },
-      {
-       "opponent": "Southend",
-       "home": {
-        "name": "Southend",
-        "res": "L",
-        "score": "1-3",
-        "date": "2026-10-03"
-       },
-       "away": {
-        "name": "Southend",
-        "res": "L",
-        "score": "1-2",
-        "date": "2026-11-14"
-       },
-       "edge": "level"
-      }
-     ]
-    },
-    "h2h": {
-     "home_pass": false,
-     "away_pass": false,
-     "meetings": [],
-     "home_wins": 0,
-     "away_wins": 0
-    },
-    "history": {
-     "home_games": 10,
-     "away_games": 10
-    }
-   },
-   "day_index": 0,
-   "odds": 1.15,
-   "bookmaker": "William Hill"
   },
   {
    "fixture": {
@@ -4974,7 +4484,7 @@
    "eval": {
     "verdict": "1X",
     "backed": "home",
-    "reason": "Odds too low (@1.12, minimum 1.15)",
+    "reason": "Odds too low (@1.12, minimum 1.20)",
     "home": {
      "gate": {
       "pass": true,
@@ -8711,6 +8221,180 @@
     }
    },
    "day_index": 0
+  },
+  {
+   "fixture": {
+    "id": 1607346,
+    "date": "2026-11-28T07:00:00+00:00",
+    "status": "NS",
+    "season": 2026,
+    "league_id": 380,
+    "league": "Premier League",
+    "country": "Hong-Kong",
+    "home_id": 6401,
+    "away_id": 4456,
+    "home": "North District",
+    "away": "Southern District",
+    "hg": null,
+    "ag": null
+   },
+   "eval": {
+    "verdict": "1X",
+    "backed": "home",
+    "reason": "Odds too low (@1.18, minimum 1.20)",
+    "home": {
+     "gate": {
+      "pass": true,
+      "goals": 12,
+      "games": 5
+     },
+     "form": {
+      "pass": true,
+      "string": "LWWWW",
+      "w": 4,
+      "d": 0,
+      "l": 1
+     },
+     "r1": true,
+     "r2": false,
+     "r3": true,
+     "score": 2
+    },
+    "away": {
+     "gate": {
+      "pass": false,
+      "goals": 7,
+      "games": 5
+     },
+     "form": {
+      "pass": false,
+      "string": "DLLWL",
+      "w": 1,
+      "d": 1,
+      "l": 3
+     },
+     "r1": false,
+     "r2": false,
+     "r3": false,
+     "score": 0
+    },
+    "common": {
+     "home_pass": true,
+     "away_pass": false,
+     "home_better": 3,
+     "away_better": 0,
+     "rows": [
+      {
+       "opponent": "BC Rangers",
+       "home": {
+        "name": "BC Rangers",
+        "res": "W",
+        "score": "1-0",
+        "date": "2026-10-18"
+       },
+       "away": {
+        "name": "BC Rangers",
+        "res": "D",
+        "score": "1-1",
+        "date": "2026-11-21"
+       },
+       "edge": "home"
+      },
+      {
+       "opponent": "Kitchee",
+       "home": {
+        "name": "Kitchee",
+        "res": "D",
+        "score": "0-0",
+        "date": "2026-08-29"
+       },
+       "away": {
+        "name": "Kitchee",
+        "res": "L",
+        "score": "1-3",
+        "date": "2026-09-12"
+       },
+       "edge": "home"
+      },
+      {
+       "opponent": "Kowloon City",
+       "home": {
+        "name": "Kowloon City",
+        "res": "W",
+        "score": "2-1",
+        "date": "2026-11-08"
+       },
+       "away": {
+        "name": "Kowloon City",
+        "res": "W",
+        "score": "2-1",
+        "date": "2026-08-29"
+       },
+       "edge": "level"
+      },
+      {
+       "opponent": "Warriors",
+       "home": {
+        "name": "Warriors",
+        "res": "L",
+        "score": "1-3",
+        "date": "2026-11-20"
+       },
+       "away": {
+        "name": "Warriors",
+        "res": "L",
+        "score": "0-1",
+        "date": "2026-11-07"
+       },
+       "edge": "level"
+      },
+      {
+       "opponent": "Wofoo Tai Po",
+       "home": {
+        "name": "Wofoo Tai Po",
+        "res": "W",
+        "score": "2-0",
+        "date": "2026-08-23"
+       },
+       "away": {
+        "name": "Wofoo Tai Po",
+        "res": "L",
+        "score": "2-4",
+        "date": "2026-10-19"
+       },
+       "edge": "home"
+      }
+     ]
+    },
+    "h2h": {
+     "home_pass": false,
+     "away_pass": false,
+     "meetings": [
+      {
+       "date": "2026-03-22",
+       "home": "Southern District",
+       "away": "North District",
+       "score": "2-2"
+      },
+      {
+       "date": "2025-11-02",
+       "home": "North District",
+       "away": "Southern District",
+       "score": "2-1"
+      }
+     ],
+     "home_wins": 1,
+     "away_wins": 0
+    },
+    "history": {
+     "home_games": 10,
+     "away_games": 10
+    },
+    "verdict_was": "1X"
+   },
+   "day_index": 0,
+   "odds": 1.18,
+   "bookmaker": "William Hill"
   },
   {
    "fixture": {
@@ -12991,7 +12675,7 @@
    "eval": {
     "verdict": "1X",
     "backed": "home",
-    "reason": "Odds too low (@1.02, minimum 1.15)",
+    "reason": "Odds too low (@1.02, minimum 1.20)",
     "home": {
      "gate": {
       "pass": true,
@@ -15545,7 +15229,7 @@
    "eval": {
     "verdict": "1X",
     "backed": "home",
-    "reason": "Odds too low (@1.03, minimum 1.15)",
+    "reason": "Odds too low (@1.03, minimum 1.20)",
     "home": {
      "gate": {
       "pass": true,
@@ -15738,7 +15422,7 @@
    "eval": {
     "verdict": "X2",
     "backed": "away",
-    "reason": "Odds too low (@1.14, minimum 1.15)",
+    "reason": "Odds too low (@1.14, minimum 1.20)",
     "home": {
      "gate": {
       "pass": false,
@@ -20523,7 +20207,7 @@
    "eval": {
     "verdict": "1X",
     "backed": "home",
-    "reason": "Odds too low (@1.05, minimum 1.15)",
+    "reason": "Odds too low (@1.05, minimum 1.20)",
     "home": {
      "gate": {
       "pass": true,
@@ -21409,7 +21093,7 @@
    "eval": {
     "verdict": "1X",
     "backed": "home",
-    "reason": "Odds too low (@1.04, minimum 1.15)",
+    "reason": "Odds too low (@1.04, minimum 1.20)",
     "home": {
      "gate": {
       "pass": true,
@@ -28654,7 +28338,7 @@
    "eval": {
     "verdict": "1X",
     "backed": "home",
-    "reason": "Odds too low (@1.11, minimum 1.15)",
+    "reason": "Odds too low (@1.11, minimum 1.20)",
     "home": {
      "gate": {
       "pass": true,
@@ -28812,7 +28496,7 @@
    "eval": {
     "verdict": "1X",
     "backed": "home",
-    "reason": "Odds too low (@1.05, minimum 1.15)",
+    "reason": "Odds too low (@1.05, minimum 1.20)",
     "home": {
      "gate": {
       "pass": true,
@@ -29270,7 +28954,7 @@
    "eval": {
     "verdict": "X2",
     "backed": "away",
-    "reason": "Odds too low (@1.05, minimum 1.15)",
+    "reason": "Odds too low (@1.05, minimum 1.20)",
     "home": {
      "gate": {
       "pass": false,
@@ -34403,6 +34087,167 @@
     }
    },
    "day_index": 0
+  },
+  {
+   "fixture": {
+    "id": 1585366,
+    "date": "2026-11-28T12:30:00+00:00",
+    "status": "NS",
+    "season": 2026,
+    "league_id": 43,
+    "league": "National League",
+    "country": "England",
+    "home_id": 1839,
+    "away_id": 1818,
+    "home": "AFC Fylde",
+    "away": "Aldershot Town",
+    "hg": null,
+    "ag": null
+   },
+   "eval": {
+    "verdict": "1X",
+    "backed": "home",
+    "reason": "Odds too low (@1.15, minimum 1.20)",
+    "home": {
+     "gate": {
+      "pass": true,
+      "goals": 10,
+      "games": 5
+     },
+     "form": {
+      "pass": true,
+      "string": "LDWWW",
+      "w": 3,
+      "d": 1,
+      "l": 1
+     },
+     "r1": true,
+     "r2": false,
+     "r3": true,
+     "score": 2
+    },
+    "away": {
+     "gate": {
+      "pass": false,
+      "goals": 5,
+      "games": 5
+     },
+     "form": {
+      "pass": false,
+      "string": "LWLWL",
+      "w": 2,
+      "d": 0,
+      "l": 3
+     },
+     "r1": false,
+     "r2": false,
+     "r3": false,
+     "score": 0
+    },
+    "common": {
+     "home_pass": true,
+     "away_pass": false,
+     "home_better": 1,
+     "away_better": 0,
+     "rows": [
+      {
+       "opponent": "AFC Hornchurch",
+       "home": {
+        "name": "AFC Hornchurch",
+        "res": "W",
+        "score": "3-1",
+        "date": "2026-10-30"
+       },
+       "away": {
+        "name": "AFC Hornchurch",
+        "res": "L",
+        "score": "1-2",
+        "date": "2026-09-29"
+       },
+       "edge": "home"
+      },
+      {
+       "opponent": "Boreham Wood",
+       "home": {
+        "name": "Boreham Wood",
+        "res": "L",
+        "score": "0-4",
+        "date": "2026-10-24"
+       },
+       "away": {
+        "name": "Boreham Wood",
+        "res": "L",
+        "score": "1-4",
+        "date": "2026-11-25"
+       },
+       "edge": "level"
+      },
+      {
+       "opponent": "Carlisle",
+       "home": {
+        "name": "Carlisle",
+        "res": "L",
+        "score": "0-2",
+        "date": "2026-09-29"
+       },
+       "away": {
+        "name": "Carlisle",
+        "res": "L",
+        "score": "1-3",
+        "date": "2026-10-03"
+       },
+       "edge": "level"
+      },
+      {
+       "opponent": "Scunthorpe",
+       "home": {
+        "name": "Scunthorpe",
+        "res": "W",
+        "score": "2-0",
+        "date": "2026-10-10"
+       },
+       "away": {
+        "name": "Scunthorpe",
+        "res": "W",
+        "score": "2-0",
+        "date": "2026-11-21"
+       },
+       "edge": "level"
+      },
+      {
+       "opponent": "Southend",
+       "home": {
+        "name": "Southend",
+        "res": "L",
+        "score": "1-3",
+        "date": "2026-10-03"
+       },
+       "away": {
+        "name": "Southend",
+        "res": "L",
+        "score": "1-2",
+        "date": "2026-11-14"
+       },
+       "edge": "level"
+      }
+     ]
+    },
+    "h2h": {
+     "home_pass": false,
+     "away_pass": false,
+     "meetings": [],
+     "home_wins": 0,
+     "away_wins": 0
+    },
+    "history": {
+     "home_games": 10,
+     "away_games": 10
+    },
+    "verdict_was": "1X"
+   },
+   "day_index": 0,
+   "odds": 1.15,
+   "bookmaker": "William Hill"
   },
   {
    "fixture": {
@@ -45286,7 +45131,7 @@
    "eval": {
     "verdict": "X2",
     "backed": "away",
-    "reason": "Odds too low (@1.08, minimum 1.15)",
+    "reason": "Odds too low (@1.08, minimum 1.20)",
     "home": {
      "gate": {
       "pass": false,
@@ -54712,7 +54557,7 @@
    "eval": {
     "verdict": "1X",
     "backed": "home",
-    "reason": "Odds too low (@1.07, minimum 1.15)",
+    "reason": "Odds too low (@1.07, minimum 1.20)",
     "home": {
      "gate": {
       "pass": true,
@@ -54905,7 +54750,7 @@
    "eval": {
     "verdict": "X2",
     "backed": "away",
-    "reason": "Odds too low (@1.07, minimum 1.15)",
+    "reason": "Odds too low (@1.07, minimum 1.20)",
     "home": {
      "gate": {
       "pass": false,
@@ -55117,7 +54962,7 @@
    "eval": {
     "verdict": "1X",
     "backed": "home",
-    "reason": "Odds too low (@1.06, minimum 1.15)",
+    "reason": "Odds too low (@1.06, minimum 1.20)",
     "home": {
      "gate": {
       "pass": true,
@@ -70360,7 +70205,7 @@
    "eval": {
     "verdict": "1",
     "backed": "home",
-    "reason": "Odds too low (@1.10, minimum 1.15)",
+    "reason": "Odds too low (@1.10, minimum 1.20)",
     "home": {
      "gate": {
       "pass": true,
@@ -70518,7 +70363,7 @@
    "eval": {
     "verdict": "1X",
     "backed": "home",
-    "reason": "Odds too low (@1.06, minimum 1.15)",
+    "reason": "Odds too low (@1.06, minimum 1.20)",
     "home": {
      "gate": {
       "pass": true,
@@ -70697,6 +70542,164 @@
   },
   {
    "fixture": {
+    "id": 1563296,
+    "date": "2026-11-28T15:00:00+00:00",
+    "status": "NS",
+    "season": 2026,
+    "league_id": 40,
+    "league": "Championship",
+    "country": "England",
+    "home_id": 60,
+    "away_id": 56,
+    "home": "West Brom",
+    "away": "Bristol City",
+    "hg": null,
+    "ag": null
+   },
+   "eval": {
+    "verdict": "1X",
+    "backed": "home",
+    "reason": "Odds too low (@1.17, minimum 1.20)",
+    "home": {
+     "gate": {
+      "pass": true,
+      "goals": 12,
+      "games": 5
+     },
+     "form": {
+      "pass": true,
+      "string": "WDWDW",
+      "w": 3,
+      "d": 2,
+      "l": 0
+     },
+     "r1": true,
+     "r2": false,
+     "r3": true,
+     "score": 2
+    },
+    "away": {
+     "gate": {
+      "pass": false,
+      "goals": 5,
+      "games": 5
+     },
+     "form": {
+      "pass": false,
+      "string": "DLLLW",
+      "w": 1,
+      "d": 1,
+      "l": 3
+     },
+     "r1": false,
+     "r2": false,
+     "r3": false,
+     "score": 0
+    },
+    "common": {
+     "home_pass": true,
+     "away_pass": false,
+     "home_better": 2,
+     "away_better": 0,
+     "rows": [
+      {
+       "opponent": "Blackburn",
+       "home": {
+        "name": "Blackburn",
+        "res": "W",
+        "score": "3-2",
+        "date": "2026-10-17"
+       },
+       "away": {
+        "name": "Blackburn",
+        "res": "L",
+        "score": "0-1",
+        "date": "2026-10-13"
+       },
+       "edge": "home"
+      },
+      {
+       "opponent": "Bolton",
+       "home": {
+        "name": "Bolton",
+        "res": "W",
+        "score": "3-1",
+        "date": "2026-11-25"
+       },
+       "away": {
+        "name": "Bolton",
+        "res": "W",
+        "score": "3-2",
+        "date": "2026-10-31"
+       },
+       "edge": "level"
+      },
+      {
+       "opponent": "Wolves",
+       "home": {
+        "name": "Wolves",
+        "res": "L",
+        "score": "0-1",
+        "date": "2026-09-20"
+       },
+       "away": {
+        "name": "Wolves",
+        "res": "L",
+        "score": "1-2",
+        "date": "2026-11-04"
+       },
+       "edge": "level"
+      },
+      {
+       "opponent": "Wrexham",
+       "home": {
+        "name": "Wrexham",
+        "res": "W",
+        "score": "2-1",
+        "date": "2026-10-13"
+       },
+       "away": {
+        "name": "Wrexham",
+        "res": "D",
+        "score": "1-1",
+        "date": "2026-11-24"
+       },
+       "edge": "home"
+      }
+     ]
+    },
+    "h2h": {
+     "home_pass": false,
+     "away_pass": false,
+     "meetings": [
+      {
+       "date": "2026-03-21",
+       "home": "Bristol City",
+       "away": "West Brom",
+       "score": "0-1"
+      },
+      {
+       "date": "2025-12-26",
+       "home": "West Brom",
+       "away": "Bristol City",
+       "score": "1-2"
+      }
+     ],
+     "home_wins": 1,
+     "away_wins": 1
+    },
+    "history": {
+     "home_games": 10,
+     "away_games": 10
+    },
+    "verdict_was": "1X"
+   },
+   "day_index": 0,
+   "odds": 1.17,
+   "bookmaker": "William Hill"
+  },
+  {
+   "fixture": {
     "id": 1585371,
     "date": "2026-11-28T15:00:00+00:00",
     "status": "NS",
@@ -70714,7 +70717,7 @@
    "eval": {
     "verdict": "1X",
     "backed": "home",
-    "reason": "Odds too low (@1.12, minimum 1.15)",
+    "reason": "Odds too low (@1.12, minimum 1.20)",
     "home": {
      "gate": {
       "pass": true,
@@ -70904,7 +70907,7 @@
    "eval": {
     "verdict": "1X",
     "backed": "home",
-    "reason": "Odds too low (@1.02, minimum 1.15)",
+    "reason": "Odds too low (@1.02, minimum 1.20)",
     "home": {
      "gate": {
       "pass": true,
@@ -71116,7 +71119,7 @@
    "eval": {
     "verdict": "1X",
     "backed": "home",
-    "reason": "Odds too low (@1.14, minimum 1.15)",
+    "reason": "Odds too low (@1.14, minimum 1.20)",
     "home": {
      "gate": {
       "pass": true,
@@ -71245,7 +71248,7 @@
    "eval": {
     "verdict": "1X",
     "backed": "home",
-    "reason": "Odds too low (@1.12, minimum 1.15)",
+    "reason": "Odds too low (@1.12, minimum 1.20)",
     "home": {
      "gate": {
       "pass": true,
@@ -82923,7 +82926,7 @@
    "eval": {
     "verdict": "1X",
     "backed": "home",
-    "reason": "Odds too low (@1.08, minimum 1.15)",
+    "reason": "Odds too low (@1.08, minimum 1.20)",
     "home": {
      "gate": {
       "pass": true,
@@ -93986,7 +93989,7 @@
    "eval": {
     "verdict": "1X",
     "backed": "home",
-    "reason": "Odds too low (@1.07, minimum 1.15)",
+    "reason": "Odds too low (@1.07, minimum 1.20)",
     "home": {
      "gate": {
       "pass": true,
@@ -94663,7 +94666,7 @@
    "eval": {
     "verdict": "1",
     "backed": "home",
-    "reason": "Odds too low (@1.12, minimum 1.15)",
+    "reason": "Odds too low (@1.12, minimum 1.20)",
     "home": {
      "gate": {
       "pass": true,
@@ -98456,7 +98459,7 @@
  "notes": [],
  "log": [
   "2026-11-28: 1225 fixtures, 1208 not started, 540 in men's pro leagues",
-  "22 picks dropped for odds under 1.15",
-  "API calls used: 436, provider says 4385 left today"
+  "25 picks dropped for odds under 1.2",
+  "API calls used: 434, provider says 3560 left today"
  ]
 }

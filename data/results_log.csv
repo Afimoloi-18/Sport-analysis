@@ -12,22 +12,6 @@ date,fixture_id,kickoff,country,league,home,away,backed,verdict,rules,odds,score
 2026-11-27,1570470,2026-11-28T20:00:00+00:00,Spain,La Liga,Real Madrid,Alaves,home,1,3,,,pending
 2026-11-27,1634866,2026-11-28T09:00:00+00:00,Myanmar,National League,Shan United,Sagaing United,home,1,3,,,pending
 2026-11-26,1577598,2026-11-26T16:00:00+00:00,Russia,First League,Nizhny Novgorod,Tekstilshchik,home,1X,2,,1-2,void (red card)
-2026-11-28,1552234,2026-11-28T20:00:00+00:00,Netherlands,Eredivisie,Cambuur,Sparta Rotterdam,home,1X,2,1.36,,pending
-2026-11-28,1494816,2026-11-28T17:00:00+00:00,Norway,Eliteserien,Rosenborg,Molde,home,1X,2,1.3,,pending
-2026-11-28,1649499,2026-11-28T17:30:00+00:00,USA,Major League Soccer,Charlotte,Chicago Fire,home,1X,2,1.57,,pending
-2026-11-28,1600833,2026-11-28T13:00:00+00:00,Tanzania,Ligi kuu Bara,Simba,Polisi Tanzania,home,1X,2,,,pending
-2026-11-28,1622846,2026-11-28T08:30:00+00:00,Indonesia,Liga 1,Bali United,Bhayangkara FC,home,1X,2,1.2,,pending
-2026-11-28,1607346,2026-11-28T07:00:00+00:00,Hong-Kong,Premier League,North District,Southern District,home,1X,2,1.18,,pending
-2026-11-28,1640130,2026-11-28T08:30:00+00:00,Bangladesh,Premier League,City Club,PWD Sports Club,home,1X,2,,,pending
-2026-11-28,1637727,2026-11-28T12:00:00+00:00,Indonesia,Liga 2,PSPS,Persikad Depok FC,home,1X,2,1.22,,pending
-2026-11-28,1563296,2026-11-28T15:00:00+00:00,England,Championship,West Brom,Bristol City,home,1X,2,1.17,,pending
-2026-11-28,1585366,2026-11-28T12:30:00+00:00,England,National League,AFC Fylde,Aldershot Town,home,1X,2,1.15,,pending
-2026-11-28,1505573,2026-11-28T21:00:00+00:00,Chile,Primera División,Coquimbo Unido,Deportes Limache,home,1X,2,1.22,,pending
-2026-11-28,1551606,2026-11-28T14:30:00+00:00,Slovakia,Super Liga,Komárno,Žilina,away,X2,3,1.36,,pending
-2026-11-28,1551607,2026-11-28T14:30:00+00:00,Slovakia,Super Liga,Podbrezová,Dunajska Streda,away,X2,3,1.22,,pending
-2026-11-28,1555554,2026-11-28T18:00:00+00:00,Israel,Ligat Ha'al,Maccabi Netanya,Hapoel Beer Sheva,away,X2,3,1.35,,pending
-2026-11-28,1651857,2026-11-28T11:00:00+00:00,Lesotho,Premier League,Machokha,Bantu,away,X2,3,,,pending
-2026-11-28,1526042,2026-11-28T10:00:00+00:00,Belarus,Premier League,Naftan,Dinamo Minsk,away,X2,3,,,pending
 2026-11-29,1635108,2026-11-29T16:30:00+00:00,Bosnia,Premijer Liga,Borac Banja Luka,FK Sarajevo,home,1,3,1.65,,pending
 2026-11-29,1637728,2026-11-29T12:00:00+00:00,Indonesia,Liga 2,Tornado Pekanbaru,Persiba Balikpapan,home,1,3,,,pending
 2026-11-29,1560086,2026-11-29T12:00:00+00:00,Czech-Republic,Czech Liga,Slavia Praha,Baník Ostrava,home,1,3,1.25,,pending
@@ -58,3 +42,16 @@ date,fixture_id,kickoff,country,league,home,away,backed,verdict,rules,odds,score
 2026-11-29,1610672,2026-11-29T11:00:00+00:00,Cambodia,C-League,Life Sihanoukville,Visakha,away,X2,3,,,pending
 2026-11-29,1557480,2026-11-29T12:00:00+00:00,England,Premier League,Everton,Liverpool,away,X2,3,1.2,,pending
 2026-11-29,1555432,2026-11-29T13:00:00+00:00,Switzerland,Super League,FC Luzern,FC Lugano,away,X2,3,1.4,,pending
+2026-11-28,1552234,2026-11-28T20:00:00+00:00,Netherlands,Eredivisie,Cambuur,Sparta Rotterdam,home,1X,2,1.36,,pending
+2026-11-28,1494816,2026-11-28T17:00:00+00:00,Norway,Eliteserien,Rosenborg,Molde,home,1X,2,1.3,,pending
+2026-11-28,1649499,2026-11-28T17:30:00+00:00,USA,Major League Soccer,Charlotte,Chicago Fire,home,1X,2,1.57,,pending
+2026-11-28,1600833,2026-11-28T13:00:00+00:00,Tanzania,Ligi kuu Bara,Simba,Polisi Tanzania,home,1X,2,,,pending
+2026-11-28,1622846,2026-11-28T08:30:00+00:00,Indonesia,Liga 1,Bali United,Bhayangkara FC,home,1X,2,1.2,,pending
+2026-11-28,1640130,2026-11-28T08:30:00+00:00,Bangladesh,Premier League,City Club,PWD Sports Club,home,1X,2,,,pending
+2026-11-28,1637727,2026-11-28T12:00:00+00:00,Indonesia,Liga 2,PSPS,Persikad Depok FC,home,1X,2,1.22,,pending
+2026-11-28,1505573,2026-11-28T21:00:00+00:00,Chile,Primera División,Coquimbo Unido,Deportes Limache,home,1X,2,1.22,,pending
+2026-11-28,1551606,2026-11-28T14:30:00+00:00,Slovakia,Super Liga,Komárno,Žilina,away,X2,3,1.36,,pending
+2026-11-28,1551607,2026-11-28T14:30:00+00:00,Slovakia,Super Liga,Podbrezová,Dunajska Streda,away,X2,3,1.22,,pending
+2026-11-28,1555554,2026-11-28T18:00:00+00:00,Israel,Ligat Ha'al,Maccabi Netanya,Hapoel Beer Sheva,away,X2,3,1.35,,pending
+2026-11-28,1651857,2026-11-28T11:00:00+00:00,Lesotho,Premier League,Machokha,Bantu,away,X2,3,,,pending
+2026-11-28,1526042,2026-11-28T10:00:00+00:00,Belarus,Premier League,Naftan,Dinamo Minsk,away,X2,3,,,pending
