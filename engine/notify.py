@@ -43,9 +43,16 @@ def send(text, log):
         if not cid:
             log("Telegram: no chat found. Open your bot and send it 'hi', then re-run.")
             return
-        if len(text) > 4000:
-            text = text[:3990] + "\n…"
-        _call(token, "sendMessage", chat_id=cid, text=text, parse_mode="HTML", disable_web_page_preview="true")
-        log("Telegram: sent")
+        # Telegram caps a message at 4096 chars: split on whole lines so no formatting tag is cut
+        chunks, cur = [], ""
+        for line in text.split("\n"):
+            if len(cur) + len(line) + 1 > 3800:
+                chunks.append(cur)
+                cur = ""
+            cur += line + "\n"
+        chunks.append(cur)
+        for c in chunks:
+            _call(token, "sendMessage", chat_id=cid, text=c, parse_mode="HTML", disable_web_page_preview="true")
+        log(f"Telegram: sent ({len(chunks)} message{'s' if len(chunks) > 1 else ''})")
     except Exception as e:  # never fail the run over a notification
         log(f"Telegram failed: {e}")
