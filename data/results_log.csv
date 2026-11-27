@@ -12,55 +12,6 @@ date,fixture_id,kickoff,country,league,home,away,backed,verdict,rules,odds,score
 2026-11-27,1570470,2026-11-28T20:00:00+00:00,Spain,La Liga,Real Madrid,Alaves,home,1,3,,,pending
 2026-11-27,1634866,2026-11-28T09:00:00+00:00,Myanmar,National League,Shan United,Sagaing United,home,1,3,,,pending
 2026-11-26,1577598,2026-11-26T16:00:00+00:00,Russia,First League,Nizhny Novgorod,Tekstilshchik,home,1X,2,,1-2,void (red card)
-2026-11-29,1635108,2026-11-29T16:30:00+00:00,Bosnia,Premijer Liga,Borac Banja Luka,FK Sarajevo,home,1,3,1.65,,pending
-2026-11-29,1637728,2026-11-29T12:00:00+00:00,Indonesia,Liga 2,Tornado Pekanbaru,Persiba Balikpapan,home,1,3,,,pending
-2026-11-29,1560086,2026-11-29T12:00:00+00:00,Czech-Republic,Czech Liga,Slavia Praha,Baník Ostrava,home,1,3,1.25,,pending
-2026-11-29,1651631,2026-11-29T20:00:00+00:00,Argentina,Liga Profesional Argentina,Rosario Central,Barracas Central,home,1,3,1.5,,pending
-2026-11-29,1555831,2026-11-29T05:00:00+00:00,Japan,J3 League,Fukushima United,Gainare Tottori,home,1X,3,1.29,,pending
-2026-11-29,1550207,2026-11-29T17:00:00+00:00,Italy,Serie A,AS Roma,Monza,home,1X,2,1.04,,pending
-2026-11-29,1603489,2026-11-29T11:30:00+00:00,Singapore,Premier League,Tampines Rovers,Albirex Niigata S,home,1X,2,1.17,,pending
-2026-11-29,1584091,2026-11-29T12:30:00+00:00,Germany,3. Liga,FC Viktoria Köln,Fortuna Köln,home,1X,2,1.15,,pending
-2026-11-29,1647135,2026-11-29T00:30:00+00:00,Aruba,Division di Honor,Britannia,Estrella,home,1X,2,,,pending
-2026-11-29,1651112,2026-11-29T01:30:00+00:00,Panama,Liga Panameña de Fútbol,Plaza Amador,Tauro FC,home,1X,2,1.22,,pending
-2026-11-29,1652949,2026-11-29T13:00:00+00:00,Sudan,Sudani Premier League,Al-Merreikh II,Al Nasr Omdurman,home,1X,2,,,pending
-2026-11-29,1609148,2026-11-29T13:30:00+00:00,Italy,Serie C - Girone C,Potenza,Audace Cerignola,home,1X,2,1.12,,pending
-2026-11-29,1505572,2026-11-28T23:30:00+00:00,Chile,Primera División,Colo Colo,D. La Serena,home,1X,2,,,pending
-2026-11-29,1641947,2026-11-29T08:00:00+00:00,Laos,Lao League,Salavan United,Champasak United,home,1X,2,,,pending
-2026-11-29,1553239,2026-11-29T13:45:00+00:00,Poland,Ekstraklasa,Lech Poznan,Pogon Szczecin,home,1X,2,1.17,,pending
-2026-11-29,1558051,2026-11-29T16:30:00+00:00,Slovenia,1. SNL,Koper,Celje,home,1X,2,1.5,,pending
-2026-11-29,1642326,2026-11-29T01:00:00+00:00,Honduras,Liga Nacional,CD Olimpia,Estrella Roja,home,1X,2,1.07,,pending
-2026-11-29,1576248,2026-11-29T12:30:00+00:00,Germany,2. Bundesliga,1. FC Magdeburg,Energie Cottbus,home,1X,2,1.2,,pending
-2026-11-29,1604072,2026-11-29T12:30:00+00:00,Saudi-Arabia,Division 1,Damac,Al Jeel,home,1X,2,,,pending
-2026-11-29,1628050,2026-11-29T14:00:00+00:00,Iraq,Iraqi League,Al-Jolan SC,Erbil,home,1X,2,,,pending
-2026-11-29,1651863,2026-11-29T14:00:00+00:00,Lesotho,Premier League,Lijabatho,LMPS,home,1X,2,,,pending
-2026-11-29,1652982,2026-11-29T01:00:00+00:00,Nicaragua,Primera Division,Real Estelí,H&H Export,home,1X,2,,,pending
-2026-11-29,1553925,2026-11-29T16:00:00+00:00,Serbia,Super Liga,Železničar Pančevo,OFK Beograd,home,1X,2,1.12,,pending
-2026-11-29,1575549,2026-11-29T20:30:00+00:00,Portugal,Primeira Liga,FC Porto,Sporting CP,home,1X,2,1.25,,pending
-2026-11-29,1651633,2026-11-28T22:00:00+00:00,Venezuela,Segunda División,Deportivo Lara,Fundación Lara Deportiva,home,1X,2,,,pending
-2026-11-29,1551732,2026-11-29T01:00:00+00:00,Costa-Rica,Primera División,CS Cartagines,Perez Zeledon,home,1X,2,1.05,,pending
-2026-11-29,1591407,2026-11-29T10:00:00+00:00,Turkey,2. Lig,Elazığspor,68 Aksaray Belediyespor,home,1X,2,1.1,,pending
-2026-11-29,1608769,2026-11-29T11:30:00+00:00,Italy,Serie C - Girone B,Spezia,Pineto,home,1X,2,1.03,,pending
-2026-11-29,1598088,2026-11-29T12:00:00+00:00,Thailand,Thai League 1,Port FC,Prachuap,home,1X,2,1.17,,pending
-2026-11-29,1560285,2026-11-29T13:15:00+00:00,Hungary,NB I,Ferencvarosi TC,Zalaegerszegi TE,home,1X,2,1.08,,pending
-2026-11-29,1548568,2026-11-29T17:00:00+00:00,Croatia,HNL,HNK Hajduk Split,Rudes,home,1X,2,1.05,,pending
-2026-11-29,1606791,2026-11-29T05:00:00+00:00,Japan,J2 League,Tegevajaro Miyazaki,Sagan Tosu,home,1X,2,1.29,,pending
-2026-11-29,1639118,2026-11-29T12:30:00+00:00,Philippines,PFL,Mendiola,Philippine Army,home,1X,2,,,pending
-2026-11-29,1630270,2026-11-29T13:00:00+00:00,Moldova,Super Liga,Petrocub,Politehnica UTM,home,1X,2,,,pending
-2026-11-29,1581571,2026-11-29T15:00:00+00:00,Armenia,Premier League,Pyunik Yerevan,Ararat,home,1X,2,,,pending
-2026-11-29,1589545,2026-11-29T15:00:00+00:00,Luxembourg,National Division,US Mondorf-les-bains,Etzella Ettelbruck,home,1X,2,,,pending
-2026-11-29,1619774,2026-11-29T15:30:00+00:00,Gibraltar,Premier Division,Europa Point,Lincoln Red Imps FC,away,X2,3,,,pending
-2026-11-29,1591405,2026-11-29T10:00:00+00:00,Turkey,2. Lig,Arnavutköy Belediyespor,Muş Sport Klübü,away,X2,3,1.02,,pending
-2026-11-29,1556170,2026-11-29T05:00:00+00:00,Japan,J1 League,Yokohama F. Marinos,FC Tokyo,away,X2,3,1.18,,pending
-2026-11-29,1634869,2026-11-29T09:30:00+00:00,Myanmar,National League,Dagon,Yangon United,away,X2,3,,,pending
-2026-11-29,1558695,2026-11-29T17:30:00+00:00,Belgium,Jupiler Pro League,Standard Liege,Club Brugge KV,away,X2,3,1.15,,pending
-2026-11-29,1526044,2026-11-29T10:00:00+00:00,Belarus,Premier League,Slavia Mozyr,Dinamo Brest,away,X2,3,1.24,,pending
-2026-11-29,1589544,2026-11-29T15:00:00+00:00,Luxembourg,National Division,AS Jeunesse Esch,F91 Dudelange,away,X2,3,,,pending
-2026-11-29,1553922,2026-11-29T14:30:00+00:00,Serbia,Super Liga,Novi Pazar,FK Crvena Zvezda,away,X2,3,1.12,,pending
-2026-11-29,1647324,2026-11-29T15:00:00+00:00,Bahrain,Premier League,Al Najma,Muharraq,away,X2,3,,,pending
-2026-11-29,1510512,2026-11-29T05:00:00+00:00,South-Korea,K League 2,Jeonnam Dragons,Suwon Bluewings,away,X2,3,1.18,,pending
-2026-11-29,1610672,2026-11-29T11:00:00+00:00,Cambodia,C-League,Life Sihanoukville,Visakha,away,X2,3,,,pending
-2026-11-29,1557480,2026-11-29T12:00:00+00:00,England,Premier League,Everton,Liverpool,away,X2,3,1.2,,pending
-2026-11-29,1555432,2026-11-29T13:00:00+00:00,Switzerland,Super League,FC Luzern,FC Lugano,away,X2,3,1.4,,pending
 2026-11-28,1552234,2026-11-28T20:00:00+00:00,Netherlands,Eredivisie,Cambuur,Sparta Rotterdam,home,1X,2,1.36,,pending
 2026-11-28,1494816,2026-11-28T17:00:00+00:00,Norway,Eliteserien,Rosenborg,Molde,home,1X,2,1.3,,pending
 2026-11-28,1649499,2026-11-28T17:30:00+00:00,USA,Major League Soccer,Charlotte,Chicago Fire,home,1X,2,1.57,,pending
@@ -77,3 +28,33 @@ date,fixture_id,kickoff,country,league,home,away,backed,verdict,rules,odds,score
 2026-11-28,1555554,2026-11-28T18:00:00+00:00,Israel,Ligat Ha'al,Maccabi Netanya,Hapoel Beer Sheva,away,X2,3,1.35,,pending
 2026-11-28,1651857,2026-11-28T11:00:00+00:00,Lesotho,Premier League,Machokha,Bantu,away,X2,3,,,pending
 2026-11-28,1526042,2026-11-28T10:00:00+00:00,Belarus,Premier League,Naftan,Dinamo Minsk,away,X2,3,,,pending
+2026-11-29,1635108,2026-11-29T16:30:00+00:00,Bosnia,Premijer Liga,Borac Banja Luka,FK Sarajevo,home,1,3,1.65,,pending
+2026-11-29,1637728,2026-11-29T12:00:00+00:00,Indonesia,Liga 2,Tornado Pekanbaru,Persiba Balikpapan,home,1,3,,,pending
+2026-11-29,1560086,2026-11-29T12:00:00+00:00,Czech-Republic,Czech Liga,Slavia Praha,Baník Ostrava,home,1,3,1.25,,pending
+2026-11-29,1651631,2026-11-29T20:00:00+00:00,Argentina,Liga Profesional Argentina,Rosario Central,Barracas Central,home,1,3,1.5,,pending
+2026-11-29,1555831,2026-11-29T05:00:00+00:00,Japan,J3 League,Fukushima United,Gainare Tottori,home,1X,3,1.29,,pending
+2026-11-29,1647135,2026-11-29T00:30:00+00:00,Aruba,Division di Honor,Britannia,Estrella,home,1X,2,,,pending
+2026-11-29,1651112,2026-11-29T01:30:00+00:00,Panama,Liga Panameña de Fútbol,Plaza Amador,Tauro FC,home,1X,2,1.22,,pending
+2026-11-29,1652949,2026-11-29T13:00:00+00:00,Sudan,Sudani Premier League,Al-Merreikh II,Al Nasr Omdurman,home,1X,2,,,pending
+2026-11-29,1641947,2026-11-29T08:00:00+00:00,Laos,Lao League,Salavan United,Champasak United,home,1X,2,,,pending
+2026-11-29,1558051,2026-11-29T16:30:00+00:00,Slovenia,1. SNL,Koper,Celje,home,1X,2,1.5,,pending
+2026-11-29,1576248,2026-11-29T12:30:00+00:00,Germany,2. Bundesliga,1. FC Magdeburg,Energie Cottbus,home,1X,2,1.2,,pending
+2026-11-29,1604072,2026-11-29T12:30:00+00:00,Saudi-Arabia,Division 1,Damac,Al Jeel,home,1X,2,,,pending
+2026-11-29,1628050,2026-11-29T14:00:00+00:00,Iraq,Iraqi League,Al-Jolan SC,Erbil,home,1X,2,,,pending
+2026-11-29,1651863,2026-11-29T14:00:00+00:00,Lesotho,Premier League,Lijabatho,LMPS,home,1X,2,,,pending
+2026-11-29,1652982,2026-11-29T01:00:00+00:00,Nicaragua,Primera Division,Real Estelí,H&H Export,home,1X,2,,,pending
+2026-11-29,1575549,2026-11-29T20:30:00+00:00,Portugal,Primeira Liga,FC Porto,Sporting CP,home,1X,2,1.25,,pending
+2026-11-29,1651633,2026-11-28T22:00:00+00:00,Venezuela,Segunda División,Deportivo Lara,Fundación Lara Deportiva,home,1X,2,,,pending
+2026-11-29,1606791,2026-11-29T05:00:00+00:00,Japan,J2 League,Tegevajaro Miyazaki,Sagan Tosu,home,1X,2,1.29,,pending
+2026-11-29,1639118,2026-11-29T12:30:00+00:00,Philippines,PFL,Mendiola,Philippine Army,home,1X,2,,,pending
+2026-11-29,1630270,2026-11-29T13:00:00+00:00,Moldova,Super Liga,Petrocub,Politehnica UTM,home,1X,2,,,pending
+2026-11-29,1581571,2026-11-29T15:00:00+00:00,Armenia,Premier League,Pyunik Yerevan,Ararat,home,1X,2,,,pending
+2026-11-29,1589545,2026-11-29T15:00:00+00:00,Luxembourg,National Division,US Mondorf-les-bains,Etzella Ettelbruck,home,1X,2,,,pending
+2026-11-29,1619774,2026-11-29T15:30:00+00:00,Gibraltar,Premier Division,Europa Point,Lincoln Red Imps FC,away,X2,3,,,pending
+2026-11-29,1634869,2026-11-29T09:30:00+00:00,Myanmar,National League,Dagon,Yangon United,away,X2,3,,,pending
+2026-11-29,1526044,2026-11-29T10:00:00+00:00,Belarus,Premier League,Slavia Mozyr,Dinamo Brest,away,X2,3,1.24,,pending
+2026-11-29,1589544,2026-11-29T15:00:00+00:00,Luxembourg,National Division,AS Jeunesse Esch,F91 Dudelange,away,X2,3,,,pending
+2026-11-29,1647324,2026-11-29T15:00:00+00:00,Bahrain,Premier League,Al Najma,Muharraq,away,X2,3,,,pending
+2026-11-29,1610672,2026-11-29T11:00:00+00:00,Cambodia,C-League,Life Sihanoukville,Visakha,away,X2,3,,,pending
+2026-11-29,1557480,2026-11-29T12:00:00+00:00,England,Premier League,Everton,Liverpool,away,X2,3,1.2,,pending
+2026-11-29,1555432,2026-11-29T13:00:00+00:00,Switzerland,Super League,FC Luzern,FC Lugano,away,X2,3,1.4,,pending
