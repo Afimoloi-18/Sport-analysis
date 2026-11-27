@@ -1,266 +1,254 @@
 {
- "n": 2194,
+ "n": 1996,
  "picks": {
   "all": {
-   "n": 210,
-   "won": 172,
-   "pct": 82
-  },
-  "1": {
-   "n": 36,
-   "won": 24,
-   "pct": 67
-  },
-  "1X": {
-   "n": 137,
-   "won": 118,
+   "n": 126,
+   "won": 108,
    "pct": 86
   },
+  "1": {
+   "n": 18,
+   "won": 14,
+   "pct": 78
+  },
+  "1X": {
+   "n": 80,
+   "won": 73,
+   "pct": 91
+  },
   "X2": {
-   "n": 37,
-   "won": 30,
-   "pct": 81
+   "n": 28,
+   "won": 21,
+   "pct": 75
   }
  },
  "base": {
   "home win (1)": {
-   "n": 2194,
-   "won": 968,
+   "n": 1996,
+   "won": 881,
    "pct": 44
   },
   "home or draw (1X)": {
-   "n": 2194,
-   "won": 1487,
+   "n": 1996,
+   "won": 1365,
    "pct": 68
   },
   "away or draw (X2)": {
-   "n": 2194,
-   "won": 1226,
+   "n": 1996,
+   "won": 1115,
    "pct": 56
   }
  },
  "sides": {
   "Common opponents (R1) pass \u00b7 home": {
    "won": {
-    "n": 180,
-    "won": 118,
-    "pct": 66
+    "n": 98,
+    "won": 71,
+    "pct": 72
    },
    "no_loss": {
-    "n": 180,
-    "won": 151,
-    "pct": 84
+    "n": 98,
+    "won": 87,
+    "pct": 89
    }
   },
   "Common opponents (R1) pass \u00b7 away": {
    "won": {
-    "n": 213,
-    "won": 110,
-    "pct": 52
+    "n": 121,
+    "won": 60,
+    "pct": 50
    },
    "no_loss": {
-    "n": 213,
-    "won": 154,
-    "pct": 72
+    "n": 121,
+    "won": 88,
+    "pct": 73
    }
   },
   "Common opponents (R1) fail \u00b7 home": {
    "won": {
-    "n": 634,
-    "won": 311,
-    "pct": 49
+    "n": 255,
+    "won": 128,
+    "pct": 50
    },
    "no_loss": {
-    "n": 634,
-    "won": 441,
-    "pct": 70
+    "n": 255,
+    "won": 189,
+    "pct": 74
    }
   },
   "Common opponents (R1) fail \u00b7 away": {
    "won": {
-    "n": 602,
-    "won": 209,
+    "n": 263,
+    "won": 93,
     "pct": 35
    },
    "no_loss": {
-    "n": 602,
-    "won": 358,
-    "pct": 59
+    "n": 263,
+    "won": 157,
+    "pct": 60
    }
   },
   "Head to head (R2) pass \u00b7 home": {
    "won": {
-    "n": 127,
-    "won": 75,
-    "pct": 59
+    "n": 61,
+    "won": 40,
+    "pct": 66
    },
    "no_loss": {
-    "n": 127,
-    "won": 101,
-    "pct": 80
+    "n": 61,
+    "won": 52,
+    "pct": 85
    }
   },
   "Head to head (R2) pass \u00b7 away": {
    "won": {
-    "n": 147,
-    "won": 71,
-    "pct": 48
+    "n": 87,
+    "won": 41,
+    "pct": 47
    },
    "no_loss": {
-    "n": 147,
-    "won": 102,
+    "n": 87,
+    "won": 60,
     "pct": 69
    }
   },
   "Head to head (R2) fail \u00b7 home": {
    "won": {
-    "n": 687,
-    "won": 354,
-    "pct": 52
+    "n": 292,
+    "won": 159,
+    "pct": 54
    },
    "no_loss": {
-    "n": 687,
-    "won": 491,
-    "pct": 71
+    "n": 292,
+    "won": 224,
+    "pct": 77
    }
   },
   "Head to head (R2) fail \u00b7 away": {
    "won": {
-    "n": 668,
-    "won": 248,
-    "pct": 37
+    "n": 297,
+    "won": 112,
+    "pct": 38
    },
    "no_loss": {
-    "n": 668,
-    "won": 410,
-    "pct": 61
+    "n": 297,
+    "won": 185,
+    "pct": 62
    }
   },
   "Form (R3) pass \u00b7 home": {
    "won": {
-    "n": 406,
-    "won": 241,
-    "pct": 59
+    "n": 217,
+    "won": 135,
+    "pct": 62
    },
    "no_loss": {
-    "n": 406,
-    "won": 321,
-    "pct": 79
+    "n": 217,
+    "won": 180,
+    "pct": 83
    }
   },
   "Form (R3) pass \u00b7 away": {
    "won": {
-    "n": 407,
-    "won": 189,
-    "pct": 46
+    "n": 252,
+    "won": 118,
+    "pct": 47
    },
    "no_loss": {
-    "n": 407,
-    "won": 286,
-    "pct": 70
+    "n": 252,
+    "won": 175,
+    "pct": 69
    }
   },
   "Form (R3) fail \u00b7 home": {
    "won": {
-    "n": 408,
-    "won": 188,
-    "pct": 46
+    "n": 136,
+    "won": 64,
+    "pct": 47
    },
    "no_loss": {
-    "n": 408,
-    "won": 271,
-    "pct": 66
+    "n": 136,
+    "won": 96,
+    "pct": 71
    }
   },
   "Form (R3) fail \u00b7 away": {
    "won": {
-    "n": 408,
-    "won": 130,
-    "pct": 32
+    "n": 132,
+    "won": 35,
+    "pct": 27
    },
    "no_loss": {
-    "n": 408,
-    "won": 226,
-    "pct": 55
+    "n": 132,
+    "won": 70,
+    "pct": 53
    }
   }
  },
  "cuts": {
   "Away 2/3 + gate (cut by away downgrade)": {
    "bet": "X2",
-   "n": 170,
-   "won": 124,
-   "pct": 73
+   "n": 107,
+   "won": 80,
+   "pct": 75
   },
   "Home 3/3 but gate fail": {
    "bet": "1",
-   "n": 2,
-   "won": 1,
-   "pct": 50
+   "n": 10,
+   "won": 6,
+   "pct": 60
   },
   "Home 2/3 but gate fail": {
    "bet": "1X",
-   "n": 47,
-   "won": 37,
-   "pct": 79
+   "n": 91,
+   "won": 71,
+   "pct": 78
   },
   "Home 1/3 + gate": {
    "bet": "1X",
-   "n": 325,
-   "won": 239,
-   "pct": 74
+   "n": 155,
+   "won": 116,
+   "pct": 75
   },
   "Away 3/3 as straight away win": {
    "bet": "2",
-   "n": 37,
-   "won": 23,
-   "pct": 62
+   "n": 28,
+   "won": 17,
+   "pct": 61
   },
   "Conflict (both sides 2+)": {
    "bet": "1X",
-   "n": 3,
+   "n": 1,
    "won": 1,
-   "pct": 33
+   "pct": 100
   }
  },
  "gate": {
   "6": {
    "home 2+/3 as 1X": {
-    "n": 212,
-    "won": 182,
-    "pct": 86
+    "n": 187,
+    "won": 163,
+    "pct": 87
    },
    "home 3/3 as 1": {
-    "n": 37,
-    "won": 25,
-    "pct": 68
+    "n": 32,
+    "won": 22,
+    "pct": 69
    }
   },
   "7": {
    "home 2+/3 as 1X": {
-    "n": 200,
-    "won": 171,
-    "pct": 86
+    "n": 175,
+    "won": 152,
+    "pct": 87
    },
    "home 3/3 as 1": {
-    "n": 37,
-    "won": 25,
-    "pct": 68
+    "n": 32,
+    "won": 22,
+    "pct": 69
    }
   },
   "8": {
-   "home 2+/3 as 1X": {
-    "n": 176,
-    "won": 151,
-    "pct": 86
-   },
-   "home 3/3 as 1": {
-    "n": 36,
-    "won": 24,
-    "pct": 67
-   }
-  },
-  "9": {
    "home 2+/3 as 1X": {
     "n": 152,
     "won": 133,
@@ -268,94 +256,80 @@
    },
    "home 3/3 as 1": {
     "n": 31,
-    "won": 23,
+    "won": 21,
+    "pct": 68
+   }
+  },
+  "9": {
+   "home 2+/3 as 1X": {
+    "n": 130,
+    "won": 116,
+    "pct": 89
+   },
+   "home 3/3 as 1": {
+    "n": 27,
+    "won": 20,
     "pct": 74
    }
   },
   "10": {
    "home 2+/3 as 1X": {
-    "n": 119,
-    "won": 106,
-    "pct": 89
+    "n": 99,
+    "won": 91,
+    "pct": 92
    },
    "home 3/3 as 1": {
-    "n": 26,
-    "won": 18,
-    "pct": 69
+    "n": 23,
+    "won": 16,
+    "pct": 70
    }
   },
   "12": {
    "home 2+/3 as 1X": {
-    "n": 84,
-    "won": 77,
-    "pct": 92
+    "n": 67,
+    "won": 65,
+    "pct": 97
    },
    "home 3/3 as 1": {
-    "n": 20,
-    "won": 15,
-    "pct": 75
+    "n": 18,
+    "won": 14,
+    "pct": 78
    }
   }
  },
+ "per_day": {
+  "2026-11-13": 6,
+  "2026-11-14": 14,
+  "2026-11-15": 6,
+  "2026-11-16": 3,
+  "2026-11-17": 0,
+  "2026-11-18": 2,
+  "2026-11-19": 2,
+  "2026-11-20": 11,
+  "2026-11-21": 34,
+  "2026-11-22": 24,
+  "2026-11-23": 5,
+  "2026-11-24": 4,
+  "2026-11-25": 11,
+  "2026-11-26": 4
+ },
+ "per_day_summary": {
+  "min": 0,
+  "max": 34,
+  "avg": 9.0,
+  "days_under_12": 11
+ },
  "countries": [
-  [
-   "Hungary",
-   {
-    "n": 16,
-    "won": 12,
-    "pct": 75
-   }
-  ],
   [
    "Turkey",
    {
-    "n": 10,
-    "won": 9,
-    "pct": 90
-   }
-  ],
-  [
-   "Japan",
-   {
-    "n": 9,
-    "won": 5,
-    "pct": 56
+    "n": 8,
+    "won": 8,
+    "pct": 100
    }
   ],
   [
    "England",
-   {
-    "n": 8,
-    "won": 7,
-    "pct": 88
-   }
-  ],
-  [
-   "Italy",
-   {
-    "n": 8,
-    "won": 6,
-    "pct": 75
-   }
-  ],
-  [
-   "Czech-Republic",
-   {
-    "n": 7,
-    "won": 6,
-    "pct": 86
-   }
-  ],
-  [
-   "Slovenia",
-   {
-    "n": 6,
-    "won": 3,
-    "pct": 50
-   }
-  ],
-  [
-   "Northern-Ireland",
    {
     "n": 6,
     "won": 5,
@@ -363,35 +337,19 @@
    }
   ],
   [
-   "Switzerland",
-   {
-    "n": 6,
-    "won": 4,
-    "pct": 67
-   }
-  ],
-  [
-   "Belarus",
+   "Northern-Ireland",
    {
     "n": 5,
-    "won": 5,
-    "pct": 100
+    "won": 4,
+    "pct": 80
    }
   ],
   [
-   "Bosnia",
+   "Italy",
    {
-    "n": 4,
+    "n": 5,
     "won": 4,
-    "pct": 100
-   }
-  ],
-  [
-   "Serbia",
-   {
-    "n": 4,
-    "won": 4,
-    "pct": 100
+    "pct": 80
    }
   ],
   [
@@ -403,23 +361,7 @@
    }
   ],
   [
-   "Spain",
-   {
-    "n": 4,
-    "won": 2,
-    "pct": 50
-   }
-  ],
-  [
    "Armenia",
-   {
-    "n": 4,
-    "won": 3,
-    "pct": 75
-   }
-  ],
-  [
-   "Uganda",
    {
     "n": 4,
     "won": 3,
@@ -443,7 +385,15 @@
    }
   ],
   [
-   "Liberia",
+   "Slovenia",
+   {
+    "n": 3,
+    "won": 2,
+    "pct": 67
+   }
+  ],
+  [
+   "Bosnia",
    {
     "n": 3,
     "won": 3,
@@ -459,6 +409,14 @@
    }
   ],
   [
+   "Serbia",
+   {
+    "n": 3,
+    "won": 3,
+    "pct": 100
+   }
+  ],
+  [
    "Suriname",
    {
     "n": 3,
@@ -467,11 +425,11 @@
    }
   ],
   [
-   "Greece",
+   "Uganda",
    {
     "n": 3,
-    "won": 3,
-    "pct": 100
+    "won": 2,
+    "pct": 67
    }
   ],
   [
@@ -483,18 +441,82 @@
    }
   ],
   [
-   "Libya",
+   "Liberia",
    {
-    "n": 3,
+    "n": 2,
     "won": 2,
-    "pct": 67
+    "pct": 100
    }
   ],
   [
-   "Kosovo",
+   "Spain",
    {
-    "n": 3,
-    "won": 3,
+    "n": 2,
+    "won": 0,
+    "pct": 0
+   }
+  ],
+  [
+   "Chile",
+   {
+    "n": 2,
+    "won": 2,
+    "pct": 100
+   }
+  ],
+  [
+   "Antigua-And-Barbuda",
+   {
+    "n": 2,
+    "won": 2,
+    "pct": 100
+   }
+  ],
+  [
+   "Cameroon",
+   {
+    "n": 2,
+    "won": 2,
+    "pct": 100
+   }
+  ],
+  [
+   "Wales",
+   {
+    "n": 2,
+    "won": 2,
+    "pct": 100
+   }
+  ],
+  [
+   "South-Korea",
+   {
+    "n": 2,
+    "won": 2,
+    "pct": 100
+   }
+  ],
+  [
+   "Japan",
+   {
+    "n": 2,
+    "won": 2,
+    "pct": 100
+   }
+  ],
+  [
+   "Laos",
+   {
+    "n": 2,
+    "won": 2,
+    "pct": 100
+   }
+  ],
+  [
+   "Belarus",
+   {
+    "n": 2,
+    "won": 2,
     "pct": 100
    }
   ]
@@ -532,16 +554,6 @@
   },
   {
    "day": "2026-11-13",
-   "home": "Hluboka nad Vltavou",
-   "away": "Slavoj \u010cesk\u00fd Krumlov",
-   "country": "Czech-Republic",
-   "league": "4. liga - Divizie A",
-   "bet": "1",
-   "score": "2-0",
-   "won": true
-  },
-  {
-   "day": "2026-11-13",
    "home": "Ballymena United",
    "away": "Linfield",
    "country": "Northern-Ireland",
@@ -556,7 +568,7 @@
    "away": "Portadown",
    "country": "Northern-Ireland",
    "league": "Premiership",
-   "bet": "1",
+   "bet": "1X",
    "score": "3-0",
    "won": true
   },
@@ -579,26 +591,6 @@
    "bet": "X2",
    "score": "0-1",
    "won": true
-  },
-  {
-   "day": "2026-11-14",
-   "home": "K\u0159imice",
-   "away": "Nyrsko",
-   "country": "Czech-Republic",
-   "league": "4. liga - Divizie A",
-   "bet": "1X",
-   "score": "3-0",
-   "won": true
-  },
-  {
-   "day": "2026-11-14",
-   "home": "Rapid Ps\u00e1ry",
-   "away": "Ban\u00edk Sokolov",
-   "country": "Czech-Republic",
-   "league": "4. liga - Divizie B",
-   "bet": "1X",
-   "score": "0-2",
-   "won": false
   },
   {
    "day": "2026-11-14",
@@ -638,56 +630,6 @@
    "league": "1st League - RS",
    "bet": "1X",
    "score": "6-1",
-   "won": true
-  },
-  {
-   "day": "2026-11-14",
-   "home": "Slavi\u010d\u00edn",
-   "away": "Sokol Lan\u017ehot",
-   "country": "Czech-Republic",
-   "league": "4. liga - Divizie E",
-   "bet": "1X",
-   "score": "4-1",
-   "won": true
-  },
-  {
-   "day": "2026-11-14",
-   "home": "Str\u00e1n\u00ed",
-   "away": "B\u0159eclav",
-   "country": "Czech-Republic",
-   "league": "4. liga - Divizie E",
-   "bet": "1X",
-   "score": "1-1",
-   "won": true
-  },
-  {
-   "day": "2026-11-14",
-   "home": "Videm",
-   "away": "Korotan Prevalje",
-   "country": "Slovenia",
-   "league": "3. SNL - East",
-   "bet": "1X",
-   "score": "4-1",
-   "won": true
-  },
-  {
-   "day": "2026-11-14",
-   "home": "Prostejov B",
-   "away": "Ba\u0165ov",
-   "country": "Czech-Republic",
-   "league": "4. liga - Divizie E",
-   "bet": "1X",
-   "score": "2-0",
-   "won": true
-  },
-  {
-   "day": "2026-11-14",
-   "home": "Borac Cacak",
-   "away": "Loznica",
-   "country": "Serbia",
-   "league": "Prva Liga",
-   "bet": "1X",
-   "score": "1-1",
    "won": true
   },
   {
@@ -782,46 +724,6 @@
   },
   {
    "day": "2026-11-15",
-   "home": "Club Nacional",
-   "away": "Albion FC",
-   "country": "Uruguay",
-   "league": "Primera Divisi\u00f3n",
-   "bet": "1X",
-   "score": "1-1",
-   "won": true
-  },
-  {
-   "day": "2026-11-15",
-   "home": "Consadole Sapporo",
-   "away": "Sagan Tosu",
-   "country": "Japan",
-   "league": "J2 League",
-   "bet": "1X",
-   "score": "1-2",
-   "won": false
-  },
-  {
-   "day": "2026-11-15",
-   "home": "Kataller Toyama",
-   "away": "Tokushima Vortis",
-   "country": "Japan",
-   "league": "J2 League",
-   "bet": "1X",
-   "score": "2-3",
-   "won": false
-  },
-  {
-   "day": "2026-11-15",
-   "home": "Pusk\u00e1s II",
-   "away": "Bicskei",
-   "country": "Hungary",
-   "league": "NB III - Northwest",
-   "bet": "1X",
-   "score": "1-1",
-   "won": true
-  },
-  {
-   "day": "2026-11-15",
    "home": "Ibiza",
    "away": "FC Cartagena",
    "country": "Spain",
@@ -829,86 +731,6 @@
    "bet": "1X",
    "score": "0-1",
    "won": false
-  },
-  {
-   "day": "2026-11-15",
-   "home": "DEAC",
-   "away": "Tiszafuredi VSE",
-   "country": "Hungary",
-   "league": "NB III - Northeast",
-   "bet": "1X",
-   "score": "4-2",
-   "won": true
-  },
-  {
-   "day": "2026-11-15",
-   "home": "Eger",
-   "away": "Cigand SE",
-   "country": "Hungary",
-   "league": "NB III - Northeast",
-   "bet": "X2",
-   "score": "1-2",
-   "won": true
-  },
-  {
-   "day": "2026-11-15",
-   "home": "Tatab\u00e1nya",
-   "away": "Gyori ETO II",
-   "country": "Hungary",
-   "league": "NB III - Northwest",
-   "bet": "1",
-   "score": "2-0",
-   "won": true
-  },
-  {
-   "day": "2026-11-15",
-   "home": "H\u00f3dmez\u0151v\u00e1s\u00e1rhely",
-   "away": "Gyulai Term\u00e1l",
-   "country": "Hungary",
-   "league": "NB III - Southeast",
-   "bet": "X2",
-   "score": "0-2",
-   "won": true
-  },
-  {
-   "day": "2026-11-15",
-   "home": "Szeksz\u00e1rd",
-   "away": "Iv\u00e1ncsa",
-   "country": "Hungary",
-   "league": "NB III - Southwest",
-   "bet": "X2",
-   "score": "0-5",
-   "won": true
-  },
-  {
-   "day": "2026-11-15",
-   "home": "Odranci",
-   "away": "Podvinci",
-   "country": "Slovenia",
-   "league": "3. SNL - East",
-   "bet": "1X",
-   "score": "0-3",
-   "won": false
-  },
-  {
-   "day": "2026-11-15",
-   "home": "Konkola Blades",
-   "away": "Nchanga Rangers",
-   "country": "Zambia",
-   "league": "Super League",
-   "bet": "1X",
-   "score": "2-3",
-   "won": false
-  },
-  {
-   "day": "2026-11-15",
-   "home": "Pescara",
-   "away": "Sambenedettese",
-   "country": "Italy",
-   "league": "Serie C - Girone B",
-   "bet": "1X",
-   "score": "3-1",
-   "won": true
   },
   {
    "day": "2026-11-15",
@@ -982,42 +804,12 @@
   },
   {
    "day": "2026-11-16",
-   "home": "Marko",
-   "away": "Zakynthos",
-   "country": "Greece",
-   "league": "Super League 2",
-   "bet": "1X",
-   "score": "6-0",
-   "won": true
-  },
-  {
-   "day": "2026-11-16",
-   "home": "Pars Jonoubi JAM",
-   "away": "Novin Ahvaz",
-   "country": "Iran",
-   "league": "Azadegan League",
-   "bet": "1X",
-   "score": "0-0",
-   "won": true
-  },
-  {
-   "day": "2026-11-16",
    "home": "Colombe",
    "away": "Dynamo de Douala",
    "country": "Cameroon",
    "league": "Elite One",
    "bet": "1X",
    "score": "1-1",
-   "won": true
-  },
-  {
-   "day": "2026-11-17",
-   "home": "Pardubice II",
-   "away": "Horn\u00ed \u0158edice",
-   "country": "Czech-Republic",
-   "league": "3. liga - CFL B",
-   "bet": "1X",
-   "score": "6-1",
    "won": true
   },
   {
@@ -1102,26 +894,6 @@
   },
   {
    "day": "2026-11-20",
-   "home": "Olmaliq",
-   "away": "Qizilqum",
-   "country": "Uzbekistan",
-   "league": "Super League",
-   "bet": "1",
-   "score": "0-1",
-   "won": false
-  },
-  {
-   "day": "2026-11-20",
-   "home": "Leotar",
-   "away": "Omarska",
-   "country": "Bosnia",
-   "league": "1st League - RS",
-   "bet": "1X",
-   "score": "4-0",
-   "won": true
-  },
-  {
-   "day": "2026-11-20",
    "home": "PSMS Medan",
    "away": "Sumsel United",
    "country": "Indonesia",
@@ -1132,31 +904,11 @@
   },
   {
    "day": "2026-11-20",
-   "home": "El Mansura",
-   "away": "Dayrout",
-   "country": "Egypt",
-   "league": "Second League",
-   "bet": "1X",
-   "score": "3-0",
-   "won": true
-  },
-  {
-   "day": "2026-11-20",
-   "home": "URA",
-   "away": "Ntugasaze",
-   "country": "Uganda",
-   "league": "Premier League",
-   "bet": "1X",
-   "score": "6-0",
-   "won": true
-  },
-  {
-   "day": "2026-11-20",
    "home": "SC Villa",
    "away": "UPDF",
    "country": "Uganda",
    "league": "Premier League",
-   "bet": "1",
+   "bet": "1X",
    "score": "0-2",
    "won": false
   },
@@ -1172,26 +924,6 @@
   },
   {
    "day": "2026-11-20",
-   "home": "Nancy",
-   "away": "Dijon",
-   "country": "France",
-   "league": "Ligue 2",
-   "bet": "1X",
-   "score": "1-0",
-   "won": true
-  },
-  {
-   "day": "2026-11-20",
-   "home": "Mornar",
-   "away": "Sutjeska",
-   "country": "Montenegro",
-   "league": "First League",
-   "bet": "1X",
-   "score": "0-0",
-   "won": true
-  },
-  {
-   "day": "2026-11-20",
    "home": "Bayern M\u00fcnchen",
    "away": "1. FC K\u00f6ln",
    "country": "Germany",
@@ -1199,16 +931,6 @@
    "bet": "1",
    "score": "1-1",
    "won": false
-  },
-  {
-   "day": "2026-11-20",
-   "home": "Trento",
-   "away": "Cittadella",
-   "country": "Italy",
-   "league": "Serie C - Girone A",
-   "bet": "1X",
-   "score": "1-0",
-   "won": true
   },
   {
    "day": "2026-11-20",
@@ -1248,16 +970,6 @@
    "league": "K League 2",
    "bet": "1",
    "score": "3-1",
-   "won": true
-  },
-  {
-   "day": "2026-11-21",
-   "home": "Tokyo Verdy",
-   "away": "Nagoya Grampus",
-   "country": "Japan",
-   "league": "J1 League",
-   "bet": "1X",
-   "score": "0-0",
    "won": true
   },
   {
@@ -1302,36 +1014,6 @@
   },
   {
    "day": "2026-11-21",
-   "home": "Debrecen II",
-   "away": "Di\u00f3sgy\u0151r II",
-   "country": "Hungary",
-   "league": "NB III - Northeast",
-   "bet": "1",
-   "score": "1-2",
-   "won": false
-  },
-  {
-   "day": "2026-11-21",
-   "home": "Mardin 1969",
-   "away": "Band\u0131rmaspor",
-   "country": "Turkey",
-   "league": "1. Lig",
-   "bet": "1X",
-   "score": "1-2",
-   "won": false
-  },
-  {
-   "day": "2026-11-21",
-   "home": "Lida",
-   "away": "Ostrovets FC",
-   "country": "Belarus",
-   "league": "1. Division",
-   "bet": "1",
-   "score": "2-1",
-   "won": true
-  },
-  {
-   "day": "2026-11-21",
    "home": "Niva",
    "away": "Dinamo Minsk II",
    "country": "Belarus",
@@ -1368,86 +1050,6 @@
    "league": "Second League",
    "bet": "1X",
    "score": "4-1",
-   "won": true
-  },
-  {
-   "day": "2026-11-21",
-   "home": "Tarpa",
-   "away": "DEAC",
-   "country": "Hungary",
-   "league": "NB III - Northeast",
-   "bet": "X2",
-   "score": "1-3",
-   "won": true
-  },
-  {
-   "day": "2026-11-21",
-   "home": "Cigand SE",
-   "away": "\u00d3zd Saj\u00f3v\u00f6lgye",
-   "country": "Hungary",
-   "league": "NB III - Northeast",
-   "bet": "1X",
-   "score": "1-0",
-   "won": true
-  },
-  {
-   "day": "2026-11-21",
-   "home": "Dorogi FC",
-   "away": "Kir\u00e1ly SZE",
-   "country": "Hungary",
-   "league": "NB III - Northwest",
-   "bet": "1X",
-   "score": "4-1",
-   "won": true
-  },
-  {
-   "day": "2026-11-21",
-   "home": "Kom\u00e1rom",
-   "away": "Pusk\u00e1s II",
-   "country": "Hungary",
-   "league": "NB III - Northwest",
-   "bet": "1X",
-   "score": "3-2",
-   "won": true
-  },
-  {
-   "day": "2026-11-21",
-   "home": "Iv\u00e1ncsa",
-   "away": "Buda\u00f6rs",
-   "country": "Hungary",
-   "league": "NB III - Southwest",
-   "bet": "1X",
-   "score": "1-3",
-   "won": false
-  },
-  {
-   "day": "2026-11-21",
-   "home": "Kaposvar",
-   "away": "Szeksz\u00e1rd",
-   "country": "Hungary",
-   "league": "NB III - Southwest",
-   "bet": "1",
-   "score": "6-0",
-   "won": true
-  },
-  {
-   "day": "2026-11-21",
-   "home": "Ferencv\u00e1ros II",
-   "away": "Paksi SE II",
-   "country": "Hungary",
-   "league": "NB III - Southwest",
-   "bet": "1",
-   "score": "1-1",
-   "won": false
-  },
-  {
-   "day": "2026-11-21",
-   "home": "Triangle United",
-   "away": "Scotland Mabvuku",
-   "country": "Zimbabwe",
-   "league": "Premier Soccer League",
-   "bet": "X2",
-   "score": "1-2",
    "won": true
   },
   {
@@ -1492,52 +1094,12 @@
   },
   {
    "day": "2026-11-21",
-   "home": "Bicskei",
-   "away": "Tatab\u00e1nya",
-   "country": "Hungary",
-   "league": "NB III - Northwest",
-   "bet": "X2",
-   "score": "3-3",
-   "won": true
-  },
-  {
-   "day": "2026-11-21",
-   "home": "Swieqi United",
-   "away": "Mgarr United",
-   "country": "Malta",
-   "league": "Challenge League",
-   "bet": "1X",
-   "score": "0-1",
-   "won": false
-  },
-  {
-   "day": "2026-11-21",
    "home": "Sheriff Tiraspol",
    "away": "Milsami Orhei",
    "country": "Moldova",
    "league": "Super Liga",
    "bet": "1X",
    "score": "1-0",
-   "won": true
-  },
-  {
-   "day": "2026-11-21",
-   "home": "Paradou AC",
-   "away": "IRB Nezla",
-   "country": "Algeria",
-   "league": "Ligue 2",
-   "bet": "1X",
-   "score": "2-1",
-   "won": true
-  },
-  {
-   "day": "2026-11-21",
-   "home": "Versailles",
-   "away": "Bourg-en-bresse 01",
-   "country": "France",
-   "league": "Ligue 3",
-   "bet": "1",
-   "score": "3-0",
    "won": true
   },
   {
@@ -1549,26 +1111,6 @@
    "bet": "1X",
    "score": "3-0",
    "won": true
-  },
-  {
-   "day": "2026-11-21",
-   "home": "Modena",
-   "away": "Juve Stabia",
-   "country": "Italy",
-   "league": "Serie B",
-   "bet": "1X",
-   "score": "2-0",
-   "won": true
-  },
-  {
-   "day": "2026-11-21",
-   "home": "Polonia Warszawa",
-   "away": "Stal Mielec",
-   "country": "Poland",
-   "league": "I Liga",
-   "bet": "1",
-   "score": "1-1",
-   "won": false
   },
   {
    "day": "2026-11-21",
@@ -1588,16 +1130,6 @@
    "league": "League One",
    "bet": "1X",
    "score": "5-1",
-   "won": true
-  },
-  {
-   "day": "2026-11-21",
-   "home": "Tottenham",
-   "away": "Ipswich",
-   "country": "England",
-   "league": "Premier League",
-   "bet": "1X",
-   "score": "2-0",
    "won": true
   },
   {
@@ -1622,16 +1154,6 @@
   },
   {
    "day": "2026-11-21",
-   "home": "Wolves",
-   "away": "Charlton",
-   "country": "England",
-   "league": "Championship",
-   "bet": "1X",
-   "score": "2-1",
-   "won": true
-  },
-  {
-   "day": "2026-11-21",
    "home": "H&W Welders",
    "away": "Annagh United",
    "country": "Northern-Ireland",
@@ -1639,26 +1161,6 @@
    "bet": "X2",
    "score": "2-1",
    "won": false
-  },
-  {
-   "day": "2026-11-21",
-   "home": "Omonia Nicosia",
-   "away": "Apoel Nicosia",
-   "country": "Cyprus",
-   "league": "1. Division",
-   "bet": "1X",
-   "score": "1-1",
-   "won": true
-  },
-  {
-   "day": "2026-11-21",
-   "home": "Collina d'Oro",
-   "away": "Baden",
-   "country": "Switzerland",
-   "league": "1. Liga Classic - Group 3",
-   "bet": "1X",
-   "score": "1-1",
-   "won": true
   },
   {
    "day": "2026-11-21",
@@ -1682,16 +1184,6 @@
   },
   {
    "day": "2026-11-21",
-   "home": "Zaragoza",
-   "away": "Rayo Majadahonda",
-   "country": "Spain",
-   "league": "Primera Divisi\u00f3n RFEF - Group 2",
-   "bet": "1X",
-   "score": "2-0",
-   "won": true
-  },
-  {
-   "day": "2026-11-21",
    "home": "JKT Tanzania",
    "away": "Simba",
    "country": "Tanzania",
@@ -1707,26 +1199,6 @@
    "country": "Gibraltar",
    "league": "Premier Division",
    "bet": "X2",
-   "score": "1-1",
-   "won": true
-  },
-  {
-   "day": "2026-11-21",
-   "home": "CFFEB",
-   "away": "ASFB",
-   "country": "Burkina-Faso",
-   "league": "Ligue 1",
-   "bet": "1X",
-   "score": "2-0",
-   "won": true
-  },
-  {
-   "day": "2026-11-21",
-   "home": "Luzern II",
-   "away": "Z\u00fcrich II",
-   "country": "Switzerland",
-   "league": "1. Liga Promotion",
-   "bet": "1X",
    "score": "1-1",
    "won": true
   },
@@ -1762,42 +1234,12 @@
   },
   {
    "day": "2026-11-21",
-   "home": "Aris",
-   "away": "Nea Salamis",
-   "country": "Cyprus",
-   "league": "1. Division",
-   "bet": "1X",
-   "score": "3-1",
-   "won": true
-  },
-  {
-   "day": "2026-11-21",
-   "home": "Gaborone United",
-   "away": "Sua Flamingoes",
-   "country": "Botswana",
-   "league": "Premier League",
-   "bet": "1X",
-   "score": "4-3",
-   "won": true
-  },
-  {
-   "day": "2026-11-21",
    "home": "Al Ahli Tripoli",
    "away": "Al Malaab El Libby",
    "country": "Libya",
    "league": "Premier League",
    "bet": "1",
    "score": "3-0",
-   "won": true
-  },
-  {
-   "day": "2026-11-21",
-   "home": "Castell\u00f3n",
-   "away": "Eldense",
-   "country": "Spain",
-   "league": "Segunda Divisi\u00f3n",
-   "bet": "1X",
-   "score": "2-0",
    "won": true
   },
   {
@@ -1809,26 +1251,6 @@
    "bet": "1X",
    "score": "2-3",
    "won": false
-  },
-  {
-   "day": "2026-11-21",
-   "home": "Larne",
-   "away": "Ballymena United",
-   "country": "Northern-Ireland",
-   "league": "Premiership",
-   "bet": "1X",
-   "score": "4-0",
-   "won": true
-  },
-  {
-   "day": "2026-11-21",
-   "home": "Prishtina Bern",
-   "away": "Lancy",
-   "country": "Switzerland",
-   "league": "1. Liga Classic - Group 1",
-   "bet": "1X",
-   "score": "2-1",
-   "won": true
   },
   {
    "day": "2026-11-21",
@@ -1881,36 +1303,6 @@
    "won": true
   },
   {
-   "day": "2026-11-21",
-   "home": "Racing de Veracruz",
-   "away": "Tritons Vallarta",
-   "country": "Mexico",
-   "league": "Primera Premier",
-   "bet": "1X",
-   "score": "3-1",
-   "won": true
-  },
-  {
-   "day": "2026-11-21",
-   "home": "Carabobo FC",
-   "away": "Portuguesa FC",
-   "country": "Venezuela",
-   "league": "Primera Divisi\u00f3n",
-   "bet": "1X",
-   "score": "1-1",
-   "won": true
-  },
-  {
-   "day": "2026-11-22",
-   "home": "Moca",
-   "away": "Salcedo",
-   "country": "Dominican-Republic",
-   "league": "Liga Mayor",
-   "bet": "X2",
-   "score": "0-0",
-   "won": true
-  },
-  {
    "day": "2026-11-22",
    "home": "Celaya",
    "away": "Zacatepec 1948",
@@ -1948,16 +1340,6 @@
    "league": "National League",
    "bet": "1X",
    "score": "3-1",
-   "won": true
-  },
-  {
-   "day": "2026-11-22",
-   "home": "Volna",
-   "away": "Gomel II",
-   "country": "Belarus",
-   "league": "1. Division",
-   "bet": "1X",
-   "score": "2-1",
    "won": true
   },
   {
@@ -2072,43 +1454,13 @@
   },
   {
    "day": "2026-11-22",
-   "home": "Dinamo Minsk",
-   "away": "FC Minsk",
-   "country": "Belarus",
-   "league": "Premier League",
-   "bet": "1X",
-   "score": "4-0",
-   "won": true
-  },
-  {
-   "day": "2026-11-22",
    "home": "Bologna",
    "away": "Udinese",
    "country": "Italy",
    "league": "Serie A",
-   "bet": "1",
+   "bet": "1X",
    "score": "1-1",
-   "won": false
-  },
-  {
-   "day": "2026-11-22",
-   "home": "FC Schaffhausen",
-   "away": "Cham",
-   "country": "Switzerland",
-   "league": "1. Liga Promotion",
-   "bet": "1X",
-   "score": "2-6",
-   "won": false
-  },
-  {
-   "day": "2026-11-22",
-   "home": "Azzurri Bienne",
-   "away": "Sion II",
-   "country": "Switzerland",
-   "league": "1. Liga Classic - Group 1",
-   "bet": "1X",
-   "score": "0-3",
-   "won": false
+   "won": true
   },
   {
    "day": "2026-11-22",
@@ -2152,16 +1504,6 @@
   },
   {
    "day": "2026-11-22",
-   "home": "SOL",
-   "away": "Zoman",
-   "country": "Ivory-Coast",
-   "league": "Ligue 1",
-   "bet": "1X",
-   "score": "1-1",
-   "won": true
-  },
-  {
-   "day": "2026-11-22",
    "home": "Austria Vienna",
    "away": "Red Bull Salzburg",
    "country": "Austria",
@@ -2178,26 +1520,6 @@
    "league": "S\u00fcper Lig",
    "bet": "1",
    "score": "1-0",
-   "won": true
-  },
-  {
-   "day": "2026-11-22",
-   "home": "Liria Prizren",
-   "away": "Rilindja 1974",
-   "country": "Kosovo",
-   "league": "Liga E Pare",
-   "bet": "1",
-   "score": "3-0",
-   "won": true
-  },
-  {
-   "day": "2026-11-22",
-   "home": "Fassell",
-   "away": "Golden Dream",
-   "country": "Liberia",
-   "league": "LFA First Division",
-   "bet": "1X",
-   "score": "2-0",
    "won": true
   },
   {
@@ -2221,16 +1543,6 @@
    "won": true
   },
   {
-   "day": "2026-11-22",
-   "home": "Nashville SC",
-   "away": "FC Cincinnati",
-   "country": "USA",
-   "league": "Major League Soccer",
-   "bet": "1X",
-   "score": "0-1",
-   "won": false
-  },
-  {
    "day": "2026-11-23",
    "home": "San Antonio Bulo Bulo",
    "away": "Always Ready",
@@ -2252,52 +1564,12 @@
   },
   {
    "day": "2026-11-23",
-   "home": "Bistrica",
-   "away": "Krka",
-   "country": "Slovenia",
-   "league": "2. SNL",
-   "bet": "1",
-   "score": "2-2",
-   "won": false
-  },
-  {
-   "day": "2026-11-23",
-   "home": "PAOK II",
-   "away": "Niki Volos",
-   "country": "Greece",
-   "league": "Super League 2",
-   "bet": "X2",
-   "score": "0-1",
-   "won": true
-  },
-  {
-   "day": "2026-11-23",
-   "home": "Al-Akhdar",
-   "away": "Al Afriqi Derna SC",
-   "country": "Libya",
-   "league": "Premier League",
-   "bet": "1",
-   "score": "1-0",
-   "won": true
-  },
-  {
-   "day": "2026-11-23",
    "home": "Koper",
    "away": "Aluminij",
    "country": "Slovenia",
    "league": "1. SNL",
    "bet": "1X",
    "score": "2-0",
-   "won": true
-  },
-  {
-   "day": "2026-11-23",
-   "home": "Ba\u015fak\u015fehir",
-   "away": "\u00c7orum FK",
-   "country": "Turkey",
-   "league": "S\u00fcper Lig",
-   "bet": "1X",
-   "score": "4-2",
    "won": true
   },
   {
@@ -2376,49 +1648,9 @@
    "away": "Thitsar Arman",
    "country": "Myanmar",
    "league": "National League",
-   "bet": "1",
+   "bet": "1X",
    "score": "4-3",
    "won": true
-  },
-  {
-   "day": "2026-11-25",
-   "home": "Sagamihara",
-   "away": "Ehime FC",
-   "country": "Japan",
-   "league": "J3 League",
-   "bet": "1X",
-   "score": "3-0",
-   "won": true
-  },
-  {
-   "day": "2026-11-25",
-   "home": "Istiqlol",
-   "away": "Istaravshan",
-   "country": "Tajikistan",
-   "league": "Vysshaya Liga",
-   "bet": "1X",
-   "score": "8-0",
-   "won": true
-  },
-  {
-   "day": "2026-11-25",
-   "home": "Parceiro Nagano",
-   "away": "Kagoshima United",
-   "country": "Japan",
-   "league": "J3 League",
-   "bet": "1X",
-   "score": "0-2",
-   "won": false
-  },
-  {
-   "day": "2026-11-25",
-   "home": "JEF United Chiba",
-   "away": "Nagoya Grampus",
-   "country": "Japan",
-   "league": "J1 League",
-   "bet": "1X",
-   "score": "1-2",
-   "won": false
   },
   {
    "day": "2026-11-25",
@@ -2432,42 +1664,12 @@
   },
   {
    "day": "2026-11-25",
-   "home": "Consadole Sapporo",
-   "away": "Fujieda MYFC",
-   "country": "Japan",
-   "league": "J2 League",
-   "bet": "1",
-   "score": "2-1",
-   "won": true
-  },
-  {
-   "day": "2026-11-25",
    "home": "Radnicki NIS",
    "away": "\u017delezni\u010dar Pan\u010devo",
    "country": "Serbia",
    "league": "Super Liga",
    "bet": "X2",
    "score": "0-2",
-   "won": true
-  },
-  {
-   "day": "2026-11-25",
-   "home": "Istogu",
-   "away": "Suhareka",
-   "country": "Kosovo",
-   "league": "Liga E Pare",
-   "bet": "1X",
-   "score": "4-2",
-   "won": true
-  },
-  {
-   "day": "2026-11-25",
-   "home": "Nchanga Rangers",
-   "away": "Kansanshi Dynamos",
-   "country": "Zambia",
-   "league": "Super League",
-   "bet": "1X",
-   "score": "0-0",
    "won": true
   },
   {
@@ -2508,16 +1710,6 @@
    "league": "Division 1",
    "bet": "1X",
    "score": "3-0",
-   "won": true
-  },
-  {
-   "day": "2026-11-25",
-   "home": "Petro de Luanda",
-   "away": "Sporting de Cabinda",
-   "country": "Angola",
-   "league": "Girabola",
-   "bet": "1X",
-   "score": "3-1",
    "won": true
   },
   {
@@ -2572,16 +1764,6 @@
   },
   {
    "day": "2026-11-26",
-   "home": "Rilindja 1974",
-   "away": "Dinamo Ferizaj",
-   "country": "Kosovo",
-   "league": "Liga E Pare",
-   "bet": "X2",
-   "score": "1-1",
-   "won": true
-  },
-  {
-   "day": "2026-11-26",
    "home": "KCCA",
    "away": "BUL",
    "country": "Uganda",
@@ -2596,14 +1778,14 @@
    "away": "Arsenal Tula",
    "country": "Russia",
    "league": "First League",
-   "bet": "1",
+   "bet": "1X",
    "score": "1-1",
-   "won": false
+   "won": true
   }
  ],
- "red_void": 381,
+ "red_void": 367,
  "days": 14,
  "end": "2026-11-27",
  "notes": [],
- "calls": 627
+ "calls": 579
 }
