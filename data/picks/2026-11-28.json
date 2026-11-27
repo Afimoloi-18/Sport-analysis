@@ -686,164 +686,7 @@
     }
    },
    "day_index": 0,
-   "odds": null,
-   "bookmaker": null
-  },
-  {
-   "fixture": {
-    "id": 1585369,
-    "date": "2026-11-28T15:00:00+00:00",
-    "status": "NS",
-    "season": 2026,
-    "league_id": 43,
-    "league": "National League",
-    "country": "England",
-    "home_id": 1830,
-    "away_id": 1823,
-    "home": "Boreham Wood",
-    "away": "Gateshead",
-    "hg": null,
-    "ag": null
-   },
-   "eval": {
-    "verdict": "1",
-    "backed": "home",
-    "reason": "",
-    "home": {
-     "gate": {
-      "pass": true,
-      "goals": 15,
-      "games": 5
-     },
-     "form": {
-      "pass": true,
-      "string": "WWDWW",
-      "w": 4,
-      "d": 1,
-      "l": 0
-     },
-     "r1": true,
-     "r2": true,
-     "r3": true,
-     "score": 3
-    },
-    "away": {
-     "gate": {
-      "pass": false,
-      "goals": 4,
-      "games": 5
-     },
-     "form": {
-      "pass": false,
-      "string": "WLLLL",
-      "w": 1,
-      "d": 0,
-      "l": 4
-     },
-     "r1": false,
-     "r2": false,
-     "r3": false,
-     "score": 0
-    },
-    "common": {
-     "home_pass": true,
-     "away_pass": false,
-     "home_better": 4,
-     "away_better": 0,
-     "rows": [
-      {
-       "opponent": "Aldershot Town",
-       "home": {
-        "name": "Aldershot Town",
-        "res": "W",
-        "score": "4-1",
-        "date": "2026-11-25"
-       },
-       "away": {
-        "name": "Aldershot Town",
-        "res": "L",
-        "score": "0-1",
-        "date": "2026-10-31"
-       },
-       "edge": "home"
-      },
-      {
-       "opponent": "Altrincham",
-       "home": {
-        "name": "Altrincham",
-        "res": "W",
-        "score": "3-1",
-        "date": "2026-10-03"
-       },
-       "away": {
-        "name": "Altrincham",
-        "res": "L",
-        "score": "0-1",
-        "date": "2026-09-29"
-       },
-       "edge": "home"
-      },
-      {
-       "opponent": "Hartlepool",
-       "home": {
-        "name": "Hartlepool",
-        "res": "W",
-        "score": "4-3",
-        "date": "2026-10-31"
-       },
-       "away": {
-        "name": "Hartlepool",
-        "res": "L",
-        "score": "1-2",
-        "date": "2026-11-21"
-       },
-       "edge": "home"
-      },
-      {
-       "opponent": "Southend",
-       "home": {
-        "name": "Southend",
-        "res": "W",
-        "score": "3-2",
-        "date": "2026-11-20"
-       },
-       "away": {
-        "name": "Southend",
-        "res": "L",
-        "score": "1-6",
-        "date": "2026-09-19"
-       },
-       "edge": "home"
-      }
-     ]
-    },
-    "h2h": {
-     "home_pass": true,
-     "away_pass": false,
-     "meetings": [
-      {
-       "date": "2026-03-21",
-       "home": "Boreham Wood",
-       "away": "Gateshead",
-       "score": "3-0"
-      },
-      {
-       "date": "2025-11-22",
-       "home": "Gateshead",
-       "away": "Boreham Wood",
-       "score": "0-3"
-      }
-     ],
-     "home_wins": 2,
-     "away_wins": 0
-    },
-    "history": {
-     "home_games": 10,
-     "away_games": 10
-    }
-   },
-   "day_index": 0,
-   "odds": 1.1,
+   "odds": 1.44,
    "bookmaker": "William Hill"
   },
   {
@@ -1069,195 +912,6 @@
   },
   {
    "fixture": {
-    "id": 1570470,
-    "date": "2026-11-28T20:00:00+00:00",
-    "status": "NS",
-    "season": 2026,
-    "league_id": 140,
-    "league": "La Liga",
-    "country": "Spain",
-    "home_id": 541,
-    "away_id": 542,
-    "home": "Real Madrid",
-    "away": "Alaves",
-    "hg": null,
-    "ag": null
-   },
-   "eval": {
-    "verdict": "1",
-    "backed": "home",
-    "reason": "",
-    "home": {
-     "gate": {
-      "pass": true,
-      "goals": 14,
-      "games": 5
-     },
-     "form": {
-      "pass": true,
-      "string": "WWWWW",
-      "w": 5,
-      "d": 0,
-      "l": 0
-     },
-     "r1": true,
-     "r2": true,
-     "r3": true,
-     "score": 3
-    },
-    "away": {
-     "gate": {
-      "pass": false,
-      "goals": 6,
-      "games": 5
-     },
-     "form": {
-      "pass": false,
-      "string": "WDLDL",
-      "w": 1,
-      "d": 2,
-      "l": 2
-     },
-     "r1": false,
-     "r2": false,
-     "r3": false,
-     "score": 0
-    },
-    "common": {
-     "home_pass": true,
-     "away_pass": false,
-     "home_better": 5,
-     "away_better": 0,
-     "rows": [
-      {
-       "opponent": "Atletico Madrid",
-       "home": {
-        "name": "Atletico Madrid",
-        "res": "L",
-        "score": "1-2",
-        "date": "2026-09-20"
-       },
-       "away": {
-        "name": "Atletico Madrid",
-        "res": "L",
-        "score": "1-2",
-        "date": "2026-10-10"
-       },
-       "edge": "level"
-      },
-      {
-       "opponent": "Barcelona",
-       "home": {
-        "name": "Barcelona",
-        "res": "W",
-        "score": "2-1",
-        "date": "2026-10-25"
-       },
-       "away": {
-        "name": "Barcelona",
-        "res": "L",
-        "score": "1-6",
-        "date": "2026-10-31"
-       },
-       "edge": "home"
-      },
-      {
-       "opponent": "Celta Vigo",
-       "home": {
-        "name": "Celta Vigo",
-        "res": "W",
-        "score": "2-1",
-        "date": "2026-11-21"
-       },
-       "away": {
-        "name": "Celta Vigo",
-        "res": "L",
-        "score": "1-2",
-        "date": "2026-10-18"
-       },
-       "edge": "home"
-      },
-      {
-       "opponent": "Racing Santander",
-       "home": {
-        "name": "Racing Santander",
-        "res": "W",
-        "score": "3-0",
-        "date": "2026-11-01"
-       },
-       "away": {
-        "name": "Racing Santander",
-        "res": "L",
-        "score": "1-2",
-        "date": "2026-09-12"
-       },
-       "edge": "home"
-      },
-      {
-       "opponent": "Sevilla",
-       "home": {
-        "name": "Sevilla",
-        "res": "W",
-        "score": "4-1",
-        "date": "2026-10-18"
-       },
-       "away": {
-        "name": "Sevilla",
-        "res": "D",
-        "score": "0-0",
-        "date": "2026-11-06"
-       },
-       "edge": "home"
-      },
-      {
-       "opponent": "Valencia",
-       "home": {
-        "name": "Valencia",
-        "res": "W",
-        "score": "3-0",
-        "date": "2026-11-07"
-       },
-       "away": {
-        "name": "Valencia",
-        "res": "L",
-        "score": "0-1",
-        "date": "2026-09-15"
-       },
-       "edge": "home"
-      }
-     ]
-    },
-    "h2h": {
-     "home_pass": true,
-     "away_pass": false,
-     "meetings": [
-      {
-       "date": "2026-04-21",
-       "home": "Real Madrid",
-       "away": "Alaves",
-       "score": "2-1"
-      },
-      {
-       "date": "2025-12-14",
-       "home": "Alaves",
-       "away": "Real Madrid",
-       "score": "1-2"
-      }
-     ],
-     "home_wins": 2,
-     "away_wins": 0
-    },
-    "history": {
-     "home_games": 10,
-     "away_games": 10
-    }
-   },
-   "day_index": 0,
-   "odds": 1.12,
-   "bookmaker": "William Hill"
-  },
-  {
-   "fixture": {
     "id": 1634866,
     "date": "2026-11-28T09:00:00+00:00",
     "status": "NS",
@@ -1428,387 +1082,6 @@
    "day_index": 0,
    "odds": null,
    "bookmaker": null
-  },
-  {
-   "fixture": {
-    "id": 1550211,
-    "date": "2026-11-28T19:45:00+00:00",
-    "status": "NS",
-    "season": 2026,
-    "league_id": 135,
-    "league": "Serie A",
-    "country": "Italy",
-    "home_id": 505,
-    "away_id": 495,
-    "home": "Inter",
-    "away": "Genoa",
-    "hg": null,
-    "ag": null
-   },
-   "eval": {
-    "verdict": "1X",
-    "backed": "home",
-    "reason": "",
-    "home": {
-     "gate": {
-      "pass": true,
-      "goals": 11,
-      "games": 5
-     },
-     "form": {
-      "pass": true,
-      "string": "DWLWW",
-      "w": 3,
-      "d": 1,
-      "l": 1
-     },
-     "r1": true,
-     "r2": true,
-     "r3": true,
-     "score": 3
-    },
-    "away": {
-     "gate": {
-      "pass": false,
-      "goals": 8,
-      "games": 5
-     },
-     "form": {
-      "pass": true,
-      "string": "WLWWW",
-      "w": 4,
-      "d": 0,
-      "l": 1
-     },
-     "r1": false,
-     "r2": false,
-     "r3": true,
-     "score": 1
-    },
-    "common": {
-     "home_pass": true,
-     "away_pass": false,
-     "home_better": 3,
-     "away_better": 0,
-     "rows": [
-      {
-       "opponent": "AC Milan",
-       "home": {
-        "name": "AC Milan",
-        "res": "L",
-        "score": "1-3",
-        "date": "2026-10-31"
-       },
-       "away": {
-        "name": "AC Milan",
-        "res": "L",
-        "score": "1-2",
-        "date": "2026-11-08"
-       },
-       "edge": "level"
-      },
-      {
-       "opponent": "AS Roma",
-       "home": {
-        "name": "AS Roma",
-        "res": "D",
-        "score": "2-2",
-        "date": "2026-09-19"
-       },
-       "away": {
-        "name": "AS Roma",
-        "res": "L",
-        "score": "0-2",
-        "date": "2026-10-17"
-       },
-       "edge": "home"
-      },
-      {
-       "opponent": "Como",
-       "home": {
-        "name": "Como",
-        "res": "W",
-        "score": "2-0",
-        "date": "2026-11-08"
-       },
-       "away": {
-        "name": "Como",
-        "res": "L",
-        "score": "1-4",
-        "date": "2026-09-04"
-       },
-       "edge": "home"
-      },
-      {
-       "opponent": "Fiorentina",
-       "home": {
-        "name": "Fiorentina",
-        "res": "W",
-        "score": "2-1",
-        "date": "2026-10-25"
-       },
-       "away": {
-        "name": "Fiorentina",
-        "res": "W",
-        "score": "2-1",
-        "date": "2026-10-10"
-       },
-       "edge": "level"
-      },
-      {
-       "opponent": "Parma",
-       "home": {
-        "name": "Parma",
-        "res": "W",
-        "score": "3-0",
-        "date": "2026-10-10"
-       },
-       "away": {
-        "name": "Parma",
-        "res": "L",
-        "score": "1-2",
-        "date": "2026-09-20"
-       },
-       "edge": "home"
-      },
-      {
-       "opponent": "Venezia",
-       "home": {
-        "name": "Venezia",
-        "res": "W",
-        "score": "2-0",
-        "date": "2026-10-28"
-       },
-       "away": {
-        "name": "Venezia",
-        "res": "W",
-        "score": "1-0",
-        "date": "2026-10-25"
-       },
-       "edge": "level"
-      }
-     ]
-    },
-    "h2h": {
-     "home_pass": true,
-     "away_pass": false,
-     "meetings": [
-      {
-       "date": "2026-02-28",
-       "home": "Inter",
-       "away": "Genoa",
-       "score": "2-0"
-      },
-      {
-       "date": "2025-12-14",
-       "home": "Genoa",
-       "away": "Inter",
-       "score": "1-2"
-      }
-     ],
-     "home_wins": 2,
-     "away_wins": 0
-    },
-    "history": {
-     "home_games": 10,
-     "away_games": 10
-    }
-   },
-   "day_index": 0,
-   "odds": 1.07,
-   "bookmaker": "William Hill"
-  },
-  {
-   "fixture": {
-    "id": 1567968,
-    "date": "2026-11-28T16:30:00+00:00",
-    "status": "NS",
-    "season": 2026,
-    "league_id": 219,
-    "league": "2. Liga",
-    "country": "Austria",
-    "home_id": 1394,
-    "away_id": 8251,
-    "home": "FC BW Linz",
-    "away": "Sturm Graz II",
-    "hg": null,
-    "ag": null
-   },
-   "eval": {
-    "verdict": "1X",
-    "backed": "home",
-    "reason": "",
-    "home": {
-     "gate": {
-      "pass": true,
-      "goals": 20,
-      "games": 5
-     },
-     "form": {
-      "pass": true,
-      "string": "WWWWW",
-      "w": 5,
-      "d": 0,
-      "l": 0
-     },
-     "r1": true,
-     "r2": false,
-     "r3": true,
-     "score": 2
-    },
-    "away": {
-     "gate": {
-      "pass": false,
-      "goals": 6,
-      "games": 5
-     },
-     "form": {
-      "pass": false,
-      "string": "DWWLL",
-      "w": 2,
-      "d": 1,
-      "l": 2
-     },
-     "r1": false,
-     "r2": false,
-     "r3": false,
-     "score": 0
-    },
-    "common": {
-     "home_pass": true,
-     "away_pass": false,
-     "home_better": 2,
-     "away_better": 0,
-     "rows": [
-      {
-       "opponent": "Austria Salzburg",
-       "home": {
-        "name": "Austria Salzburg",
-        "res": "W",
-        "score": "1-0",
-        "date": "2026-10-23"
-       },
-       "away": {
-        "name": "Austria Salzburg",
-        "res": "D",
-        "score": "3-3",
-        "date": "2026-09-12"
-       },
-       "edge": "home"
-      },
-      {
-       "opponent": "FC Liefering",
-       "home": {
-        "name": "FC Liefering",
-        "res": "W",
-        "score": "4-1",
-        "date": "2026-10-17"
-       },
-       "away": {
-        "name": "FC Liefering",
-        "res": "L",
-        "score": "1-3",
-        "date": "2026-10-10"
-       },
-       "edge": "home"
-      },
-      {
-       "opponent": "Rapid Wien II",
-       "home": {
-        "name": "Rapid Wien II",
-        "res": "W",
-        "score": "6-1",
-        "date": "2026-11-20"
-       },
-       "away": {
-        "name": "Rapid Wien II",
-        "res": "W",
-        "score": "5-2",
-        "date": "2026-08-30"
-       },
-       "edge": "level"
-      },
-      {
-       "opponent": "SKU Amstetten",
-       "home": {
-        "name": "SKU Amstetten",
-        "res": "D",
-        "score": "1-1",
-        "date": "2026-10-09"
-       },
-       "away": {
-        "name": "SKU Amstetten",
-        "res": "D",
-        "score": "1-1",
-        "date": "2026-11-21"
-       },
-       "edge": "level"
-      },
-      {
-       "opponent": "SV Kapfenberg",
-       "home": {
-        "name": "SV Kapfenberg",
-        "res": "L",
-        "score": "1-2",
-        "date": "2026-08-28"
-       },
-       "away": {
-        "name": "SV Kapfenberg",
-        "res": "L",
-        "score": "0-2",
-        "date": "2026-10-18"
-       },
-       "edge": "level"
-      },
-      {
-       "opponent": "Voitsberg",
-       "home": {
-        "name": "Voitsberg",
-        "res": "W",
-        "score": "5-1",
-        "date": "2026-08-23"
-       },
-       "away": {
-        "name": "Voitsberg",
-        "res": "W",
-        "score": "2-0",
-        "date": "2026-10-31"
-       },
-       "edge": "level"
-      },
-      {
-       "opponent": "WSPG Wels",
-       "home": {
-        "name": "WSPG Wels",
-        "res": "W",
-        "score": "4-1",
-        "date": "2026-09-12"
-       },
-       "away": {
-        "name": "WSPG Wels",
-        "res": "W",
-        "score": "3-1",
-        "date": "2026-11-07"
-       },
-       "edge": "level"
-      }
-     ]
-    },
-    "h2h": {
-     "home_pass": false,
-     "away_pass": false,
-     "meetings": [],
-     "home_wins": 0,
-     "away_wins": 0
-    },
-    "history": {
-     "home_games": 10,
-     "away_games": 10
-    }
-   },
-   "day_index": 0,
-   "odds": 1.11,
-   "bookmaker": "William Hill"
   },
   {
    "fixture": {
@@ -1984,198 +1257,6 @@
    },
    "day_index": 0,
    "odds": 1.36,
-   "bookmaker": "William Hill"
-  },
-  {
-   "fixture": {
-    "id": 1602565,
-    "date": "2026-11-28T09:00:00+00:00",
-    "status": "NS",
-    "season": 2026,
-    "league_id": 284,
-    "league": "Liga II",
-    "country": "Romania",
-    "home_id": 2580,
-    "away_id": 21686,
-    "home": "Concordia",
-    "away": "\u015etef\u0103ne\u015fti",
-    "hg": null,
-    "ag": null
-   },
-   "eval": {
-    "verdict": "1X",
-    "backed": "home",
-    "reason": "",
-    "home": {
-     "gate": {
-      "pass": true,
-      "goals": 16,
-      "games": 5
-     },
-     "form": {
-      "pass": true,
-      "string": "WWWDW",
-      "w": 4,
-      "d": 1,
-      "l": 0
-     },
-     "r1": true,
-     "r2": false,
-     "r3": true,
-     "score": 2
-    },
-    "away": {
-     "gate": {
-      "pass": false,
-      "goals": 3,
-      "games": 5
-     },
-     "form": {
-      "pass": false,
-      "string": "LWLLL",
-      "w": 1,
-      "d": 0,
-      "l": 4
-     },
-     "r1": false,
-     "r2": false,
-     "r3": false,
-     "score": 0
-    },
-    "common": {
-     "home_pass": true,
-     "away_pass": false,
-     "home_better": 3,
-     "away_better": 0,
-     "rows": [
-      {
-       "opponent": "CS Afumati",
-       "home": {
-        "name": "CS Afumati",
-        "res": "L",
-        "score": "1-2",
-        "date": "2026-09-05"
-       },
-       "away": {
-        "name": "CS Afumati",
-        "res": "L",
-        "score": "0-4",
-        "date": "2026-10-11"
-       },
-       "edge": "level"
-      },
-      {
-       "opponent": "CS Dinamo Bucure\u0219ti",
-       "home": {
-        "name": "CS Dinamo Bucure\u0219ti",
-        "res": "W",
-        "score": "5-2",
-        "date": "2026-09-12"
-       },
-       "away": {
-        "name": "CS Dinamo Bucure\u0219ti",
-        "res": "L",
-        "score": "1-4",
-        "date": "2026-10-17"
-       },
-       "edge": "home"
-      },
-      {
-       "opponent": "Chindia Targoviste",
-       "home": {
-        "name": "Chindia Targoviste",
-        "res": "L",
-        "score": "2-3",
-        "date": "2026-10-10"
-       },
-       "away": {
-        "name": "Chindia Targoviste",
-        "res": "L",
-        "score": "0-3",
-        "date": "2026-10-31"
-       },
-       "edge": "level"
-      },
-      {
-       "opponent": "Metaloglobus",
-       "home": {
-        "name": "Metaloglobus",
-        "res": "W",
-        "score": "3-1",
-        "date": "2026-08-29"
-       },
-       "away": {
-        "name": "Metaloglobus",
-        "res": "L",
-        "score": "0-1",
-        "date": "2026-09-19"
-       },
-       "edge": "home"
-      },
-      {
-       "opponent": "Metalul Buz\u0103u",
-       "home": {
-        "name": "Metalul Buz\u0103u",
-        "res": "L",
-        "score": "0-1",
-        "date": "2026-09-19"
-       },
-       "away": {
-        "name": "Metalul Buz\u0103u",
-        "res": "L",
-        "score": "0-3",
-        "date": "2026-10-24"
-       },
-       "edge": "level"
-      },
-      {
-       "opponent": "Unirea Slobozia",
-       "home": {
-        "name": "Unirea Slobozia",
-        "res": "D",
-        "score": "2-2",
-        "date": "2026-10-24"
-       },
-       "away": {
-        "name": "Unirea Slobozia",
-        "res": "L",
-        "score": "0-2",
-        "date": "2026-11-21"
-       },
-       "edge": "home"
-      },
-      {
-       "opponent": "Viitorul \u015eelimb\u0103r",
-       "home": {
-        "name": "Viitorul \u015eelimb\u0103r",
-        "res": "W",
-        "score": "5-0",
-        "date": "2026-10-17"
-       },
-       "away": {
-        "name": "Viitorul \u015eelimb\u0103r",
-        "res": "W",
-        "score": "2-0",
-        "date": "2026-11-07"
-       },
-       "edge": "level"
-      }
-     ]
-    },
-    "h2h": {
-     "home_pass": false,
-     "away_pass": false,
-     "meetings": [],
-     "home_wins": 0,
-     "away_wins": 0
-    },
-    "history": {
-     "home_games": 10,
-     "away_games": 10
-    }
-   },
-   "day_index": 0,
-   "odds": 1.03,
    "bookmaker": "William Hill"
   },
   {
@@ -2370,8 +1451,8 @@
     }
    },
    "day_index": 0,
-   "odds": null,
-   "bookmaker": null
+   "odds": 1.3,
+   "bookmaker": "William Hill"
   },
   {
    "fixture": {
@@ -2887,393 +1968,6 @@
   },
   {
    "fixture": {
-    "id": 1591412,
-    "date": "2026-11-28T10:00:00+00:00",
-    "status": "NS",
-    "season": 2026,
-    "league_id": 205,
-    "league": "2. Lig",
-    "country": "Turkey",
-    "home_id": 3613,
-    "away_id": 6538,
-    "home": "\u015eanl\u0131urfaspor",
-    "away": "Somaspor",
-    "hg": null,
-    "ag": null
-   },
-   "eval": {
-    "verdict": "1X",
-    "backed": "home",
-    "reason": "",
-    "home": {
-     "gate": {
-      "pass": true,
-      "goals": 13,
-      "games": 5
-     },
-     "form": {
-      "pass": true,
-      "string": "DWWLW",
-      "w": 3,
-      "d": 1,
-      "l": 1
-     },
-     "r1": true,
-     "r2": false,
-     "r3": true,
-     "score": 2
-    },
-    "away": {
-     "gate": {
-      "pass": false,
-      "goals": 3,
-      "games": 5
-     },
-     "form": {
-      "pass": false,
-      "string": "LDLWD",
-      "w": 1,
-      "d": 2,
-      "l": 2
-     },
-     "r1": false,
-     "r2": false,
-     "r3": false,
-     "score": 0
-    },
-    "common": {
-     "home_pass": true,
-     "away_pass": false,
-     "home_better": 4,
-     "away_better": 0,
-     "rows": [
-      {
-       "opponent": "Alia\u011fa FA\u015e",
-       "home": {
-        "name": "Alia\u011fa FA\u015e",
-        "res": "L",
-        "score": "1-2",
-        "date": "2026-09-27"
-       },
-       "away": {
-        "name": "Alia\u011fa FA\u015e",
-        "res": "L",
-        "score": "1-2",
-        "date": "2026-10-18"
-       },
-       "edge": "level"
-      },
-      {
-       "opponent": "Arnavutk\u00f6y Belediyespor",
-       "home": {
-        "name": "Arnavutk\u00f6y Belediyespor",
-        "res": "W",
-        "score": "2-0",
-        "date": "2026-10-24"
-       },
-       "away": {
-        "name": "Arnavutk\u00f6y Belediyespor",
-        "res": "L",
-        "score": "1-2",
-        "date": "2026-11-14"
-       },
-       "edge": "home"
-      },
-      {
-       "opponent": "Elaz\u0131\u011fspor",
-       "home": {
-        "name": "Elaz\u0131\u011fspor",
-        "res": "L",
-        "score": "0-1",
-        "date": "2026-11-08"
-       },
-       "away": {
-        "name": "Elaz\u0131\u011fspor",
-        "res": "L",
-        "score": "1-4",
-        "date": "2026-11-22"
-       },
-       "edge": "level"
-      },
-      {
-       "opponent": "G\u00fczide Gebzespor",
-       "home": {
-        "name": "G\u00fczide Gebzespor",
-        "res": "D",
-        "score": "1-1",
-        "date": "2026-10-05"
-       },
-       "away": {
-        "name": "G\u00fczide Gebzespor",
-        "res": "L",
-        "score": "1-4",
-        "date": "2026-10-24"
-       },
-       "edge": "home"
-      },
-      {
-       "opponent": "Hatayspor",
-       "home": {
-        "name": "Hatayspor",
-        "res": "W",
-        "score": "4-2",
-        "date": "2026-10-17"
-       },
-       "away": {
-        "name": "Hatayspor",
-        "res": "W",
-        "score": "1-0",
-        "date": "2026-11-08"
-       },
-       "edge": "level"
-      },
-      {
-       "opponent": "Isparta 32 Spor",
-       "home": {
-        "name": "Isparta 32 Spor",
-        "res": "W",
-        "score": "4-0",
-        "date": "2026-11-01"
-       },
-       "away": {
-        "name": "Isparta 32 Spor",
-        "res": "D",
-        "score": "0-0",
-        "date": "2026-11-18"
-       },
-       "edge": "home"
-      },
-      {
-       "opponent": "\u00c7orluspor 1947",
-       "home": {
-        "name": "\u00c7orluspor 1947",
-        "res": "W",
-        "score": "3-2",
-        "date": "2026-10-10"
-       },
-       "away": {
-        "name": "\u00c7orluspor 1947",
-        "res": "L",
-        "score": "0-2",
-        "date": "2026-11-01"
-       },
-       "edge": "home"
-      }
-     ]
-    },
-    "h2h": {
-     "home_pass": false,
-     "away_pass": false,
-     "meetings": [],
-     "home_wins": 0,
-     "away_wins": 0
-    },
-    "history": {
-     "home_games": 10,
-     "away_games": 10
-    }
-   },
-   "day_index": 0,
-   "odds": 1.03,
-   "bookmaker": "Bet365"
-  },
-  {
-   "fixture": {
-    "id": 1556716,
-    "date": "2026-11-28T15:00:00+00:00",
-    "status": "NS",
-    "season": 2026,
-    "league_id": 179,
-    "league": "Premiership",
-    "country": "Scotland",
-    "home_id": 257,
-    "away_id": 1389,
-    "home": "Rangers",
-    "away": "Falkirk",
-    "hg": null,
-    "ag": null
-   },
-   "eval": {
-    "verdict": "1X",
-    "backed": "home",
-    "reason": "",
-    "home": {
-     "gate": {
-      "pass": true,
-      "goals": 13,
-      "games": 5
-     },
-     "form": {
-      "pass": true,
-      "string": "WWWDW",
-      "w": 4,
-      "d": 1,
-      "l": 0
-     },
-     "r1": false,
-     "r2": true,
-     "r3": true,
-     "score": 2
-    },
-    "away": {
-     "gate": {
-      "pass": true,
-      "goals": 13,
-      "games": 5
-     },
-     "form": {
-      "pass": true,
-      "string": "WWWWW",
-      "w": 5,
-      "d": 0,
-      "l": 0
-     },
-     "r1": false,
-     "r2": false,
-     "r3": true,
-     "score": 1
-    },
-    "common": {
-     "home_pass": false,
-     "away_pass": false,
-     "home_better": 1,
-     "away_better": 1,
-     "rows": [
-      {
-       "opponent": "Aberdeen",
-       "home": {
-        "name": "Aberdeen",
-        "res": "W",
-        "score": "3-2",
-        "date": "2026-11-24"
-       },
-       "away": {
-        "name": "Aberdeen",
-        "res": "W",
-        "score": "1-0",
-        "date": "2026-10-28"
-       },
-       "edge": "level"
-      },
-      {
-       "opponent": "Celtic",
-       "home": {
-        "name": "Celtic",
-        "res": "W",
-        "score": "1-0",
-        "date": "2026-09-20"
-       },
-       "away": {
-        "name": "Celtic",
-        "res": "W",
-        "score": "2-0",
-        "date": "2026-11-01"
-       },
-       "edge": "level"
-      },
-      {
-       "opponent": "Dundee",
-       "home": {
-        "name": "Dundee",
-        "res": "D",
-        "score": "2-2",
-        "date": "2026-10-17"
-       },
-       "away": {
-        "name": "Dundee",
-        "res": "L",
-        "score": "1-2",
-        "date": "2026-10-10"
-       },
-       "edge": "home"
-      },
-      {
-       "opponent": "Heart Of Midlothian",
-       "home": {
-        "name": "Heart Of Midlothian",
-        "res": "D",
-        "score": "2-2",
-        "date": "2026-10-28"
-       },
-       "away": {
-        "name": "Heart Of Midlothian",
-        "res": "W",
-        "score": "5-2",
-        "date": "2026-11-08"
-       },
-       "edge": "away"
-      },
-      {
-       "opponent": "Kilmarnock",
-       "home": {
-        "name": "Kilmarnock",
-        "res": "W",
-        "score": "3-1",
-        "date": "2026-10-10"
-       },
-       "away": {
-        "name": "Kilmarnock",
-        "res": "W",
-        "score": "3-0",
-        "date": "2026-10-24"
-       },
-       "edge": "level"
-      },
-      {
-       "opponent": "ST Johnstone",
-       "home": {
-        "name": "ST Johnstone",
-        "res": "W",
-        "score": "4-0",
-        "date": "2026-10-24"
-       },
-       "away": {
-        "name": "ST Johnstone",
-        "res": "W",
-        "score": "2-1",
-        "date": "2026-11-21"
-       },
-       "edge": "level"
-      }
-     ]
-    },
-    "h2h": {
-     "home_pass": true,
-     "away_pass": false,
-     "meetings": [
-      {
-       "date": "2026-09-02",
-       "home": "Falkirk",
-       "away": "Rangers",
-       "score": "1-2"
-      },
-      {
-       "date": "2026-05-16",
-       "home": "Falkirk",
-       "away": "Rangers",
-       "score": "2-5"
-      },
-      {
-       "date": "2026-04-12",
-       "home": "Falkirk",
-       "away": "Rangers",
-       "score": "3-6"
-      }
-     ],
-     "home_wins": 3,
-     "away_wins": 0
-    },
-    "history": {
-     "home_games": 10,
-     "away_games": 10
-    }
-   },
-   "day_index": 0,
-   "odds": null,
-   "bookmaker": null
-  },
-  {
-   "fixture": {
     "id": 1607346,
     "date": "2026-11-28T07:00:00+00:00",
     "status": "NS",
@@ -3559,211 +2253,6 @@
   },
   {
    "fixture": {
-    "id": 1602755,
-    "date": "2026-11-28T11:30:00+00:00",
-    "status": "NS",
-    "season": 2026,
-    "league_id": 297,
-    "league": "Thai League 2",
-    "country": "Thailand",
-    "home_id": 10086,
-    "away_id": 2800,
-    "home": "Khon Kaen United",
-    "away": "Kasetsart FC",
-    "hg": null,
-    "ag": null
-   },
-   "eval": {
-    "verdict": "1X",
-    "backed": "home",
-    "reason": "",
-    "home": {
-     "gate": {
-      "pass": true,
-      "goals": 12,
-      "games": 5
-     },
-     "form": {
-      "pass": true,
-      "string": "DDWWW",
-      "w": 3,
-      "d": 2,
-      "l": 0
-     },
-     "r1": true,
-     "r2": false,
-     "r3": true,
-     "score": 2
-    },
-    "away": {
-     "gate": {
-      "pass": false,
-      "goals": 3,
-      "games": 5
-     },
-     "form": {
-      "pass": false,
-      "string": "DLLDL",
-      "w": 0,
-      "d": 2,
-      "l": 3
-     },
-     "r1": false,
-     "r2": false,
-     "r3": false,
-     "score": 0
-    },
-    "common": {
-     "home_pass": true,
-     "away_pass": false,
-     "home_better": 5,
-     "away_better": 0,
-     "rows": [
-      {
-       "opponent": "Chainat",
-       "home": {
-        "name": "Chainat",
-        "res": "W",
-        "score": "2-1",
-        "date": "2026-10-15"
-       },
-       "away": {
-        "name": "Chainat",
-        "res": "D",
-        "score": "1-1",
-        "date": "2026-10-31"
-       },
-       "edge": "home"
-      },
-      {
-       "opponent": "Chiangmai United",
-       "home": {
-        "name": "Chiangmai United",
-        "res": "L",
-        "score": "1-3",
-        "date": "2026-09-15"
-       },
-       "away": {
-        "name": "Chiangmai United",
-        "res": "L",
-        "score": "0-2",
-        "date": "2026-10-10"
-       },
-       "edge": "level"
-      },
-      {
-       "opponent": "Esan Pattaya",
-       "home": {
-        "name": "Esan Pattaya",
-        "res": "W",
-        "score": "2-0",
-        "date": "2026-10-18"
-       },
-       "away": {
-        "name": "Esan Pattaya",
-        "res": "L",
-        "score": "0-2",
-        "date": "2026-11-21"
-       },
-       "edge": "home"
-      },
-      {
-       "opponent": "Muang Loei United",
-       "home": {
-        "name": "Muang Loei United",
-        "res": "W",
-        "score": "4-2",
-        "date": "2026-10-25"
-       },
-       "away": {
-        "name": "Muang Loei United",
-        "res": "L",
-        "score": "0-1",
-        "date": "2026-11-08"
-       },
-       "edge": "home"
-      },
-      {
-       "opponent": "Phrae United",
-       "home": {
-        "name": "Phrae United",
-        "res": "W",
-        "score": "3-0",
-        "date": "2026-10-31"
-       },
-       "away": {
-        "name": "Phrae United",
-        "res": "D",
-        "score": "1-1",
-        "date": "2026-11-25"
-       },
-       "edge": "home"
-      },
-      {
-       "opponent": "Police Tero",
-       "home": {
-        "name": "Police Tero",
-        "res": "W",
-        "score": "2-0",
-        "date": "2026-09-19"
-       },
-       "away": {
-        "name": "Police Tero",
-        "res": "L",
-        "score": "3-5",
-        "date": "2026-10-17"
-       },
-       "edge": "home"
-      },
-      {
-       "opponent": "Satun",
-       "home": {
-        "name": "Satun",
-        "res": "L",
-        "score": "0-1",
-        "date": "2026-10-11"
-       },
-       "away": {
-        "name": "Satun",
-        "res": "L",
-        "score": "1-3",
-        "date": "2026-10-24"
-       },
-       "edge": "level"
-      }
-     ]
-    },
-    "h2h": {
-     "home_pass": false,
-     "away_pass": false,
-     "meetings": [
-      {
-       "date": "2026-04-19",
-       "home": "Khon Kaen United",
-       "away": "Kasetsart FC",
-       "score": "1-0"
-      },
-      {
-       "date": "2025-12-12",
-       "home": "Kasetsart FC",
-       "away": "Khon Kaen United",
-       "score": "3-3"
-      }
-     ],
-     "home_wins": 1,
-     "away_wins": 0
-    },
-    "history": {
-     "home_games": 10,
-     "away_games": 10
-    }
-   },
-   "day_index": 0,
-   "odds": 1.04,
-   "bookmaker": "William Hill"
-  },
-  {
-   "fixture": {
     "id": 1637727,
     "date": "2026-11-28T12:00:00+00:00",
     "status": "NS",
@@ -3991,387 +2480,6 @@
   },
   {
    "fixture": {
-    "id": 1649600,
-    "date": "2026-11-28T14:00:00+00:00",
-    "status": "NS",
-    "season": 2026,
-    "league_id": 290,
-    "league": "Persian Gulf Pro League",
-    "country": "Iran",
-    "home_id": 2744,
-    "away_id": 2719,
-    "home": "Sepahan FC",
-    "away": "Nassaji Mazandaran",
-    "hg": null,
-    "ag": null
-   },
-   "eval": {
-    "verdict": "1X",
-    "backed": "home",
-    "reason": "",
-    "home": {
-     "gate": {
-      "pass": true,
-      "goals": 12,
-      "games": 5
-     },
-     "form": {
-      "pass": true,
-      "string": "DWWWD",
-      "w": 3,
-      "d": 2,
-      "l": 0
-     },
-     "r1": true,
-     "r2": false,
-     "r3": true,
-     "score": 2
-    },
-    "away": {
-     "gate": {
-      "pass": false,
-      "goals": 3,
-      "games": 5
-     },
-     "form": {
-      "pass": false,
-      "string": "DDLDD",
-      "w": 0,
-      "d": 4,
-      "l": 1
-     },
-     "r1": false,
-     "r2": false,
-     "r3": false,
-     "score": 0
-    },
-    "common": {
-     "home_pass": true,
-     "away_pass": false,
-     "home_better": 4,
-     "away_better": 0,
-     "rows": [
-      {
-       "opponent": "Fajr Sepasi",
-       "home": {
-        "name": "Fajr Sepasi",
-        "res": "W",
-        "score": "6-1",
-        "date": "2026-10-08"
-       },
-       "away": {
-        "name": "Fajr Sepasi",
-        "res": "D",
-        "score": "2-2",
-        "date": "2026-10-25"
-       },
-       "edge": "home"
-      },
-      {
-       "opponent": "Foolad FC",
-       "home": {
-        "name": "Foolad FC",
-        "res": "D",
-        "score": "2-2",
-        "date": "2026-11-21"
-       },
-       "away": {
-        "name": "Foolad FC",
-        "res": "D",
-        "score": "0-0",
-        "date": "2026-10-18"
-       },
-       "edge": "level"
-      },
-      {
-       "opponent": "Kheybar Khorramabad",
-       "home": {
-        "name": "Kheybar Khorramabad",
-        "res": "W",
-        "score": "2-1",
-        "date": "2026-10-30"
-       },
-       "away": {
-        "name": "Kheybar Khorramabad",
-        "res": "W",
-        "score": "1-0",
-        "date": "2026-09-07"
-       },
-       "edge": "level"
-      },
-      {
-       "opponent": "Malavan",
-       "home": {
-        "name": "Malavan",
-        "res": "W",
-        "score": "4-0",
-        "date": "2026-11-06"
-       },
-       "away": {
-        "name": "Malavan",
-        "res": "W",
-        "score": "1-0",
-        "date": "2026-09-02"
-       },
-       "edge": "level"
-      },
-      {
-       "opponent": "Mes Shahr-e Babak",
-       "home": {
-        "name": "Mes Shahr-e Babak",
-        "res": "W",
-        "score": "4-0",
-        "date": "2026-10-25"
-       },
-       "away": {
-        "name": "Mes Shahr-e Babak",
-        "res": "D",
-        "score": "1-1",
-        "date": "2026-09-13"
-       },
-       "edge": "home"
-      },
-      {
-       "opponent": "Shams Azar Qazvin",
-       "home": {
-        "name": "Shams Azar Qazvin",
-        "res": "D",
-        "score": "0-0",
-        "date": "2026-10-18"
-       },
-       "away": {
-        "name": "Shams Azar Qazvin",
-        "res": "L",
-        "score": "0-2",
-        "date": "2026-08-28"
-       },
-       "edge": "home"
-      },
-      {
-       "opponent": "ZOB Ahan",
-       "home": {
-        "name": "ZOB Ahan",
-        "res": "W",
-        "score": "2-1",
-        "date": "2026-10-13"
-       },
-       "away": {
-        "name": "ZOB Ahan",
-        "res": "D",
-        "score": "1-1",
-        "date": "2026-10-08"
-       },
-       "edge": "home"
-      }
-     ]
-    },
-    "h2h": {
-     "home_pass": false,
-     "away_pass": false,
-     "meetings": [],
-     "home_wins": 0,
-     "away_wins": 0
-    },
-    "history": {
-     "home_games": 10,
-     "away_games": 10
-    }
-   },
-   "day_index": 0,
-   "odds": 1.07,
-   "bookmaker": "Betano"
-  },
-  {
-   "fixture": {
-    "id": 1643049,
-    "date": "2026-11-28T14:15:00+00:00",
-    "status": "NS",
-    "season": 2026,
-    "league_id": 301,
-    "league": "Pro League",
-    "country": "United-Arab-Emirates",
-    "home_id": 2872,
-    "away_id": 2873,
-    "home": "Al-Wasl FC",
-    "away": "Al-Dhafra",
-    "hg": null,
-    "ag": null
-   },
-   "eval": {
-    "verdict": "1X",
-    "backed": "home",
-    "reason": "",
-    "home": {
-     "gate": {
-      "pass": true,
-      "goals": 12,
-      "games": 5
-     },
-     "form": {
-      "pass": true,
-      "string": "WLWDW",
-      "w": 3,
-      "d": 1,
-      "l": 1
-     },
-     "r1": true,
-     "r2": false,
-     "r3": true,
-     "score": 2
-    },
-    "away": {
-     "gate": {
-      "pass": false,
-      "goals": 9,
-      "games": 5
-     },
-     "form": {
-      "pass": false,
-      "string": "LLWWL",
-      "w": 2,
-      "d": 0,
-      "l": 3
-     },
-     "r1": false,
-     "r2": false,
-     "r3": false,
-     "score": 0
-    },
-    "common": {
-     "home_pass": true,
-     "away_pass": false,
-     "home_better": 3,
-     "away_better": 0,
-     "rows": [
-      {
-       "opponent": "Al Ain",
-       "home": {
-        "name": "Al Ain",
-        "res": "D",
-        "score": "2-2",
-        "date": "2026-09-10"
-       },
-       "away": {
-        "name": "Al Ain",
-        "res": "L",
-        "score": "1-2",
-        "date": "2026-11-19"
-       },
-       "edge": "home"
-      },
-      {
-       "opponent": "Al-Ittihad Kalba",
-       "home": {
-        "name": "Al-Ittihad Kalba",
-        "res": "W",
-        "score": "3-0",
-        "date": "2026-08-21"
-       },
-       "away": {
-        "name": "Al-Ittihad Kalba",
-        "res": "L",
-        "score": "1-3",
-        "date": "2026-11-07"
-       },
-       "edge": "home"
-      },
-      {
-       "opponent": "Dubai United",
-       "home": {
-        "name": "Dubai United",
-        "res": "W",
-        "score": "5-1",
-        "date": "2026-08-15"
-       },
-       "away": {
-        "name": "Dubai United",
-        "res": "W",
-        "score": "5-1",
-        "date": "2026-10-16"
-       },
-       "edge": "level"
-      },
-      {
-       "opponent": "Hatta SC",
-       "home": {
-        "name": "Hatta SC",
-        "res": "W",
-        "score": "2-1",
-        "date": "2026-11-19"
-       },
-       "away": {
-        "name": "Hatta SC",
-        "res": "W",
-        "score": "2-1",
-        "date": "2026-09-11"
-       },
-       "edge": "level"
-      },
-      {
-       "opponent": "Khorfakkan",
-       "home": {
-        "name": "Khorfakkan",
-        "res": "W",
-        "score": "5-2",
-        "date": "2026-09-04"
-       },
-       "away": {
-        "name": "Khorfakkan",
-        "res": "L",
-        "score": "0-2",
-        "date": "2026-08-29"
-       },
-       "edge": "home"
-      },
-      {
-       "opponent": "Shabab Al Ahli Dubai",
-       "home": {
-        "name": "Shabab Al Ahli Dubai",
-        "res": "L",
-        "score": "0-1",
-        "date": "2026-08-28"
-       },
-       "away": {
-        "name": "Shabab Al Ahli Dubai",
-        "res": "L",
-        "score": "0-2",
-        "date": "2026-08-22"
-       },
-       "edge": "level"
-      }
-     ]
-    },
-    "h2h": {
-     "home_pass": false,
-     "away_pass": false,
-     "meetings": [
-      {
-       "date": "2026-03-18",
-       "home": "Al-Wasl FC",
-       "away": "Al-Dhafra",
-       "score": "3-0"
-      },
-      {
-       "date": "2025-08-23",
-       "home": "Al-Dhafra",
-       "away": "Al-Wasl FC",
-       "score": "3-1"
-      }
-     ],
-     "home_wins": 1,
-     "away_wins": 1
-    },
-    "history": {
-     "home_games": 10,
-     "away_games": 10
-    }
-   },
-   "day_index": 0,
-   "odds": 1.06,
-   "bookmaker": "William Hill"
-  },
-  {
-   "fixture": {
     "id": 1563296,
     "date": "2026-11-28T15:00:00+00:00",
     "status": "NS",
@@ -4525,1094 +2633,6 @@
    },
    "day_index": 0,
    "odds": 1.17,
-   "bookmaker": "William Hill"
-  },
-  {
-   "fixture": {
-    "id": 1585371,
-    "date": "2026-11-28T15:00:00+00:00",
-    "status": "NS",
-    "season": 2026,
-    "league_id": 43,
-    "league": "National League",
-    "country": "England",
-    "home_id": 1371,
-    "away_id": 1835,
-    "home": "Carlisle",
-    "away": "Sutton Utd",
-    "hg": null,
-    "ag": null
-   },
-   "eval": {
-    "verdict": "1X",
-    "backed": "home",
-    "reason": "",
-    "home": {
-     "gate": {
-      "pass": true,
-      "goals": 12,
-      "games": 5
-     },
-     "form": {
-      "pass": true,
-      "string": "LWWWW",
-      "w": 4,
-      "d": 0,
-      "l": 1
-     },
-     "r1": true,
-     "r2": false,
-     "r3": true,
-     "score": 2
-    },
-    "away": {
-     "gate": {
-      "pass": false,
-      "goals": 6,
-      "games": 5
-     },
-     "form": {
-      "pass": true,
-      "string": "DWLWW",
-      "w": 3,
-      "d": 1,
-      "l": 1
-     },
-     "r1": false,
-     "r2": false,
-     "r3": true,
-     "score": 1
-    },
-    "common": {
-     "home_pass": true,
-     "away_pass": false,
-     "home_better": 2,
-     "away_better": 0,
-     "rows": [
-      {
-       "opponent": "Aldershot Town",
-       "home": {
-        "name": "Aldershot Town",
-        "res": "W",
-        "score": "3-1",
-        "date": "2026-10-03"
-       },
-       "away": {
-        "name": "Aldershot Town",
-        "res": "W",
-        "score": "2-0",
-        "date": "2026-10-28"
-       },
-       "edge": "level"
-      },
-      {
-       "opponent": "Boston United",
-       "home": {
-        "name": "Boston United",
-        "res": "W",
-        "score": "2-0",
-        "date": "2026-11-14"
-       },
-       "away": {
-        "name": "Boston United",
-        "res": "W",
-        "score": "1-0",
-        "date": "2026-11-21"
-       },
-       "edge": "level"
-      },
-      {
-       "opponent": "Harrogate Town",
-       "home": {
-        "name": "Harrogate Town",
-        "res": "W",
-        "score": "3-0",
-        "date": "2026-10-28"
-       },
-       "away": {
-        "name": "Harrogate Town",
-        "res": "L",
-        "score": "1-3",
-        "date": "2026-10-24"
-       },
-       "edge": "home"
-      },
-      {
-       "opponent": "Kidderminster Harriers",
-       "home": {
-        "name": "Kidderminster Harriers",
-        "res": "D",
-        "score": "0-0",
-        "date": "2026-10-10"
-       },
-       "away": {
-        "name": "Kidderminster Harriers",
-        "res": "D",
-        "score": "1-1",
-        "date": "2026-10-03"
-       },
-       "edge": "level"
-      },
-      {
-       "opponent": "Solihull Moors",
-       "home": {
-        "name": "Solihull Moors",
-        "res": "W",
-        "score": "2-1",
-        "date": "2026-10-24"
-       },
-       "away": {
-        "name": "Solihull Moors",
-        "res": "L",
-        "score": "0-2",
-        "date": "2026-11-14"
-       },
-       "edge": "home"
-      },
-      {
-       "opponent": "Tamworth",
-       "home": {
-        "name": "Tamworth",
-        "res": "L",
-        "score": "1-2",
-        "date": "2026-11-24"
-       },
-       "away": {
-        "name": "Tamworth",
-        "res": "L",
-        "score": "0-2",
-        "date": "2026-09-30"
-       },
-       "edge": "level"
-      }
-     ]
-    },
-    "h2h": {
-     "home_pass": false,
-     "away_pass": false,
-     "meetings": [
-      {
-       "date": "2026-04-11",
-       "home": "Carlisle",
-       "away": "Sutton Utd",
-       "score": "3-0"
-      },
-      {
-       "date": "2025-08-30",
-       "home": "Sutton Utd",
-       "away": "Carlisle",
-       "score": "2-1"
-      }
-     ],
-     "home_wins": 1,
-     "away_wins": 1
-    },
-    "history": {
-     "home_games": 10,
-     "away_games": 10
-    }
-   },
-   "day_index": 0,
-   "odds": 1.12,
-   "bookmaker": "William Hill"
-  },
-  {
-   "fixture": {
-    "id": 1650553,
-    "date": "2026-11-27T23:00:00+00:00",
-    "status": "NS",
-    "season": 2026,
-    "league_id": 266,
-    "league": "Primera B",
-    "country": "Chile",
-    "home_id": 2327,
-    "away_id": 2343,
-    "home": "Antofagasta",
-    "away": "Deportes Copiapo",
-    "hg": null,
-    "ag": null
-   },
-   "eval": {
-    "verdict": "1X",
-    "backed": "home",
-    "reason": "",
-    "home": {
-     "gate": {
-      "pass": true,
-      "goals": 11,
-      "games": 5
-     },
-     "form": {
-      "pass": true,
-      "string": "DWWDW",
-      "w": 3,
-      "d": 2,
-      "l": 0
-     },
-     "r1": false,
-     "r2": true,
-     "r3": true,
-     "score": 2
-    },
-    "away": {
-     "gate": {
-      "pass": false,
-      "goals": 5,
-      "games": 5
-     },
-     "form": {
-      "pass": false,
-      "string": "DDDLW",
-      "w": 1,
-      "d": 3,
-      "l": 1
-     },
-     "r1": false,
-     "r2": false,
-     "r3": false,
-     "score": 0
-    },
-    "common": {
-     "home_pass": false,
-     "away_pass": false,
-     "home_better": 2,
-     "away_better": 1,
-     "rows": [
-      {
-       "opponent": "Cobreloa",
-       "home": {
-        "name": "Cobreloa",
-        "res": "D",
-        "score": "0-0",
-        "date": "2026-09-10"
-       },
-       "away": {
-        "name": "Cobreloa",
-        "res": "W",
-        "score": "2-1",
-        "date": "2026-10-11"
-       },
-       "edge": "away"
-      },
-      {
-       "opponent": "Deportes Santa Cruz",
-       "home": {
-        "name": "Deportes Santa Cruz",
-        "res": "D",
-        "score": "0-0",
-        "date": "2026-10-18"
-       },
-       "away": {
-        "name": "Deportes Santa Cruz",
-        "res": "D",
-        "score": "1-1",
-        "date": "2026-10-24"
-       },
-       "edge": "level"
-      },
-      {
-       "opponent": "Magallanes",
-       "home": {
-        "name": "Magallanes",
-        "res": "W",
-        "score": "3-2",
-        "date": "2026-11-15"
-       },
-       "away": {
-        "name": "Magallanes",
-        "res": "D",
-        "score": "1-1",
-        "date": "2026-09-09"
-       },
-       "edge": "home"
-      },
-      {
-       "opponent": "San Marcos de Arica",
-       "home": {
-        "name": "San Marcos de Arica",
-        "res": "W",
-        "score": "3-0",
-        "date": "2026-10-11"
-       },
-       "away": {
-        "name": "San Marcos de Arica",
-        "res": "L",
-        "score": "1-2",
-        "date": "2026-09-06"
-       },
-       "edge": "home"
-      }
-     ]
-    },
-    "h2h": {
-     "home_pass": true,
-     "away_pass": false,
-     "meetings": [
-      {
-       "date": "2026-11-22",
-       "home": "Deportes Copiapo",
-       "away": "Antofagasta",
-       "score": "1-1"
-      },
-      {
-       "date": "2026-08-30",
-       "home": "Deportes Copiapo",
-       "away": "Antofagasta",
-       "score": "0-4"
-      },
-      {
-       "date": "2026-04-19",
-       "home": "Antofagasta",
-       "away": "Deportes Copiapo",
-       "score": "1-0"
-      }
-     ],
-     "home_wins": 2,
-     "away_wins": 0
-    },
-    "history": {
-     "home_games": 10,
-     "away_games": 10
-    }
-   },
-   "day_index": 0,
-   "odds": 1.12,
-   "bookmaker": "William Hill"
-  },
-  {
-   "fixture": {
-    "id": 1494812,
-    "date": "2026-11-28T15:00:00+00:00",
-    "status": "NS",
-    "season": 2026,
-    "league_id": 103,
-    "league": "Eliteserien",
-    "country": "Norway",
-    "home_id": 327,
-    "away_id": 2143,
-    "home": "Bodo/Glimt",
-    "away": "KFUM Oslo",
-    "hg": null,
-    "ag": null
-   },
-   "eval": {
-    "verdict": "1X",
-    "backed": "home",
-    "reason": "",
-    "home": {
-     "gate": {
-      "pass": true,
-      "goals": 11,
-      "games": 5
-     },
-     "form": {
-      "pass": true,
-      "string": "WWWLW",
-      "w": 4,
-      "d": 0,
-      "l": 1
-     },
-     "r1": false,
-     "r2": true,
-     "r3": true,
-     "score": 2
-    },
-    "away": {
-     "gate": {
-      "pass": false,
-      "goals": 9,
-      "games": 5
-     },
-     "form": {
-      "pass": false,
-      "string": "LLDDD",
-      "w": 0,
-      "d": 3,
-      "l": 2
-     },
-     "r1": false,
-     "r2": false,
-     "r3": false,
-     "score": 0
-    },
-    "common": {
-     "home_pass": false,
-     "away_pass": false,
-     "home_better": 5,
-     "away_better": 1,
-     "rows": [
-      {
-       "opponent": "Brann",
-       "home": {
-        "name": "Brann",
-        "res": "L",
-        "score": "1-2",
-        "date": "2026-09-20"
-       },
-       "away": {
-        "name": "Brann",
-        "res": "L",
-        "score": "3-4",
-        "date": "2026-11-22"
-       },
-       "edge": "level"
-      },
-      {
-       "opponent": "Ham-Kam",
-       "home": {
-        "name": "Ham-Kam",
-        "res": "W",
-        "score": "2-0",
-        "date": "2026-10-17"
-       },
-       "away": {
-        "name": "Ham-Kam",
-        "res": "D",
-        "score": "2-2",
-        "date": "2026-11-01"
-       },
-       "edge": "home"
-      },
-      {
-       "opponent": "Kristiansund BK",
-       "home": {
-        "name": "Kristiansund BK",
-        "res": "W",
-        "score": "3-1",
-        "date": "2026-10-10"
-       },
-       "away": {
-        "name": "Kristiansund BK",
-        "res": "D",
-        "score": "2-2",
-        "date": "2026-10-25"
-       },
-       "edge": "home"
-      },
-      {
-       "opponent": "Molde",
-       "home": {
-        "name": "Molde",
-        "res": "W",
-        "score": "4-2",
-        "date": "2026-11-20"
-       },
-       "away": {
-        "name": "Molde",
-        "res": "L",
-        "score": "0-2",
-        "date": "2026-09-06"
-       },
-       "edge": "home"
-      },
-      {
-       "opponent": "Tromso",
-       "home": {
-        "name": "Tromso",
-        "res": "W",
-        "score": "2-0",
-        "date": "2026-11-08"
-       },
-       "away": {
-        "name": "Tromso",
-        "res": "D",
-        "score": "1-1",
-        "date": "2026-10-18"
-       },
-       "edge": "home"
-      },
-      {
-       "opponent": "Valerenga",
-       "home": {
-        "name": "Valerenga",
-        "res": "L",
-        "score": "0-1",
-        "date": "2026-10-24"
-       },
-       "away": {
-        "name": "Valerenga",
-        "res": "W",
-        "score": "2-1",
-        "date": "2026-10-12"
-       },
-       "edge": "away"
-      },
-      {
-       "opponent": "Viking",
-       "home": {
-        "name": "Viking",
-        "res": "W",
-        "score": "3-2",
-        "date": "2026-10-30"
-       },
-       "away": {
-        "name": "Viking",
-        "res": "L",
-        "score": "1-5",
-        "date": "2026-11-08"
-       },
-       "edge": "home"
-      }
-     ]
-    },
-    "h2h": {
-     "home_pass": true,
-     "away_pass": false,
-     "meetings": [
-      {
-       "date": "2026-07-12",
-       "home": "KFUM Oslo",
-       "away": "Bodo/Glimt",
-       "score": "0-2"
-      },
-      {
-       "date": "2025-11-21",
-       "home": "KFUM Oslo",
-       "away": "Bodo/Glimt",
-       "score": "1-2"
-      },
-      {
-       "date": "2025-04-27",
-       "home": "Bodo/Glimt",
-       "away": "KFUM Oslo",
-       "score": "3-0"
-      }
-     ],
-     "home_wins": 3,
-     "away_wins": 0
-    },
-    "history": {
-     "home_games": 10,
-     "away_games": 10
-    }
-   },
-   "day_index": 0,
-   "odds": 1.02,
-   "bookmaker": "William Hill"
-  },
-  {
-   "fixture": {
-    "id": 1565537,
-    "date": "2026-11-28T11:00:00+00:00",
-    "status": "NS",
-    "season": 2026,
-    "league_id": 333,
-    "league": "Premier League",
-    "country": "Ukraine",
-    "home_id": 572,
-    "away_id": 3615,
-    "home": "Dynamo Kyiv",
-    "away": "Chornomorets",
-    "hg": null,
-    "ag": null
-   },
-   "eval": {
-    "verdict": "1X",
-    "backed": "home",
-    "reason": "",
-    "home": {
-     "gate": {
-      "pass": true,
-      "goals": 10,
-      "games": 5
-     },
-     "form": {
-      "pass": true,
-      "string": "WDWWL",
-      "w": 3,
-      "d": 1,
-      "l": 1
-     },
-     "r1": true,
-     "r2": false,
-     "r3": true,
-     "score": 2
-    },
-    "away": {
-     "gate": {
-      "pass": false,
-      "goals": 4,
-      "games": 5
-     },
-     "form": {
-      "pass": false,
-      "string": "LLWDL",
-      "w": 1,
-      "d": 1,
-      "l": 3
-     },
-     "r1": false,
-     "r2": false,
-     "r3": false,
-     "score": 0
-    },
-    "common": {
-     "home_pass": true,
-     "away_pass": false,
-     "home_better": 6,
-     "away_better": 0,
-     "rows": [
-      {
-       "opponent": "Epitsentr Dunayivtsi",
-       "home": {
-        "name": "Epitsentr Dunayivtsi",
-        "res": "W",
-        "score": "3-0",
-        "date": "2026-09-14"
-       },
-       "away": {
-        "name": "Epitsentr Dunayivtsi",
-        "res": "L",
-        "score": "0-1",
-        "date": "2026-11-23"
-       },
-       "edge": "home"
-      },
-      {
-       "opponent": "Karpaty",
-       "home": {
-        "name": "Karpaty",
-        "res": "W",
-        "score": "1-0",
-        "date": "2026-10-11"
-       },
-       "away": {
-        "name": "Karpaty",
-        "res": "D",
-        "score": "0-0",
-        "date": "2026-10-25"
-       },
-       "edge": "home"
-      },
-      {
-       "opponent": "Kryvbas KR",
-       "home": {
-        "name": "Kryvbas KR",
-        "res": "W",
-        "score": "2-0",
-        "date": "2026-11-02"
-       },
-       "away": {
-        "name": "Kryvbas KR",
-        "res": "W",
-        "score": "1-0",
-        "date": "2026-08-30"
-       },
-       "edge": "level"
-      },
-      {
-       "opponent": "Kudrivka",
-       "home": {
-        "name": "Kudrivka",
-        "res": "W",
-        "score": "3-1",
-        "date": "2026-10-23"
-       },
-       "away": {
-        "name": "Kudrivka",
-        "res": "L",
-        "score": "0-1",
-        "date": "2026-11-07"
-       },
-       "edge": "home"
-      },
-      {
-       "opponent": "Obolon'-Brovar",
-       "home": {
-        "name": "Obolon'-Brovar",
-        "res": "W",
-        "score": "4-2",
-        "date": "2026-11-22"
-       },
-       "away": {
-        "name": "Obolon'-Brovar",
-        "res": "D",
-        "score": "1-1",
-        "date": "2026-09-18"
-       },
-       "edge": "home"
-      },
-      {
-       "opponent": "Shakhtar Donetsk",
-       "home": {
-        "name": "Shakhtar Donetsk",
-        "res": "D",
-        "score": "0-0",
-        "date": "2026-11-08"
-       },
-       "away": {
-        "name": "Shakhtar Donetsk",
-        "res": "L",
-        "score": "0-2",
-        "date": "2026-09-14"
-       },
-       "edge": "home"
-      },
-      {
-       "opponent": "Zorya Luhansk",
-       "home": {
-        "name": "Zorya Luhansk",
-        "res": "W",
-        "score": "2-0",
-        "date": "2026-09-19"
-       },
-       "away": {
-        "name": "Zorya Luhansk",
-        "res": "L",
-        "score": "1-2",
-        "date": "2026-10-17"
-       },
-       "edge": "home"
-      }
-     ]
-    },
-    "h2h": {
-     "home_pass": false,
-     "away_pass": false,
-     "meetings": [],
-     "home_wins": 0,
-     "away_wins": 0
-    },
-    "history": {
-     "home_games": 10,
-     "away_games": 10
-    }
-   },
-   "day_index": 0,
-   "odds": 1.05,
-   "bookmaker": "William Hill"
-  },
-  {
-   "fixture": {
-    "id": 1576246,
-    "date": "2026-11-28T12:00:00+00:00",
-    "status": "NS",
-    "season": 2026,
-    "league_id": 79,
-    "league": "2. Bundesliga",
-    "country": "Germany",
-    "home_id": 159,
-    "away_id": 785,
-    "home": "Hertha BSC",
-    "away": "Karlsruher SC",
-    "hg": null,
-    "ag": null
-   },
-   "eval": {
-    "verdict": "1X",
-    "backed": "home",
-    "reason": "",
-    "home": {
-     "gate": {
-      "pass": true,
-      "goals": 10,
-      "games": 5
-     },
-     "form": {
-      "pass": true,
-      "string": "WWWWD",
-      "w": 4,
-      "d": 1,
-      "l": 0
-     },
-     "r1": true,
-     "r2": false,
-     "r3": true,
-     "score": 2
-    },
-    "away": {
-     "gate": {
-      "pass": false,
-      "goals": 9,
-      "games": 5
-     },
-     "form": {
-      "pass": false,
-      "string": "DLWLW",
-      "w": 2,
-      "d": 1,
-      "l": 2
-     },
-     "r1": false,
-     "r2": false,
-     "r3": false,
-     "score": 0
-    },
-    "common": {
-     "home_pass": true,
-     "away_pass": false,
-     "home_better": 4,
-     "away_better": 0,
-     "rows": [
-      {
-       "opponent": "1. FC Magdeburg",
-       "home": {
-        "name": "1. FC Magdeburg",
-        "res": "W",
-        "score": "2-1",
-        "date": "2026-09-06"
-       },
-       "away": {
-        "name": "1. FC Magdeburg",
-        "res": "L",
-        "score": "1-6",
-        "date": "2026-10-24"
-       },
-       "edge": "home"
-      },
-      {
-       "opponent": "Energie Cottbus",
-       "home": {
-        "name": "Energie Cottbus",
-        "res": "W",
-        "score": "4-0",
-        "date": "2026-11-22"
-       },
-       "away": {
-        "name": "Energie Cottbus",
-        "res": "L",
-        "score": "0-3",
-        "date": "2026-09-13"
-       },
-       "edge": "home"
-      },
-      {
-       "opponent": "VfL Osnabr\u00fcck",
-       "home": {
-        "name": "VfL Osnabr\u00fcck",
-        "res": "W",
-        "score": "3-1",
-        "date": "2026-09-13"
-       },
-       "away": {
-        "name": "VfL Osnabr\u00fcck",
-        "res": "D",
-        "score": "0-0",
-        "date": "2026-11-22"
-       },
-       "edge": "home"
-      },
-      {
-       "opponent": "VfL Wolfsburg",
-       "home": {
-        "name": "VfL Wolfsburg",
-        "res": "W",
-        "score": "2-1",
-        "date": "2026-11-07"
-       },
-       "away": {
-        "name": "VfL Wolfsburg",
-        "res": "L",
-        "score": "2-5",
-        "date": "2026-08-29"
-       },
-       "edge": "home"
-      }
-     ]
-    },
-    "h2h": {
-     "home_pass": false,
-     "away_pass": false,
-     "meetings": [
-      {
-       "date": "2026-01-24",
-       "home": "Karlsruher SC",
-       "away": "Hertha BSC",
-       "score": "2-2"
-      },
-      {
-       "date": "2025-08-10",
-       "home": "Hertha BSC",
-       "away": "Karlsruher SC",
-       "score": "0-0"
-      }
-     ],
-     "home_wins": 0,
-     "away_wins": 0
-    },
-    "history": {
-     "home_games": 10,
-     "away_games": 10
-    }
-   },
-   "day_index": 0,
-   "odds": 1.11,
-   "bookmaker": "William Hill"
-  },
-  {
-   "fixture": {
-    "id": 1622850,
-    "date": "2026-11-28T12:00:00+00:00",
-    "status": "NS",
-    "season": 2026,
-    "league_id": 274,
-    "league": "Liga 1",
-    "country": "Indonesia",
-    "home_id": 10134,
-    "away_id": 26645,
-    "home": "Persija",
-    "away": "Garudayaksa",
-    "hg": null,
-    "ag": null
-   },
-   "eval": {
-    "verdict": "1X",
-    "backed": "home",
-    "reason": "",
-    "home": {
-     "gate": {
-      "pass": true,
-      "goals": 10,
-      "games": 5
-     },
-     "form": {
-      "pass": true,
-      "string": "DWLWW",
-      "w": 3,
-      "d": 1,
-      "l": 1
-     },
-     "r1": true,
-     "r2": false,
-     "r3": true,
-     "score": 2
-    },
-    "away": {
-     "gate": {
-      "pass": false,
-      "goals": 7,
-      "games": 5
-     },
-     "form": {
-      "pass": false,
-      "string": "WWWLL",
-      "w": 3,
-      "d": 0,
-      "l": 2
-     },
-     "r1": false,
-     "r2": false,
-     "r3": false,
-     "score": 0
-    },
-    "common": {
-     "home_pass": true,
-     "away_pass": false,
-     "home_better": 4,
-     "away_better": 0,
-     "rows": [
-      {
-       "opponent": "Arema FC",
-       "home": {
-        "name": "Arema FC",
-        "res": "W",
-        "score": "5-1",
-        "date": "2026-10-21"
-       },
-       "away": {
-        "name": "Arema FC",
-        "res": "W",
-        "score": "3-1",
-        "date": "2026-10-17"
-       },
-       "edge": "level"
-      },
-      {
-       "opponent": "Java United",
-       "home": {
-        "name": "Java United",
-        "res": "W",
-        "score": "1-0",
-        "date": "2026-09-19"
-       },
-       "away": {
-        "name": "Java United",
-        "res": "D",
-        "score": "1-1",
-        "date": "2026-09-06"
-       },
-       "edge": "home"
-      },
-      {
-       "opponent": "Persebaya Surabaya",
-       "home": {
-        "name": "Persebaya Surabaya",
-        "res": "W",
-        "score": "1-0",
-        "date": "2026-11-07"
-       },
-       "away": {
-        "name": "Persebaya Surabaya",
-        "res": "D",
-        "score": "1-1",
-        "date": "2026-09-19"
-       },
-       "edge": "home"
-      },
-      {
-       "opponent": "Persib Bandung",
-       "home": {
-        "name": "Persib Bandung",
-        "res": "W",
-        "score": "2-1",
-        "date": "2026-09-12"
-       },
-       "away": {
-        "name": "Persib Bandung",
-        "res": "L",
-        "score": "1-2",
-        "date": "2026-10-25"
-       },
-       "edge": "home"
-      },
-      {
-       "opponent": "Persik Kediri",
-       "home": {
-        "name": "Persik Kediri",
-        "res": "W",
-        "score": "2-1",
-        "date": "2026-10-26"
-       },
-       "away": {
-        "name": "Persik Kediri",
-        "res": "L",
-        "score": "0-2",
-        "date": "2026-09-11"
-       },
-       "edge": "home"
-      },
-      {
-       "opponent": "Persita",
-       "home": {
-        "name": "Persita",
-        "res": "L",
-        "score": "2-3",
-        "date": "2026-10-17"
-       },
-       "away": {
-        "name": "Persita",
-        "res": "L",
-        "score": "1-2",
-        "date": "2026-10-10"
-       },
-       "edge": "level"
-      }
-     ]
-    },
-    "h2h": {
-     "home_pass": false,
-     "away_pass": false,
-     "meetings": [],
-     "home_wins": 0,
-     "away_wins": 0
-    },
-    "history": {
-     "home_games": 10,
-     "away_games": 10
-    }
-   },
-   "day_index": 0,
-   "odds": 1.05,
    "bookmaker": "William Hill"
   },
   {
@@ -5773,259 +2793,6 @@
    },
    "day_index": 0,
    "odds": 1.15,
-   "bookmaker": "William Hill"
-  },
-  {
-   "fixture": {
-    "id": 1563287,
-    "date": "2026-11-28T15:00:00+00:00",
-    "status": "NS",
-    "season": 2026,
-    "league_id": 40,
-    "league": "Championship",
-    "country": "England",
-    "home_id": 54,
-    "away_id": 68,
-    "home": "Birmingham",
-    "away": "Bolton",
-    "hg": null,
-    "ag": null
-   },
-   "eval": {
-    "verdict": "1X",
-    "backed": "home",
-    "reason": "",
-    "home": {
-     "gate": {
-      "pass": true,
-      "goals": 10,
-      "games": 5
-     },
-     "form": {
-      "pass": true,
-      "string": "WLWWW",
-      "w": 4,
-      "d": 0,
-      "l": 1
-     },
-     "r1": true,
-     "r2": false,
-     "r3": true,
-     "score": 2
-    },
-    "away": {
-     "gate": {
-      "pass": false,
-      "goals": 6,
-      "games": 5
-     },
-     "form": {
-      "pass": false,
-      "string": "LDLWL",
-      "w": 1,
-      "d": 1,
-      "l": 3
-     },
-     "r1": false,
-     "r2": false,
-     "r3": false,
-     "score": 0
-    },
-    "common": {
-     "home_pass": true,
-     "away_pass": false,
-     "home_better": 2,
-     "away_better": 0,
-     "rows": [
-      {
-       "opponent": "Middlesbrough",
-       "home": {
-        "name": "Middlesbrough",
-        "res": "D",
-        "score": "2-2",
-        "date": "2026-09-19"
-       },
-       "away": {
-        "name": "Middlesbrough",
-        "res": "L",
-        "score": "1-5",
-        "date": "2026-10-23"
-       },
-       "edge": "home"
-      },
-      {
-       "opponent": "Stoke City",
-       "home": {
-        "name": "Stoke City",
-        "res": "L",
-        "score": "0-1",
-        "date": "2026-11-21"
-       },
-       "away": {
-        "name": "Stoke City",
-        "res": "L",
-        "score": "1-2",
-        "date": "2026-10-10"
-       },
-       "edge": "level"
-      },
-      {
-       "opponent": "West Brom",
-       "home": {
-        "name": "West Brom",
-        "res": "W",
-        "score": "1-0",
-        "date": "2026-10-10"
-       },
-       "away": {
-        "name": "West Brom",
-        "res": "L",
-        "score": "1-3",
-        "date": "2026-11-25"
-       },
-       "edge": "home"
-      }
-     ]
-    },
-    "h2h": {
-     "home_pass": false,
-     "away_pass": false,
-     "meetings": [],
-     "home_wins": 0,
-     "away_wins": 0
-    },
-    "history": {
-     "home_games": 10,
-     "away_games": 10
-    }
-   },
-   "day_index": 0,
-   "odds": 1.14,
-   "bookmaker": "William Hill"
-  },
-  {
-   "fixture": {
-    "id": 1563883,
-    "date": "2026-11-28T15:00:00+00:00",
-    "status": "NS",
-    "season": 2026,
-    "league_id": 42,
-    "league": "League Two",
-    "country": "England",
-    "home_id": 1844,
-    "away_id": 1347,
-    "home": "Salford City",
-    "away": "Gillingham",
-    "hg": null,
-    "ag": null
-   },
-   "eval": {
-    "verdict": "1X",
-    "backed": "home",
-    "reason": "",
-    "home": {
-     "gate": {
-      "pass": true,
-      "goals": 10,
-      "games": 5
-     },
-     "form": {
-      "pass": true,
-      "string": "DDWWW",
-      "w": 3,
-      "d": 2,
-      "l": 0
-     },
-     "r1": true,
-     "r2": false,
-     "r3": true,
-     "score": 2
-    },
-    "away": {
-     "gate": {
-      "pass": false,
-      "goals": 7,
-      "games": 5
-     },
-     "form": {
-      "pass": false,
-      "string": "DLWLD",
-      "w": 1,
-      "d": 2,
-      "l": 2
-     },
-     "r1": false,
-     "r2": false,
-     "r3": false,
-     "score": 0
-    },
-    "common": {
-     "home_pass": true,
-     "away_pass": false,
-     "home_better": 1,
-     "away_better": 0,
-     "rows": [
-      {
-       "opponent": "Accrington ST",
-       "home": {
-        "name": "Accrington ST",
-        "res": "D",
-        "score": "1-1",
-        "date": "2026-11-21"
-       },
-       "away": {
-        "name": "Accrington ST",
-        "res": "L",
-        "score": "1-3",
-        "date": "2026-10-17"
-       },
-       "edge": "home"
-      },
-      {
-       "opponent": "Bristol Rovers",
-       "home": {
-        "name": "Bristol Rovers",
-        "res": "W",
-        "score": "2-1",
-        "date": "2026-10-20"
-       },
-       "away": {
-        "name": "Bristol Rovers",
-        "res": "W",
-        "score": "3-0",
-        "date": "2026-09-19"
-       },
-       "edge": "level"
-      }
-     ]
-    },
-    "h2h": {
-     "home_pass": false,
-     "away_pass": false,
-     "meetings": [
-      {
-       "date": "2026-04-11",
-       "home": "Salford City",
-       "away": "Gillingham",
-       "score": "0-0"
-      },
-      {
-       "date": "2025-10-25",
-       "home": "Gillingham",
-       "away": "Salford City",
-       "score": "1-2"
-      }
-     ],
-     "home_wins": 1,
-     "away_wins": 0
-    },
-    "history": {
-     "home_games": 10,
-     "away_games": 10
-    }
-   },
-   "day_index": 0,
-   "odds": 1.12,
    "bookmaker": "William Hill"
   },
   {
@@ -6236,429 +3003,7 @@
     }
    },
    "day_index": 0,
-   "odds": null,
-   "bookmaker": null
-  },
-  {
-   "fixture": {
-    "id": 1526039,
-    "date": "2026-11-28T10:00:00+00:00",
-    "status": "NS",
-    "season": 2026,
-    "league_id": 116,
-    "league": "Premier League",
-    "country": "Belarus",
-    "home_id": 388,
-    "away_id": 391,
-    "home": "Bate Borisov",
-    "away": "FC Isloch Minsk R.",
-    "hg": null,
-    "ag": null
-   },
-   "eval": {
-    "verdict": "X2",
-    "backed": "away",
-    "reason": "",
-    "home": {
-     "gate": {
-      "pass": false,
-      "goals": 3,
-      "games": 5
-     },
-     "form": {
-      "pass": false,
-      "string": "LWLLL",
-      "w": 1,
-      "d": 0,
-      "l": 4
-     },
-     "r1": false,
-     "r2": false,
-     "r3": false,
-     "score": 0
-    },
-    "away": {
-     "gate": {
-      "pass": true,
-      "goals": 17,
-      "games": 5
-     },
-     "form": {
-      "pass": true,
-      "string": "WWWWW",
-      "w": 5,
-      "d": 0,
-      "l": 0
-     },
-     "r1": true,
-     "r2": true,
-     "r3": true,
-     "score": 3
-    },
-    "common": {
-     "home_pass": false,
-     "away_pass": true,
-     "home_better": 0,
-     "away_better": 4,
-     "rows": [
-      {
-       "opponent": "Arsenal",
-       "home": {
-        "name": "Arsenal",
-        "res": "L",
-        "score": "0-1",
-        "date": "2026-10-30"
-       },
-       "away": {
-        "name": "Arsenal",
-        "res": "D",
-        "score": "1-1",
-        "date": "2026-09-07"
-       },
-       "edge": "away"
-      },
-      {
-       "opponent": "Belshina",
-       "home": {
-        "name": "Belshina",
-        "res": "L",
-        "score": "0-1",
-        "date": "2026-10-24"
-       },
-       "away": {
-        "name": "Belshina",
-        "res": "W",
-        "score": "3-2",
-        "date": "2026-11-07"
-       },
-       "edge": "away"
-      },
-      {
-       "opponent": "FC Gomel",
-       "home": {
-        "name": "FC Gomel",
-        "res": "L",
-        "score": "1-3",
-        "date": "2026-11-21"
-       },
-       "away": {
-        "name": "FC Gomel",
-        "res": "W",
-        "score": "2-1",
-        "date": "2026-09-13"
-       },
-       "edge": "away"
-      },
-      {
-       "opponent": "Naftan",
-       "home": {
-        "name": "Naftan",
-        "res": "D",
-        "score": "2-2",
-        "date": "2026-09-13"
-       },
-       "away": {
-        "name": "Naftan",
-        "res": "W",
-        "score": "6-0",
-        "date": "2026-10-24"
-       },
-       "edge": "away"
-      },
-      {
-       "opponent": "Neman",
-       "home": {
-        "name": "Neman",
-        "res": "L",
-        "score": "0-2",
-        "date": "2026-10-14"
-       },
-       "away": {
-        "name": "Neman",
-        "res": "L",
-        "score": "1-2",
-        "date": "2026-09-19"
-       },
-       "edge": "level"
-      },
-      {
-       "opponent": "Slavia Mozyr",
-       "home": {
-        "name": "Slavia Mozyr",
-        "res": "W",
-        "score": "2-1",
-        "date": "2026-10-10"
-       },
-       "away": {
-        "name": "Slavia Mozyr",
-        "res": "W",
-        "score": "3-1",
-        "date": "2026-11-01"
-       },
-       "edge": "level"
-      },
-      {
-       "opponent": "Torpedo Zhodino",
-       "home": {
-        "name": "Torpedo Zhodino",
-        "res": "W",
-        "score": "1-0",
-        "date": "2026-11-07"
-       },
-       "away": {
-        "name": "Torpedo Zhodino",
-        "res": "W",
-        "score": "4-3",
-        "date": "2026-11-22"
-       },
-       "edge": "level"
-      }
-     ]
-    },
-    "h2h": {
-     "home_pass": false,
-     "away_pass": true,
-     "meetings": [
-      {
-       "date": "2026-09-03",
-       "home": "FC Isloch Minsk R.",
-       "away": "Bate Borisov",
-       "score": "2-0"
-      },
-      {
-       "date": "2025-08-09",
-       "home": "FC Isloch Minsk R.",
-       "away": "Bate Borisov",
-       "score": "2-0"
-      },
-      {
-       "date": "2025-03-28",
-       "home": "Bate Borisov",
-       "away": "FC Isloch Minsk R.",
-       "score": "0-1"
-      }
-     ],
-     "home_wins": 0,
-     "away_wins": 3
-    },
-    "history": {
-     "home_games": 10,
-     "away_games": 10
-    }
-   },
-   "day_index": 0,
-   "odds": 1.14,
-   "bookmaker": "Marathonbet"
-  },
-  {
-   "fixture": {
-    "id": 1562131,
-    "date": "2026-11-28T14:00:00+00:00",
-    "status": "NS",
-    "season": 2026,
-    "league_id": 408,
-    "league": "Premiership",
-    "country": "Northern-Ireland",
-    "home_id": 697,
-    "away_id": 583,
-    "home": "Crusaders FC",
-    "away": "Linfield",
-    "hg": null,
-    "ag": null
-   },
-   "eval": {
-    "verdict": "X2",
-    "backed": "away",
-    "reason": "",
-    "home": {
-     "gate": {
-      "pass": false,
-      "goals": 6,
-      "games": 5
-     },
-     "form": {
-      "pass": false,
-      "string": "LDLWL",
-      "w": 1,
-      "d": 1,
-      "l": 3
-     },
-     "r1": false,
-     "r2": false,
-     "r3": false,
-     "score": 0
-    },
-    "away": {
-     "gate": {
-      "pass": true,
-      "goals": 14,
-      "games": 5
-     },
-     "form": {
-      "pass": true,
-      "string": "WWWDW",
-      "w": 4,
-      "d": 1,
-      "l": 0
-     },
-     "r1": true,
-     "r2": true,
-     "r3": true,
-     "score": 3
-    },
-    "common": {
-     "home_pass": false,
-     "away_pass": true,
-     "home_better": 0,
-     "away_better": 5,
-     "rows": [
-      {
-       "opponent": "Ballymena United",
-       "home": {
-        "name": "Ballymena United",
-        "res": "L",
-        "score": "1-2",
-        "date": "2026-10-17"
-       },
-       "away": {
-        "name": "Ballymena United",
-        "res": "W",
-        "score": "3-0",
-        "date": "2026-11-13"
-       },
-       "edge": "away"
-      },
-      {
-       "opponent": "Bangor",
-       "home": {
-        "name": "Bangor",
-        "res": "L",
-        "score": "0-1",
-        "date": "2026-11-07"
-       },
-       "away": {
-        "name": "Bangor",
-        "res": "W",
-        "score": "2-0",
-        "date": "2026-10-10"
-       },
-       "edge": "away"
-      },
-      {
-       "opponent": "Carrick Rangers",
-       "home": {
-        "name": "Carrick Rangers",
-        "res": "D",
-        "score": "1-1",
-        "date": "2026-11-13"
-       },
-       "away": {
-        "name": "Carrick Rangers",
-        "res": "D",
-        "score": "2-2",
-        "date": "2026-10-17"
-       },
-       "edge": "level"
-      },
-      {
-       "opponent": "Coleraine FC",
-       "home": {
-        "name": "Coleraine FC",
-        "res": "L",
-        "score": "0-5",
-        "date": "2026-10-24"
-       },
-       "away": {
-        "name": "Coleraine FC",
-        "res": "W",
-        "score": "3-0",
-        "date": "2026-11-07"
-       },
-       "edge": "away"
-      },
-      {
-       "opponent": "Dungannon Swifts",
-       "home": {
-        "name": "Dungannon Swifts",
-        "res": "L",
-        "score": "1-3",
-        "date": "2026-11-21"
-       },
-       "away": {
-        "name": "Dungannon Swifts",
-        "res": "D",
-        "score": "1-1",
-        "date": "2026-10-31"
-       },
-       "edge": "away"
-      },
-      {
-       "opponent": "Larne",
-       "home": {
-        "name": "Larne",
-        "res": "L",
-        "score": "0-3",
-        "date": "2026-10-10"
-       },
-       "away": {
-        "name": "Larne",
-        "res": "W",
-        "score": "2-1",
-        "date": "2026-10-20"
-       },
-       "edge": "away"
-      },
-      {
-       "opponent": "Limavady United",
-       "home": {
-        "name": "Limavady United",
-        "res": "W",
-        "score": "4-1",
-        "date": "2026-10-31"
-       },
-       "away": {
-        "name": "Limavady United",
-        "res": "W",
-        "score": "5-0",
-        "date": "2026-11-21"
-       },
-       "edge": "level"
-      }
-     ]
-    },
-    "h2h": {
-     "home_pass": false,
-     "away_pass": true,
-     "meetings": [
-      {
-       "date": "2026-09-19",
-       "home": "Linfield",
-       "away": "Crusaders FC",
-       "score": "1-0"
-      },
-      {
-       "date": "2026-01-24",
-       "home": "Crusaders FC",
-       "away": "Linfield",
-       "score": "0-1"
-      },
-      {
-       "date": "2025-12-13",
-       "home": "Linfield",
-       "away": "Crusaders FC",
-       "score": "4-0"
-      }
-     ],
-     "home_wins": 0,
-     "away_wins": 3
-    },
-    "history": {
-     "home_games": 10,
-     "away_games": 10
-    }
-   },
-   "day_index": 0,
-   "odds": 1.07,
+   "odds": 1.22,
    "bookmaker": "William Hill"
   },
   {
@@ -6918,7 +3263,7 @@
    },
    "day_index": 0,
    "odds": 1.36,
-   "bookmaker": "Bet365"
+   "bookmaker": "William Hill"
   },
   {
    "fixture": {
@@ -7160,8 +3505,8 @@
     }
    },
    "day_index": 0,
-   "odds": null,
-   "bookmaker": null
+   "odds": 1.22,
+   "bookmaker": "William Hill"
   },
   {
    "fixture": {
@@ -7572,422 +3917,6 @@
    "day_index": 0,
    "odds": null,
    "bookmaker": null
-  },
-  {
-   "fixture": {
-    "id": 1603085,
-    "date": "2026-11-28T12:15:00+00:00",
-    "status": "NS",
-    "season": 2026,
-    "league_id": 307,
-    "league": "Pro League",
-    "country": "Saudi-Arabia",
-    "home_id": 2945,
-    "away_id": 2939,
-    "home": "Al-Hazm",
-    "away": "Al-Nassr",
-    "hg": null,
-    "ag": null
-   },
-   "eval": {
-    "verdict": "X2",
-    "backed": "away",
-    "reason": "",
-    "home": {
-     "gate": {
-      "pass": false,
-      "goals": 7,
-      "games": 5
-     },
-     "form": {
-      "pass": false,
-      "string": "LDLLD",
-      "w": 0,
-      "d": 2,
-      "l": 3
-     },
-     "r1": false,
-     "r2": false,
-     "r3": false,
-     "score": 0
-    },
-    "away": {
-     "gate": {
-      "pass": true,
-      "goals": 13,
-      "games": 5
-     },
-     "form": {
-      "pass": true,
-      "string": "LWWWW",
-      "w": 4,
-      "d": 0,
-      "l": 1
-     },
-     "r1": true,
-     "r2": true,
-     "r3": true,
-     "score": 3
-    },
-    "common": {
-     "home_pass": false,
-     "away_pass": true,
-     "home_better": 0,
-     "away_better": 3,
-     "rows": [
-      {
-       "opponent": "Al Khaleej Saihat",
-       "home": {
-        "name": "Al Khaleej Saihat",
-        "res": "L",
-        "score": "2-4",
-        "date": "2026-10-29"
-       },
-       "away": {
-        "name": "Al Khaleej Saihat",
-        "res": "D",
-        "score": "1-1",
-        "date": "2026-09-12"
-       },
-       "edge": "away"
-      },
-      {
-       "opponent": "Al Taawon",
-       "home": {
-        "name": "Al Taawon",
-        "res": "W",
-        "score": "1-0",
-        "date": "2026-09-08"
-       },
-       "away": {
-        "name": "Al Taawon",
-        "res": "W",
-        "score": "2-1",
-        "date": "2026-08-28"
-       },
-       "edge": "level"
-      },
-      {
-       "opponent": "Al-Ahli Jeddah",
-       "home": {
-        "name": "Al-Ahli Jeddah",
-        "res": "L",
-        "score": "1-3",
-        "date": "2026-09-11"
-       },
-       "away": {
-        "name": "Al-Ahli Jeddah",
-        "res": "L",
-        "score": "1-3",
-        "date": "2026-11-20"
-       },
-       "edge": "level"
-      },
-      {
-       "opponent": "Al-Faisaly FC",
-       "home": {
-        "name": "Al-Faisaly FC",
-        "res": "D",
-        "score": "0-0",
-        "date": "2026-09-05"
-       },
-       "away": {
-        "name": "Al-Faisaly FC",
-        "res": "W",
-        "score": "3-1",
-        "date": "2026-10-23"
-       },
-       "edge": "away"
-      },
-      {
-       "opponent": "Al-Ittihad FC",
-       "home": {
-        "name": "Al-Ittihad FC",
-        "res": "L",
-        "score": "2-3",
-        "date": "2026-08-24"
-       },
-       "away": {
-        "name": "Al-Ittihad FC",
-        "res": "L",
-        "score": "1-2",
-        "date": "2026-09-05"
-       },
-       "edge": "level"
-      },
-      {
-       "opponent": "NEOM",
-       "home": {
-        "name": "NEOM",
-        "res": "D",
-        "score": "1-1",
-        "date": "2026-10-10"
-       },
-       "away": {
-        "name": "NEOM",
-        "res": "W",
-        "score": "1-0",
-        "date": "2026-10-20"
-       },
-       "edge": "away"
-      }
-     ]
-    },
-    "h2h": {
-     "home_pass": false,
-     "away_pass": true,
-     "meetings": [
-      {
-       "date": "2026-02-21",
-       "home": "Al-Nassr",
-       "away": "Al-Hazm",
-       "score": "4-0"
-      },
-      {
-       "date": "2025-10-25",
-       "home": "Al-Hazm",
-       "away": "Al-Nassr",
-       "score": "0-2"
-      }
-     ],
-     "home_wins": 0,
-     "away_wins": 2
-    },
-    "history": {
-     "home_games": 10,
-     "away_games": 10
-    }
-   },
-   "day_index": 0,
-   "odds": 1.05,
-   "bookmaker": "William Hill"
-  },
-  {
-   "fixture": {
-    "id": 1551153,
-    "date": "2026-11-28T13:15:00+00:00",
-    "status": "NS",
-    "season": 2026,
-    "league_id": 172,
-    "league": "First League",
-    "country": "Bulgaria",
-    "home_id": 859,
-    "away_id": 566,
-    "home": "Botev Vratsa",
-    "away": "Ludogorets",
-    "hg": null,
-    "ag": null
-   },
-   "eval": {
-    "verdict": "X2",
-    "backed": "away",
-    "reason": "",
-    "home": {
-     "gate": {
-      "pass": false,
-      "goals": 3,
-      "games": 5
-     },
-     "form": {
-      "pass": false,
-      "string": "DLLDL",
-      "w": 0,
-      "d": 2,
-      "l": 3
-     },
-     "r1": false,
-     "r2": false,
-     "r3": false,
-     "score": 0
-    },
-    "away": {
-     "gate": {
-      "pass": true,
-      "goals": 11,
-      "games": 5
-     },
-     "form": {
-      "pass": true,
-      "string": "WDWLW",
-      "w": 3,
-      "d": 1,
-      "l": 1
-     },
-     "r1": true,
-     "r2": true,
-     "r3": true,
-     "score": 3
-    },
-    "common": {
-     "home_pass": false,
-     "away_pass": true,
-     "home_better": 0,
-     "away_better": 5,
-     "rows": [
-      {
-       "opponent": "Arda Kardzhali",
-       "home": {
-        "name": "Arda Kardzhali",
-        "res": "L",
-        "score": "0-2",
-        "date": "2026-08-31"
-       },
-       "away": {
-        "name": "Arda Kardzhali",
-        "res": "W",
-        "score": "5-0",
-        "date": "2026-10-12"
-       },
-       "edge": "away"
-      },
-      {
-       "opponent": "Botev Plovdiv",
-       "home": {
-        "name": "Botev Plovdiv",
-        "res": "W",
-        "score": "1-0",
-        "date": "2026-08-24"
-       },
-       "away": {
-        "name": "Botev Plovdiv",
-        "res": "W",
-        "score": "2-0",
-        "date": "2026-08-15"
-       },
-       "edge": "level"
-      },
-      {
-       "opponent": "CSKA 1948",
-       "home": {
-        "name": "CSKA 1948",
-        "res": "D",
-        "score": "1-1",
-        "date": "2026-11-22"
-       },
-       "away": {
-        "name": "CSKA 1948",
-        "res": "D",
-        "score": "2-2",
-        "date": "2026-11-07"
-       },
-       "edge": "level"
-      },
-      {
-       "opponent": "Dunav Ruse",
-       "home": {
-        "name": "Dunav Ruse",
-        "res": "D",
-        "score": "2-2",
-        "date": "2026-09-19"
-       },
-       "away": {
-        "name": "Dunav Ruse",
-        "res": "W",
-        "score": "1-0",
-        "date": "2026-11-23"
-       },
-       "edge": "away"
-      },
-      {
-       "opponent": "Lokomotiv Plovdiv",
-       "home": {
-        "name": "Lokomotiv Plovdiv",
-        "res": "L",
-        "score": "1-2",
-        "date": "2026-11-07"
-       },
-       "away": {
-        "name": "Lokomotiv Plovdiv",
-        "res": "W",
-        "score": "3-0",
-        "date": "2026-10-31"
-       },
-       "edge": "away"
-      },
-      {
-       "opponent": "Lokomotiv Sofia",
-       "home": {
-        "name": "Lokomotiv Sofia",
-        "res": "D",
-        "score": "1-1",
-        "date": "2026-10-24"
-       },
-       "away": {
-        "name": "Lokomotiv Sofia",
-        "res": "W",
-        "score": "2-1",
-        "date": "2026-09-06"
-       },
-       "edge": "away"
-      },
-      {
-       "opponent": "Septemvri Sofia",
-       "home": {
-        "name": "Septemvri Sofia",
-        "res": "W",
-        "score": "3-2",
-        "date": "2026-09-04"
-       },
-       "away": {
-        "name": "Septemvri Sofia",
-        "res": "W",
-        "score": "2-1",
-        "date": "2026-09-14"
-       },
-       "edge": "level"
-      },
-      {
-       "opponent": "Spartak Varna",
-       "home": {
-        "name": "Spartak Varna",
-        "res": "L",
-        "score": "0-1",
-        "date": "2026-10-10"
-       },
-       "away": {
-        "name": "Spartak Varna",
-        "res": "D",
-        "score": "1-1",
-        "date": "2026-08-30"
-       },
-       "edge": "away"
-      }
-     ]
-    },
-    "h2h": {
-     "home_pass": false,
-     "away_pass": true,
-     "meetings": [
-      {
-       "date": "2026-08-02",
-       "home": "Ludogorets",
-       "away": "Botev Vratsa",
-       "score": "2-1"
-      },
-      {
-       "date": "2025-11-30",
-       "home": "Ludogorets",
-       "away": "Botev Vratsa",
-       "score": "2-0"
-      },
-      {
-       "date": "2025-07-25",
-       "home": "Botev Vratsa",
-       "away": "Ludogorets",
-       "score": "0-1"
-      }
-     ],
-     "home_wins": 0,
-     "away_wins": 3
-    },
-    "history": {
-     "home_games": 10,
-     "away_games": 10
-    }
-   },
-   "day_index": 0,
-   "odds": 1.08,
-   "bookmaker": "William Hill"
   },
   {
    "fixture": {
@@ -9025,6 +4954,170 @@
     }
    },
    "day_index": 0
+  },
+  {
+   "fixture": {
+    "id": 1650553,
+    "date": "2026-11-27T23:00:00+00:00",
+    "status": "NS",
+    "season": 2026,
+    "league_id": 266,
+    "league": "Primera B",
+    "country": "Chile",
+    "home_id": 2327,
+    "away_id": 2343,
+    "home": "Antofagasta",
+    "away": "Deportes Copiapo",
+    "hg": null,
+    "ag": null
+   },
+   "eval": {
+    "verdict": "1X",
+    "backed": "home",
+    "reason": "Odds too low (@1.12, minimum 1.15)",
+    "home": {
+     "gate": {
+      "pass": true,
+      "goals": 11,
+      "games": 5
+     },
+     "form": {
+      "pass": true,
+      "string": "DWWDW",
+      "w": 3,
+      "d": 2,
+      "l": 0
+     },
+     "r1": false,
+     "r2": true,
+     "r3": true,
+     "score": 2
+    },
+    "away": {
+     "gate": {
+      "pass": false,
+      "goals": 5,
+      "games": 5
+     },
+     "form": {
+      "pass": false,
+      "string": "DDDLW",
+      "w": 1,
+      "d": 3,
+      "l": 1
+     },
+     "r1": false,
+     "r2": false,
+     "r3": false,
+     "score": 0
+    },
+    "common": {
+     "home_pass": false,
+     "away_pass": false,
+     "home_better": 2,
+     "away_better": 1,
+     "rows": [
+      {
+       "opponent": "Cobreloa",
+       "home": {
+        "name": "Cobreloa",
+        "res": "D",
+        "score": "0-0",
+        "date": "2026-09-10"
+       },
+       "away": {
+        "name": "Cobreloa",
+        "res": "W",
+        "score": "2-1",
+        "date": "2026-10-11"
+       },
+       "edge": "away"
+      },
+      {
+       "opponent": "Deportes Santa Cruz",
+       "home": {
+        "name": "Deportes Santa Cruz",
+        "res": "D",
+        "score": "0-0",
+        "date": "2026-10-18"
+       },
+       "away": {
+        "name": "Deportes Santa Cruz",
+        "res": "D",
+        "score": "1-1",
+        "date": "2026-10-24"
+       },
+       "edge": "level"
+      },
+      {
+       "opponent": "Magallanes",
+       "home": {
+        "name": "Magallanes",
+        "res": "W",
+        "score": "3-2",
+        "date": "2026-11-15"
+       },
+       "away": {
+        "name": "Magallanes",
+        "res": "D",
+        "score": "1-1",
+        "date": "2026-09-09"
+       },
+       "edge": "home"
+      },
+      {
+       "opponent": "San Marcos de Arica",
+       "home": {
+        "name": "San Marcos de Arica",
+        "res": "W",
+        "score": "3-0",
+        "date": "2026-10-11"
+       },
+       "away": {
+        "name": "San Marcos de Arica",
+        "res": "L",
+        "score": "1-2",
+        "date": "2026-09-06"
+       },
+       "edge": "home"
+      }
+     ]
+    },
+    "h2h": {
+     "home_pass": true,
+     "away_pass": false,
+     "meetings": [
+      {
+       "date": "2026-11-22",
+       "home": "Deportes Copiapo",
+       "away": "Antofagasta",
+       "score": "1-1"
+      },
+      {
+       "date": "2026-08-30",
+       "home": "Deportes Copiapo",
+       "away": "Antofagasta",
+       "score": "0-4"
+      },
+      {
+       "date": "2026-04-19",
+       "home": "Antofagasta",
+       "away": "Deportes Copiapo",
+       "score": "1-0"
+      }
+     ],
+     "home_wins": 2,
+     "away_wins": 0
+    },
+    "history": {
+     "home_games": 10,
+     "away_games": 10
+    },
+    "verdict_was": "1X"
+   },
+   "day_index": 0,
+   "odds": 1.12,
+   "bookmaker": "William Hill"
   },
   {
    "fixture": {
@@ -16881,6 +12974,199 @@
   },
   {
    "fixture": {
+    "id": 1602565,
+    "date": "2026-11-28T09:00:00+00:00",
+    "status": "NS",
+    "season": 2026,
+    "league_id": 284,
+    "league": "Liga II",
+    "country": "Romania",
+    "home_id": 2580,
+    "away_id": 21686,
+    "home": "Concordia",
+    "away": "\u015etef\u0103ne\u015fti",
+    "hg": null,
+    "ag": null
+   },
+   "eval": {
+    "verdict": "1X",
+    "backed": "home",
+    "reason": "Odds too low (@1.02, minimum 1.15)",
+    "home": {
+     "gate": {
+      "pass": true,
+      "goals": 16,
+      "games": 5
+     },
+     "form": {
+      "pass": true,
+      "string": "WWWDW",
+      "w": 4,
+      "d": 1,
+      "l": 0
+     },
+     "r1": true,
+     "r2": false,
+     "r3": true,
+     "score": 2
+    },
+    "away": {
+     "gate": {
+      "pass": false,
+      "goals": 3,
+      "games": 5
+     },
+     "form": {
+      "pass": false,
+      "string": "LWLLL",
+      "w": 1,
+      "d": 0,
+      "l": 4
+     },
+     "r1": false,
+     "r2": false,
+     "r3": false,
+     "score": 0
+    },
+    "common": {
+     "home_pass": true,
+     "away_pass": false,
+     "home_better": 3,
+     "away_better": 0,
+     "rows": [
+      {
+       "opponent": "CS Afumati",
+       "home": {
+        "name": "CS Afumati",
+        "res": "L",
+        "score": "1-2",
+        "date": "2026-09-05"
+       },
+       "away": {
+        "name": "CS Afumati",
+        "res": "L",
+        "score": "0-4",
+        "date": "2026-10-11"
+       },
+       "edge": "level"
+      },
+      {
+       "opponent": "CS Dinamo Bucure\u0219ti",
+       "home": {
+        "name": "CS Dinamo Bucure\u0219ti",
+        "res": "W",
+        "score": "5-2",
+        "date": "2026-09-12"
+       },
+       "away": {
+        "name": "CS Dinamo Bucure\u0219ti",
+        "res": "L",
+        "score": "1-4",
+        "date": "2026-10-17"
+       },
+       "edge": "home"
+      },
+      {
+       "opponent": "Chindia Targoviste",
+       "home": {
+        "name": "Chindia Targoviste",
+        "res": "L",
+        "score": "2-3",
+        "date": "2026-10-10"
+       },
+       "away": {
+        "name": "Chindia Targoviste",
+        "res": "L",
+        "score": "0-3",
+        "date": "2026-10-31"
+       },
+       "edge": "level"
+      },
+      {
+       "opponent": "Metaloglobus",
+       "home": {
+        "name": "Metaloglobus",
+        "res": "W",
+        "score": "3-1",
+        "date": "2026-08-29"
+       },
+       "away": {
+        "name": "Metaloglobus",
+        "res": "L",
+        "score": "0-1",
+        "date": "2026-09-19"
+       },
+       "edge": "home"
+      },
+      {
+       "opponent": "Metalul Buz\u0103u",
+       "home": {
+        "name": "Metalul Buz\u0103u",
+        "res": "L",
+        "score": "0-1",
+        "date": "2026-09-19"
+       },
+       "away": {
+        "name": "Metalul Buz\u0103u",
+        "res": "L",
+        "score": "0-3",
+        "date": "2026-10-24"
+       },
+       "edge": "level"
+      },
+      {
+       "opponent": "Unirea Slobozia",
+       "home": {
+        "name": "Unirea Slobozia",
+        "res": "D",
+        "score": "2-2",
+        "date": "2026-10-24"
+       },
+       "away": {
+        "name": "Unirea Slobozia",
+        "res": "L",
+        "score": "0-2",
+        "date": "2026-11-21"
+       },
+       "edge": "home"
+      },
+      {
+       "opponent": "Viitorul \u015eelimb\u0103r",
+       "home": {
+        "name": "Viitorul \u015eelimb\u0103r",
+        "res": "W",
+        "score": "5-0",
+        "date": "2026-10-17"
+       },
+       "away": {
+        "name": "Viitorul \u015eelimb\u0103r",
+        "res": "W",
+        "score": "2-0",
+        "date": "2026-11-07"
+       },
+       "edge": "level"
+      }
+     ]
+    },
+    "h2h": {
+     "home_pass": false,
+     "away_pass": false,
+     "meetings": [],
+     "home_wins": 0,
+     "away_wins": 0
+    },
+    "history": {
+     "home_games": 10,
+     "away_games": 10
+    },
+    "verdict_was": "1X"
+   },
+   "day_index": 0,
+   "odds": 1.02,
+   "bookmaker": "William Hill"
+  },
+  {
+   "fixture": {
     "id": 1593097,
     "date": "2026-11-28T09:30:00+00:00",
     "status": "NS",
@@ -19239,6 +15525,411 @@
     }
    },
    "day_index": 0
+  },
+  {
+   "fixture": {
+    "id": 1591412,
+    "date": "2026-11-28T10:00:00+00:00",
+    "status": "NS",
+    "season": 2026,
+    "league_id": 205,
+    "league": "2. Lig",
+    "country": "Turkey",
+    "home_id": 3613,
+    "away_id": 6538,
+    "home": "\u015eanl\u0131urfaspor",
+    "away": "Somaspor",
+    "hg": null,
+    "ag": null
+   },
+   "eval": {
+    "verdict": "1X",
+    "backed": "home",
+    "reason": "Odds too low (@1.03, minimum 1.15)",
+    "home": {
+     "gate": {
+      "pass": true,
+      "goals": 13,
+      "games": 5
+     },
+     "form": {
+      "pass": true,
+      "string": "DWWLW",
+      "w": 3,
+      "d": 1,
+      "l": 1
+     },
+     "r1": true,
+     "r2": false,
+     "r3": true,
+     "score": 2
+    },
+    "away": {
+     "gate": {
+      "pass": false,
+      "goals": 3,
+      "games": 5
+     },
+     "form": {
+      "pass": false,
+      "string": "LDLWD",
+      "w": 1,
+      "d": 2,
+      "l": 2
+     },
+     "r1": false,
+     "r2": false,
+     "r3": false,
+     "score": 0
+    },
+    "common": {
+     "home_pass": true,
+     "away_pass": false,
+     "home_better": 4,
+     "away_better": 0,
+     "rows": [
+      {
+       "opponent": "Alia\u011fa FA\u015e",
+       "home": {
+        "name": "Alia\u011fa FA\u015e",
+        "res": "L",
+        "score": "1-2",
+        "date": "2026-09-27"
+       },
+       "away": {
+        "name": "Alia\u011fa FA\u015e",
+        "res": "L",
+        "score": "1-2",
+        "date": "2026-10-18"
+       },
+       "edge": "level"
+      },
+      {
+       "opponent": "Arnavutk\u00f6y Belediyespor",
+       "home": {
+        "name": "Arnavutk\u00f6y Belediyespor",
+        "res": "W",
+        "score": "2-0",
+        "date": "2026-10-24"
+       },
+       "away": {
+        "name": "Arnavutk\u00f6y Belediyespor",
+        "res": "L",
+        "score": "1-2",
+        "date": "2026-11-14"
+       },
+       "edge": "home"
+      },
+      {
+       "opponent": "Elaz\u0131\u011fspor",
+       "home": {
+        "name": "Elaz\u0131\u011fspor",
+        "res": "L",
+        "score": "0-1",
+        "date": "2026-11-08"
+       },
+       "away": {
+        "name": "Elaz\u0131\u011fspor",
+        "res": "L",
+        "score": "1-4",
+        "date": "2026-11-22"
+       },
+       "edge": "level"
+      },
+      {
+       "opponent": "G\u00fczide Gebzespor",
+       "home": {
+        "name": "G\u00fczide Gebzespor",
+        "res": "D",
+        "score": "1-1",
+        "date": "2026-10-05"
+       },
+       "away": {
+        "name": "G\u00fczide Gebzespor",
+        "res": "L",
+        "score": "1-4",
+        "date": "2026-10-24"
+       },
+       "edge": "home"
+      },
+      {
+       "opponent": "Hatayspor",
+       "home": {
+        "name": "Hatayspor",
+        "res": "W",
+        "score": "4-2",
+        "date": "2026-10-17"
+       },
+       "away": {
+        "name": "Hatayspor",
+        "res": "W",
+        "score": "1-0",
+        "date": "2026-11-08"
+       },
+       "edge": "level"
+      },
+      {
+       "opponent": "Isparta 32 Spor",
+       "home": {
+        "name": "Isparta 32 Spor",
+        "res": "W",
+        "score": "4-0",
+        "date": "2026-11-01"
+       },
+       "away": {
+        "name": "Isparta 32 Spor",
+        "res": "D",
+        "score": "0-0",
+        "date": "2026-11-18"
+       },
+       "edge": "home"
+      },
+      {
+       "opponent": "\u00c7orluspor 1947",
+       "home": {
+        "name": "\u00c7orluspor 1947",
+        "res": "W",
+        "score": "3-2",
+        "date": "2026-10-10"
+       },
+       "away": {
+        "name": "\u00c7orluspor 1947",
+        "res": "L",
+        "score": "0-2",
+        "date": "2026-11-01"
+       },
+       "edge": "home"
+      }
+     ]
+    },
+    "h2h": {
+     "home_pass": false,
+     "away_pass": false,
+     "meetings": [],
+     "home_wins": 0,
+     "away_wins": 0
+    },
+    "history": {
+     "home_games": 10,
+     "away_games": 10
+    },
+    "verdict_was": "1X"
+   },
+   "day_index": 0,
+   "odds": 1.03,
+   "bookmaker": "Bet365"
+  },
+  {
+   "fixture": {
+    "id": 1526039,
+    "date": "2026-11-28T10:00:00+00:00",
+    "status": "NS",
+    "season": 2026,
+    "league_id": 116,
+    "league": "Premier League",
+    "country": "Belarus",
+    "home_id": 388,
+    "away_id": 391,
+    "home": "Bate Borisov",
+    "away": "FC Isloch Minsk R.",
+    "hg": null,
+    "ag": null
+   },
+   "eval": {
+    "verdict": "X2",
+    "backed": "away",
+    "reason": "Odds too low (@1.14, minimum 1.15)",
+    "home": {
+     "gate": {
+      "pass": false,
+      "goals": 3,
+      "games": 5
+     },
+     "form": {
+      "pass": false,
+      "string": "LWLLL",
+      "w": 1,
+      "d": 0,
+      "l": 4
+     },
+     "r1": false,
+     "r2": false,
+     "r3": false,
+     "score": 0
+    },
+    "away": {
+     "gate": {
+      "pass": true,
+      "goals": 17,
+      "games": 5
+     },
+     "form": {
+      "pass": true,
+      "string": "WWWWW",
+      "w": 5,
+      "d": 0,
+      "l": 0
+     },
+     "r1": true,
+     "r2": true,
+     "r3": true,
+     "score": 3
+    },
+    "common": {
+     "home_pass": false,
+     "away_pass": true,
+     "home_better": 0,
+     "away_better": 4,
+     "rows": [
+      {
+       "opponent": "Arsenal",
+       "home": {
+        "name": "Arsenal",
+        "res": "L",
+        "score": "0-1",
+        "date": "2026-10-30"
+       },
+       "away": {
+        "name": "Arsenal",
+        "res": "D",
+        "score": "1-1",
+        "date": "2026-09-07"
+       },
+       "edge": "away"
+      },
+      {
+       "opponent": "Belshina",
+       "home": {
+        "name": "Belshina",
+        "res": "L",
+        "score": "0-1",
+        "date": "2026-10-24"
+       },
+       "away": {
+        "name": "Belshina",
+        "res": "W",
+        "score": "3-2",
+        "date": "2026-11-07"
+       },
+       "edge": "away"
+      },
+      {
+       "opponent": "FC Gomel",
+       "home": {
+        "name": "FC Gomel",
+        "res": "L",
+        "score": "1-3",
+        "date": "2026-11-21"
+       },
+       "away": {
+        "name": "FC Gomel",
+        "res": "W",
+        "score": "2-1",
+        "date": "2026-09-13"
+       },
+       "edge": "away"
+      },
+      {
+       "opponent": "Naftan",
+       "home": {
+        "name": "Naftan",
+        "res": "D",
+        "score": "2-2",
+        "date": "2026-09-13"
+       },
+       "away": {
+        "name": "Naftan",
+        "res": "W",
+        "score": "6-0",
+        "date": "2026-10-24"
+       },
+       "edge": "away"
+      },
+      {
+       "opponent": "Neman",
+       "home": {
+        "name": "Neman",
+        "res": "L",
+        "score": "0-2",
+        "date": "2026-10-14"
+       },
+       "away": {
+        "name": "Neman",
+        "res": "L",
+        "score": "1-2",
+        "date": "2026-09-19"
+       },
+       "edge": "level"
+      },
+      {
+       "opponent": "Slavia Mozyr",
+       "home": {
+        "name": "Slavia Mozyr",
+        "res": "W",
+        "score": "2-1",
+        "date": "2026-10-10"
+       },
+       "away": {
+        "name": "Slavia Mozyr",
+        "res": "W",
+        "score": "3-1",
+        "date": "2026-11-01"
+       },
+       "edge": "level"
+      },
+      {
+       "opponent": "Torpedo Zhodino",
+       "home": {
+        "name": "Torpedo Zhodino",
+        "res": "W",
+        "score": "1-0",
+        "date": "2026-11-07"
+       },
+       "away": {
+        "name": "Torpedo Zhodino",
+        "res": "W",
+        "score": "4-3",
+        "date": "2026-11-22"
+       },
+       "edge": "level"
+      }
+     ]
+    },
+    "h2h": {
+     "home_pass": false,
+     "away_pass": true,
+     "meetings": [
+      {
+       "date": "2026-09-03",
+       "home": "FC Isloch Minsk R.",
+       "away": "Bate Borisov",
+       "score": "2-0"
+      },
+      {
+       "date": "2025-08-09",
+       "home": "FC Isloch Minsk R.",
+       "away": "Bate Borisov",
+       "score": "2-0"
+      },
+      {
+       "date": "2025-03-28",
+       "home": "Bate Borisov",
+       "away": "FC Isloch Minsk R.",
+       "score": "0-1"
+      }
+     ],
+     "home_wins": 0,
+     "away_wins": 3
+    },
+    "history": {
+     "home_games": 10,
+     "away_games": 10
+    },
+    "verdict_was": "X2"
+   },
+   "day_index": 0,
+   "odds": 1.14,
+   "bookmaker": "Marathonbet"
   },
   {
    "fixture": {
@@ -23815,6 +20506,199 @@
   },
   {
    "fixture": {
+    "id": 1565537,
+    "date": "2026-11-28T11:00:00+00:00",
+    "status": "NS",
+    "season": 2026,
+    "league_id": 333,
+    "league": "Premier League",
+    "country": "Ukraine",
+    "home_id": 572,
+    "away_id": 3615,
+    "home": "Dynamo Kyiv",
+    "away": "Chornomorets",
+    "hg": null,
+    "ag": null
+   },
+   "eval": {
+    "verdict": "1X",
+    "backed": "home",
+    "reason": "Odds too low (@1.05, minimum 1.15)",
+    "home": {
+     "gate": {
+      "pass": true,
+      "goals": 10,
+      "games": 5
+     },
+     "form": {
+      "pass": true,
+      "string": "WDWWL",
+      "w": 3,
+      "d": 1,
+      "l": 1
+     },
+     "r1": true,
+     "r2": false,
+     "r3": true,
+     "score": 2
+    },
+    "away": {
+     "gate": {
+      "pass": false,
+      "goals": 4,
+      "games": 5
+     },
+     "form": {
+      "pass": false,
+      "string": "LLWDL",
+      "w": 1,
+      "d": 1,
+      "l": 3
+     },
+     "r1": false,
+     "r2": false,
+     "r3": false,
+     "score": 0
+    },
+    "common": {
+     "home_pass": true,
+     "away_pass": false,
+     "home_better": 6,
+     "away_better": 0,
+     "rows": [
+      {
+       "opponent": "Epitsentr Dunayivtsi",
+       "home": {
+        "name": "Epitsentr Dunayivtsi",
+        "res": "W",
+        "score": "3-0",
+        "date": "2026-09-14"
+       },
+       "away": {
+        "name": "Epitsentr Dunayivtsi",
+        "res": "L",
+        "score": "0-1",
+        "date": "2026-11-23"
+       },
+       "edge": "home"
+      },
+      {
+       "opponent": "Karpaty",
+       "home": {
+        "name": "Karpaty",
+        "res": "W",
+        "score": "1-0",
+        "date": "2026-10-11"
+       },
+       "away": {
+        "name": "Karpaty",
+        "res": "D",
+        "score": "0-0",
+        "date": "2026-10-25"
+       },
+       "edge": "home"
+      },
+      {
+       "opponent": "Kryvbas KR",
+       "home": {
+        "name": "Kryvbas KR",
+        "res": "W",
+        "score": "2-0",
+        "date": "2026-11-02"
+       },
+       "away": {
+        "name": "Kryvbas KR",
+        "res": "W",
+        "score": "1-0",
+        "date": "2026-08-30"
+       },
+       "edge": "level"
+      },
+      {
+       "opponent": "Kudrivka",
+       "home": {
+        "name": "Kudrivka",
+        "res": "W",
+        "score": "3-1",
+        "date": "2026-10-23"
+       },
+       "away": {
+        "name": "Kudrivka",
+        "res": "L",
+        "score": "0-1",
+        "date": "2026-11-07"
+       },
+       "edge": "home"
+      },
+      {
+       "opponent": "Obolon'-Brovar",
+       "home": {
+        "name": "Obolon'-Brovar",
+        "res": "W",
+        "score": "4-2",
+        "date": "2026-11-22"
+       },
+       "away": {
+        "name": "Obolon'-Brovar",
+        "res": "D",
+        "score": "1-1",
+        "date": "2026-09-18"
+       },
+       "edge": "home"
+      },
+      {
+       "opponent": "Shakhtar Donetsk",
+       "home": {
+        "name": "Shakhtar Donetsk",
+        "res": "D",
+        "score": "0-0",
+        "date": "2026-11-08"
+       },
+       "away": {
+        "name": "Shakhtar Donetsk",
+        "res": "L",
+        "score": "0-2",
+        "date": "2026-09-14"
+       },
+       "edge": "home"
+      },
+      {
+       "opponent": "Zorya Luhansk",
+       "home": {
+        "name": "Zorya Luhansk",
+        "res": "W",
+        "score": "2-0",
+        "date": "2026-09-19"
+       },
+       "away": {
+        "name": "Zorya Luhansk",
+        "res": "L",
+        "score": "1-2",
+        "date": "2026-10-17"
+       },
+       "edge": "home"
+      }
+     ]
+    },
+    "h2h": {
+     "home_pass": false,
+     "away_pass": false,
+     "meetings": [],
+     "home_wins": 0,
+     "away_wins": 0
+    },
+    "history": {
+     "home_games": 10,
+     "away_games": 10
+    },
+    "verdict_was": "1X"
+   },
+   "day_index": 0,
+   "odds": 1.05,
+   "bookmaker": "William Hill"
+  },
+  {
+   "fixture": {
     "id": 1516198,
     "date": "2026-11-28T11:15:00+00:00",
     "status": "NS",
@@ -24505,6 +21389,212 @@
     }
    },
    "day_index": 0
+  },
+  {
+   "fixture": {
+    "id": 1602755,
+    "date": "2026-11-28T11:30:00+00:00",
+    "status": "NS",
+    "season": 2026,
+    "league_id": 297,
+    "league": "Thai League 2",
+    "country": "Thailand",
+    "home_id": 10086,
+    "away_id": 2800,
+    "home": "Khon Kaen United",
+    "away": "Kasetsart FC",
+    "hg": null,
+    "ag": null
+   },
+   "eval": {
+    "verdict": "1X",
+    "backed": "home",
+    "reason": "Odds too low (@1.04, minimum 1.15)",
+    "home": {
+     "gate": {
+      "pass": true,
+      "goals": 12,
+      "games": 5
+     },
+     "form": {
+      "pass": true,
+      "string": "DDWWW",
+      "w": 3,
+      "d": 2,
+      "l": 0
+     },
+     "r1": true,
+     "r2": false,
+     "r3": true,
+     "score": 2
+    },
+    "away": {
+     "gate": {
+      "pass": false,
+      "goals": 3,
+      "games": 5
+     },
+     "form": {
+      "pass": false,
+      "string": "DLLDL",
+      "w": 0,
+      "d": 2,
+      "l": 3
+     },
+     "r1": false,
+     "r2": false,
+     "r3": false,
+     "score": 0
+    },
+    "common": {
+     "home_pass": true,
+     "away_pass": false,
+     "home_better": 5,
+     "away_better": 0,
+     "rows": [
+      {
+       "opponent": "Chainat",
+       "home": {
+        "name": "Chainat",
+        "res": "W",
+        "score": "2-1",
+        "date": "2026-10-15"
+       },
+       "away": {
+        "name": "Chainat",
+        "res": "D",
+        "score": "1-1",
+        "date": "2026-10-31"
+       },
+       "edge": "home"
+      },
+      {
+       "opponent": "Chiangmai United",
+       "home": {
+        "name": "Chiangmai United",
+        "res": "L",
+        "score": "1-3",
+        "date": "2026-09-15"
+       },
+       "away": {
+        "name": "Chiangmai United",
+        "res": "L",
+        "score": "0-2",
+        "date": "2026-10-10"
+       },
+       "edge": "level"
+      },
+      {
+       "opponent": "Esan Pattaya",
+       "home": {
+        "name": "Esan Pattaya",
+        "res": "W",
+        "score": "2-0",
+        "date": "2026-10-18"
+       },
+       "away": {
+        "name": "Esan Pattaya",
+        "res": "L",
+        "score": "0-2",
+        "date": "2026-11-21"
+       },
+       "edge": "home"
+      },
+      {
+       "opponent": "Muang Loei United",
+       "home": {
+        "name": "Muang Loei United",
+        "res": "W",
+        "score": "4-2",
+        "date": "2026-10-25"
+       },
+       "away": {
+        "name": "Muang Loei United",
+        "res": "L",
+        "score": "0-1",
+        "date": "2026-11-08"
+       },
+       "edge": "home"
+      },
+      {
+       "opponent": "Phrae United",
+       "home": {
+        "name": "Phrae United",
+        "res": "W",
+        "score": "3-0",
+        "date": "2026-10-31"
+       },
+       "away": {
+        "name": "Phrae United",
+        "res": "D",
+        "score": "1-1",
+        "date": "2026-11-25"
+       },
+       "edge": "home"
+      },
+      {
+       "opponent": "Police Tero",
+       "home": {
+        "name": "Police Tero",
+        "res": "W",
+        "score": "2-0",
+        "date": "2026-09-19"
+       },
+       "away": {
+        "name": "Police Tero",
+        "res": "L",
+        "score": "3-5",
+        "date": "2026-10-17"
+       },
+       "edge": "home"
+      },
+      {
+       "opponent": "Satun",
+       "home": {
+        "name": "Satun",
+        "res": "L",
+        "score": "0-1",
+        "date": "2026-10-11"
+       },
+       "away": {
+        "name": "Satun",
+        "res": "L",
+        "score": "1-3",
+        "date": "2026-10-24"
+       },
+       "edge": "level"
+      }
+     ]
+    },
+    "h2h": {
+     "home_pass": false,
+     "away_pass": false,
+     "meetings": [
+      {
+       "date": "2026-04-19",
+       "home": "Khon Kaen United",
+       "away": "Kasetsart FC",
+       "score": "1-0"
+      },
+      {
+       "date": "2025-12-12",
+       "home": "Kasetsart FC",
+       "away": "Khon Kaen United",
+       "score": "3-3"
+      }
+     ],
+     "home_wins": 1,
+     "away_wins": 0
+    },
+    "history": {
+     "home_games": 10,
+     "away_games": 10
+    },
+    "verdict_was": "1X"
+   },
+   "day_index": 0,
+   "odds": 1.04,
+   "bookmaker": "William Hill"
   },
   {
    "fixture": {
@@ -31547,6 +28637,341 @@
   },
   {
    "fixture": {
+    "id": 1576246,
+    "date": "2026-11-28T12:00:00+00:00",
+    "status": "NS",
+    "season": 2026,
+    "league_id": 79,
+    "league": "2. Bundesliga",
+    "country": "Germany",
+    "home_id": 159,
+    "away_id": 785,
+    "home": "Hertha BSC",
+    "away": "Karlsruher SC",
+    "hg": null,
+    "ag": null
+   },
+   "eval": {
+    "verdict": "1X",
+    "backed": "home",
+    "reason": "Odds too low (@1.11, minimum 1.15)",
+    "home": {
+     "gate": {
+      "pass": true,
+      "goals": 10,
+      "games": 5
+     },
+     "form": {
+      "pass": true,
+      "string": "WWWWD",
+      "w": 4,
+      "d": 1,
+      "l": 0
+     },
+     "r1": true,
+     "r2": false,
+     "r3": true,
+     "score": 2
+    },
+    "away": {
+     "gate": {
+      "pass": false,
+      "goals": 9,
+      "games": 5
+     },
+     "form": {
+      "pass": false,
+      "string": "DLWLW",
+      "w": 2,
+      "d": 1,
+      "l": 2
+     },
+     "r1": false,
+     "r2": false,
+     "r3": false,
+     "score": 0
+    },
+    "common": {
+     "home_pass": true,
+     "away_pass": false,
+     "home_better": 4,
+     "away_better": 0,
+     "rows": [
+      {
+       "opponent": "1. FC Magdeburg",
+       "home": {
+        "name": "1. FC Magdeburg",
+        "res": "W",
+        "score": "2-1",
+        "date": "2026-09-06"
+       },
+       "away": {
+        "name": "1. FC Magdeburg",
+        "res": "L",
+        "score": "1-6",
+        "date": "2026-10-24"
+       },
+       "edge": "home"
+      },
+      {
+       "opponent": "Energie Cottbus",
+       "home": {
+        "name": "Energie Cottbus",
+        "res": "W",
+        "score": "4-0",
+        "date": "2026-11-22"
+       },
+       "away": {
+        "name": "Energie Cottbus",
+        "res": "L",
+        "score": "0-3",
+        "date": "2026-09-13"
+       },
+       "edge": "home"
+      },
+      {
+       "opponent": "VfL Osnabr\u00fcck",
+       "home": {
+        "name": "VfL Osnabr\u00fcck",
+        "res": "W",
+        "score": "3-1",
+        "date": "2026-09-13"
+       },
+       "away": {
+        "name": "VfL Osnabr\u00fcck",
+        "res": "D",
+        "score": "0-0",
+        "date": "2026-11-22"
+       },
+       "edge": "home"
+      },
+      {
+       "opponent": "VfL Wolfsburg",
+       "home": {
+        "name": "VfL Wolfsburg",
+        "res": "W",
+        "score": "2-1",
+        "date": "2026-11-07"
+       },
+       "away": {
+        "name": "VfL Wolfsburg",
+        "res": "L",
+        "score": "2-5",
+        "date": "2026-08-29"
+       },
+       "edge": "home"
+      }
+     ]
+    },
+    "h2h": {
+     "home_pass": false,
+     "away_pass": false,
+     "meetings": [
+      {
+       "date": "2026-01-24",
+       "home": "Karlsruher SC",
+       "away": "Hertha BSC",
+       "score": "2-2"
+      },
+      {
+       "date": "2025-08-10",
+       "home": "Hertha BSC",
+       "away": "Karlsruher SC",
+       "score": "0-0"
+      }
+     ],
+     "home_wins": 0,
+     "away_wins": 0
+    },
+    "history": {
+     "home_games": 10,
+     "away_games": 10
+    },
+    "verdict_was": "1X"
+   },
+   "day_index": 0,
+   "odds": 1.11,
+   "bookmaker": "William Hill"
+  },
+  {
+   "fixture": {
+    "id": 1622850,
+    "date": "2026-11-28T12:00:00+00:00",
+    "status": "NS",
+    "season": 2026,
+    "league_id": 274,
+    "league": "Liga 1",
+    "country": "Indonesia",
+    "home_id": 10134,
+    "away_id": 26645,
+    "home": "Persija",
+    "away": "Garudayaksa",
+    "hg": null,
+    "ag": null
+   },
+   "eval": {
+    "verdict": "1X",
+    "backed": "home",
+    "reason": "Odds too low (@1.05, minimum 1.15)",
+    "home": {
+     "gate": {
+      "pass": true,
+      "goals": 10,
+      "games": 5
+     },
+     "form": {
+      "pass": true,
+      "string": "DWLWW",
+      "w": 3,
+      "d": 1,
+      "l": 1
+     },
+     "r1": true,
+     "r2": false,
+     "r3": true,
+     "score": 2
+    },
+    "away": {
+     "gate": {
+      "pass": false,
+      "goals": 7,
+      "games": 5
+     },
+     "form": {
+      "pass": false,
+      "string": "WWWLL",
+      "w": 3,
+      "d": 0,
+      "l": 2
+     },
+     "r1": false,
+     "r2": false,
+     "r3": false,
+     "score": 0
+    },
+    "common": {
+     "home_pass": true,
+     "away_pass": false,
+     "home_better": 4,
+     "away_better": 0,
+     "rows": [
+      {
+       "opponent": "Arema FC",
+       "home": {
+        "name": "Arema FC",
+        "res": "W",
+        "score": "5-1",
+        "date": "2026-10-21"
+       },
+       "away": {
+        "name": "Arema FC",
+        "res": "W",
+        "score": "3-1",
+        "date": "2026-10-17"
+       },
+       "edge": "level"
+      },
+      {
+       "opponent": "Java United",
+       "home": {
+        "name": "Java United",
+        "res": "W",
+        "score": "1-0",
+        "date": "2026-09-19"
+       },
+       "away": {
+        "name": "Java United",
+        "res": "D",
+        "score": "1-1",
+        "date": "2026-09-06"
+       },
+       "edge": "home"
+      },
+      {
+       "opponent": "Persebaya Surabaya",
+       "home": {
+        "name": "Persebaya Surabaya",
+        "res": "W",
+        "score": "1-0",
+        "date": "2026-11-07"
+       },
+       "away": {
+        "name": "Persebaya Surabaya",
+        "res": "D",
+        "score": "1-1",
+        "date": "2026-09-19"
+       },
+       "edge": "home"
+      },
+      {
+       "opponent": "Persib Bandung",
+       "home": {
+        "name": "Persib Bandung",
+        "res": "W",
+        "score": "2-1",
+        "date": "2026-09-12"
+       },
+       "away": {
+        "name": "Persib Bandung",
+        "res": "L",
+        "score": "1-2",
+        "date": "2026-10-25"
+       },
+       "edge": "home"
+      },
+      {
+       "opponent": "Persik Kediri",
+       "home": {
+        "name": "Persik Kediri",
+        "res": "W",
+        "score": "2-1",
+        "date": "2026-10-26"
+       },
+       "away": {
+        "name": "Persik Kediri",
+        "res": "L",
+        "score": "0-2",
+        "date": "2026-09-11"
+       },
+       "edge": "home"
+      },
+      {
+       "opponent": "Persita",
+       "home": {
+        "name": "Persita",
+        "res": "L",
+        "score": "2-3",
+        "date": "2026-10-17"
+       },
+       "away": {
+        "name": "Persita",
+        "res": "L",
+        "score": "1-2",
+        "date": "2026-10-10"
+       },
+       "edge": "level"
+      }
+     ]
+    },
+    "h2h": {
+     "home_pass": false,
+     "away_pass": false,
+     "meetings": [],
+     "home_wins": 0,
+     "away_wins": 0
+    },
+    "history": {
+     "home_games": 10,
+     "away_games": 10
+    },
+    "verdict_was": "1X"
+   },
+   "day_index": 0,
+   "odds": 1.05,
+   "bookmaker": "William Hill"
+  },
+  {
+   "fixture": {
     "id": 1633946,
     "date": "2026-11-28T12:15:00+00:00",
     "status": "NS",
@@ -31825,6 +29250,196 @@
     }
    },
    "day_index": 0
+  },
+  {
+   "fixture": {
+    "id": 1603085,
+    "date": "2026-11-28T12:15:00+00:00",
+    "status": "NS",
+    "season": 2026,
+    "league_id": 307,
+    "league": "Pro League",
+    "country": "Saudi-Arabia",
+    "home_id": 2945,
+    "away_id": 2939,
+    "home": "Al-Hazm",
+    "away": "Al-Nassr",
+    "hg": null,
+    "ag": null
+   },
+   "eval": {
+    "verdict": "X2",
+    "backed": "away",
+    "reason": "Odds too low (@1.05, minimum 1.15)",
+    "home": {
+     "gate": {
+      "pass": false,
+      "goals": 7,
+      "games": 5
+     },
+     "form": {
+      "pass": false,
+      "string": "LDLLD",
+      "w": 0,
+      "d": 2,
+      "l": 3
+     },
+     "r1": false,
+     "r2": false,
+     "r3": false,
+     "score": 0
+    },
+    "away": {
+     "gate": {
+      "pass": true,
+      "goals": 13,
+      "games": 5
+     },
+     "form": {
+      "pass": true,
+      "string": "LWWWW",
+      "w": 4,
+      "d": 0,
+      "l": 1
+     },
+     "r1": true,
+     "r2": true,
+     "r3": true,
+     "score": 3
+    },
+    "common": {
+     "home_pass": false,
+     "away_pass": true,
+     "home_better": 0,
+     "away_better": 3,
+     "rows": [
+      {
+       "opponent": "Al Khaleej Saihat",
+       "home": {
+        "name": "Al Khaleej Saihat",
+        "res": "L",
+        "score": "2-4",
+        "date": "2026-10-29"
+       },
+       "away": {
+        "name": "Al Khaleej Saihat",
+        "res": "D",
+        "score": "1-1",
+        "date": "2026-09-12"
+       },
+       "edge": "away"
+      },
+      {
+       "opponent": "Al Taawon",
+       "home": {
+        "name": "Al Taawon",
+        "res": "W",
+        "score": "1-0",
+        "date": "2026-09-08"
+       },
+       "away": {
+        "name": "Al Taawon",
+        "res": "W",
+        "score": "2-1",
+        "date": "2026-08-28"
+       },
+       "edge": "level"
+      },
+      {
+       "opponent": "Al-Ahli Jeddah",
+       "home": {
+        "name": "Al-Ahli Jeddah",
+        "res": "L",
+        "score": "1-3",
+        "date": "2026-09-11"
+       },
+       "away": {
+        "name": "Al-Ahli Jeddah",
+        "res": "L",
+        "score": "1-3",
+        "date": "2026-11-20"
+       },
+       "edge": "level"
+      },
+      {
+       "opponent": "Al-Faisaly FC",
+       "home": {
+        "name": "Al-Faisaly FC",
+        "res": "D",
+        "score": "0-0",
+        "date": "2026-09-05"
+       },
+       "away": {
+        "name": "Al-Faisaly FC",
+        "res": "W",
+        "score": "3-1",
+        "date": "2026-10-23"
+       },
+       "edge": "away"
+      },
+      {
+       "opponent": "Al-Ittihad FC",
+       "home": {
+        "name": "Al-Ittihad FC",
+        "res": "L",
+        "score": "2-3",
+        "date": "2026-08-24"
+       },
+       "away": {
+        "name": "Al-Ittihad FC",
+        "res": "L",
+        "score": "1-2",
+        "date": "2026-09-05"
+       },
+       "edge": "level"
+      },
+      {
+       "opponent": "NEOM",
+       "home": {
+        "name": "NEOM",
+        "res": "D",
+        "score": "1-1",
+        "date": "2026-10-10"
+       },
+       "away": {
+        "name": "NEOM",
+        "res": "W",
+        "score": "1-0",
+        "date": "2026-10-20"
+       },
+       "edge": "away"
+      }
+     ]
+    },
+    "h2h": {
+     "home_pass": false,
+     "away_pass": true,
+     "meetings": [
+      {
+       "date": "2026-02-21",
+       "home": "Al-Nassr",
+       "away": "Al-Hazm",
+       "score": "4-0"
+      },
+      {
+       "date": "2025-10-25",
+       "home": "Al-Hazm",
+       "away": "Al-Nassr",
+       "score": "0-2"
+      }
+     ],
+     "home_wins": 0,
+     "away_wins": 2
+    },
+    "history": {
+     "home_games": 10,
+     "away_games": 10
+    },
+    "verdict_was": "X2"
+   },
+   "day_index": 0,
+   "odds": 1.05,
+   "bookmaker": "William Hill"
   },
   {
    "fixture": {
@@ -47654,6 +45269,234 @@
   },
   {
    "fixture": {
+    "id": 1551153,
+    "date": "2026-11-28T13:15:00+00:00",
+    "status": "NS",
+    "season": 2026,
+    "league_id": 172,
+    "league": "First League",
+    "country": "Bulgaria",
+    "home_id": 859,
+    "away_id": 566,
+    "home": "Botev Vratsa",
+    "away": "Ludogorets",
+    "hg": null,
+    "ag": null
+   },
+   "eval": {
+    "verdict": "X2",
+    "backed": "away",
+    "reason": "Odds too low (@1.08, minimum 1.15)",
+    "home": {
+     "gate": {
+      "pass": false,
+      "goals": 3,
+      "games": 5
+     },
+     "form": {
+      "pass": false,
+      "string": "DLLDL",
+      "w": 0,
+      "d": 2,
+      "l": 3
+     },
+     "r1": false,
+     "r2": false,
+     "r3": false,
+     "score": 0
+    },
+    "away": {
+     "gate": {
+      "pass": true,
+      "goals": 11,
+      "games": 5
+     },
+     "form": {
+      "pass": true,
+      "string": "WDWLW",
+      "w": 3,
+      "d": 1,
+      "l": 1
+     },
+     "r1": true,
+     "r2": true,
+     "r3": true,
+     "score": 3
+    },
+    "common": {
+     "home_pass": false,
+     "away_pass": true,
+     "home_better": 0,
+     "away_better": 5,
+     "rows": [
+      {
+       "opponent": "Arda Kardzhali",
+       "home": {
+        "name": "Arda Kardzhali",
+        "res": "L",
+        "score": "0-2",
+        "date": "2026-08-31"
+       },
+       "away": {
+        "name": "Arda Kardzhali",
+        "res": "W",
+        "score": "5-0",
+        "date": "2026-10-12"
+       },
+       "edge": "away"
+      },
+      {
+       "opponent": "Botev Plovdiv",
+       "home": {
+        "name": "Botev Plovdiv",
+        "res": "W",
+        "score": "1-0",
+        "date": "2026-08-24"
+       },
+       "away": {
+        "name": "Botev Plovdiv",
+        "res": "W",
+        "score": "2-0",
+        "date": "2026-08-15"
+       },
+       "edge": "level"
+      },
+      {
+       "opponent": "CSKA 1948",
+       "home": {
+        "name": "CSKA 1948",
+        "res": "D",
+        "score": "1-1",
+        "date": "2026-11-22"
+       },
+       "away": {
+        "name": "CSKA 1948",
+        "res": "D",
+        "score": "2-2",
+        "date": "2026-11-07"
+       },
+       "edge": "level"
+      },
+      {
+       "opponent": "Dunav Ruse",
+       "home": {
+        "name": "Dunav Ruse",
+        "res": "D",
+        "score": "2-2",
+        "date": "2026-09-19"
+       },
+       "away": {
+        "name": "Dunav Ruse",
+        "res": "W",
+        "score": "1-0",
+        "date": "2026-11-23"
+       },
+       "edge": "away"
+      },
+      {
+       "opponent": "Lokomotiv Plovdiv",
+       "home": {
+        "name": "Lokomotiv Plovdiv",
+        "res": "L",
+        "score": "1-2",
+        "date": "2026-11-07"
+       },
+       "away": {
+        "name": "Lokomotiv Plovdiv",
+        "res": "W",
+        "score": "3-0",
+        "date": "2026-10-31"
+       },
+       "edge": "away"
+      },
+      {
+       "opponent": "Lokomotiv Sofia",
+       "home": {
+        "name": "Lokomotiv Sofia",
+        "res": "D",
+        "score": "1-1",
+        "date": "2026-10-24"
+       },
+       "away": {
+        "name": "Lokomotiv Sofia",
+        "res": "W",
+        "score": "2-1",
+        "date": "2026-09-06"
+       },
+       "edge": "away"
+      },
+      {
+       "opponent": "Septemvri Sofia",
+       "home": {
+        "name": "Septemvri Sofia",
+        "res": "W",
+        "score": "3-2",
+        "date": "2026-09-04"
+       },
+       "away": {
+        "name": "Septemvri Sofia",
+        "res": "W",
+        "score": "2-1",
+        "date": "2026-09-14"
+       },
+       "edge": "level"
+      },
+      {
+       "opponent": "Spartak Varna",
+       "home": {
+        "name": "Spartak Varna",
+        "res": "L",
+        "score": "0-1",
+        "date": "2026-10-10"
+       },
+       "away": {
+        "name": "Spartak Varna",
+        "res": "D",
+        "score": "1-1",
+        "date": "2026-08-30"
+       },
+       "edge": "away"
+      }
+     ]
+    },
+    "h2h": {
+     "home_pass": false,
+     "away_pass": true,
+     "meetings": [
+      {
+       "date": "2026-08-02",
+       "home": "Ludogorets",
+       "away": "Botev Vratsa",
+       "score": "2-1"
+      },
+      {
+       "date": "2025-11-30",
+       "home": "Ludogorets",
+       "away": "Botev Vratsa",
+       "score": "2-0"
+      },
+      {
+       "date": "2025-07-25",
+       "home": "Botev Vratsa",
+       "away": "Ludogorets",
+       "score": "0-1"
+      }
+     ],
+     "home_wins": 0,
+     "away_wins": 3
+    },
+    "history": {
+     "home_games": 10,
+     "away_games": 10
+    },
+    "verdict_was": "X2"
+   },
+   "day_index": 0,
+   "odds": 1.08,
+   "bookmaker": "William Hill"
+  },
+  {
+   "fixture": {
     "id": 1561452,
     "date": "2026-11-28T13:30:00+00:00",
     "status": "NS",
@@ -56849,6 +54692,601 @@
     }
    },
    "day_index": 0
+  },
+  {
+   "fixture": {
+    "id": 1649600,
+    "date": "2026-11-28T14:00:00+00:00",
+    "status": "NS",
+    "season": 2026,
+    "league_id": 290,
+    "league": "Persian Gulf Pro League",
+    "country": "Iran",
+    "home_id": 2744,
+    "away_id": 2719,
+    "home": "Sepahan FC",
+    "away": "Nassaji Mazandaran",
+    "hg": null,
+    "ag": null
+   },
+   "eval": {
+    "verdict": "1X",
+    "backed": "home",
+    "reason": "Odds too low (@1.07, minimum 1.15)",
+    "home": {
+     "gate": {
+      "pass": true,
+      "goals": 12,
+      "games": 5
+     },
+     "form": {
+      "pass": true,
+      "string": "DWWWD",
+      "w": 3,
+      "d": 2,
+      "l": 0
+     },
+     "r1": true,
+     "r2": false,
+     "r3": true,
+     "score": 2
+    },
+    "away": {
+     "gate": {
+      "pass": false,
+      "goals": 3,
+      "games": 5
+     },
+     "form": {
+      "pass": false,
+      "string": "DDLDD",
+      "w": 0,
+      "d": 4,
+      "l": 1
+     },
+     "r1": false,
+     "r2": false,
+     "r3": false,
+     "score": 0
+    },
+    "common": {
+     "home_pass": true,
+     "away_pass": false,
+     "home_better": 4,
+     "away_better": 0,
+     "rows": [
+      {
+       "opponent": "Fajr Sepasi",
+       "home": {
+        "name": "Fajr Sepasi",
+        "res": "W",
+        "score": "6-1",
+        "date": "2026-10-08"
+       },
+       "away": {
+        "name": "Fajr Sepasi",
+        "res": "D",
+        "score": "2-2",
+        "date": "2026-10-25"
+       },
+       "edge": "home"
+      },
+      {
+       "opponent": "Foolad FC",
+       "home": {
+        "name": "Foolad FC",
+        "res": "D",
+        "score": "2-2",
+        "date": "2026-11-21"
+       },
+       "away": {
+        "name": "Foolad FC",
+        "res": "D",
+        "score": "0-0",
+        "date": "2026-10-18"
+       },
+       "edge": "level"
+      },
+      {
+       "opponent": "Kheybar Khorramabad",
+       "home": {
+        "name": "Kheybar Khorramabad",
+        "res": "W",
+        "score": "2-1",
+        "date": "2026-10-30"
+       },
+       "away": {
+        "name": "Kheybar Khorramabad",
+        "res": "W",
+        "score": "1-0",
+        "date": "2026-09-07"
+       },
+       "edge": "level"
+      },
+      {
+       "opponent": "Malavan",
+       "home": {
+        "name": "Malavan",
+        "res": "W",
+        "score": "4-0",
+        "date": "2026-11-06"
+       },
+       "away": {
+        "name": "Malavan",
+        "res": "W",
+        "score": "1-0",
+        "date": "2026-09-02"
+       },
+       "edge": "level"
+      },
+      {
+       "opponent": "Mes Shahr-e Babak",
+       "home": {
+        "name": "Mes Shahr-e Babak",
+        "res": "W",
+        "score": "4-0",
+        "date": "2026-10-25"
+       },
+       "away": {
+        "name": "Mes Shahr-e Babak",
+        "res": "D",
+        "score": "1-1",
+        "date": "2026-09-13"
+       },
+       "edge": "home"
+      },
+      {
+       "opponent": "Shams Azar Qazvin",
+       "home": {
+        "name": "Shams Azar Qazvin",
+        "res": "D",
+        "score": "0-0",
+        "date": "2026-10-18"
+       },
+       "away": {
+        "name": "Shams Azar Qazvin",
+        "res": "L",
+        "score": "0-2",
+        "date": "2026-08-28"
+       },
+       "edge": "home"
+      },
+      {
+       "opponent": "ZOB Ahan",
+       "home": {
+        "name": "ZOB Ahan",
+        "res": "W",
+        "score": "2-1",
+        "date": "2026-10-13"
+       },
+       "away": {
+        "name": "ZOB Ahan",
+        "res": "D",
+        "score": "1-1",
+        "date": "2026-10-08"
+       },
+       "edge": "home"
+      }
+     ]
+    },
+    "h2h": {
+     "home_pass": false,
+     "away_pass": false,
+     "meetings": [],
+     "home_wins": 0,
+     "away_wins": 0
+    },
+    "history": {
+     "home_games": 10,
+     "away_games": 10
+    },
+    "verdict_was": "1X"
+   },
+   "day_index": 0,
+   "odds": 1.07,
+   "bookmaker": "Betano"
+  },
+  {
+   "fixture": {
+    "id": 1562131,
+    "date": "2026-11-28T14:00:00+00:00",
+    "status": "NS",
+    "season": 2026,
+    "league_id": 408,
+    "league": "Premiership",
+    "country": "Northern-Ireland",
+    "home_id": 697,
+    "away_id": 583,
+    "home": "Crusaders FC",
+    "away": "Linfield",
+    "hg": null,
+    "ag": null
+   },
+   "eval": {
+    "verdict": "X2",
+    "backed": "away",
+    "reason": "Odds too low (@1.07, minimum 1.15)",
+    "home": {
+     "gate": {
+      "pass": false,
+      "goals": 6,
+      "games": 5
+     },
+     "form": {
+      "pass": false,
+      "string": "LDLWL",
+      "w": 1,
+      "d": 1,
+      "l": 3
+     },
+     "r1": false,
+     "r2": false,
+     "r3": false,
+     "score": 0
+    },
+    "away": {
+     "gate": {
+      "pass": true,
+      "goals": 14,
+      "games": 5
+     },
+     "form": {
+      "pass": true,
+      "string": "WWWDW",
+      "w": 4,
+      "d": 1,
+      "l": 0
+     },
+     "r1": true,
+     "r2": true,
+     "r3": true,
+     "score": 3
+    },
+    "common": {
+     "home_pass": false,
+     "away_pass": true,
+     "home_better": 0,
+     "away_better": 5,
+     "rows": [
+      {
+       "opponent": "Ballymena United",
+       "home": {
+        "name": "Ballymena United",
+        "res": "L",
+        "score": "1-2",
+        "date": "2026-10-17"
+       },
+       "away": {
+        "name": "Ballymena United",
+        "res": "W",
+        "score": "3-0",
+        "date": "2026-11-13"
+       },
+       "edge": "away"
+      },
+      {
+       "opponent": "Bangor",
+       "home": {
+        "name": "Bangor",
+        "res": "L",
+        "score": "0-1",
+        "date": "2026-11-07"
+       },
+       "away": {
+        "name": "Bangor",
+        "res": "W",
+        "score": "2-0",
+        "date": "2026-10-10"
+       },
+       "edge": "away"
+      },
+      {
+       "opponent": "Carrick Rangers",
+       "home": {
+        "name": "Carrick Rangers",
+        "res": "D",
+        "score": "1-1",
+        "date": "2026-11-13"
+       },
+       "away": {
+        "name": "Carrick Rangers",
+        "res": "D",
+        "score": "2-2",
+        "date": "2026-10-17"
+       },
+       "edge": "level"
+      },
+      {
+       "opponent": "Coleraine FC",
+       "home": {
+        "name": "Coleraine FC",
+        "res": "L",
+        "score": "0-5",
+        "date": "2026-10-24"
+       },
+       "away": {
+        "name": "Coleraine FC",
+        "res": "W",
+        "score": "3-0",
+        "date": "2026-11-07"
+       },
+       "edge": "away"
+      },
+      {
+       "opponent": "Dungannon Swifts",
+       "home": {
+        "name": "Dungannon Swifts",
+        "res": "L",
+        "score": "1-3",
+        "date": "2026-11-21"
+       },
+       "away": {
+        "name": "Dungannon Swifts",
+        "res": "D",
+        "score": "1-1",
+        "date": "2026-10-31"
+       },
+       "edge": "away"
+      },
+      {
+       "opponent": "Larne",
+       "home": {
+        "name": "Larne",
+        "res": "L",
+        "score": "0-3",
+        "date": "2026-10-10"
+       },
+       "away": {
+        "name": "Larne",
+        "res": "W",
+        "score": "2-1",
+        "date": "2026-10-20"
+       },
+       "edge": "away"
+      },
+      {
+       "opponent": "Limavady United",
+       "home": {
+        "name": "Limavady United",
+        "res": "W",
+        "score": "4-1",
+        "date": "2026-10-31"
+       },
+       "away": {
+        "name": "Limavady United",
+        "res": "W",
+        "score": "5-0",
+        "date": "2026-11-21"
+       },
+       "edge": "level"
+      }
+     ]
+    },
+    "h2h": {
+     "home_pass": false,
+     "away_pass": true,
+     "meetings": [
+      {
+       "date": "2026-09-19",
+       "home": "Linfield",
+       "away": "Crusaders FC",
+       "score": "1-0"
+      },
+      {
+       "date": "2026-01-24",
+       "home": "Crusaders FC",
+       "away": "Linfield",
+       "score": "0-1"
+      },
+      {
+       "date": "2025-12-13",
+       "home": "Linfield",
+       "away": "Crusaders FC",
+       "score": "4-0"
+      }
+     ],
+     "home_wins": 0,
+     "away_wins": 3
+    },
+    "history": {
+     "home_games": 10,
+     "away_games": 10
+    },
+    "verdict_was": "X2"
+   },
+   "day_index": 0,
+   "odds": 1.07,
+   "bookmaker": "William Hill"
+  },
+  {
+   "fixture": {
+    "id": 1643049,
+    "date": "2026-11-28T14:15:00+00:00",
+    "status": "NS",
+    "season": 2026,
+    "league_id": 301,
+    "league": "Pro League",
+    "country": "United-Arab-Emirates",
+    "home_id": 2872,
+    "away_id": 2873,
+    "home": "Al-Wasl FC",
+    "away": "Al-Dhafra",
+    "hg": null,
+    "ag": null
+   },
+   "eval": {
+    "verdict": "1X",
+    "backed": "home",
+    "reason": "Odds too low (@1.06, minimum 1.15)",
+    "home": {
+     "gate": {
+      "pass": true,
+      "goals": 12,
+      "games": 5
+     },
+     "form": {
+      "pass": true,
+      "string": "WLWDW",
+      "w": 3,
+      "d": 1,
+      "l": 1
+     },
+     "r1": true,
+     "r2": false,
+     "r3": true,
+     "score": 2
+    },
+    "away": {
+     "gate": {
+      "pass": false,
+      "goals": 9,
+      "games": 5
+     },
+     "form": {
+      "pass": false,
+      "string": "LLWWL",
+      "w": 2,
+      "d": 0,
+      "l": 3
+     },
+     "r1": false,
+     "r2": false,
+     "r3": false,
+     "score": 0
+    },
+    "common": {
+     "home_pass": true,
+     "away_pass": false,
+     "home_better": 3,
+     "away_better": 0,
+     "rows": [
+      {
+       "opponent": "Al Ain",
+       "home": {
+        "name": "Al Ain",
+        "res": "D",
+        "score": "2-2",
+        "date": "2026-09-10"
+       },
+       "away": {
+        "name": "Al Ain",
+        "res": "L",
+        "score": "1-2",
+        "date": "2026-11-19"
+       },
+       "edge": "home"
+      },
+      {
+       "opponent": "Al-Ittihad Kalba",
+       "home": {
+        "name": "Al-Ittihad Kalba",
+        "res": "W",
+        "score": "3-0",
+        "date": "2026-08-21"
+       },
+       "away": {
+        "name": "Al-Ittihad Kalba",
+        "res": "L",
+        "score": "1-3",
+        "date": "2026-11-07"
+       },
+       "edge": "home"
+      },
+      {
+       "opponent": "Dubai United",
+       "home": {
+        "name": "Dubai United",
+        "res": "W",
+        "score": "5-1",
+        "date": "2026-08-15"
+       },
+       "away": {
+        "name": "Dubai United",
+        "res": "W",
+        "score": "5-1",
+        "date": "2026-10-16"
+       },
+       "edge": "level"
+      },
+      {
+       "opponent": "Hatta SC",
+       "home": {
+        "name": "Hatta SC",
+        "res": "W",
+        "score": "2-1",
+        "date": "2026-11-19"
+       },
+       "away": {
+        "name": "Hatta SC",
+        "res": "W",
+        "score": "2-1",
+        "date": "2026-09-11"
+       },
+       "edge": "level"
+      },
+      {
+       "opponent": "Khorfakkan",
+       "home": {
+        "name": "Khorfakkan",
+        "res": "W",
+        "score": "5-2",
+        "date": "2026-09-04"
+       },
+       "away": {
+        "name": "Khorfakkan",
+        "res": "L",
+        "score": "0-2",
+        "date": "2026-08-29"
+       },
+       "edge": "home"
+      },
+      {
+       "opponent": "Shabab Al Ahli Dubai",
+       "home": {
+        "name": "Shabab Al Ahli Dubai",
+        "res": "L",
+        "score": "0-1",
+        "date": "2026-08-28"
+       },
+       "away": {
+        "name": "Shabab Al Ahli Dubai",
+        "res": "L",
+        "score": "0-2",
+        "date": "2026-08-22"
+       },
+       "edge": "level"
+      }
+     ]
+    },
+    "h2h": {
+     "home_pass": false,
+     "away_pass": false,
+     "meetings": [
+      {
+       "date": "2026-03-18",
+       "home": "Al-Wasl FC",
+       "away": "Al-Dhafra",
+       "score": "3-0"
+      },
+      {
+       "date": "2025-08-23",
+       "home": "Al-Dhafra",
+       "away": "Al-Wasl FC",
+       "score": "3-1"
+      }
+     ],
+     "home_wins": 1,
+     "away_wins": 1
+    },
+    "history": {
+     "home_games": 10,
+     "away_games": 10
+    },
+    "verdict_was": "1X"
+   },
+   "day_index": 0,
+   "odds": 1.06,
+   "bookmaker": "William Hill"
   },
   {
    "fixture": {
@@ -71905,6 +70343,1017 @@
   },
   {
    "fixture": {
+    "id": 1585369,
+    "date": "2026-11-28T15:00:00+00:00",
+    "status": "NS",
+    "season": 2026,
+    "league_id": 43,
+    "league": "National League",
+    "country": "England",
+    "home_id": 1830,
+    "away_id": 1823,
+    "home": "Boreham Wood",
+    "away": "Gateshead",
+    "hg": null,
+    "ag": null
+   },
+   "eval": {
+    "verdict": "1",
+    "backed": "home",
+    "reason": "Odds too low (@1.10, minimum 1.15)",
+    "home": {
+     "gate": {
+      "pass": true,
+      "goals": 15,
+      "games": 5
+     },
+     "form": {
+      "pass": true,
+      "string": "WWDWW",
+      "w": 4,
+      "d": 1,
+      "l": 0
+     },
+     "r1": true,
+     "r2": true,
+     "r3": true,
+     "score": 3
+    },
+    "away": {
+     "gate": {
+      "pass": false,
+      "goals": 4,
+      "games": 5
+     },
+     "form": {
+      "pass": false,
+      "string": "WLLLL",
+      "w": 1,
+      "d": 0,
+      "l": 4
+     },
+     "r1": false,
+     "r2": false,
+     "r3": false,
+     "score": 0
+    },
+    "common": {
+     "home_pass": true,
+     "away_pass": false,
+     "home_better": 4,
+     "away_better": 0,
+     "rows": [
+      {
+       "opponent": "Aldershot Town",
+       "home": {
+        "name": "Aldershot Town",
+        "res": "W",
+        "score": "4-1",
+        "date": "2026-11-25"
+       },
+       "away": {
+        "name": "Aldershot Town",
+        "res": "L",
+        "score": "0-1",
+        "date": "2026-10-31"
+       },
+       "edge": "home"
+      },
+      {
+       "opponent": "Altrincham",
+       "home": {
+        "name": "Altrincham",
+        "res": "W",
+        "score": "3-1",
+        "date": "2026-10-03"
+       },
+       "away": {
+        "name": "Altrincham",
+        "res": "L",
+        "score": "0-1",
+        "date": "2026-09-29"
+       },
+       "edge": "home"
+      },
+      {
+       "opponent": "Hartlepool",
+       "home": {
+        "name": "Hartlepool",
+        "res": "W",
+        "score": "4-3",
+        "date": "2026-10-31"
+       },
+       "away": {
+        "name": "Hartlepool",
+        "res": "L",
+        "score": "1-2",
+        "date": "2026-11-21"
+       },
+       "edge": "home"
+      },
+      {
+       "opponent": "Southend",
+       "home": {
+        "name": "Southend",
+        "res": "W",
+        "score": "3-2",
+        "date": "2026-11-20"
+       },
+       "away": {
+        "name": "Southend",
+        "res": "L",
+        "score": "1-6",
+        "date": "2026-09-19"
+       },
+       "edge": "home"
+      }
+     ]
+    },
+    "h2h": {
+     "home_pass": true,
+     "away_pass": false,
+     "meetings": [
+      {
+       "date": "2026-03-21",
+       "home": "Boreham Wood",
+       "away": "Gateshead",
+       "score": "3-0"
+      },
+      {
+       "date": "2025-11-22",
+       "home": "Gateshead",
+       "away": "Boreham Wood",
+       "score": "0-3"
+      }
+     ],
+     "home_wins": 2,
+     "away_wins": 0
+    },
+    "history": {
+     "home_games": 10,
+     "away_games": 10
+    },
+    "verdict_was": "1"
+   },
+   "day_index": 0,
+   "odds": 1.1,
+   "bookmaker": "William Hill"
+  },
+  {
+   "fixture": {
+    "id": 1556716,
+    "date": "2026-11-28T15:00:00+00:00",
+    "status": "NS",
+    "season": 2026,
+    "league_id": 179,
+    "league": "Premiership",
+    "country": "Scotland",
+    "home_id": 257,
+    "away_id": 1389,
+    "home": "Rangers",
+    "away": "Falkirk",
+    "hg": null,
+    "ag": null
+   },
+   "eval": {
+    "verdict": "1X",
+    "backed": "home",
+    "reason": "Odds too low (@1.06, minimum 1.15)",
+    "home": {
+     "gate": {
+      "pass": true,
+      "goals": 13,
+      "games": 5
+     },
+     "form": {
+      "pass": true,
+      "string": "WWWDW",
+      "w": 4,
+      "d": 1,
+      "l": 0
+     },
+     "r1": false,
+     "r2": true,
+     "r3": true,
+     "score": 2
+    },
+    "away": {
+     "gate": {
+      "pass": true,
+      "goals": 13,
+      "games": 5
+     },
+     "form": {
+      "pass": true,
+      "string": "WWWWW",
+      "w": 5,
+      "d": 0,
+      "l": 0
+     },
+     "r1": false,
+     "r2": false,
+     "r3": true,
+     "score": 1
+    },
+    "common": {
+     "home_pass": false,
+     "away_pass": false,
+     "home_better": 1,
+     "away_better": 1,
+     "rows": [
+      {
+       "opponent": "Aberdeen",
+       "home": {
+        "name": "Aberdeen",
+        "res": "W",
+        "score": "3-2",
+        "date": "2026-11-24"
+       },
+       "away": {
+        "name": "Aberdeen",
+        "res": "W",
+        "score": "1-0",
+        "date": "2026-10-28"
+       },
+       "edge": "level"
+      },
+      {
+       "opponent": "Celtic",
+       "home": {
+        "name": "Celtic",
+        "res": "W",
+        "score": "1-0",
+        "date": "2026-09-20"
+       },
+       "away": {
+        "name": "Celtic",
+        "res": "W",
+        "score": "2-0",
+        "date": "2026-11-01"
+       },
+       "edge": "level"
+      },
+      {
+       "opponent": "Dundee",
+       "home": {
+        "name": "Dundee",
+        "res": "D",
+        "score": "2-2",
+        "date": "2026-10-17"
+       },
+       "away": {
+        "name": "Dundee",
+        "res": "L",
+        "score": "1-2",
+        "date": "2026-10-10"
+       },
+       "edge": "home"
+      },
+      {
+       "opponent": "Heart Of Midlothian",
+       "home": {
+        "name": "Heart Of Midlothian",
+        "res": "D",
+        "score": "2-2",
+        "date": "2026-10-28"
+       },
+       "away": {
+        "name": "Heart Of Midlothian",
+        "res": "W",
+        "score": "5-2",
+        "date": "2026-11-08"
+       },
+       "edge": "away"
+      },
+      {
+       "opponent": "Kilmarnock",
+       "home": {
+        "name": "Kilmarnock",
+        "res": "W",
+        "score": "3-1",
+        "date": "2026-10-10"
+       },
+       "away": {
+        "name": "Kilmarnock",
+        "res": "W",
+        "score": "3-0",
+        "date": "2026-10-24"
+       },
+       "edge": "level"
+      },
+      {
+       "opponent": "ST Johnstone",
+       "home": {
+        "name": "ST Johnstone",
+        "res": "W",
+        "score": "4-0",
+        "date": "2026-10-24"
+       },
+       "away": {
+        "name": "ST Johnstone",
+        "res": "W",
+        "score": "2-1",
+        "date": "2026-11-21"
+       },
+       "edge": "level"
+      }
+     ]
+    },
+    "h2h": {
+     "home_pass": true,
+     "away_pass": false,
+     "meetings": [
+      {
+       "date": "2026-09-02",
+       "home": "Falkirk",
+       "away": "Rangers",
+       "score": "1-2"
+      },
+      {
+       "date": "2026-05-16",
+       "home": "Falkirk",
+       "away": "Rangers",
+       "score": "2-5"
+      },
+      {
+       "date": "2026-04-12",
+       "home": "Falkirk",
+       "away": "Rangers",
+       "score": "3-6"
+      }
+     ],
+     "home_wins": 3,
+     "away_wins": 0
+    },
+    "history": {
+     "home_games": 10,
+     "away_games": 10
+    },
+    "verdict_was": "1X"
+   },
+   "day_index": 0,
+   "odds": 1.06,
+   "bookmaker": "William Hill"
+  },
+  {
+   "fixture": {
+    "id": 1585371,
+    "date": "2026-11-28T15:00:00+00:00",
+    "status": "NS",
+    "season": 2026,
+    "league_id": 43,
+    "league": "National League",
+    "country": "England",
+    "home_id": 1371,
+    "away_id": 1835,
+    "home": "Carlisle",
+    "away": "Sutton Utd",
+    "hg": null,
+    "ag": null
+   },
+   "eval": {
+    "verdict": "1X",
+    "backed": "home",
+    "reason": "Odds too low (@1.12, minimum 1.15)",
+    "home": {
+     "gate": {
+      "pass": true,
+      "goals": 12,
+      "games": 5
+     },
+     "form": {
+      "pass": true,
+      "string": "LWWWW",
+      "w": 4,
+      "d": 0,
+      "l": 1
+     },
+     "r1": true,
+     "r2": false,
+     "r3": true,
+     "score": 2
+    },
+    "away": {
+     "gate": {
+      "pass": false,
+      "goals": 6,
+      "games": 5
+     },
+     "form": {
+      "pass": true,
+      "string": "DWLWW",
+      "w": 3,
+      "d": 1,
+      "l": 1
+     },
+     "r1": false,
+     "r2": false,
+     "r3": true,
+     "score": 1
+    },
+    "common": {
+     "home_pass": true,
+     "away_pass": false,
+     "home_better": 2,
+     "away_better": 0,
+     "rows": [
+      {
+       "opponent": "Aldershot Town",
+       "home": {
+        "name": "Aldershot Town",
+        "res": "W",
+        "score": "3-1",
+        "date": "2026-10-03"
+       },
+       "away": {
+        "name": "Aldershot Town",
+        "res": "W",
+        "score": "2-0",
+        "date": "2026-10-28"
+       },
+       "edge": "level"
+      },
+      {
+       "opponent": "Boston United",
+       "home": {
+        "name": "Boston United",
+        "res": "W",
+        "score": "2-0",
+        "date": "2026-11-14"
+       },
+       "away": {
+        "name": "Boston United",
+        "res": "W",
+        "score": "1-0",
+        "date": "2026-11-21"
+       },
+       "edge": "level"
+      },
+      {
+       "opponent": "Harrogate Town",
+       "home": {
+        "name": "Harrogate Town",
+        "res": "W",
+        "score": "3-0",
+        "date": "2026-10-28"
+       },
+       "away": {
+        "name": "Harrogate Town",
+        "res": "L",
+        "score": "1-3",
+        "date": "2026-10-24"
+       },
+       "edge": "home"
+      },
+      {
+       "opponent": "Kidderminster Harriers",
+       "home": {
+        "name": "Kidderminster Harriers",
+        "res": "D",
+        "score": "0-0",
+        "date": "2026-10-10"
+       },
+       "away": {
+        "name": "Kidderminster Harriers",
+        "res": "D",
+        "score": "1-1",
+        "date": "2026-10-03"
+       },
+       "edge": "level"
+      },
+      {
+       "opponent": "Solihull Moors",
+       "home": {
+        "name": "Solihull Moors",
+        "res": "W",
+        "score": "2-1",
+        "date": "2026-10-24"
+       },
+       "away": {
+        "name": "Solihull Moors",
+        "res": "L",
+        "score": "0-2",
+        "date": "2026-11-14"
+       },
+       "edge": "home"
+      },
+      {
+       "opponent": "Tamworth",
+       "home": {
+        "name": "Tamworth",
+        "res": "L",
+        "score": "1-2",
+        "date": "2026-11-24"
+       },
+       "away": {
+        "name": "Tamworth",
+        "res": "L",
+        "score": "0-2",
+        "date": "2026-09-30"
+       },
+       "edge": "level"
+      }
+     ]
+    },
+    "h2h": {
+     "home_pass": false,
+     "away_pass": false,
+     "meetings": [
+      {
+       "date": "2026-04-11",
+       "home": "Carlisle",
+       "away": "Sutton Utd",
+       "score": "3-0"
+      },
+      {
+       "date": "2025-08-30",
+       "home": "Sutton Utd",
+       "away": "Carlisle",
+       "score": "2-1"
+      }
+     ],
+     "home_wins": 1,
+     "away_wins": 1
+    },
+    "history": {
+     "home_games": 10,
+     "away_games": 10
+    },
+    "verdict_was": "1X"
+   },
+   "day_index": 0,
+   "odds": 1.12,
+   "bookmaker": "William Hill"
+  },
+  {
+   "fixture": {
+    "id": 1494812,
+    "date": "2026-11-28T15:00:00+00:00",
+    "status": "NS",
+    "season": 2026,
+    "league_id": 103,
+    "league": "Eliteserien",
+    "country": "Norway",
+    "home_id": 327,
+    "away_id": 2143,
+    "home": "Bodo/Glimt",
+    "away": "KFUM Oslo",
+    "hg": null,
+    "ag": null
+   },
+   "eval": {
+    "verdict": "1X",
+    "backed": "home",
+    "reason": "Odds too low (@1.02, minimum 1.15)",
+    "home": {
+     "gate": {
+      "pass": true,
+      "goals": 11,
+      "games": 5
+     },
+     "form": {
+      "pass": true,
+      "string": "WWWLW",
+      "w": 4,
+      "d": 0,
+      "l": 1
+     },
+     "r1": false,
+     "r2": true,
+     "r3": true,
+     "score": 2
+    },
+    "away": {
+     "gate": {
+      "pass": false,
+      "goals": 9,
+      "games": 5
+     },
+     "form": {
+      "pass": false,
+      "string": "LLDDD",
+      "w": 0,
+      "d": 3,
+      "l": 2
+     },
+     "r1": false,
+     "r2": false,
+     "r3": false,
+     "score": 0
+    },
+    "common": {
+     "home_pass": false,
+     "away_pass": false,
+     "home_better": 5,
+     "away_better": 1,
+     "rows": [
+      {
+       "opponent": "Brann",
+       "home": {
+        "name": "Brann",
+        "res": "L",
+        "score": "1-2",
+        "date": "2026-09-20"
+       },
+       "away": {
+        "name": "Brann",
+        "res": "L",
+        "score": "3-4",
+        "date": "2026-11-22"
+       },
+       "edge": "level"
+      },
+      {
+       "opponent": "Ham-Kam",
+       "home": {
+        "name": "Ham-Kam",
+        "res": "W",
+        "score": "2-0",
+        "date": "2026-10-17"
+       },
+       "away": {
+        "name": "Ham-Kam",
+        "res": "D",
+        "score": "2-2",
+        "date": "2026-11-01"
+       },
+       "edge": "home"
+      },
+      {
+       "opponent": "Kristiansund BK",
+       "home": {
+        "name": "Kristiansund BK",
+        "res": "W",
+        "score": "3-1",
+        "date": "2026-10-10"
+       },
+       "away": {
+        "name": "Kristiansund BK",
+        "res": "D",
+        "score": "2-2",
+        "date": "2026-10-25"
+       },
+       "edge": "home"
+      },
+      {
+       "opponent": "Molde",
+       "home": {
+        "name": "Molde",
+        "res": "W",
+        "score": "4-2",
+        "date": "2026-11-20"
+       },
+       "away": {
+        "name": "Molde",
+        "res": "L",
+        "score": "0-2",
+        "date": "2026-09-06"
+       },
+       "edge": "home"
+      },
+      {
+       "opponent": "Tromso",
+       "home": {
+        "name": "Tromso",
+        "res": "W",
+        "score": "2-0",
+        "date": "2026-11-08"
+       },
+       "away": {
+        "name": "Tromso",
+        "res": "D",
+        "score": "1-1",
+        "date": "2026-10-18"
+       },
+       "edge": "home"
+      },
+      {
+       "opponent": "Valerenga",
+       "home": {
+        "name": "Valerenga",
+        "res": "L",
+        "score": "0-1",
+        "date": "2026-10-24"
+       },
+       "away": {
+        "name": "Valerenga",
+        "res": "W",
+        "score": "2-1",
+        "date": "2026-10-12"
+       },
+       "edge": "away"
+      },
+      {
+       "opponent": "Viking",
+       "home": {
+        "name": "Viking",
+        "res": "W",
+        "score": "3-2",
+        "date": "2026-10-30"
+       },
+       "away": {
+        "name": "Viking",
+        "res": "L",
+        "score": "1-5",
+        "date": "2026-11-08"
+       },
+       "edge": "home"
+      }
+     ]
+    },
+    "h2h": {
+     "home_pass": true,
+     "away_pass": false,
+     "meetings": [
+      {
+       "date": "2026-07-12",
+       "home": "KFUM Oslo",
+       "away": "Bodo/Glimt",
+       "score": "0-2"
+      },
+      {
+       "date": "2025-11-21",
+       "home": "KFUM Oslo",
+       "away": "Bodo/Glimt",
+       "score": "1-2"
+      },
+      {
+       "date": "2025-04-27",
+       "home": "Bodo/Glimt",
+       "away": "KFUM Oslo",
+       "score": "3-0"
+      }
+     ],
+     "home_wins": 3,
+     "away_wins": 0
+    },
+    "history": {
+     "home_games": 10,
+     "away_games": 10
+    },
+    "verdict_was": "1X"
+   },
+   "day_index": 0,
+   "odds": 1.02,
+   "bookmaker": "William Hill"
+  },
+  {
+   "fixture": {
+    "id": 1563287,
+    "date": "2026-11-28T15:00:00+00:00",
+    "status": "NS",
+    "season": 2026,
+    "league_id": 40,
+    "league": "Championship",
+    "country": "England",
+    "home_id": 54,
+    "away_id": 68,
+    "home": "Birmingham",
+    "away": "Bolton",
+    "hg": null,
+    "ag": null
+   },
+   "eval": {
+    "verdict": "1X",
+    "backed": "home",
+    "reason": "Odds too low (@1.14, minimum 1.15)",
+    "home": {
+     "gate": {
+      "pass": true,
+      "goals": 10,
+      "games": 5
+     },
+     "form": {
+      "pass": true,
+      "string": "WLWWW",
+      "w": 4,
+      "d": 0,
+      "l": 1
+     },
+     "r1": true,
+     "r2": false,
+     "r3": true,
+     "score": 2
+    },
+    "away": {
+     "gate": {
+      "pass": false,
+      "goals": 6,
+      "games": 5
+     },
+     "form": {
+      "pass": false,
+      "string": "LDLWL",
+      "w": 1,
+      "d": 1,
+      "l": 3
+     },
+     "r1": false,
+     "r2": false,
+     "r3": false,
+     "score": 0
+    },
+    "common": {
+     "home_pass": true,
+     "away_pass": false,
+     "home_better": 2,
+     "away_better": 0,
+     "rows": [
+      {
+       "opponent": "Middlesbrough",
+       "home": {
+        "name": "Middlesbrough",
+        "res": "D",
+        "score": "2-2",
+        "date": "2026-09-19"
+       },
+       "away": {
+        "name": "Middlesbrough",
+        "res": "L",
+        "score": "1-5",
+        "date": "2026-10-23"
+       },
+       "edge": "home"
+      },
+      {
+       "opponent": "Stoke City",
+       "home": {
+        "name": "Stoke City",
+        "res": "L",
+        "score": "0-1",
+        "date": "2026-11-21"
+       },
+       "away": {
+        "name": "Stoke City",
+        "res": "L",
+        "score": "1-2",
+        "date": "2026-10-10"
+       },
+       "edge": "level"
+      },
+      {
+       "opponent": "West Brom",
+       "home": {
+        "name": "West Brom",
+        "res": "W",
+        "score": "1-0",
+        "date": "2026-10-10"
+       },
+       "away": {
+        "name": "West Brom",
+        "res": "L",
+        "score": "1-3",
+        "date": "2026-11-25"
+       },
+       "edge": "home"
+      }
+     ]
+    },
+    "h2h": {
+     "home_pass": false,
+     "away_pass": false,
+     "meetings": [],
+     "home_wins": 0,
+     "away_wins": 0
+    },
+    "history": {
+     "home_games": 10,
+     "away_games": 10
+    },
+    "verdict_was": "1X"
+   },
+   "day_index": 0,
+   "odds": 1.14,
+   "bookmaker": "William Hill"
+  },
+  {
+   "fixture": {
+    "id": 1563883,
+    "date": "2026-11-28T15:00:00+00:00",
+    "status": "NS",
+    "season": 2026,
+    "league_id": 42,
+    "league": "League Two",
+    "country": "England",
+    "home_id": 1844,
+    "away_id": 1347,
+    "home": "Salford City",
+    "away": "Gillingham",
+    "hg": null,
+    "ag": null
+   },
+   "eval": {
+    "verdict": "1X",
+    "backed": "home",
+    "reason": "Odds too low (@1.12, minimum 1.15)",
+    "home": {
+     "gate": {
+      "pass": true,
+      "goals": 10,
+      "games": 5
+     },
+     "form": {
+      "pass": true,
+      "string": "DDWWW",
+      "w": 3,
+      "d": 2,
+      "l": 0
+     },
+     "r1": true,
+     "r2": false,
+     "r3": true,
+     "score": 2
+    },
+    "away": {
+     "gate": {
+      "pass": false,
+      "goals": 7,
+      "games": 5
+     },
+     "form": {
+      "pass": false,
+      "string": "DLWLD",
+      "w": 1,
+      "d": 2,
+      "l": 2
+     },
+     "r1": false,
+     "r2": false,
+     "r3": false,
+     "score": 0
+    },
+    "common": {
+     "home_pass": true,
+     "away_pass": false,
+     "home_better": 1,
+     "away_better": 0,
+     "rows": [
+      {
+       "opponent": "Accrington ST",
+       "home": {
+        "name": "Accrington ST",
+        "res": "D",
+        "score": "1-1",
+        "date": "2026-11-21"
+       },
+       "away": {
+        "name": "Accrington ST",
+        "res": "L",
+        "score": "1-3",
+        "date": "2026-10-17"
+       },
+       "edge": "home"
+      },
+      {
+       "opponent": "Bristol Rovers",
+       "home": {
+        "name": "Bristol Rovers",
+        "res": "W",
+        "score": "2-1",
+        "date": "2026-10-20"
+       },
+       "away": {
+        "name": "Bristol Rovers",
+        "res": "W",
+        "score": "3-0",
+        "date": "2026-09-19"
+       },
+       "edge": "level"
+      }
+     ]
+    },
+    "h2h": {
+     "home_pass": false,
+     "away_pass": false,
+     "meetings": [
+      {
+       "date": "2026-04-11",
+       "home": "Salford City",
+       "away": "Gillingham",
+       "score": "0-0"
+      },
+      {
+       "date": "2025-10-25",
+       "home": "Gillingham",
+       "away": "Salford City",
+       "score": "1-2"
+      }
+     ],
+     "home_wins": 1,
+     "away_wins": 0
+    },
+    "history": {
+     "home_games": 10,
+     "away_games": 10
+    },
+    "verdict_was": "1X"
+   },
+   "day_index": 0,
+   "odds": 1.12,
+   "bookmaker": "William Hill"
+  },
+  {
+   "fixture": {
     "id": 1570036,
     "date": "2026-11-28T15:15:00+00:00",
     "status": "NS",
@@ -83457,6 +82906,199 @@
   },
   {
    "fixture": {
+    "id": 1567968,
+    "date": "2026-11-28T16:30:00+00:00",
+    "status": "NS",
+    "season": 2026,
+    "league_id": 219,
+    "league": "2. Liga",
+    "country": "Austria",
+    "home_id": 1394,
+    "away_id": 8251,
+    "home": "FC BW Linz",
+    "away": "Sturm Graz II",
+    "hg": null,
+    "ag": null
+   },
+   "eval": {
+    "verdict": "1X",
+    "backed": "home",
+    "reason": "Odds too low (@1.08, minimum 1.15)",
+    "home": {
+     "gate": {
+      "pass": true,
+      "goals": 20,
+      "games": 5
+     },
+     "form": {
+      "pass": true,
+      "string": "WWWWW",
+      "w": 5,
+      "d": 0,
+      "l": 0
+     },
+     "r1": true,
+     "r2": false,
+     "r3": true,
+     "score": 2
+    },
+    "away": {
+     "gate": {
+      "pass": false,
+      "goals": 6,
+      "games": 5
+     },
+     "form": {
+      "pass": false,
+      "string": "DWWLL",
+      "w": 2,
+      "d": 1,
+      "l": 2
+     },
+     "r1": false,
+     "r2": false,
+     "r3": false,
+     "score": 0
+    },
+    "common": {
+     "home_pass": true,
+     "away_pass": false,
+     "home_better": 2,
+     "away_better": 0,
+     "rows": [
+      {
+       "opponent": "Austria Salzburg",
+       "home": {
+        "name": "Austria Salzburg",
+        "res": "W",
+        "score": "1-0",
+        "date": "2026-10-23"
+       },
+       "away": {
+        "name": "Austria Salzburg",
+        "res": "D",
+        "score": "3-3",
+        "date": "2026-09-12"
+       },
+       "edge": "home"
+      },
+      {
+       "opponent": "FC Liefering",
+       "home": {
+        "name": "FC Liefering",
+        "res": "W",
+        "score": "4-1",
+        "date": "2026-10-17"
+       },
+       "away": {
+        "name": "FC Liefering",
+        "res": "L",
+        "score": "1-3",
+        "date": "2026-10-10"
+       },
+       "edge": "home"
+      },
+      {
+       "opponent": "Rapid Wien II",
+       "home": {
+        "name": "Rapid Wien II",
+        "res": "W",
+        "score": "6-1",
+        "date": "2026-11-20"
+       },
+       "away": {
+        "name": "Rapid Wien II",
+        "res": "W",
+        "score": "5-2",
+        "date": "2026-08-30"
+       },
+       "edge": "level"
+      },
+      {
+       "opponent": "SKU Amstetten",
+       "home": {
+        "name": "SKU Amstetten",
+        "res": "D",
+        "score": "1-1",
+        "date": "2026-10-09"
+       },
+       "away": {
+        "name": "SKU Amstetten",
+        "res": "D",
+        "score": "1-1",
+        "date": "2026-11-21"
+       },
+       "edge": "level"
+      },
+      {
+       "opponent": "SV Kapfenberg",
+       "home": {
+        "name": "SV Kapfenberg",
+        "res": "L",
+        "score": "1-2",
+        "date": "2026-08-28"
+       },
+       "away": {
+        "name": "SV Kapfenberg",
+        "res": "L",
+        "score": "0-2",
+        "date": "2026-10-18"
+       },
+       "edge": "level"
+      },
+      {
+       "opponent": "Voitsberg",
+       "home": {
+        "name": "Voitsberg",
+        "res": "W",
+        "score": "5-1",
+        "date": "2026-08-23"
+       },
+       "away": {
+        "name": "Voitsberg",
+        "res": "W",
+        "score": "2-0",
+        "date": "2026-10-31"
+       },
+       "edge": "level"
+      },
+      {
+       "opponent": "WSPG Wels",
+       "home": {
+        "name": "WSPG Wels",
+        "res": "W",
+        "score": "4-1",
+        "date": "2026-09-12"
+       },
+       "away": {
+        "name": "WSPG Wels",
+        "res": "W",
+        "score": "3-1",
+        "date": "2026-11-07"
+       },
+       "edge": "level"
+      }
+     ]
+    },
+    "h2h": {
+     "home_pass": false,
+     "away_pass": false,
+     "meetings": [],
+     "home_wins": 0,
+     "away_wins": 0
+    },
+    "history": {
+     "home_games": 10,
+     "away_games": 10
+    },
+    "verdict_was": "1X"
+   },
+   "day_index": 0,
+   "odds": 1.08,
+   "bookmaker": "William Hill"
+  },
+  {
+   "fixture": {
     "id": 1548571,
     "date": "2026-11-28T17:00:00+00:00",
     "status": "NS",
@@ -94327,6 +93969,196 @@
   },
   {
    "fixture": {
+    "id": 1550211,
+    "date": "2026-11-28T19:45:00+00:00",
+    "status": "NS",
+    "season": 2026,
+    "league_id": 135,
+    "league": "Serie A",
+    "country": "Italy",
+    "home_id": 505,
+    "away_id": 495,
+    "home": "Inter",
+    "away": "Genoa",
+    "hg": null,
+    "ag": null
+   },
+   "eval": {
+    "verdict": "1X",
+    "backed": "home",
+    "reason": "Odds too low (@1.07, minimum 1.15)",
+    "home": {
+     "gate": {
+      "pass": true,
+      "goals": 11,
+      "games": 5
+     },
+     "form": {
+      "pass": true,
+      "string": "DWLWW",
+      "w": 3,
+      "d": 1,
+      "l": 1
+     },
+     "r1": true,
+     "r2": true,
+     "r3": true,
+     "score": 3
+    },
+    "away": {
+     "gate": {
+      "pass": false,
+      "goals": 8,
+      "games": 5
+     },
+     "form": {
+      "pass": true,
+      "string": "WLWWW",
+      "w": 4,
+      "d": 0,
+      "l": 1
+     },
+     "r1": false,
+     "r2": false,
+     "r3": true,
+     "score": 1
+    },
+    "common": {
+     "home_pass": true,
+     "away_pass": false,
+     "home_better": 3,
+     "away_better": 0,
+     "rows": [
+      {
+       "opponent": "AC Milan",
+       "home": {
+        "name": "AC Milan",
+        "res": "L",
+        "score": "1-3",
+        "date": "2026-10-31"
+       },
+       "away": {
+        "name": "AC Milan",
+        "res": "L",
+        "score": "1-2",
+        "date": "2026-11-08"
+       },
+       "edge": "level"
+      },
+      {
+       "opponent": "AS Roma",
+       "home": {
+        "name": "AS Roma",
+        "res": "D",
+        "score": "2-2",
+        "date": "2026-09-19"
+       },
+       "away": {
+        "name": "AS Roma",
+        "res": "L",
+        "score": "0-2",
+        "date": "2026-10-17"
+       },
+       "edge": "home"
+      },
+      {
+       "opponent": "Como",
+       "home": {
+        "name": "Como",
+        "res": "W",
+        "score": "2-0",
+        "date": "2026-11-08"
+       },
+       "away": {
+        "name": "Como",
+        "res": "L",
+        "score": "1-4",
+        "date": "2026-09-04"
+       },
+       "edge": "home"
+      },
+      {
+       "opponent": "Fiorentina",
+       "home": {
+        "name": "Fiorentina",
+        "res": "W",
+        "score": "2-1",
+        "date": "2026-10-25"
+       },
+       "away": {
+        "name": "Fiorentina",
+        "res": "W",
+        "score": "2-1",
+        "date": "2026-10-10"
+       },
+       "edge": "level"
+      },
+      {
+       "opponent": "Parma",
+       "home": {
+        "name": "Parma",
+        "res": "W",
+        "score": "3-0",
+        "date": "2026-10-10"
+       },
+       "away": {
+        "name": "Parma",
+        "res": "L",
+        "score": "1-2",
+        "date": "2026-09-20"
+       },
+       "edge": "home"
+      },
+      {
+       "opponent": "Venezia",
+       "home": {
+        "name": "Venezia",
+        "res": "W",
+        "score": "2-0",
+        "date": "2026-10-28"
+       },
+       "away": {
+        "name": "Venezia",
+        "res": "W",
+        "score": "1-0",
+        "date": "2026-10-25"
+       },
+       "edge": "level"
+      }
+     ]
+    },
+    "h2h": {
+     "home_pass": true,
+     "away_pass": false,
+     "meetings": [
+      {
+       "date": "2026-02-28",
+       "home": "Inter",
+       "away": "Genoa",
+       "score": "2-0"
+      },
+      {
+       "date": "2025-12-14",
+       "home": "Genoa",
+       "away": "Inter",
+       "score": "1-2"
+      }
+     ],
+     "home_wins": 2,
+     "away_wins": 0
+    },
+    "history": {
+     "home_games": 10,
+     "away_games": 10
+    },
+    "verdict_was": "1X"
+   },
+   "day_index": 0,
+   "odds": 1.07,
+   "bookmaker": "William Hill"
+  },
+  {
+   "fixture": {
     "id": 1651840,
     "date": "2026-11-28T19:50:00+00:00",
     "status": "NS",
@@ -94811,6 +94643,196 @@
     }
    },
    "day_index": 0
+  },
+  {
+   "fixture": {
+    "id": 1570470,
+    "date": "2026-11-28T20:00:00+00:00",
+    "status": "NS",
+    "season": 2026,
+    "league_id": 140,
+    "league": "La Liga",
+    "country": "Spain",
+    "home_id": 541,
+    "away_id": 542,
+    "home": "Real Madrid",
+    "away": "Alaves",
+    "hg": null,
+    "ag": null
+   },
+   "eval": {
+    "verdict": "1",
+    "backed": "home",
+    "reason": "Odds too low (@1.12, minimum 1.15)",
+    "home": {
+     "gate": {
+      "pass": true,
+      "goals": 14,
+      "games": 5
+     },
+     "form": {
+      "pass": true,
+      "string": "WWWWW",
+      "w": 5,
+      "d": 0,
+      "l": 0
+     },
+     "r1": true,
+     "r2": true,
+     "r3": true,
+     "score": 3
+    },
+    "away": {
+     "gate": {
+      "pass": false,
+      "goals": 6,
+      "games": 5
+     },
+     "form": {
+      "pass": false,
+      "string": "WDLDL",
+      "w": 1,
+      "d": 2,
+      "l": 2
+     },
+     "r1": false,
+     "r2": false,
+     "r3": false,
+     "score": 0
+    },
+    "common": {
+     "home_pass": true,
+     "away_pass": false,
+     "home_better": 5,
+     "away_better": 0,
+     "rows": [
+      {
+       "opponent": "Atletico Madrid",
+       "home": {
+        "name": "Atletico Madrid",
+        "res": "L",
+        "score": "1-2",
+        "date": "2026-09-20"
+       },
+       "away": {
+        "name": "Atletico Madrid",
+        "res": "L",
+        "score": "1-2",
+        "date": "2026-10-10"
+       },
+       "edge": "level"
+      },
+      {
+       "opponent": "Barcelona",
+       "home": {
+        "name": "Barcelona",
+        "res": "W",
+        "score": "2-1",
+        "date": "2026-10-25"
+       },
+       "away": {
+        "name": "Barcelona",
+        "res": "L",
+        "score": "1-6",
+        "date": "2026-10-31"
+       },
+       "edge": "home"
+      },
+      {
+       "opponent": "Celta Vigo",
+       "home": {
+        "name": "Celta Vigo",
+        "res": "W",
+        "score": "2-1",
+        "date": "2026-11-21"
+       },
+       "away": {
+        "name": "Celta Vigo",
+        "res": "L",
+        "score": "1-2",
+        "date": "2026-10-18"
+       },
+       "edge": "home"
+      },
+      {
+       "opponent": "Racing Santander",
+       "home": {
+        "name": "Racing Santander",
+        "res": "W",
+        "score": "3-0",
+        "date": "2026-11-01"
+       },
+       "away": {
+        "name": "Racing Santander",
+        "res": "L",
+        "score": "1-2",
+        "date": "2026-09-12"
+       },
+       "edge": "home"
+      },
+      {
+       "opponent": "Sevilla",
+       "home": {
+        "name": "Sevilla",
+        "res": "W",
+        "score": "4-1",
+        "date": "2026-10-18"
+       },
+       "away": {
+        "name": "Sevilla",
+        "res": "D",
+        "score": "0-0",
+        "date": "2026-11-06"
+       },
+       "edge": "home"
+      },
+      {
+       "opponent": "Valencia",
+       "home": {
+        "name": "Valencia",
+        "res": "W",
+        "score": "3-0",
+        "date": "2026-11-07"
+       },
+       "away": {
+        "name": "Valencia",
+        "res": "L",
+        "score": "0-1",
+        "date": "2026-09-15"
+       },
+       "edge": "home"
+      }
+     ]
+    },
+    "h2h": {
+     "home_pass": true,
+     "away_pass": false,
+     "meetings": [
+      {
+       "date": "2026-04-21",
+       "home": "Real Madrid",
+       "away": "Alaves",
+       "score": "2-1"
+      },
+      {
+       "date": "2025-12-14",
+       "home": "Alaves",
+       "away": "Real Madrid",
+       "score": "1-2"
+      }
+     ],
+     "home_wins": 2,
+     "away_wins": 0
+    },
+    "history": {
+     "home_games": 10,
+     "away_games": 10
+    },
+    "verdict_was": "1"
+   },
+   "day_index": 0,
+   "odds": 1.12,
+   "bookmaker": "William Hill"
   },
   {
    "fixture": {
@@ -98434,6 +98456,7 @@
  "notes": [],
  "log": [
   "2026-11-28: 1225 fixtures, 1208 not started, 540 in men's pro leagues",
-  "API calls used: 432, provider says 5713 left today"
+  "22 picks dropped for odds under 1.15",
+  "API calls used: 436, provider says 4385 left today"
  ]
 }
