@@ -1,0 +1,2609 @@
+{
+ "n": 2194,
+ "picks": {
+  "all": {
+   "n": 210,
+   "won": 172,
+   "pct": 82
+  },
+  "1": {
+   "n": 36,
+   "won": 24,
+   "pct": 67
+  },
+  "1X": {
+   "n": 137,
+   "won": 118,
+   "pct": 86
+  },
+  "X2": {
+   "n": 37,
+   "won": 30,
+   "pct": 81
+  }
+ },
+ "base": {
+  "home win (1)": {
+   "n": 2194,
+   "won": 968,
+   "pct": 44
+  },
+  "home or draw (1X)": {
+   "n": 2194,
+   "won": 1487,
+   "pct": 68
+  },
+  "away or draw (X2)": {
+   "n": 2194,
+   "won": 1226,
+   "pct": 56
+  }
+ },
+ "sides": {
+  "Common opponents (R1) pass \u00b7 home": {
+   "won": {
+    "n": 180,
+    "won": 118,
+    "pct": 66
+   },
+   "no_loss": {
+    "n": 180,
+    "won": 151,
+    "pct": 84
+   }
+  },
+  "Common opponents (R1) pass \u00b7 away": {
+   "won": {
+    "n": 213,
+    "won": 110,
+    "pct": 52
+   },
+   "no_loss": {
+    "n": 213,
+    "won": 154,
+    "pct": 72
+   }
+  },
+  "Common opponents (R1) fail \u00b7 home": {
+   "won": {
+    "n": 634,
+    "won": 311,
+    "pct": 49
+   },
+   "no_loss": {
+    "n": 634,
+    "won": 441,
+    "pct": 70
+   }
+  },
+  "Common opponents (R1) fail \u00b7 away": {
+   "won": {
+    "n": 602,
+    "won": 209,
+    "pct": 35
+   },
+   "no_loss": {
+    "n": 602,
+    "won": 358,
+    "pct": 59
+   }
+  },
+  "Head to head (R2) pass \u00b7 home": {
+   "won": {
+    "n": 127,
+    "won": 75,
+    "pct": 59
+   },
+   "no_loss": {
+    "n": 127,
+    "won": 101,
+    "pct": 80
+   }
+  },
+  "Head to head (R2) pass \u00b7 away": {
+   "won": {
+    "n": 147,
+    "won": 71,
+    "pct": 48
+   },
+   "no_loss": {
+    "n": 147,
+    "won": 102,
+    "pct": 69
+   }
+  },
+  "Head to head (R2) fail \u00b7 home": {
+   "won": {
+    "n": 687,
+    "won": 354,
+    "pct": 52
+   },
+   "no_loss": {
+    "n": 687,
+    "won": 491,
+    "pct": 71
+   }
+  },
+  "Head to head (R2) fail \u00b7 away": {
+   "won": {
+    "n": 668,
+    "won": 248,
+    "pct": 37
+   },
+   "no_loss": {
+    "n": 668,
+    "won": 410,
+    "pct": 61
+   }
+  },
+  "Form (R3) pass \u00b7 home": {
+   "won": {
+    "n": 406,
+    "won": 241,
+    "pct": 59
+   },
+   "no_loss": {
+    "n": 406,
+    "won": 321,
+    "pct": 79
+   }
+  },
+  "Form (R3) pass \u00b7 away": {
+   "won": {
+    "n": 407,
+    "won": 189,
+    "pct": 46
+   },
+   "no_loss": {
+    "n": 407,
+    "won": 286,
+    "pct": 70
+   }
+  },
+  "Form (R3) fail \u00b7 home": {
+   "won": {
+    "n": 408,
+    "won": 188,
+    "pct": 46
+   },
+   "no_loss": {
+    "n": 408,
+    "won": 271,
+    "pct": 66
+   }
+  },
+  "Form (R3) fail \u00b7 away": {
+   "won": {
+    "n": 408,
+    "won": 130,
+    "pct": 32
+   },
+   "no_loss": {
+    "n": 408,
+    "won": 226,
+    "pct": 55
+   }
+  }
+ },
+ "cuts": {
+  "Away 2/3 + gate (cut by away downgrade)": {
+   "bet": "X2",
+   "n": 170,
+   "won": 124,
+   "pct": 73
+  },
+  "Home 3/3 but gate fail": {
+   "bet": "1",
+   "n": 2,
+   "won": 1,
+   "pct": 50
+  },
+  "Home 2/3 but gate fail": {
+   "bet": "1X",
+   "n": 47,
+   "won": 37,
+   "pct": 79
+  },
+  "Home 1/3 + gate": {
+   "bet": "1X",
+   "n": 325,
+   "won": 239,
+   "pct": 74
+  },
+  "Away 3/3 as straight away win": {
+   "bet": "2",
+   "n": 37,
+   "won": 23,
+   "pct": 62
+  },
+  "Conflict (both sides 2+)": {
+   "bet": "1X",
+   "n": 3,
+   "won": 1,
+   "pct": 33
+  }
+ },
+ "gate": {
+  "6": {
+   "home 2+/3 as 1X": {
+    "n": 212,
+    "won": 182,
+    "pct": 86
+   },
+   "home 3/3 as 1": {
+    "n": 37,
+    "won": 25,
+    "pct": 68
+   }
+  },
+  "7": {
+   "home 2+/3 as 1X": {
+    "n": 200,
+    "won": 171,
+    "pct": 86
+   },
+   "home 3/3 as 1": {
+    "n": 37,
+    "won": 25,
+    "pct": 68
+   }
+  },
+  "8": {
+   "home 2+/3 as 1X": {
+    "n": 176,
+    "won": 151,
+    "pct": 86
+   },
+   "home 3/3 as 1": {
+    "n": 36,
+    "won": 24,
+    "pct": 67
+   }
+  },
+  "9": {
+   "home 2+/3 as 1X": {
+    "n": 152,
+    "won": 133,
+    "pct": 88
+   },
+   "home 3/3 as 1": {
+    "n": 31,
+    "won": 23,
+    "pct": 74
+   }
+  },
+  "10": {
+   "home 2+/3 as 1X": {
+    "n": 119,
+    "won": 106,
+    "pct": 89
+   },
+   "home 3/3 as 1": {
+    "n": 26,
+    "won": 18,
+    "pct": 69
+   }
+  },
+  "12": {
+   "home 2+/3 as 1X": {
+    "n": 84,
+    "won": 77,
+    "pct": 92
+   },
+   "home 3/3 as 1": {
+    "n": 20,
+    "won": 15,
+    "pct": 75
+   }
+  }
+ },
+ "countries": [
+  [
+   "Hungary",
+   {
+    "n": 16,
+    "won": 12,
+    "pct": 75
+   }
+  ],
+  [
+   "Turkey",
+   {
+    "n": 10,
+    "won": 9,
+    "pct": 90
+   }
+  ],
+  [
+   "Japan",
+   {
+    "n": 9,
+    "won": 5,
+    "pct": 56
+   }
+  ],
+  [
+   "England",
+   {
+    "n": 8,
+    "won": 7,
+    "pct": 88
+   }
+  ],
+  [
+   "Italy",
+   {
+    "n": 8,
+    "won": 6,
+    "pct": 75
+   }
+  ],
+  [
+   "Czech-Republic",
+   {
+    "n": 7,
+    "won": 6,
+    "pct": 86
+   }
+  ],
+  [
+   "Slovenia",
+   {
+    "n": 6,
+    "won": 3,
+    "pct": 50
+   }
+  ],
+  [
+   "Northern-Ireland",
+   {
+    "n": 6,
+    "won": 5,
+    "pct": 83
+   }
+  ],
+  [
+   "Switzerland",
+   {
+    "n": 6,
+    "won": 4,
+    "pct": 67
+   }
+  ],
+  [
+   "Belarus",
+   {
+    "n": 5,
+    "won": 5,
+    "pct": 100
+   }
+  ],
+  [
+   "Bosnia",
+   {
+    "n": 4,
+    "won": 4,
+    "pct": 100
+   }
+  ],
+  [
+   "Serbia",
+   {
+    "n": 4,
+    "won": 4,
+    "pct": 100
+   }
+  ],
+  [
+   "Brazil",
+   {
+    "n": 4,
+    "won": 3,
+    "pct": 75
+   }
+  ],
+  [
+   "Spain",
+   {
+    "n": 4,
+    "won": 2,
+    "pct": 50
+   }
+  ],
+  [
+   "Armenia",
+   {
+    "n": 4,
+    "won": 3,
+    "pct": 75
+   }
+  ],
+  [
+   "Uganda",
+   {
+    "n": 4,
+    "won": 3,
+    "pct": 75
+   }
+  ],
+  [
+   "Myanmar",
+   {
+    "n": 4,
+    "won": 4,
+    "pct": 100
+   }
+  ],
+  [
+   "Scotland",
+   {
+    "n": 4,
+    "won": 4,
+    "pct": 100
+   }
+  ],
+  [
+   "Liberia",
+   {
+    "n": 3,
+    "won": 3,
+    "pct": 100
+   }
+  ],
+  [
+   "Netherlands",
+   {
+    "n": 3,
+    "won": 1,
+    "pct": 33
+   }
+  ],
+  [
+   "Suriname",
+   {
+    "n": 3,
+    "won": 2,
+    "pct": 67
+   }
+  ],
+  [
+   "Greece",
+   {
+    "n": 3,
+    "won": 3,
+    "pct": 100
+   }
+  ],
+  [
+   "Gibraltar",
+   {
+    "n": 3,
+    "won": 3,
+    "pct": 100
+   }
+  ],
+  [
+   "Libya",
+   {
+    "n": 3,
+    "won": 2,
+    "pct": 67
+   }
+  ],
+  [
+   "Kosovo",
+   {
+    "n": 3,
+    "won": 3,
+    "pct": 100
+   }
+  ]
+ ],
+ "pick_list": [
+  {
+   "day": "2026-11-13",
+   "home": "Ulaanbaatar",
+   "away": "Hunters",
+   "country": "Mongolia",
+   "league": "Premier League",
+   "bet": "1X",
+   "score": "7-1",
+   "won": true
+  },
+  {
+   "day": "2026-11-13",
+   "home": "BEA Mountain",
+   "away": "Paynesville",
+   "country": "Liberia",
+   "league": "LFA First Division",
+   "bet": "1",
+   "score": "1-0",
+   "won": true
+  },
+  {
+   "day": "2026-11-13",
+   "home": "Triglav",
+   "away": "Bilje",
+   "country": "Slovenia",
+   "league": "2. SNL",
+   "bet": "1X",
+   "score": "4-2",
+   "won": true
+  },
+  {
+   "day": "2026-11-13",
+   "home": "Hluboka nad Vltavou",
+   "away": "Slavoj \u010cesk\u00fd Krumlov",
+   "country": "Czech-Republic",
+   "league": "4. liga - Divizie A",
+   "bet": "1",
+   "score": "2-0",
+   "won": true
+  },
+  {
+   "day": "2026-11-13",
+   "home": "Ballymena United",
+   "away": "Linfield",
+   "country": "Northern-Ireland",
+   "league": "Premiership",
+   "bet": "X2",
+   "score": "0-3",
+   "won": true
+  },
+  {
+   "day": "2026-11-13",
+   "home": "Coleraine FC",
+   "away": "Portadown",
+   "country": "Northern-Ireland",
+   "league": "Premiership",
+   "bet": "1",
+   "score": "3-0",
+   "won": true
+  },
+  {
+   "day": "2026-11-13",
+   "home": "Annagh United",
+   "away": "Ballinamallard United",
+   "country": "Northern-Ireland",
+   "league": "Championship",
+   "bet": "1X",
+   "score": "3-1",
+   "won": true
+  },
+  {
+   "day": "2026-11-14",
+   "home": "Viktoriya Mykolaivka",
+   "away": "Yarud Mariupol'",
+   "country": "Ukraine",
+   "league": "Persha Liga",
+   "bet": "X2",
+   "score": "0-1",
+   "won": true
+  },
+  {
+   "day": "2026-11-14",
+   "home": "K\u0159imice",
+   "away": "Nyrsko",
+   "country": "Czech-Republic",
+   "league": "4. liga - Divizie A",
+   "bet": "1X",
+   "score": "3-0",
+   "won": true
+  },
+  {
+   "day": "2026-11-14",
+   "home": "Rapid Ps\u00e1ry",
+   "away": "Ban\u00edk Sokolov",
+   "country": "Czech-Republic",
+   "league": "4. liga - Divizie B",
+   "bet": "1X",
+   "score": "0-2",
+   "won": false
+  },
+  {
+   "day": "2026-11-14",
+   "home": "Erbaaspor",
+   "away": "Elaz\u0131\u011fspor",
+   "country": "Turkey",
+   "league": "2. Lig",
+   "bet": "X2",
+   "score": "0-0",
+   "won": true
+  },
+  {
+   "day": "2026-11-14",
+   "home": "Kastamonuspor",
+   "away": "\u015eanl\u0131urfaspor",
+   "country": "Turkey",
+   "league": "2. Lig",
+   "bet": "X2",
+   "score": "1-6",
+   "won": true
+  },
+  {
+   "day": "2026-11-14",
+   "home": "K\u00fctahyaspor",
+   "away": "Ankarag\u00fcc\u00fc",
+   "country": "Turkey",
+   "league": "2. Lig",
+   "bet": "1X",
+   "score": "2-1",
+   "won": true
+  },
+  {
+   "day": "2026-11-14",
+   "home": "Lakta\u0161i",
+   "away": "Famos Vojkovi\u0107i",
+   "country": "Bosnia",
+   "league": "1st League - RS",
+   "bet": "1X",
+   "score": "6-1",
+   "won": true
+  },
+  {
+   "day": "2026-11-14",
+   "home": "Slavi\u010d\u00edn",
+   "away": "Sokol Lan\u017ehot",
+   "country": "Czech-Republic",
+   "league": "4. liga - Divizie E",
+   "bet": "1X",
+   "score": "4-1",
+   "won": true
+  },
+  {
+   "day": "2026-11-14",
+   "home": "Str\u00e1n\u00ed",
+   "away": "B\u0159eclav",
+   "country": "Czech-Republic",
+   "league": "4. liga - Divizie E",
+   "bet": "1X",
+   "score": "1-1",
+   "won": true
+  },
+  {
+   "day": "2026-11-14",
+   "home": "Videm",
+   "away": "Korotan Prevalje",
+   "country": "Slovenia",
+   "league": "3. SNL - East",
+   "bet": "1X",
+   "score": "4-1",
+   "won": true
+  },
+  {
+   "day": "2026-11-14",
+   "home": "Prostejov B",
+   "away": "Ba\u0165ov",
+   "country": "Czech-Republic",
+   "league": "4. liga - Divizie E",
+   "bet": "1X",
+   "score": "2-0",
+   "won": true
+  },
+  {
+   "day": "2026-11-14",
+   "home": "Borac Cacak",
+   "away": "Loznica",
+   "country": "Serbia",
+   "league": "Prva Liga",
+   "bet": "1X",
+   "score": "1-1",
+   "won": true
+  },
+  {
+   "day": "2026-11-14",
+   "home": "Salford City",
+   "away": "Northampton",
+   "country": "England",
+   "league": "League Two",
+   "bet": "1X",
+   "score": "1-1",
+   "won": true
+  },
+  {
+   "day": "2026-11-14",
+   "home": "Milton Keynes Dons",
+   "away": "Burton Albion",
+   "country": "England",
+   "league": "League One",
+   "bet": "1X",
+   "score": "6-2",
+   "won": true
+  },
+  {
+   "day": "2026-11-14",
+   "home": "Carlisle",
+   "away": "Boston United",
+   "country": "England",
+   "league": "National League",
+   "bet": "1X",
+   "score": "2-0",
+   "won": true
+  },
+  {
+   "day": "2026-11-14",
+   "home": "Yeovil Town",
+   "away": "Boreham Wood",
+   "country": "England",
+   "league": "National League",
+   "bet": "X2",
+   "score": "2-2",
+   "won": true
+  },
+  {
+   "day": "2026-11-14",
+   "home": "RCK",
+   "away": "Rahimo",
+   "country": "Burkina-Faso",
+   "league": "Ligue 1",
+   "bet": "X2",
+   "score": "1-3",
+   "won": true
+  },
+  {
+   "day": "2026-11-14",
+   "home": "Am\u00e9rica PE",
+   "away": "Vera Cruz",
+   "country": "Brazil",
+   "league": "Pernambucano - 1",
+   "bet": "1X",
+   "score": "2-1",
+   "won": true
+  },
+  {
+   "day": "2026-11-14",
+   "home": "VVV Venlo",
+   "away": "FC Eindhoven",
+   "country": "Netherlands",
+   "league": "Eerste Divisie",
+   "bet": "1",
+   "score": "1-2",
+   "won": false
+  },
+  {
+   "day": "2026-11-14",
+   "home": "Oviedo",
+   "away": "Girona",
+   "country": "Spain",
+   "league": "Segunda Divisi\u00f3n",
+   "bet": "1X",
+   "score": "1-2",
+   "won": false
+  },
+  {
+   "day": "2026-11-14",
+   "home": "Atletico Nacional",
+   "away": "Once Caldas",
+   "country": "Colombia",
+   "league": "Primera A",
+   "bet": "1X",
+   "score": "1-1",
+   "won": true
+  },
+  {
+   "day": "2026-11-15",
+   "home": "Club Nacional",
+   "away": "Albion FC",
+   "country": "Uruguay",
+   "league": "Primera Divisi\u00f3n",
+   "bet": "1X",
+   "score": "1-1",
+   "won": true
+  },
+  {
+   "day": "2026-11-15",
+   "home": "Consadole Sapporo",
+   "away": "Sagan Tosu",
+   "country": "Japan",
+   "league": "J2 League",
+   "bet": "1X",
+   "score": "1-2",
+   "won": false
+  },
+  {
+   "day": "2026-11-15",
+   "home": "Kataller Toyama",
+   "away": "Tokushima Vortis",
+   "country": "Japan",
+   "league": "J2 League",
+   "bet": "1X",
+   "score": "2-3",
+   "won": false
+  },
+  {
+   "day": "2026-11-15",
+   "home": "Pusk\u00e1s II",
+   "away": "Bicskei",
+   "country": "Hungary",
+   "league": "NB III - Northwest",
+   "bet": "1X",
+   "score": "1-1",
+   "won": true
+  },
+  {
+   "day": "2026-11-15",
+   "home": "Ibiza",
+   "away": "FC Cartagena",
+   "country": "Spain",
+   "league": "Primera Divisi\u00f3n RFEF - Group 2",
+   "bet": "1X",
+   "score": "0-1",
+   "won": false
+  },
+  {
+   "day": "2026-11-15",
+   "home": "DEAC",
+   "away": "Tiszafuredi VSE",
+   "country": "Hungary",
+   "league": "NB III - Northeast",
+   "bet": "1X",
+   "score": "4-2",
+   "won": true
+  },
+  {
+   "day": "2026-11-15",
+   "home": "Eger",
+   "away": "Cigand SE",
+   "country": "Hungary",
+   "league": "NB III - Northeast",
+   "bet": "X2",
+   "score": "1-2",
+   "won": true
+  },
+  {
+   "day": "2026-11-15",
+   "home": "Tatab\u00e1nya",
+   "away": "Gyori ETO II",
+   "country": "Hungary",
+   "league": "NB III - Northwest",
+   "bet": "1",
+   "score": "2-0",
+   "won": true
+  },
+  {
+   "day": "2026-11-15",
+   "home": "H\u00f3dmez\u0151v\u00e1s\u00e1rhely",
+   "away": "Gyulai Term\u00e1l",
+   "country": "Hungary",
+   "league": "NB III - Southeast",
+   "bet": "X2",
+   "score": "0-2",
+   "won": true
+  },
+  {
+   "day": "2026-11-15",
+   "home": "Szeksz\u00e1rd",
+   "away": "Iv\u00e1ncsa",
+   "country": "Hungary",
+   "league": "NB III - Southwest",
+   "bet": "X2",
+   "score": "0-5",
+   "won": true
+  },
+  {
+   "day": "2026-11-15",
+   "home": "Odranci",
+   "away": "Podvinci",
+   "country": "Slovenia",
+   "league": "3. SNL - East",
+   "bet": "1X",
+   "score": "0-3",
+   "won": false
+  },
+  {
+   "day": "2026-11-15",
+   "home": "Konkola Blades",
+   "away": "Nchanga Rangers",
+   "country": "Zambia",
+   "league": "Super League",
+   "bet": "1X",
+   "score": "2-3",
+   "won": false
+  },
+  {
+   "day": "2026-11-15",
+   "home": "Pescara",
+   "away": "Sambenedettese",
+   "country": "Italy",
+   "league": "Serie C - Girone B",
+   "bet": "1X",
+   "score": "3-1",
+   "won": true
+  },
+  {
+   "day": "2026-11-15",
+   "home": "Spezia",
+   "away": "Vado",
+   "country": "Italy",
+   "league": "Serie C - Girone B",
+   "bet": "1X",
+   "score": "3-0",
+   "won": true
+  },
+  {
+   "day": "2026-11-15",
+   "home": "TSC Backa Topola",
+   "away": "Jedinstvo Ub",
+   "country": "Serbia",
+   "league": "Prva Liga",
+   "bet": "1X",
+   "score": "2-0",
+   "won": true
+  },
+  {
+   "day": "2026-11-15",
+   "home": "Wydad F\u00e8s",
+   "away": "Chabab Atl. Khenifra",
+   "country": "Morocco",
+   "league": "Botola 2",
+   "bet": "1X",
+   "score": "2-1",
+   "won": true
+  },
+  {
+   "day": "2026-11-15",
+   "home": "Inter Moengotapoe",
+   "away": "Flora",
+   "country": "Suriname",
+   "league": "Eerste Divisie",
+   "bet": "1X",
+   "score": "5-1",
+   "won": true
+  },
+  {
+   "day": "2026-11-15",
+   "home": "Cobreloa",
+   "away": "D. Puerto Montt",
+   "country": "Chile",
+   "league": "Primera B",
+   "bet": "1X",
+   "score": "3-0",
+   "won": true
+  },
+  {
+   "day": "2026-11-16",
+   "home": "Potters Tigers",
+   "away": "Green City",
+   "country": "Antigua-And-Barbuda",
+   "league": "Premier Division",
+   "bet": "1X",
+   "score": "1-1",
+   "won": true
+  },
+  {
+   "day": "2026-11-16",
+   "home": "A\u015fgabat",
+   "away": "Arkadag",
+   "country": "Turkmenistan",
+   "league": "\u00ddokary Liga",
+   "bet": "X2",
+   "score": "0-2",
+   "won": true
+  },
+  {
+   "day": "2026-11-16",
+   "home": "Marko",
+   "away": "Zakynthos",
+   "country": "Greece",
+   "league": "Super League 2",
+   "bet": "1X",
+   "score": "6-0",
+   "won": true
+  },
+  {
+   "day": "2026-11-16",
+   "home": "Pars Jonoubi JAM",
+   "away": "Novin Ahvaz",
+   "country": "Iran",
+   "league": "Azadegan League",
+   "bet": "1X",
+   "score": "0-0",
+   "won": true
+  },
+  {
+   "day": "2026-11-16",
+   "home": "Colombe",
+   "away": "Dynamo de Douala",
+   "country": "Cameroon",
+   "league": "Elite One",
+   "bet": "1X",
+   "score": "1-1",
+   "won": true
+  },
+  {
+   "day": "2026-11-17",
+   "home": "Pardubice II",
+   "away": "Horn\u00ed \u0158edice",
+   "country": "Czech-Republic",
+   "league": "3. liga - CFL B",
+   "bet": "1X",
+   "score": "6-1",
+   "won": true
+  },
+  {
+   "day": "2026-11-18",
+   "home": "G\u00fczide Gebzespor",
+   "away": "Ankaraspor",
+   "country": "Turkey",
+   "league": "2. Lig",
+   "bet": "1X",
+   "score": "2-1",
+   "won": true
+  },
+  {
+   "day": "2026-11-18",
+   "home": "Cotonsport",
+   "away": "Stade Renard",
+   "country": "Cameroon",
+   "league": "Elite One",
+   "bet": "1X",
+   "score": "1-0",
+   "won": true
+  },
+  {
+   "day": "2026-11-19",
+   "home": "Inter Moengotapoe",
+   "away": "FC Inter Wanica",
+   "country": "Suriname",
+   "league": "Eerste Divisie",
+   "bet": "1",
+   "score": "8-0",
+   "won": true
+  },
+  {
+   "day": "2026-11-19",
+   "home": "Flamengo",
+   "away": "Atletico Paranaense",
+   "country": "Brazil",
+   "league": "Serie A",
+   "bet": "1X",
+   "score": "2-1",
+   "won": true
+  },
+  {
+   "day": "2026-11-20",
+   "home": "Vitoria",
+   "away": "RB Bragantino",
+   "country": "Brazil",
+   "league": "Serie A",
+   "bet": "X2",
+   "score": "2-1",
+   "won": false
+  },
+  {
+   "day": "2026-11-20",
+   "home": "Araks Ararat",
+   "away": "Sardarapat 2",
+   "country": "Armenia",
+   "league": "First League",
+   "bet": "1X",
+   "score": "0-2",
+   "won": false
+  },
+  {
+   "day": "2026-11-20",
+   "home": "Van",
+   "away": "Ararat-Armenia",
+   "country": "Armenia",
+   "league": "Premier League",
+   "bet": "X2",
+   "score": "1-2",
+   "won": true
+  },
+  {
+   "day": "2026-11-20",
+   "home": "East Bengal II",
+   "away": "SC Delhi",
+   "country": "India",
+   "league": "Indian Super League",
+   "bet": "1X",
+   "score": "2-2",
+   "won": true
+  },
+  {
+   "day": "2026-11-20",
+   "home": "Olmaliq",
+   "away": "Qizilqum",
+   "country": "Uzbekistan",
+   "league": "Super League",
+   "bet": "1",
+   "score": "0-1",
+   "won": false
+  },
+  {
+   "day": "2026-11-20",
+   "home": "Leotar",
+   "away": "Omarska",
+   "country": "Bosnia",
+   "league": "1st League - RS",
+   "bet": "1X",
+   "score": "4-0",
+   "won": true
+  },
+  {
+   "day": "2026-11-20",
+   "home": "PSMS Medan",
+   "away": "Sumsel United",
+   "country": "Indonesia",
+   "league": "Liga 2",
+   "bet": "1X",
+   "score": "1-1",
+   "won": true
+  },
+  {
+   "day": "2026-11-20",
+   "home": "El Mansura",
+   "away": "Dayrout",
+   "country": "Egypt",
+   "league": "Second League",
+   "bet": "1X",
+   "score": "3-0",
+   "won": true
+  },
+  {
+   "day": "2026-11-20",
+   "home": "URA",
+   "away": "Ntugasaze",
+   "country": "Uganda",
+   "league": "Premier League",
+   "bet": "1X",
+   "score": "6-0",
+   "won": true
+  },
+  {
+   "day": "2026-11-20",
+   "home": "SC Villa",
+   "away": "UPDF",
+   "country": "Uganda",
+   "league": "Premier League",
+   "bet": "1",
+   "score": "0-2",
+   "won": false
+  },
+  {
+   "day": "2026-11-20",
+   "home": "Dravinja",
+   "away": "Ilirija",
+   "country": "Slovenia",
+   "league": "2. SNL",
+   "bet": "1",
+   "score": "2-2",
+   "won": false
+  },
+  {
+   "day": "2026-11-20",
+   "home": "Nancy",
+   "away": "Dijon",
+   "country": "France",
+   "league": "Ligue 2",
+   "bet": "1X",
+   "score": "1-0",
+   "won": true
+  },
+  {
+   "day": "2026-11-20",
+   "home": "Mornar",
+   "away": "Sutjeska",
+   "country": "Montenegro",
+   "league": "First League",
+   "bet": "1X",
+   "score": "0-0",
+   "won": true
+  },
+  {
+   "day": "2026-11-20",
+   "home": "Bayern M\u00fcnchen",
+   "away": "1. FC K\u00f6ln",
+   "country": "Germany",
+   "league": "Bundesliga",
+   "bet": "1",
+   "score": "1-1",
+   "won": false
+  },
+  {
+   "day": "2026-11-20",
+   "home": "Trento",
+   "away": "Cittadella",
+   "country": "Italy",
+   "league": "Serie C - Girone A",
+   "bet": "1X",
+   "score": "1-0",
+   "won": true
+  },
+  {
+   "day": "2026-11-20",
+   "home": "Penybont",
+   "away": "Haverfordwest County AFC",
+   "country": "Wales",
+   "league": "Premier League",
+   "bet": "1X",
+   "score": "2-0",
+   "won": true
+  },
+  {
+   "day": "2026-11-20",
+   "home": "The New Saints",
+   "away": "Trefelin",
+   "country": "Wales",
+   "league": "Premier League",
+   "bet": "1X",
+   "score": "3-0",
+   "won": true
+  },
+  {
+   "day": "2026-11-20",
+   "home": "Europa Point",
+   "away": "Mons Calpe",
+   "country": "Gibraltar",
+   "league": "Premier Division",
+   "bet": "X2",
+   "score": "0-1",
+   "won": true
+  },
+  {
+   "day": "2026-11-21",
+   "home": "Suwon Bluewings",
+   "away": "Gyeongnam FC",
+   "country": "South-Korea",
+   "league": "K League 2",
+   "bet": "1",
+   "score": "3-1",
+   "won": true
+  },
+  {
+   "day": "2026-11-21",
+   "home": "Tokyo Verdy",
+   "away": "Nagoya Grampus",
+   "country": "Japan",
+   "league": "J1 League",
+   "bet": "1X",
+   "score": "0-0",
+   "won": true
+  },
+  {
+   "day": "2026-11-21",
+   "home": "Tegevajaro Miyazaki",
+   "away": "Iwaki",
+   "country": "Japan",
+   "league": "J2 League",
+   "bet": "1X",
+   "score": "1-1",
+   "won": true
+  },
+  {
+   "day": "2026-11-21",
+   "home": "Ezra",
+   "away": "Savannakhet",
+   "country": "Laos",
+   "league": "Lao League",
+   "bet": "1",
+   "score": "3-2",
+   "won": true
+  },
+  {
+   "day": "2026-11-21",
+   "home": "Pope\u0219ti-Leordeni",
+   "away": "Viitorul \u015eelimb\u0103r",
+   "country": "Romania",
+   "league": "Liga II",
+   "bet": "1X",
+   "score": "5-0",
+   "won": true
+  },
+  {
+   "day": "2026-11-21",
+   "home": "Yangon United",
+   "away": "I.S.P.E",
+   "country": "Myanmar",
+   "league": "National League",
+   "bet": "1",
+   "score": "4-3",
+   "won": true
+  },
+  {
+   "day": "2026-11-21",
+   "home": "Debrecen II",
+   "away": "Di\u00f3sgy\u0151r II",
+   "country": "Hungary",
+   "league": "NB III - Northeast",
+   "bet": "1",
+   "score": "1-2",
+   "won": false
+  },
+  {
+   "day": "2026-11-21",
+   "home": "Mardin 1969",
+   "away": "Band\u0131rmaspor",
+   "country": "Turkey",
+   "league": "1. Lig",
+   "bet": "1X",
+   "score": "1-2",
+   "won": false
+  },
+  {
+   "day": "2026-11-21",
+   "home": "Lida",
+   "away": "Ostrovets FC",
+   "country": "Belarus",
+   "league": "1. Division",
+   "bet": "1",
+   "score": "2-1",
+   "won": true
+  },
+  {
+   "day": "2026-11-21",
+   "home": "Niva",
+   "away": "Dinamo Minsk II",
+   "country": "Belarus",
+   "league": "1. Division",
+   "bet": "1",
+   "score": "1-0",
+   "won": true
+  },
+  {
+   "day": "2026-11-21",
+   "home": "Olympia Yerevan",
+   "away": "Ararat-Armenia II",
+   "country": "Armenia",
+   "league": "First League",
+   "bet": "1X",
+   "score": "5-0",
+   "won": true
+  },
+  {
+   "day": "2026-11-21",
+   "home": "Pelister",
+   "away": "Teteks",
+   "country": "Macedonia",
+   "league": "Second League",
+   "bet": "1X",
+   "score": "3-1",
+   "won": true
+  },
+  {
+   "day": "2026-11-21",
+   "home": "FK Rabotnicki",
+   "away": "Novaci",
+   "country": "Macedonia",
+   "league": "Second League",
+   "bet": "1X",
+   "score": "4-1",
+   "won": true
+  },
+  {
+   "day": "2026-11-21",
+   "home": "Tarpa",
+   "away": "DEAC",
+   "country": "Hungary",
+   "league": "NB III - Northeast",
+   "bet": "X2",
+   "score": "1-3",
+   "won": true
+  },
+  {
+   "day": "2026-11-21",
+   "home": "Cigand SE",
+   "away": "\u00d3zd Saj\u00f3v\u00f6lgye",
+   "country": "Hungary",
+   "league": "NB III - Northeast",
+   "bet": "1X",
+   "score": "1-0",
+   "won": true
+  },
+  {
+   "day": "2026-11-21",
+   "home": "Dorogi FC",
+   "away": "Kir\u00e1ly SZE",
+   "country": "Hungary",
+   "league": "NB III - Northwest",
+   "bet": "1X",
+   "score": "4-1",
+   "won": true
+  },
+  {
+   "day": "2026-11-21",
+   "home": "Kom\u00e1rom",
+   "away": "Pusk\u00e1s II",
+   "country": "Hungary",
+   "league": "NB III - Northwest",
+   "bet": "1X",
+   "score": "3-2",
+   "won": true
+  },
+  {
+   "day": "2026-11-21",
+   "home": "Iv\u00e1ncsa",
+   "away": "Buda\u00f6rs",
+   "country": "Hungary",
+   "league": "NB III - Southwest",
+   "bet": "1X",
+   "score": "1-3",
+   "won": false
+  },
+  {
+   "day": "2026-11-21",
+   "home": "Kaposvar",
+   "away": "Szeksz\u00e1rd",
+   "country": "Hungary",
+   "league": "NB III - Southwest",
+   "bet": "1",
+   "score": "6-0",
+   "won": true
+  },
+  {
+   "day": "2026-11-21",
+   "home": "Ferencv\u00e1ros II",
+   "away": "Paksi SE II",
+   "country": "Hungary",
+   "league": "NB III - Southwest",
+   "bet": "1",
+   "score": "1-1",
+   "won": false
+  },
+  {
+   "day": "2026-11-21",
+   "home": "Triangle United",
+   "away": "Scotland Mabvuku",
+   "country": "Zimbabwe",
+   "league": "Premier Soccer League",
+   "bet": "X2",
+   "score": "1-2",
+   "won": true
+  },
+  {
+   "day": "2026-11-21",
+   "home": "Ludogorets II",
+   "away": "Marek",
+   "country": "Bulgaria",
+   "league": "Second League",
+   "bet": "1X",
+   "score": "3-0",
+   "won": true
+  },
+  {
+   "day": "2026-11-21",
+   "home": "Tromso",
+   "away": "Viking",
+   "country": "Norway",
+   "league": "Eliteserien",
+   "bet": "X2",
+   "score": "3-2",
+   "won": false
+  },
+  {
+   "day": "2026-11-21",
+   "home": "FK Crvena Zvezda",
+   "away": "Radnik Surdulica",
+   "country": "Serbia",
+   "league": "Super Liga",
+   "bet": "1X",
+   "score": "2-0",
+   "won": true
+  },
+  {
+   "day": "2026-11-21",
+   "home": "Galatasaray",
+   "away": "Samsunspor",
+   "country": "Turkey",
+   "league": "S\u00fcper Lig",
+   "bet": "1X",
+   "score": "2-1",
+   "won": true
+  },
+  {
+   "day": "2026-11-21",
+   "home": "Bicskei",
+   "away": "Tatab\u00e1nya",
+   "country": "Hungary",
+   "league": "NB III - Northwest",
+   "bet": "X2",
+   "score": "3-3",
+   "won": true
+  },
+  {
+   "day": "2026-11-21",
+   "home": "Swieqi United",
+   "away": "Mgarr United",
+   "country": "Malta",
+   "league": "Challenge League",
+   "bet": "1X",
+   "score": "0-1",
+   "won": false
+  },
+  {
+   "day": "2026-11-21",
+   "home": "Sheriff Tiraspol",
+   "away": "Milsami Orhei",
+   "country": "Moldova",
+   "league": "Super Liga",
+   "bet": "1X",
+   "score": "1-0",
+   "won": true
+  },
+  {
+   "day": "2026-11-21",
+   "home": "Paradou AC",
+   "away": "IRB Nezla",
+   "country": "Algeria",
+   "league": "Ligue 2",
+   "bet": "1X",
+   "score": "2-1",
+   "won": true
+  },
+  {
+   "day": "2026-11-21",
+   "home": "Versailles",
+   "away": "Bourg-en-bresse 01",
+   "country": "France",
+   "league": "Ligue 3",
+   "bet": "1",
+   "score": "3-0",
+   "won": true
+  },
+  {
+   "day": "2026-11-21",
+   "home": "Lazio",
+   "away": "Lecce",
+   "country": "Italy",
+   "league": "Serie A",
+   "bet": "1X",
+   "score": "3-0",
+   "won": true
+  },
+  {
+   "day": "2026-11-21",
+   "home": "Modena",
+   "away": "Juve Stabia",
+   "country": "Italy",
+   "league": "Serie B",
+   "bet": "1X",
+   "score": "2-0",
+   "won": true
+  },
+  {
+   "day": "2026-11-21",
+   "home": "Polonia Warszawa",
+   "away": "Stal Mielec",
+   "country": "Poland",
+   "league": "I Liga",
+   "bet": "1",
+   "score": "1-1",
+   "won": false
+  },
+  {
+   "day": "2026-11-21",
+   "home": "Celtic",
+   "away": "ST Mirren",
+   "country": "Scotland",
+   "league": "Premiership",
+   "bet": "1",
+   "score": "4-1",
+   "won": true
+  },
+  {
+   "day": "2026-11-21",
+   "home": "Ross County",
+   "away": "Cove Rangers",
+   "country": "Scotland",
+   "league": "League One",
+   "bet": "1X",
+   "score": "5-1",
+   "won": true
+  },
+  {
+   "day": "2026-11-21",
+   "home": "Tottenham",
+   "away": "Ipswich",
+   "country": "England",
+   "league": "Premier League",
+   "bet": "1X",
+   "score": "2-0",
+   "won": true
+  },
+  {
+   "day": "2026-11-21",
+   "home": "Clyde",
+   "away": "Stirling Albion",
+   "country": "Scotland",
+   "league": "League Two",
+   "bet": "1X",
+   "score": "4-3",
+   "won": true
+  },
+  {
+   "day": "2026-11-21",
+   "home": "Linfield",
+   "away": "Limavady United",
+   "country": "Northern-Ireland",
+   "league": "Premiership",
+   "bet": "1X",
+   "score": "5-0",
+   "won": true
+  },
+  {
+   "day": "2026-11-21",
+   "home": "Wolves",
+   "away": "Charlton",
+   "country": "England",
+   "league": "Championship",
+   "bet": "1X",
+   "score": "2-1",
+   "won": true
+  },
+  {
+   "day": "2026-11-21",
+   "home": "H&W Welders",
+   "away": "Annagh United",
+   "country": "Northern-Ireland",
+   "league": "Championship",
+   "bet": "X2",
+   "score": "2-1",
+   "won": false
+  },
+  {
+   "day": "2026-11-21",
+   "home": "Omonia Nicosia",
+   "away": "Apoel Nicosia",
+   "country": "Cyprus",
+   "league": "1. Division",
+   "bet": "1X",
+   "score": "1-1",
+   "won": true
+  },
+  {
+   "day": "2026-11-21",
+   "home": "Collina d'Oro",
+   "away": "Baden",
+   "country": "Switzerland",
+   "league": "1. Liga Classic - Group 3",
+   "bet": "1X",
+   "score": "1-1",
+   "won": true
+  },
+  {
+   "day": "2026-11-21",
+   "home": "Zeljeznicar Sarajevo",
+   "away": "Borac Banja Luka",
+   "country": "Bosnia",
+   "league": "Premijer Liga",
+   "bet": "X2",
+   "score": "0-4",
+   "won": true
+  },
+  {
+   "day": "2026-11-21",
+   "home": "Dinamo Brest",
+   "away": "Naftan",
+   "country": "Belarus",
+   "league": "Premier League",
+   "bet": "1",
+   "score": "4-1",
+   "won": true
+  },
+  {
+   "day": "2026-11-21",
+   "home": "Zaragoza",
+   "away": "Rayo Majadahonda",
+   "country": "Spain",
+   "league": "Primera Divisi\u00f3n RFEF - Group 2",
+   "bet": "1X",
+   "score": "2-0",
+   "won": true
+  },
+  {
+   "day": "2026-11-21",
+   "home": "JKT Tanzania",
+   "away": "Simba",
+   "country": "Tanzania",
+   "league": "Ligi kuu Bara",
+   "bet": "X2",
+   "score": "1-2",
+   "won": true
+  },
+  {
+   "day": "2026-11-21",
+   "home": "Glacis United",
+   "away": "St Joseph S Fc",
+   "country": "Gibraltar",
+   "league": "Premier Division",
+   "bet": "X2",
+   "score": "1-1",
+   "won": true
+  },
+  {
+   "day": "2026-11-21",
+   "home": "CFFEB",
+   "away": "ASFB",
+   "country": "Burkina-Faso",
+   "league": "Ligue 1",
+   "bet": "1X",
+   "score": "2-0",
+   "won": true
+  },
+  {
+   "day": "2026-11-21",
+   "home": "Luzern II",
+   "away": "Z\u00fcrich II",
+   "country": "Switzerland",
+   "league": "1. Liga Promotion",
+   "bet": "1X",
+   "score": "1-1",
+   "won": true
+  },
+  {
+   "day": "2026-11-21",
+   "home": "Catanzaro",
+   "away": "Palermo",
+   "country": "Italy",
+   "league": "Serie B",
+   "bet": "X2",
+   "score": "3-1",
+   "won": false
+  },
+  {
+   "day": "2026-11-21",
+   "home": "Parma",
+   "away": "AS Roma",
+   "country": "Italy",
+   "league": "Serie A",
+   "bet": "X2",
+   "score": "1-5",
+   "won": true
+  },
+  {
+   "day": "2026-11-21",
+   "home": "BSC Young Boys",
+   "away": "FC Thun",
+   "country": "Switzerland",
+   "league": "Super League",
+   "bet": "1",
+   "score": "3-2",
+   "won": true
+  },
+  {
+   "day": "2026-11-21",
+   "home": "Aris",
+   "away": "Nea Salamis",
+   "country": "Cyprus",
+   "league": "1. Division",
+   "bet": "1X",
+   "score": "3-1",
+   "won": true
+  },
+  {
+   "day": "2026-11-21",
+   "home": "Gaborone United",
+   "away": "Sua Flamingoes",
+   "country": "Botswana",
+   "league": "Premier League",
+   "bet": "1X",
+   "score": "4-3",
+   "won": true
+  },
+  {
+   "day": "2026-11-21",
+   "home": "Al Ahli Tripoli",
+   "away": "Al Malaab El Libby",
+   "country": "Libya",
+   "league": "Premier League",
+   "bet": "1",
+   "score": "3-0",
+   "won": true
+  },
+  {
+   "day": "2026-11-21",
+   "home": "Castell\u00f3n",
+   "away": "Eldense",
+   "country": "Spain",
+   "league": "Segunda Divisi\u00f3n",
+   "bet": "1X",
+   "score": "2-0",
+   "won": true
+  },
+  {
+   "day": "2026-11-21",
+   "home": "Feyenoord",
+   "away": "Excelsior",
+   "country": "Netherlands",
+   "league": "Eredivisie",
+   "bet": "1X",
+   "score": "2-3",
+   "won": false
+  },
+  {
+   "day": "2026-11-21",
+   "home": "Larne",
+   "away": "Ballymena United",
+   "country": "Northern-Ireland",
+   "league": "Premiership",
+   "bet": "1X",
+   "score": "4-0",
+   "won": true
+  },
+  {
+   "day": "2026-11-21",
+   "home": "Prishtina Bern",
+   "away": "Lancy",
+   "country": "Switzerland",
+   "league": "1. Liga Classic - Group 1",
+   "bet": "1X",
+   "score": "2-1",
+   "won": true
+  },
+  {
+   "day": "2026-11-21",
+   "home": "Palmeiras",
+   "away": "Flamengo",
+   "country": "Brazil",
+   "league": "Serie A",
+   "bet": "X2",
+   "score": "1-1",
+   "won": true
+  },
+  {
+   "day": "2026-11-21",
+   "home": "KV Mechelen",
+   "away": "Club Brugge KV",
+   "country": "Belgium",
+   "league": "Jupiler Pro League",
+   "bet": "X2",
+   "score": "1-5",
+   "won": true
+  },
+  {
+   "day": "2026-11-21",
+   "home": "Cavalry FC",
+   "away": "Atl\u00e9tico Ottawa",
+   "country": "Canada",
+   "league": "Canadian Premier League",
+   "bet": "1X",
+   "score": "3-2",
+   "won": true
+  },
+  {
+   "day": "2026-11-21",
+   "home": "Inter Moengotapoe",
+   "away": "Voorwaarts",
+   "country": "Suriname",
+   "league": "Eerste Divisie",
+   "bet": "1",
+   "score": "1-1",
+   "won": false
+  },
+  {
+   "day": "2026-11-21",
+   "home": "Colchagua",
+   "away": "Conc\u00f3n National",
+   "country": "Chile",
+   "league": "Segunda Divisi\u00f3n",
+   "bet": "1X",
+   "score": "1-0",
+   "won": true
+  },
+  {
+   "day": "2026-11-21",
+   "home": "Racing de Veracruz",
+   "away": "Tritons Vallarta",
+   "country": "Mexico",
+   "league": "Primera Premier",
+   "bet": "1X",
+   "score": "3-1",
+   "won": true
+  },
+  {
+   "day": "2026-11-21",
+   "home": "Carabobo FC",
+   "away": "Portuguesa FC",
+   "country": "Venezuela",
+   "league": "Primera Divisi\u00f3n",
+   "bet": "1X",
+   "score": "1-1",
+   "won": true
+  },
+  {
+   "day": "2026-11-22",
+   "home": "Moca",
+   "away": "Salcedo",
+   "country": "Dominican-Republic",
+   "league": "Liga Mayor",
+   "bet": "X2",
+   "score": "0-0",
+   "won": true
+  },
+  {
+   "day": "2026-11-22",
+   "home": "Celaya",
+   "away": "Zacatepec 1948",
+   "country": "Mexico",
+   "league": "Primera Premier",
+   "bet": "1X",
+   "score": "5-0",
+   "won": true
+  },
+  {
+   "day": "2026-11-22",
+   "home": "Daegu FC",
+   "away": "Gimhae City",
+   "country": "South-Korea",
+   "league": "K League 2",
+   "bet": "1X",
+   "score": "3-0",
+   "won": true
+  },
+  {
+   "day": "2026-11-22",
+   "home": "Luangprabang FC",
+   "away": "Lao Army",
+   "country": "Laos",
+   "league": "Lao League",
+   "bet": "1X",
+   "score": "4-0",
+   "won": true
+  },
+  {
+   "day": "2026-11-22",
+   "home": "Dagon",
+   "away": "Yadanarbon",
+   "country": "Myanmar",
+   "league": "National League",
+   "bet": "1X",
+   "score": "3-1",
+   "won": true
+  },
+  {
+   "day": "2026-11-22",
+   "home": "Volna",
+   "away": "Gomel II",
+   "country": "Belarus",
+   "league": "1. Division",
+   "bet": "1X",
+   "score": "2-1",
+   "won": true
+  },
+  {
+   "day": "2026-11-22",
+   "home": "Mu\u015f Sport Kl\u00fcb\u00fc",
+   "away": "Hatayspor",
+   "country": "Turkey",
+   "league": "2. Lig",
+   "bet": "1X",
+   "score": "5-1",
+   "won": true
+  },
+  {
+   "day": "2026-11-22",
+   "home": "Tarxien Rainbows",
+   "away": "Gudja United",
+   "country": "Malta",
+   "league": "Challenge League",
+   "bet": "1X",
+   "score": "2-0",
+   "won": true
+  },
+  {
+   "day": "2026-11-22",
+   "home": "Svay Rieng",
+   "away": "Angkor Tiger",
+   "country": "Cambodia",
+   "league": "C-League",
+   "bet": "1X",
+   "score": "5-0",
+   "won": true
+  },
+  {
+   "day": "2026-11-22",
+   "home": "Kaohsiung",
+   "away": "AC Taipei",
+   "country": "Chinese-Taipei",
+   "league": "Taiwan Football Premier League",
+   "bet": "1X",
+   "score": "2-1",
+   "won": true
+  },
+  {
+   "day": "2026-11-22",
+   "home": "Hougang United",
+   "away": "Tampines Rovers",
+   "country": "Singapore",
+   "league": "Premier League",
+   "bet": "X2",
+   "score": "0-5",
+   "won": true
+  },
+  {
+   "day": "2026-11-22",
+   "home": "Home United",
+   "away": "Geylang International",
+   "country": "Singapore",
+   "league": "Premier League",
+   "bet": "1X",
+   "score": "5-0",
+   "won": true
+  },
+  {
+   "day": "2026-11-22",
+   "home": "Szentl\u0151rinc SE",
+   "away": "Kecskem\u00e9ti TE",
+   "country": "Hungary",
+   "league": "NB II",
+   "bet": "X2",
+   "score": "1-0",
+   "won": false
+  },
+  {
+   "day": "2026-11-22",
+   "home": "Sutjeska Fo\u010da",
+   "away": "Lakta\u0161i",
+   "country": "Bosnia",
+   "league": "1st League - RS",
+   "bet": "X2",
+   "score": "0-2",
+   "won": true
+  },
+  {
+   "day": "2026-11-22",
+   "home": "Kas\u0131mpa\u015fa",
+   "away": "Alanyaspor",
+   "country": "Turkey",
+   "league": "S\u00fcper Lig",
+   "bet": "1X",
+   "score": "2-1",
+   "won": true
+  },
+  {
+   "day": "2026-11-22",
+   "home": "Musongati",
+   "away": "Ngozi City",
+   "country": "Burundi",
+   "league": "Ligue A",
+   "bet": "1X",
+   "score": "2-1",
+   "won": true
+  },
+  {
+   "day": "2026-11-22",
+   "home": "BEA Mountain",
+   "away": "Heaven Eleven",
+   "country": "Liberia",
+   "league": "LFA First Division",
+   "bet": "1X",
+   "score": "5-0",
+   "won": true
+  },
+  {
+   "day": "2026-11-22",
+   "home": "Dinamo Minsk",
+   "away": "FC Minsk",
+   "country": "Belarus",
+   "league": "Premier League",
+   "bet": "1X",
+   "score": "4-0",
+   "won": true
+  },
+  {
+   "day": "2026-11-22",
+   "home": "Bologna",
+   "away": "Udinese",
+   "country": "Italy",
+   "league": "Serie A",
+   "bet": "1",
+   "score": "1-1",
+   "won": false
+  },
+  {
+   "day": "2026-11-22",
+   "home": "FC Schaffhausen",
+   "away": "Cham",
+   "country": "Switzerland",
+   "league": "1. Liga Promotion",
+   "bet": "1X",
+   "score": "2-6",
+   "won": false
+  },
+  {
+   "day": "2026-11-22",
+   "home": "Azzurri Bienne",
+   "away": "Sion II",
+   "country": "Switzerland",
+   "league": "1. Liga Classic - Group 1",
+   "bet": "1X",
+   "score": "0-3",
+   "won": false
+  },
+  {
+   "day": "2026-11-22",
+   "home": "FC Differdange 03",
+   "away": "Progres Niederkorn",
+   "country": "Luxembourg",
+   "league": "National Division",
+   "bet": "1X",
+   "score": "4-4",
+   "won": true
+  },
+  {
+   "day": "2026-11-22",
+   "home": "Swift Hesperange",
+   "away": "Atert Bissen",
+   "country": "Luxembourg",
+   "league": "National Division",
+   "bet": "X2",
+   "score": "0-4",
+   "won": true
+  },
+  {
+   "day": "2026-11-22",
+   "home": "Panathinaikos",
+   "away": "OFI",
+   "country": "Greece",
+   "league": "Super League 1",
+   "bet": "1X",
+   "score": "2-0",
+   "won": true
+  },
+  {
+   "day": "2026-11-22",
+   "home": "Magpies",
+   "away": "Lincoln Red Imps FC",
+   "country": "Gibraltar",
+   "league": "Premier Division",
+   "bet": "X2",
+   "score": "1-3",
+   "won": true
+  },
+  {
+   "day": "2026-11-22",
+   "home": "SOL",
+   "away": "Zoman",
+   "country": "Ivory-Coast",
+   "league": "Ligue 1",
+   "bet": "1X",
+   "score": "1-1",
+   "won": true
+  },
+  {
+   "day": "2026-11-22",
+   "home": "Austria Vienna",
+   "away": "Red Bull Salzburg",
+   "country": "Austria",
+   "league": "Bundesliga",
+   "bet": "X2",
+   "score": "1-0",
+   "won": false
+  },
+  {
+   "day": "2026-11-22",
+   "home": "Trabzonspor",
+   "away": "Ey\u00fcpspor",
+   "country": "Turkey",
+   "league": "S\u00fcper Lig",
+   "bet": "1",
+   "score": "1-0",
+   "won": true
+  },
+  {
+   "day": "2026-11-22",
+   "home": "Liria Prizren",
+   "away": "Rilindja 1974",
+   "country": "Kosovo",
+   "league": "Liga E Pare",
+   "bet": "1",
+   "score": "3-0",
+   "won": true
+  },
+  {
+   "day": "2026-11-22",
+   "home": "Fassell",
+   "away": "Golden Dream",
+   "country": "Liberia",
+   "league": "LFA First Division",
+   "bet": "1X",
+   "score": "2-0",
+   "won": true
+  },
+  {
+   "day": "2026-11-22",
+   "home": "Al-Nasr",
+   "away": "Al Hilal",
+   "country": "Libya",
+   "league": "Premier League",
+   "bet": "1X",
+   "score": "0-1",
+   "won": false
+  },
+  {
+   "day": "2026-11-22",
+   "home": "Sporting Cristal",
+   "away": "Cienciano",
+   "country": "Peru",
+   "league": "Primera Divisi\u00f3n",
+   "bet": "1X",
+   "score": "4-1",
+   "won": true
+  },
+  {
+   "day": "2026-11-22",
+   "home": "Nashville SC",
+   "away": "FC Cincinnati",
+   "country": "USA",
+   "league": "Major League Soccer",
+   "bet": "1X",
+   "score": "0-1",
+   "won": false
+  },
+  {
+   "day": "2026-11-23",
+   "home": "San Antonio Bulo Bulo",
+   "away": "Always Ready",
+   "country": "Bolivia",
+   "league": "Primera Divisi\u00f3n",
+   "bet": "X2",
+   "score": "0-3",
+   "won": true
+  },
+  {
+   "day": "2026-11-23",
+   "home": "Vancouver Whitecaps",
+   "away": "Real Salt Lake",
+   "country": "USA",
+   "league": "Major League Soccer",
+   "bet": "1X",
+   "score": "2-0",
+   "won": true
+  },
+  {
+   "day": "2026-11-23",
+   "home": "Bistrica",
+   "away": "Krka",
+   "country": "Slovenia",
+   "league": "2. SNL",
+   "bet": "1",
+   "score": "2-2",
+   "won": false
+  },
+  {
+   "day": "2026-11-23",
+   "home": "PAOK II",
+   "away": "Niki Volos",
+   "country": "Greece",
+   "league": "Super League 2",
+   "bet": "X2",
+   "score": "0-1",
+   "won": true
+  },
+  {
+   "day": "2026-11-23",
+   "home": "Al-Akhdar",
+   "away": "Al Afriqi Derna SC",
+   "country": "Libya",
+   "league": "Premier League",
+   "bet": "1",
+   "score": "1-0",
+   "won": true
+  },
+  {
+   "day": "2026-11-23",
+   "home": "Koper",
+   "away": "Aluminij",
+   "country": "Slovenia",
+   "league": "1. SNL",
+   "bet": "1X",
+   "score": "2-0",
+   "won": true
+  },
+  {
+   "day": "2026-11-23",
+   "home": "Ba\u015fak\u015fehir",
+   "away": "\u00c7orum FK",
+   "country": "Turkey",
+   "league": "S\u00fcper Lig",
+   "bet": "1X",
+   "score": "4-2",
+   "won": true
+  },
+  {
+   "day": "2026-11-23",
+   "home": "Hammarby FF",
+   "away": "IFK Goteborg",
+   "country": "Sweden",
+   "league": "Allsvenskan",
+   "bet": "1X",
+   "score": "3-1",
+   "won": true
+  },
+  {
+   "day": "2026-11-23",
+   "home": "Jong Ajax",
+   "away": "Jong AZ",
+   "country": "Netherlands",
+   "league": "Eerste Divisie",
+   "bet": "1X",
+   "score": "3-0",
+   "won": true
+  },
+  {
+   "day": "2026-11-24",
+   "home": "Grenades",
+   "away": "Potters Tigers",
+   "country": "Antigua-And-Barbuda",
+   "league": "Premier Division",
+   "bet": "1X",
+   "score": "3-0",
+   "won": true
+  },
+  {
+   "day": "2026-11-24",
+   "home": "Orlando Pirates",
+   "away": "Golden Arrows",
+   "country": "South-Africa",
+   "league": "Premier Soccer League",
+   "bet": "1",
+   "score": "2-0",
+   "won": true
+  },
+  {
+   "day": "2026-11-24",
+   "home": "Carlisle",
+   "away": "Tamworth",
+   "country": "England",
+   "league": "National League",
+   "bet": "1X",
+   "score": "1-2",
+   "won": false
+  },
+  {
+   "day": "2026-11-24",
+   "home": "Rangers",
+   "away": "Aberdeen",
+   "country": "Scotland",
+   "league": "Premiership",
+   "bet": "1",
+   "score": "3-2",
+   "won": true
+  },
+  {
+   "day": "2026-11-25",
+   "home": "Yangon United",
+   "away": "Myawady",
+   "country": "Myanmar",
+   "league": "National League",
+   "bet": "1X",
+   "score": "3-0",
+   "won": true
+  },
+  {
+   "day": "2026-11-25",
+   "home": "Shan United",
+   "away": "Thitsar Arman",
+   "country": "Myanmar",
+   "league": "National League",
+   "bet": "1",
+   "score": "4-3",
+   "won": true
+  },
+  {
+   "day": "2026-11-25",
+   "home": "Sagamihara",
+   "away": "Ehime FC",
+   "country": "Japan",
+   "league": "J3 League",
+   "bet": "1X",
+   "score": "3-0",
+   "won": true
+  },
+  {
+   "day": "2026-11-25",
+   "home": "Istiqlol",
+   "away": "Istaravshan",
+   "country": "Tajikistan",
+   "league": "Vysshaya Liga",
+   "bet": "1X",
+   "score": "8-0",
+   "won": true
+  },
+  {
+   "day": "2026-11-25",
+   "home": "Parceiro Nagano",
+   "away": "Kagoshima United",
+   "country": "Japan",
+   "league": "J3 League",
+   "bet": "1X",
+   "score": "0-2",
+   "won": false
+  },
+  {
+   "day": "2026-11-25",
+   "home": "JEF United Chiba",
+   "away": "Nagoya Grampus",
+   "country": "Japan",
+   "league": "J1 League",
+   "bet": "1X",
+   "score": "1-2",
+   "won": false
+  },
+  {
+   "day": "2026-11-25",
+   "home": "FC Tokyo",
+   "away": "Sanfrecce Hiroshima",
+   "country": "Japan",
+   "league": "J1 League",
+   "bet": "1X",
+   "score": "2-2",
+   "won": true
+  },
+  {
+   "day": "2026-11-25",
+   "home": "Consadole Sapporo",
+   "away": "Fujieda MYFC",
+   "country": "Japan",
+   "league": "J2 League",
+   "bet": "1",
+   "score": "2-1",
+   "won": true
+  },
+  {
+   "day": "2026-11-25",
+   "home": "Radnicki NIS",
+   "away": "\u017delezni\u010dar Pan\u010devo",
+   "country": "Serbia",
+   "league": "Super Liga",
+   "bet": "X2",
+   "score": "0-2",
+   "won": true
+  },
+  {
+   "day": "2026-11-25",
+   "home": "Istogu",
+   "away": "Suhareka",
+   "country": "Kosovo",
+   "league": "Liga E Pare",
+   "bet": "1X",
+   "score": "4-2",
+   "won": true
+  },
+  {
+   "day": "2026-11-25",
+   "home": "Nchanga Rangers",
+   "away": "Kansanshi Dynamos",
+   "country": "Zambia",
+   "league": "Super League",
+   "bet": "1X",
+   "score": "0-0",
+   "won": true
+  },
+  {
+   "day": "2026-11-25",
+   "home": "NEC",
+   "away": "Kataka",
+   "country": "Uganda",
+   "league": "Premier League",
+   "bet": "1X",
+   "score": "2-1",
+   "won": true
+  },
+  {
+   "day": "2026-11-25",
+   "home": "Al-Merreikh II",
+   "away": "Kober",
+   "country": "Sudan",
+   "league": "Sudani Premier League",
+   "bet": "1X",
+   "score": "4-0",
+   "won": true
+  },
+  {
+   "day": "2026-11-25",
+   "home": "Al Kharaitiyat",
+   "away": "Al-Gharafa B",
+   "country": "Qatar",
+   "league": "Second Division",
+   "bet": "1X",
+   "score": "0-0",
+   "won": true
+  },
+  {
+   "day": "2026-11-25",
+   "home": "Al Ula",
+   "away": "Al-Adalah",
+   "country": "Saudi-Arabia",
+   "league": "Division 1",
+   "bet": "1X",
+   "score": "3-0",
+   "won": true
+  },
+  {
+   "day": "2026-11-25",
+   "home": "Petro de Luanda",
+   "away": "Sporting de Cabinda",
+   "country": "Angola",
+   "league": "Girabola",
+   "bet": "1X",
+   "score": "3-1",
+   "won": true
+  },
+  {
+   "day": "2026-11-25",
+   "home": "APR",
+   "away": "Musanze",
+   "country": "Rwanda",
+   "league": "National Soccer League",
+   "bet": "1X",
+   "score": "3-0",
+   "won": true
+  },
+  {
+   "day": "2026-11-25",
+   "home": "Matebele",
+   "away": "Gaborone United",
+   "country": "Botswana",
+   "league": "Premier League",
+   "bet": "X2",
+   "score": "2-1",
+   "won": false
+  },
+  {
+   "day": "2026-11-25",
+   "home": "Boreham Wood",
+   "away": "Aldershot Town",
+   "country": "England",
+   "league": "National League",
+   "bet": "1",
+   "score": "4-1",
+   "won": true
+  },
+  {
+   "day": "2026-11-26",
+   "home": "Karvan",
+   "away": "Ming\u0259\u00e7evir",
+   "country": "Azerbaijan",
+   "league": "Birinci Dasta",
+   "bet": "1X",
+   "score": "2-1",
+   "won": true
+  },
+  {
+   "day": "2026-11-26",
+   "home": "Olympia Yerevan",
+   "away": "Mika",
+   "country": "Armenia",
+   "league": "First League",
+   "bet": "1X",
+   "score": "2-0",
+   "won": true
+  },
+  {
+   "day": "2026-11-26",
+   "home": "Rilindja 1974",
+   "away": "Dinamo Ferizaj",
+   "country": "Kosovo",
+   "league": "Liga E Pare",
+   "bet": "X2",
+   "score": "1-1",
+   "won": true
+  },
+  {
+   "day": "2026-11-26",
+   "home": "KCCA",
+   "away": "BUL",
+   "country": "Uganda",
+   "league": "Premier League",
+   "bet": "1X",
+   "score": "0-0",
+   "won": true
+  },
+  {
+   "day": "2026-11-26",
+   "home": "Ural",
+   "away": "Arsenal Tula",
+   "country": "Russia",
+   "league": "First League",
+   "bet": "1",
+   "score": "1-1",
+   "won": false
+  }
+ ],
+ "red_void": 381,
+ "days": 14,
+ "end": "2026-11-27",
+ "notes": [],
+ "calls": 627
+}
