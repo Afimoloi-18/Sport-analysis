@@ -106,6 +106,17 @@ def main():
                 except BudgetExceeded:
                     break
 
+            # drop picks the bookmakers price too short to be worth a leg
+            min_odds = cfg.get("min_odds", 0)
+            low = [p for p in picks if p.get("odds") and p["odds"] < min_odds]
+            for p in low:
+                p["eval"]["reason"] = f'Odds too low (@{p["odds"]:.2f}, minimum {min_odds:.2f})'
+                p["eval"]["verdict_was"] = p["eval"]["verdict"]
+                cuts.append(p)
+            picks = [p for p in picks if p not in low]
+            if low:
+                log(f"{len(low)} picks dropped for odds under {min_odds}")
+
             if skipped:
                 notes.append(f"{skipped} matches not checked: daily data allowance reached. Biggest leagues were checked first.")
         except PlanError as ex:
