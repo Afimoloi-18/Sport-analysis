@@ -7,7 +7,7 @@ from .data import norm, red_cards
 
 LOG = os.path.join("data", "results_log.csv")
 FIELDS = ["date", "fixture_id", "kickoff", "country", "league", "home", "away",
-          "backed", "verdict", "rules", "score", "result"]
+          "backed", "verdict", "rules", "odds", "score", "result"]
 VOID = {"PST", "CANC", "ABD", "AWD", "WO"}
 
 
@@ -21,7 +21,7 @@ def read():
 def write(rows):
     os.makedirs("data", exist_ok=True)
     with open(LOG, "w", newline="") as fh:
-        w = csv.DictWriter(fh, fieldnames=FIELDS)
+        w = csv.DictWriter(fh, fieldnames=FIELDS, restval="", extrasaction="ignore")
         w.writeheader()
         w.writerows(rows)
 
@@ -37,7 +37,7 @@ def add_picks(rows, picks, day):
         rows.append({
             "date": day, "fixture_id": f["id"], "kickoff": f["date"], "country": f["country"],
             "league": f["league"], "home": f["home"], "away": f["away"], "backed": ev["backed"],
-            "verdict": ev["verdict"], "rules": ev[ev["backed"]]["score"], "score": "", "result": "pending",
+            "verdict": ev["verdict"], "rules": ev[ev["backed"]]["score"], "odds": p.get("odds") or "", "score": "", "result": "pending",
         })
     return rows
 
@@ -91,6 +91,16 @@ def stats(rows):
         "1": rate([r for r in rows if r["verdict"] == "1"]),
         "1X": rate([r for r in rows if r["verdict"] == "1X"]),
         "X2": rate([r for r in rows if r["verdict"] == "X2"]),
+        "roi": roi(rows),
         "pending": sum(1 for r in rows if r["result"] == "pending"),
         "red_void": sum(1 for r in rows if r["result"] == "void (red card)"),
     }
+
+
+def roi(rows):
+    """Return per 1 unit staked on each settled single that has odds, in %."""
+    s = [r for r in rows if r["result"] in ("won", "lost") and r.get("odds")]
+    if not s:
+        return None
+    profit = sum((float(r["odds"]) - 1) if r["result"] == "won" else -1 for r in s)
+    return 100 * profit / len(s)

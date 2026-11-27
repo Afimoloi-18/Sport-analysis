@@ -4,14 +4,14 @@ A game is a dict: id, date (ISO string), season, league_id, home_id, away_id, ho
 Only finished men's professional LEAGUE games may be passed in.
 
 Rulebook (agreed):
-  Gate   backed team scored >= 8 goals in its last 5 league games, else cut.
+  Gate   backed team scored >= 10 goals in its last 5 league games, else cut.
   Rule 1 common opponents from each team's last 10 league games. Result vs each shared
          opponent (W > D > L, margins ignored; most recent meeting if played twice).
          Pass if better against >= 1 and worse against none.
   Rule 2 H2H: last 3 league meetings within current + previous season; >= 2 wins.
          Fewer than 2 meetings in the window = fail.
   Rule 3 form: last 5 league games, >= 3 wins and <= 1 loss.
-  Verdict  Home 3/3 = 1 | Home 2/3 = 1X | Away 3/3 = X2 | Away 2/3 = cut | < 2/3 = cut.
+  Verdict  Home 3/3 with 12+ goals = 1, other home 3/3 = 1X | Home 2/3 = 1X | Away 3/3 = X2 | Away 2/3 = cut | < 2/3 = cut.
   Ranking  home 1, then home 1X, then away X2.
 """
 
@@ -137,7 +137,8 @@ def evaluate(fixture, games, cfg):
     if home_ok and away_live:
         reason = "Conflict: both teams pass 2+ rules"
     elif home_ok:
-        backed, verdict = "home", ("1" if H["score"] == 3 else "1X")
+        straight = H["score"] == 3 and H["gate"]["goals"] >= cfg.get("straight_win_min_goals", 0)
+        backed, verdict = "home", ("1" if straight else "1X")
     elif A["gate"]["pass"] and A["score"] == 3:
         backed, verdict = "away", "X2"
     else:
@@ -172,4 +173,4 @@ def rank_key(item):
     order = {"1": 0, "1X": 1, "X2": 2}
     ev = item["eval"]
     backed = ev[ev["backed"]]
-    return (order[ev["verdict"]], -backed["gate"]["goals"], item["fixture"]["date"])
+    return (order[ev["verdict"]], -backed["score"], -backed["gate"]["goals"], item["fixture"]["date"])

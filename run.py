@@ -6,7 +6,7 @@ from datetime import date, datetime, timedelta
 from html import escape
 from zoneinfo import ZoneInfo
 
-from engine import ledger, notify, report, rules
+from engine import ledger, notify, odds, report, rules
 from engine.api import Api, ApiError, BudgetExceeded, PlanError
 from engine.data import Filter, fetch_league_seasons, fetch_team_previous, finished, load_league_types, norm
 
@@ -100,6 +100,14 @@ def main():
                     day_picks = day_picks[: max(cfg.get("min_picks", 12) - len(picks), 0)]
                 picks += day_picks
 
+            for p in picks:  # odds so we can measure return, not just hit rate
+                if api.left() < 1:
+                    break
+                try:
+                    p["odds"], p["bookmaker"] = odds.pick_odds(api, p["fixture"]["id"], p["eval"]["verdict"])
+                except BudgetExceeded:
+                    break
+
             if skipped:
                 notes.append(f"{skipped} matches not checked: daily data allowance reached. Biggest leagues were checked first.")
         except PlanError as ex:
@@ -153,12 +161,14 @@ def telegram_text(day, tz, picks, st, notes, checked):
                 h = f"<b>{h}</b>"
             else:
                 a = f"<b>{a}</b>"
-            out.append(f'{i}. <b>{ev["verdict"]}</b> · {h} v {a} · {ko} · {escape(f["country"])} ({ev[ev["backed"]]["score"]}/3)')
+            od = f' @{p["odds"]:.2f}' if p.get("odds") else ""
+            out.append(f'{i}. <b>{ev["verdict"]}</b>{od} · {h} v {a} · {ko} · {escape(f["country"])} ({ev[ev["backed"]]["score"]}/3)')
     else:
         out.append(f"No match passed the rules today ({checked} checked).")
     a = st["all"]
     if a["settled"]:
-        out.append(f'\nTrack record: {a["won"]}/{a["settled"]} ({a["pct"]}%) · home {st["home"]["won"]}/{st["home"]["settled"]} · away {st["away"]["won"]}/{st["away"]["settled"]}')
+        roi = f' · return {st["roi"]:+.0f}%' if st.get("roi") is not None else ""
+        out.append(f'\nTrack record: {a["won"]}/{a["settled"]} ({a["pct"]}%){roi} · home {st["home"]["won"]}/{st["home"]["settled"]} · away {st["away"]["won"]}/{st["away"]["settled"]}')
     for n in notes:
         out.append(f"⚠️ {escape(n)}")
     url = page_url()

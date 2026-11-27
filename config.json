@@ -4,14 +4,15 @@
   "min_seconds_between_calls": 6.5,
   "rules": {
     "gate_last_n": 5,
-    "gate_min_goals": 8,
+    "gate_min_goals": 10,
     "common_last_n": 10,
     "h2h_last_n": 3,
     "h2h_min_wins": 2,
     "h2h_min_meetings": 2,
     "form_last_n": 5,
     "form_min_wins": 3,
-    "form_max_losses": 1
+    "form_max_losses": 1,
+    "straight_win_min_goals": 12
   },
   "exclude_league_name_patterns": [
     "wom[ae]n",
@@ -80,7 +81,12 @@
     "liga premier",
     "segunda divisi[oó]n rfef",
     "^campionato$",
-    "1a divisi"
+    "1a divisi",
+    "\\bnb iii\\b",
+    "\\b[4-9]\\. liga\\b",
+    "3\\. liga - (cfl|msfl)",
+    "\\b[3-9]\\. snl\\b",
+    "1\\. liga (classic|promotion)"
   ],
   "exclude_team_name_patterns": [
     "\\sW$",

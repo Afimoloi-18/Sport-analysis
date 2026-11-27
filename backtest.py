@@ -77,7 +77,8 @@ def main():
     a = out["picks"]["all"]
     notify.send(
         f"<b>Backtest, last {days_back} days</b>\n{out['n']} matches checked, {a['n']} would have been picks, "
-        f"{a['pct']}% won.\nFull breakdown: {page_url()}backtest.html", print)
+        f"{a['pct']}% won. Picks a day: avg {out['per_day_summary']['avg']}, "
+        f"min {out['per_day_summary']['min']}, {out['per_day_summary']['days_under_12']} days under 12.\nFull breakdown: {page_url()}backtest.html", print)
 
 
 def page_url():
@@ -137,6 +138,14 @@ def analyse(M):
         o["gate"][g] = {"home 2+/3 as 1X": rate([hit("1X", m["r"]) for m in sel]),
                         "home 3/3 as 1": rate([hit("1", m["r"]) for m in sel if m["ev"]["home"]["score"] == 3])}
 
+    # picks per day: do we have enough for 4 tickets x 3 legs?
+    days = sorted({m["day"] for m in M})
+    per = {d: sum(1 for m in picks if m["day"] == d) for d in days}
+    o["per_day"] = per
+    o["per_day_summary"] = {"min": min(per.values()) if per else 0, "max": max(per.values()) if per else 0,
+                            "avg": round(sum(per.values()) / len(per), 1) if per else 0,
+                            "days_under_12": sum(1 for v in per.values() if v < 12)}
+
     # which leagues/countries produced picks and how they did
     by = defaultdict(list)
     for m in picks:
@@ -186,6 +195,7 @@ table{{width:100%;border-collapse:collapse;font-size:14px}}td,th{{text-align:lef
 </style></head><body><main>
 <h1>Model Backtest</h1><p class="lead">Last {o['days']} days to {e(o['end'])} · {o['n']} finished men's pro league matches · each judged only on games before kick-off · {o.get('red_void',0)} red-card matches voided</p>{notes}
 <h2>How the picks did</h2><div class="box"><table>{picks}</table></div>
+<h2>Picks per day</h2><div class="box"><table><tr><th>Day</th><th>Picks</th></tr>{"".join(f"<tr><td>{e(d)}</td><td>{n}</td></tr>" for d, n in o["per_day"].items())}<tr><td><b>Average</b></td><td><b>{o["per_day_summary"]["avg"]}</b> · {o["per_day_summary"]["days_under_12"]} days under 12</td></tr></table></div>
 <h2>Blind-bet baseline (every match)</h2><div class="box"><table>{rows(o['base'])}</table></div>
 <h2>What each rule is worth (sides that passed the goals gate)</h2><div class="box"><table><tr><th>Rule</th><th>Side won</th><th>Side didn't lose</th></tr>{sides}</table></div>
 <h2>Matches we cut: would they have landed?</h2><div class="box"><table><tr><th>Group</th><th>Bet</th><th>Hit rate</th></tr>{cuts}</table></div>

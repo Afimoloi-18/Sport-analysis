@@ -47,7 +47,7 @@ def _pick_card(i, item, tz):
 <article class="card">
   <div class="top">
     <span class="rank">{i}</span>
-    <span class="badge v{e(ev['verdict'])}">{e(ev['verdict'])}</span>
+    <span class="badge v{e(ev['verdict'])}">{e(ev['verdict'])}</span>{f'<span class="odds">@{item["odds"]:.2f}</span>' if item.get("odds") else ""}
     <span class="meta">{_local(f['date'], tz)} · {e(f['country'])} · {e(f['league'])}</span>
   </div>
   <h3><span class="{home_cls}">{e(f['home'])}</span> <span class="vs">v</span> <span class="{away_cls}">{e(f['away'])}</span></h3>
@@ -111,7 +111,7 @@ h2{{font-size:17px;margin:28px 0 10px}}
 .top{{display:flex;align-items:center;gap:8px;flex-wrap:wrap}}.rank{{font-weight:700;color:var(--muted)}}
 .badge{{font-weight:800;border-radius:6px;padding:1px 8px;color:#fff;font-size:14px}}.v1{{background:var(--v1)}}.v1X{{background:var(--v1x)}}.vX2{{background:var(--vx2)}}
 @media (prefers-color-scheme:dark){{.badge{{color:#111}}}}
-.meta{{color:var(--muted);font-size:13px}}
+.meta{{color:var(--muted);font-size:13px}}.odds{{font-weight:700;font-size:14px}}
 .card h3{{margin:8px 0 2px;font-size:18px}}.vs{{color:var(--muted);font-weight:400}}.backed{{text-decoration:underline;text-decoration-thickness:2px;text-underline-offset:3px}}
 .call{{margin:0 0 8px;color:var(--muted);font-size:14px}}
 .chips{{display:flex;flex-wrap:wrap;gap:6px}}.chip{{font-size:12.5px;border-radius:6px;padding:2px 8px}}.chip.ok{{background:var(--okbg);color:var(--ok)}}.chip.no{{background:var(--nobg);color:var(--no)}}.cd{{opacity:.85}}
@@ -137,9 +137,10 @@ footer{{margin-top:32px;color:var(--muted);font-size:12px}}
 {cards}
 <h2>Track record</h2>
 <div class="stats">{_stat("All picks", stats["all"])}{_stat("Home picks", stats["home"])}{_stat("Away picks", stats["away"])}{_stat("Straight 1", stats["1"])}{_stat("1X", stats["1X"])}{_stat("X2", stats["X2"])}</div>
+<p class="muted" style="font-size:13px;margin:8px 0 0">Return on 1 unit per pick (singles, settled picks with odds): <b>{"–" if stats.get("roi") is None else f'{stats["roi"]:+.0f}%'}</b> · red-card matches void: {stats.get("red_void", 0)}</p>
 <h2>Recent picks</h2>
 <div class="tablewrap"><table><thead><tr><th>Date</th><th>Match</th><th>Bet</th><th>Score</th><th>Result</th></tr></thead><tbody>{recent_rows}</tbody></table></div>
 <details><summary>Matches cut today ({len(cuts)})</summary>
 <div class="tablewrap"><table><thead><tr><th>KO</th><th>Match</th><th>Why cut</th></tr></thead><tbody>{cut_rows}</tbody></table></div></details>
-<footer>Rules: men's pro league games only · gate 8+ goals in last 5 · common opponents · H2H 2 of last 3 (this + last season) · form 3W and at most 1L in last 5 · home 3/3 = 1, home 2/3 = 1X, away 3/3 = X2. Data: API-Football.</footer>
+<footer>Rules: men's pro league games only · gate 10+ goals in last 5 · common opponents · H2H 2 of last 3 (this + last season) · form 3W and at most 1L in last 5 · home 3/3 with 12+ goals = 1, other home 3/3 or 2/3 = 1X, away 3/3 = X2. Data: API-Football.</footer>
 </main></body></html>"""

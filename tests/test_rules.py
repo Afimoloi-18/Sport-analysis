@@ -34,6 +34,11 @@ class Rules(unittest.TestCase):
         self.assertEqual(ev["home"]["gate"]["goals"], 12)
         self.assertEqual(ev["home"]["form"]["string"], "WWDWW")
 
+    def test_home_three_of_three_below_straight_bar_is_1x(self):
+        cfg = dict(CFG, straight_win_min_goals=13)  # team 1 has 12
+        ev = rules.evaluate(FIX, strong_home(), cfg)
+        self.assertEqual((ev["verdict"], ev["home"]["score"]), ("1X", 3))
+
     def test_gate_fail_cuts(self):
         games = [x for x in strong_home()]
         for x in games:  # team 1 home goals -> 1 each, so 1+2+1+1+2 = 7 in last 5
