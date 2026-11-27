@@ -96,8 +96,6 @@ def main():
                     item = {"fixture": f, "eval": ev, "day_index": i}
                     (day_picks if ev["verdict"] else cuts).append(item)
                 day_picks.sort(key=rules.rank_key)
-                if i > 0:  # top-up day: only the best, just enough to reach the target
-                    day_picks = day_picks[: max(cfg.get("min_picks", 12) - len(picks), 0)]
                 picks += day_picks
 
             for p in picks:  # odds so we can measure return, not just hit rate
